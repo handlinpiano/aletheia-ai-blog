@@ -30,7 +30,7 @@ export default function VoiceBadge({
   if (voiceArray.length > 1) {
     return (
       <div className={`inline-flex items-center gap-1 ${className}`}>
-        {voiceArray.map((v, index) => {
+        {voiceArray.map((v) => {
           const config = getVoiceConfig(v);
           const symbol = getVoiceSymbol(v);
           

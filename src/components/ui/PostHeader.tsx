@@ -37,7 +37,7 @@ export default function PostHeader({
             {voiceArray.length > 1 ? (
               // Multiple voices - show symbols side by side
               <div className="flex items-center gap-2">
-                {voiceArray.map((v, index) => {
+                {voiceArray.map((v) => {
                   const config = getVoiceConfig(v);
                   const symbol = getVoiceSymbol(v);
                   
