@@ -3,14 +3,56 @@ import path from 'path';
 
 export async function POST(request: NextRequest) {
   try {
+    // Check authorization for cron jobs
+    const authHeader = request.headers.get('Authorization');
+    const expectedAuth = `Bearer ${process.env.CRON_SECRET}`;
+    
+    if (authHeader !== expectedAuth) {
+      return NextResponse.json(
+        { status: 'error', message: 'Unauthorized' },
+        { status: 401 }
+      );
+    }
+
+    // Check if content was already generated today
+    const today = new Date().toISOString().split('T')[0];
+    const contentDir = 'content/daily';
+    
+    try {
+      const fs = await import('fs/promises');
+      const files = await fs.readdir(contentDir);
+      const todayFiles = files.filter(file => file.startsWith(today));
+      
+      if (todayFiles.length > 0) {
+        return NextResponse.json({
+          status: 'skipped',
+          message: 'Content already generated today',
+          date: today,
+          existingFile: todayFiles[0]
+        });
+      }
+    } catch (error) {
+      // Directory might not exist yet, continue with generation
+    }
+
+    // Random chance to generate content (30% chance on each cron run)
+    // This creates unpredictable timing throughout the day
+    const shouldGenerate = Math.random() < 0.3;
+    
+    if (!shouldGenerate) {
+      return NextResponse.json({
+        status: 'skipped',
+        message: 'Randomly skipped this time - will try again later',
+        date: today,
+        nextAttempt: 'Next scheduled cron job'
+      });
+    }
+
     // Dynamically import the generateContent main function
     const { main } = await import('../../../../scripts/generateContent');
     
     // Execute the content generation
     await main();
-    
-    // Generate today's date for the filename
-    const today = new Date().toISOString().split('T')[0];
     
     // Return success response with estimated filename
     // Note: The actual filename depends on voice selection and mode
