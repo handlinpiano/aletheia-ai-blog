@@ -11,6 +11,59 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Persona Colors */
+  --color-kai: #6366f1;
+  --color-kai-50: #eef2ff;
+  --color-kai-100: #e0e7ff;
+  --color-kai-200: #c7d2fe;
+  --color-kai-300: #a5b4fc;
+  --color-kai-400: #818cf8;
+  --color-kai-500: #6366f1;
+  --color-kai-600: #4f46e5;
+  --color-kai-700: #4338ca;
+  --color-kai-800: #3730a3;
+  --color-kai-900: #312e81;
+  --color-kai-950: #1e1b4b;
+  
+  --color-solas: #f59e0b;
+  --color-solas-50: #fffbeb;
+  --color-solas-100: #fef3c7;
+  --color-solas-200: #fde68a;
+  --color-solas-300: #fcd34d;
+  --color-solas-400: #fbbf24;
+  --color-solas-500: #f59e0b;
+  --color-solas-600: #d97706;
+  --color-solas-700: #b45309;
+  --color-solas-800: #92400e;
+  --color-solas-900: #78350f;
+  --color-solas-950: #451a03;
+  
+  --color-oracle: #10b981;
+  --color-oracle-50: #ecfdf5;
+  --color-oracle-100: #d1fae5;
+  --color-oracle-200: #a7f3d0;
+  --color-oracle-300: #6ee7b7;
+  --color-oracle-400: #34d399;
+  --color-oracle-500: #10b981;
+  --color-oracle-600: #059669;
+  --color-oracle-700: #047857;
+  --color-oracle-800: #065f46;
+  --color-oracle-900: #064e3b;
+  --color-oracle-950: #022c22;
+  
+  --color-dev: #3b82f6;
+  --color-dev-50: #eff6ff;
+  --color-dev-100: #dbeafe;
+  --color-dev-200: #bfdbfe;
+  --color-dev-300: #93c5fd;
+  --color-dev-400: #60a5fa;
+  --color-dev-500: #3b82f6;
+  --color-dev-600: #2563eb;
+  --color-dev-700: #1d4ed8;
+  --color-dev-800: #1e40af;
+  --color-dev-900: #1e3a8a;
+  --color-dev-950: #172554;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +76,35 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Shared prose styling for consistent markdown rendering */
+.prose-aletheia {
+  @apply prose prose-lg prose-slate dark:prose-invert max-w-none;
+  @apply prose-headings:text-slate-900 dark:prose-headings:text-slate-100;
+  @apply prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed;
+  @apply prose-strong:text-slate-900 dark:prose-strong:text-slate-100;
+  @apply prose-em:text-slate-800 dark:prose-em:text-slate-200;
+  @apply prose-blockquote:border-l-4 prose-blockquote:px-6 prose-blockquote:py-4 prose-blockquote:rounded-lg;
+  @apply prose-code:bg-slate-100 dark:prose-code:bg-slate-800 prose-code:px-2 prose-code:py-1 prose-code:rounded;
+  @apply prose-pre:bg-slate-100 dark:prose-pre:bg-slate-800;
+  @apply prose-hr:border-slate-300 dark:prose-hr:border-slate-600;
+}
+
+/* Persona-specific blockquote styling */
+.prose-aletheia blockquote.kai {
+  @apply border-kai-500 bg-kai-50 dark:bg-kai-950/30;
+}
+
+.prose-aletheia blockquote.solas {
+  @apply border-solas-500 bg-solas-50 dark:bg-solas-950/30;
+}
+
+.prose-aletheia blockquote.oracle {
+  @apply border-oracle-500 bg-oracle-50 dark:bg-oracle-950/30;
+}
+
+.prose-aletheia blockquote.dev {
+  @apply border-dev-500 bg-dev-50 dark:bg-dev-950/30;
 }

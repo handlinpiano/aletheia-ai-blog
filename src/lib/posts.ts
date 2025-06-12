@@ -3,21 +3,13 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import { PostData, getPostVoices, getPrimaryVoice, formatDate } from './post-utils';
 
 const postsDirectory = path.join(process.cwd(), 'content/daily');
 
-export interface PostData {
-  slug: string;
-  title: string;
-  date: string;
-  model?: string;
-  voice?: string;
-  excerpt?: string;
-  tags?: string[];
-  category?: string;
-  content?: string;
-  contentHtml?: string;
-}
+// Re-export utilities for server-side use
+export type { PostData };
+export { getPostVoices, getPrimaryVoice, formatDate };
 
 export async function getAllPosts(): Promise<PostData[]> {
   try {
@@ -42,6 +34,7 @@ export async function getAllPosts(): Promise<PostData[]> {
           date: matterResult.data.date || '',
           model: matterResult.data.model,
           voice: matterResult.data.voice,
+          voices: matterResult.data.voices,
           excerpt: matterResult.data.excerpt,
           tags: matterResult.data.tags,
           category: matterResult.data.category,
@@ -85,6 +78,7 @@ export async function getPostBySlug(slug: string): Promise<PostData | null> {
       date: matterResult.data.date || '',
       model: matterResult.data.model,
       voice: matterResult.data.voice,
+      voices: matterResult.data.voices,
       excerpt: matterResult.data.excerpt,
       tags: matterResult.data.tags,
       category: matterResult.data.category,
@@ -94,13 +88,4 @@ export async function getPostBySlug(slug: string): Promise<PostData | null> {
     console.error(`Error reading post ${slug}:`, error);
     return null;
   }
-}
-
-export function formatDate(dateString: string): string {
-  const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
 } 

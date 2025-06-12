@@ -11,6 +11,7 @@ export default function Navigation() {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Archive', href: '/archive' },
+    { name: 'Voices', href: '/voices' },
     { name: 'About', href: '/about' },
     { name: 'Manifesto', href: '/manifesto' },
   ];
@@ -22,14 +23,14 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
+    <nav className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-700/60 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           
           {/* Logo/Brand */}
           <Link 
             href="/" 
-            className="text-xl font-bold text-slate-800 hover:text-indigo-600 transition-colors"
+            className="text-xl font-bold text-slate-800 dark:text-slate-100 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
           >
             Aletheia
           </Link>
@@ -42,8 +43,8 @@ export default function Navigation() {
                 href={item.href}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive(item.href)
-                    ? 'bg-indigo-100 text-indigo-700'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
+                    ? 'bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300'
+                    : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800'
                 }`}
               >
                 {item.name}
@@ -85,7 +86,7 @@ export default function Navigation() {
 
         {/* Mobile Navigation Menu */}
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-slate-200">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -93,8 +94,8 @@ export default function Navigation() {
                 onClick={() => setIsMenuOpen(false)}
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                   isActive(item.href)
-                    ? 'bg-indigo-100 text-indigo-700'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
+                    ? 'bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300'
+                    : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800'
                 }`}
               >
                 {item.name}

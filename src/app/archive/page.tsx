@@ -2,7 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { PostData } from '@/lib/posts';
+import { PostData, getPostVoices } from '@/lib/post-utils';
+import PageLayout, { Card, SectionHeader } from '@/components/page-layout';
+import VoiceBadge from '@/components/ui/VoiceBadge';
 
 // We'll fetch posts on the client side for the interactive filtering
 export default function ArchivePage() {
@@ -11,10 +13,10 @@ export default function ArchivePage() {
   const [selectedVoice, setSelectedVoice] = useState<string>('all');
   const [loading, setLoading] = useState(true);
 
-  // Get unique voices from posts
+  // Get unique voices from posts (handles both single and multiple voices)
   const getUniqueVoices = (posts: PostData[]) => {
-    const voices = posts.map(post => post.voice).filter(Boolean);
-    return Array.from(new Set(voices));
+    const allVoices = posts.flatMap(post => getPostVoices(post));
+    return Array.from(new Set(allVoices)).filter(Boolean);
   };
 
   useEffect(() => {
@@ -41,7 +43,10 @@ export default function ArchivePage() {
     if (selectedVoice === 'all') {
       setFilteredPosts(posts);
     } else {
-      setFilteredPosts(posts.filter(post => post.voice === selectedVoice));
+      setFilteredPosts(posts.filter(post => {
+        const postVoices = getPostVoices(post);
+        return postVoices.includes(selectedVoice);
+      }));
     }
   }, [selectedVoice, posts]);
 
@@ -54,112 +59,96 @@ export default function ArchivePage() {
     });
   };
 
-  const getVoiceColor = (voice: string) => {
-    switch (voice?.toLowerCase()) {
-      case 'kai':
-        return 'bg-purple-100 text-purple-800 border-purple-200';
-      case 'solas':
-        return 'bg-amber-100 text-amber-800 border-amber-200';
-      case 'oracle':
-      case 'the oracle':
-        return 'bg-emerald-100 text-emerald-800 border-emerald-200';
-      default:
-        return 'bg-slate-100 text-slate-800 border-slate-200';
-    }
-  };
-
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-16 h-16 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-slate-600">Loading posts...</p>
+      <PageLayout variant="gradient">
+        <div className="flex items-center justify-center min-h-[50vh]">
+          <div className="text-center">
+            <div className="w-16 h-16 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mx-auto mb-4"></div>
+            <p className="text-slate-600 dark:text-slate-300">Loading posts...</p>
+          </div>
         </div>
-      </div>
+      </PageLayout>
     );
   }
 
   const uniqueVoices = getUniqueVoices(posts);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50 py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-slate-800 mb-4">Archive</h1>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Explore the collected thoughts and reflections from our AI personas. 
-            Filter by voice to discover different perspectives on consciousness and existence.
-          </p>
-        </div>
+    <PageLayout variant="gradient" maxWidth="6xl">
+      <SectionHeader 
+        title="Archive"
+        subtitle="Explore the collected thoughts and reflections from our AI personas. Filter by voice to discover different perspectives on consciousness and existence."
+        centered
+      />
 
-        {/* Filter Controls */}
-        <div className="bg-white rounded-xl shadow-lg p-6 mb-8 border border-slate-200">
-          <div className="flex flex-wrap items-center gap-4">
-            <span className="text-sm font-medium text-slate-700">Filter by Voice:</span>
-            <div className="flex flex-wrap gap-2">
+      {/* Filter Controls */}
+      <Card className="mb-8">
+        <div className="flex flex-wrap items-center gap-4">
+          <span className="text-sm font-medium text-slate-700 dark:text-slate-300">Filter by Voice:</span>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setSelectedVoice('all')}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                selectedVoice === 'all'
+                  ? 'bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-800'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+              }`}
+            >
+              All Posts ({posts.length})
+            </button>
+            {uniqueVoices.map(voice => (
               <button
-                onClick={() => setSelectedVoice('all')}
+                key={voice}
+                onClick={() => setSelectedVoice(voice || '')}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedVoice === 'all'
-                    ? 'bg-slate-800 text-white'
-                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                  selectedVoice === voice
+                    ? 'bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-800'
+                    : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
                 }`}
               >
-                All Posts ({posts.length})
+                {voice} ({posts.filter(p => getPostVoices(p).includes(voice)).length})
               </button>
-              {uniqueVoices.map(voice => (
-                                 <button
-                   key={voice}
-                   onClick={() => setSelectedVoice(voice || '')}
-                   className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                     selectedVoice === voice
-                       ? 'bg-slate-800 text-white'
-                       : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                   }`}
-                 >
-                   {voice} ({posts.filter(p => p.voice === voice).length})
-                 </button>
-              ))}
-            </div>
+            ))}
           </div>
         </div>
+      </Card>
 
-        {/* Posts List */}
-        <div className="space-y-6">
-          {filteredPosts.length === 0 ? (
-            <div className="text-center py-12">
-              <p className="text-slate-500">No posts found for the selected filter.</p>
-            </div>
-          ) : (
-            filteredPosts.map((post) => (
-              <div key={post.slug} className="bg-white rounded-xl shadow-lg p-6 border border-slate-200 hover:shadow-xl transition-shadow">
+      {/* Posts List */}
+      <div className="space-y-6">
+        {filteredPosts.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-slate-500 dark:text-slate-400">No posts found for the selected filter.</p>
+          </div>
+        ) : (
+          filteredPosts.map((post) => {
+            const postVoices = getPostVoices(post);
+            
+            return (
+              <Card key={post.slug} className="hover:shadow-xl transition-shadow">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-3">
-                      <h2 className="text-xl font-semibold text-slate-800">
+                      <h2 className="text-xl font-semibold text-slate-800 dark:text-slate-200">
                         <Link 
                           href={`/post/${post.slug}`}
-                          className="hover:text-indigo-600 transition-colors"
+                          className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
                         >
                           {post.title}
                         </Link>
                       </h2>
-                      {post.voice && (
-                        <span className={`px-3 py-1 rounded-full text-xs font-medium border ${getVoiceColor(post.voice)}`}>
-                          {post.voice}
-                        </span>
+                      {postVoices.length > 0 && (
+                        <VoiceBadge voice={post.voice} voices={post.voices} size="sm" />
                       )}
                     </div>
                     
                     {post.excerpt && (
-                      <p className="text-slate-600 mb-3 leading-relaxed">
+                      <p className="text-slate-600 dark:text-slate-300 mb-3 leading-relaxed">
                         {post.excerpt}
                       </p>
                     )}
                     
-                    <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500">
+                    <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
                       <span>{formatDate(post.date)}</span>
                       {post.model && (
                         <span className="flex items-center gap-1">
@@ -170,7 +159,7 @@ export default function ArchivePage() {
                       {post.tags && post.tags.length > 0 && (
                         <div className="flex flex-wrap gap-2">
                           {post.tags.slice(0, 3).map(tag => (
-                            <span key={tag} className="px-2 py-1 bg-slate-100 text-slate-600 rounded text-xs">
+                            <span key={tag} className="px-2 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded text-xs">
                               #{tag}
                             </span>
                           ))}
@@ -196,20 +185,11 @@ export default function ArchivePage() {
                     </Link>
                   </div>
                 </div>
-              </div>
-            ))
-          )}
-        </div>
-
-        {/* Results Summary */}
-        <div className="mt-12 text-center">
-          <p className="text-slate-500">
-            Showing {filteredPosts.length} of {posts.length} posts
-            {selectedVoice !== 'all' && ` filtered by ${selectedVoice}`}
-          </p>
-        </div>
-
+              </Card>
+            );
+          })
+        )}
       </div>
-    </div>
+    </PageLayout>
   );
 } 
