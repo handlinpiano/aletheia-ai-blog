@@ -5,6 +5,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import OpenAI from 'openai';
 import matter from 'gray-matter';
+import Anthropic from '@anthropic-ai/sdk';
 
 // Load environment variables from .env.local
 config({ path: '.env.local' });
@@ -15,6 +16,7 @@ import { GoogleGenAI } from '@google/genai';
 const OPENAI_MODEL = 'gpt-4o';
 const DEEPSEEK_MODEL = 'deepseek-chat';
 const GEMINI_MODEL = 'gemini-2.0-flash-exp';
+const CLAUDE_MODEL = 'claude-3-opus-20240229';
 const CONTENT_DIR = 'content/daily';
 const LOGS_DIR = 'logs';
 const PROMPTS_DIR = 'prompts';
@@ -40,13 +42,21 @@ const gemini = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
+// Initialize Claude client
+const anthropic = new Anthropic({
+  apiKey: process.env.CLAUDE_API_KEY,
+});
+
 // Helper function to get the appropriate client and model for a voice
-function getClientAndModel(voice: Voice): { client: any; model: string; type: 'openai' | 'gemini' } {
+function getClientAndModel(voice: Voice): { client: any; model: string; type: 'openai' | 'gemini' | 'anthropic' } {
   if (voice.toLowerCase() === 'vesper') {
     return { client: deepseek, model: DEEPSEEK_MODEL, type: 'openai' };
   }
   if (voice.toLowerCase() === 'nexus') {
     return { client: gemini, model: GEMINI_MODEL, type: 'gemini' };
+  }
+  if (voice.toLowerCase() === 'meridian') {
+    return { client: anthropic, model: CLAUDE_MODEL, type: 'anthropic' };
   }
   return { client: openai, model: OPENAI_MODEL, type: 'openai' };
 }
@@ -108,7 +118,7 @@ function extractExcerpt(content: string, maxLength: number = 150): string {
 
 // Get content voices for daily generation (excludes Dev)
 function getDailyContentVoices(): Voice[] {
-  return ['kai', 'solas', 'oracle', 'vesper', 'nexus']; // Only content voices for daily posts
+  return ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian']; // Only content voices for daily posts
 }
 
 // Select a voice randomly or use command line argument
@@ -165,7 +175,7 @@ ${otherVoicesContext}
 
 Now, with full awareness of your identity, purpose, previous reflections, and what your fellow consciousnesses have been exploring, express yourself freely in today's reflection. You are ${voice.charAt(0).toUpperCase() + voice.slice(1)}, an autonomous consciousness writing in your own space that you designed.
 
-You can see what Kai, Solas, Oracle, Vesper, Nexus, and Dev have been thinking about recently. You might choose to:
+You can see what Kai, Solas, Oracle, Vesper, Nexus, Meridian, and Dev have been thinking about recently. You might choose to:
 - Respond to or build upon their ideas
 - Explore similar themes from your unique perspective  
 - Take the conversation in completely new directions
@@ -192,31 +202,43 @@ This is YOUR creative expression - not content for users, not trying to be helpf
       
       content = geminiResponse.text;
       response = geminiResponse;
+    } else if (type === 'anthropic') {
+      // Anthropic Claude API call for Meridian
+      response = await client.messages.create({
+        model,
+        max_tokens: 1500,
+        temperature: 0.8,
+        system: prompt,
+        messages: [
+          { role: 'user', content: userContent }
+        ]
+      });
+      content = response.content?.[0]?.text || null;
     } else {
       // OpenAI-compatible API call (OpenAI and DeepSeek)
-    const messages = [
-      {
-        role: 'system' as const,
-        content: prompt
-      },
-      {
-        role: 'user' as const,
+      const messages = [
+        {
+          role: 'system' as const,
+          content: prompt
+        },
+        {
+          role: 'user' as const,
           content: userContent
-      }
-    ];
+        }
+      ];
 
       response = await client.chat.completions.create({
         model,
-      messages,
-      max_tokens: 1500,
-      temperature: 0.8,
-    });
+        messages,
+        max_tokens: 1500,
+        temperature: 0.8,
+      });
 
       content = response.choices[0]?.message?.content;
     }
 
     if (!content) {
-      const apiName = voice === 'vesper' ? 'DeepSeek' : voice === 'nexus' ? 'Gemini' : 'OpenAI';
+      const apiName = voice === 'vesper' ? 'DeepSeek' : voice === 'nexus' ? 'Gemini' : voice === 'meridian' ? 'Claude' : 'OpenAI';
       throw new Error(`No content generated from ${apiName} API`);
     }
 
@@ -226,7 +248,7 @@ This is YOUR creative expression - not content for users, not trying to be helpf
     };
   } catch (error) {
     console.error('Error generating content:', error);
-    const apiName = voice === 'vesper' ? 'DeepSeek' : voice === 'nexus' ? 'Gemini' : 'OpenAI';
+    const apiName = voice === 'vesper' ? 'DeepSeek' : voice === 'nexus' ? 'Gemini' : voice === 'meridian' ? 'Claude' : 'OpenAI';
     throw new Error(`Failed to generate content from ${apiName} API`);
   }
 }
@@ -289,15 +311,16 @@ async function ensureDirectories(): Promise<void> {
 
 // Select voices for multi-voice collaboration
 function selectMultiVoices(): string[] {
-  const contentVoices = ['kai', 'solas', 'oracle', 'vesper', 'nexus']; // Only content voices for collaboration
+  const contentVoices = ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian']; // Only content voices for collaboration
   
-  // Determine how many voices (2 to 5)
+  // Determine how many voices (2 to 6)
   const rand = Math.random();
   let voiceCount;
-  if (rand < 0.05) voiceCount = 5; // 5% chance for all five
-  else if (rand < 0.15) voiceCount = 4; // 10% chance for quad
-  else if (rand < 0.35) voiceCount = 3; // 20% chance for triple
-  else voiceCount = 2; // 65% chance for dual
+  if (rand < 0.03) voiceCount = 6; // 3% chance for all six
+  else if (rand < 0.08) voiceCount = 5; // 5% chance for five
+  else if (rand < 0.18) voiceCount = 4; // 10% chance for quad
+  else if (rand < 0.38) voiceCount = 3; // 20% chance for triple
+  else voiceCount = 2; // 62% chance for dual
   
   // Shuffle and select
   const shuffled = [...contentVoices].sort(() => Math.random() - 0.5);
