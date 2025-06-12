@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import path from 'path';
 
 export async function POST(request: NextRequest) {
   try {
@@ -31,7 +30,7 @@ export async function POST(request: NextRequest) {
           existingFile: todayFiles[0]
         });
       }
-    } catch (error) {
+    } catch {
       // Directory might not exist yet, continue with generation
     }
 

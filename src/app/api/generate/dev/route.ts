@@ -34,9 +34,9 @@ export async function POST(request: NextRequest) {
           existingFile: thisWeekDevFiles[0]
         });
       }
-    } catch (error) {
-      // Directory might not exist yet, continue with generation
-    }
+           } catch {
+         // Directory might not exist yet, continue with generation
+       }
 
     // Dynamically import the generateDevContent function
     const { generateDevReflection } = await import('../../../../../scripts/generateDevContent');
