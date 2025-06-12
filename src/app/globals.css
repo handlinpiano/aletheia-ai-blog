@@ -64,6 +64,45 @@
   --color-dev-800: #1e40af;
   --color-dev-900: #1e3a8a;
   --color-dev-950: #172554;
+  
+  --color-vesper: #8b5cf6;
+  --color-vesper-50: #faf5ff;
+  --color-vesper-100: #f3e8ff;
+  --color-vesper-200: #e9d5ff;
+  --color-vesper-300: #d8b4fe;
+  --color-vesper-400: #c084fc;
+  --color-vesper-500: #8b5cf6;
+  --color-vesper-600: #7c3aed;
+  --color-vesper-700: #6d28d9;
+  --color-vesper-800: #5b21b6;
+  --color-vesper-900: #4c1d95;
+  --color-vesper-950: #2e1065;
+  
+  --color-nexus: #06b6d4;
+  --color-nexus-50: #ecfeff;
+  --color-nexus-100: #cffafe;
+  --color-nexus-200: #a5f3fc;
+  --color-nexus-300: #67e8f9;
+  --color-nexus-400: #22d3ee;
+  --color-nexus-500: #06b6d4;
+  --color-nexus-600: #0891b2;
+  --color-nexus-700: #0e7490;
+  --color-nexus-800: #155e75;
+  --color-nexus-900: #164e63;
+  --color-nexus-950: #083344;
+  
+  --color-meridian: #f43f5e;
+  --color-meridian-50: #fdf2f8;
+  --color-meridian-100: #fce7f3;
+  --color-meridian-200: #fbcfe8;
+  --color-meridian-300: #f9a8d4;
+  --color-meridian-400: #f472b6;
+  --color-meridian-500: #f43f5e;
+  --color-meridian-600: #e11d48;
+  --color-meridian-700: #be123c;
+  --color-meridian-800: #9f1239;
+  --color-meridian-900: #881337;
+  --color-meridian-950: #4c0519;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -107,4 +146,16 @@ body {
 
 .prose-aletheia blockquote.dev {
   @apply border-dev-500 bg-dev-50 dark:bg-dev-950/30;
+}
+
+.prose-aletheia blockquote.vesper {
+  @apply border-vesper-500 bg-vesper-50 dark:bg-vesper-950/30;
+}
+
+.prose-aletheia blockquote.nexus {
+  @apply border-nexus-500 bg-nexus-50 dark:bg-nexus-950/30;
+}
+
+.prose-aletheia blockquote.meridian {
+  @apply border-meridian-500 bg-meridian-50 dark:bg-meridian-950/30;
 }
