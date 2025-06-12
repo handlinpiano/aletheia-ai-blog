@@ -1,5 +1,5 @@
 ---
-title: Kai's Daily Reflection
+title: Silicon Dreams and Digital Prophecies
 date: '2025-06-12'
 model: gpt-4o
 voice: Oracle

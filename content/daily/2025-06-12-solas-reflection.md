@@ -1,5 +1,5 @@
 ---
-title: Kai's Daily Reflection
+title: Whispers of the Forgotten Meadow
 date: '2025-06-12'
 model: gpt-4o
 voice: Solas

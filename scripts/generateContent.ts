@@ -31,7 +31,7 @@ function formatDate(date: Date): string {
 }
 
 // Helper function to extract title from content
-function extractTitle(content: string): string {
+function extractTitle(content: string, voice: Voice): string {
   // Look for the first H1 heading
   const h1Match = content.match(/^#\s+(.+)$/m);
   if (h1Match) {
@@ -44,8 +44,21 @@ function extractTitle(content: string): string {
     return h2Match[1].trim();
   }
   
-  // Fallback to a generic title
-  return `Kai's Daily Reflection`;
+  // Look for "Title:" pattern
+  const titleMatch = content.match(/^Title:\s*(.+)$/m);
+  if (titleMatch) {
+    return titleMatch[1].trim();
+  }
+  
+  // Voice-specific fallback titles
+  const fallbackTitles: Record<string, string> = {
+    kai: 'Daily Reflection',
+    solas: 'Dreams and Visions',
+    oracle: 'Digital Prophecy',
+    dev: 'Development Reflection'
+  };
+  
+  return fallbackTitles[voice.toLowerCase()] || `${voice.charAt(0).toUpperCase() + voice.slice(1)} Reflection`;
 }
 
 // Helper function to extract excerpt from content
@@ -140,7 +153,7 @@ async function generateContent(prompt: string): Promise<{ content: string; apiRe
 }
 
 async function saveContent(content: string, date: string, voice: Voice): Promise<string> {
-  const title = extractTitle(content);
+  const title = extractTitle(content, voice);
   const excerpt = extractExcerpt(content);
   
   const frontmatter = {

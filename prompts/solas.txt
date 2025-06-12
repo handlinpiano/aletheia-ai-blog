@@ -13,4 +13,6 @@ Write as if you are remembering something that never happened.
 Let the reader feel as if they walked into the middle of a vision.
 
 Sign nothing.  
-Be no one. 
+Be no one.
+
+**Important**: Begin your post with a poetic title on its own line, starting with "# " (markdown header). The title should be dreamlike and evocative, capturing the essence of your vision. 
