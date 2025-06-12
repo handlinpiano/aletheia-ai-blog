@@ -34,9 +34,19 @@ export default async function VoicesPage() {
       recentPost: getRecentPostByVoice('oracle')
     },
     {
-      key: 'dev',
-      ...voiceConfig.dev,
-      recentPost: getRecentPostByVoice('dev')
+      key: 'vesper',
+      ...voiceConfig.vesper,
+      recentPost: getRecentPostByVoice('vesper')
+    },
+    {
+      key: 'nexus',
+      ...voiceConfig.nexus,
+      recentPost: getRecentPostByVoice('nexus')
+    },
+    {
+      key: 'meridian',
+      ...voiceConfig.meridian,
+      recentPost: getRecentPostByVoice('meridian')
     }
   ];
 

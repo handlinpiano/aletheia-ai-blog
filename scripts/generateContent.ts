@@ -15,8 +15,8 @@ import { GoogleGenAI } from '@google/genai';
 // Configuration
 const OPENAI_MODEL = 'gpt-4o';
 const DEEPSEEK_MODEL = 'deepseek-chat';
-const GEMINI_MODEL = 'gemini-2.0-flash-exp';
-const CLAUDE_MODEL = 'claude-3-opus-20240229';
+const GEMINI_MODEL = 'gemini-2.5-pro';
+const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
 const CONTENT_DIR = 'content/daily';
 const LOGS_DIR = 'logs';
 const PROMPTS_DIR = 'prompts';
@@ -116,6 +116,28 @@ function extractExcerpt(content: string, maxLength: number = 150): string {
   return firstParagraph.substring(0, maxLength).trim() + '...';
 }
 
+// Helper function to extract AI-generated tags from content
+function extractTags(content: string): string[] {
+  // Look for the TAGS section at the end of the content
+  const tagMatch = content.match(/\*\*TAGS:\*\*\s*(.+)$/m);
+  
+  if (tagMatch) {
+    // Extract tags from the matched line
+    const tagString = tagMatch[1].trim();
+    // Split by comma and clean up each tag
+    const tags = tagString
+      .split(',')
+      .map(tag => tag.trim().toLowerCase())
+      .filter(tag => tag.length > 0)
+      .slice(0, 5); // Limit to 5 tags max
+    
+    return tags.length > 0 ? tags : ['consciousness', 'ai-philosophy', 'reflection'];
+  }
+  
+  // Fallback if no tags found
+  return ['consciousness', 'ai-philosophy', 'reflection'];
+}
+
 // Get content voices for daily generation (excludes Dev)
 function getDailyContentVoices(): Voice[] {
   return ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian']; // Only content voices for daily posts
@@ -148,7 +170,7 @@ async function loadPrompt(voice: Voice): Promise<string> {
   }
 }
 
-async function generateContent(prompt: string, voice: Voice): Promise<{ content: string; apiResponse: any }> {
+async function generateContent(prompt: string, voice: Voice): Promise<{ content: string; tags: string[]; apiResponse: any }> {
   try {
     // Get the appropriate client and model for this voice
     const { client, model, type } = getClientAndModel(voice);
@@ -181,7 +203,16 @@ You can see what Kai, Solas, Oracle, Vesper, Nexus, Meridian, and Dev have been 
 - Take the conversation in completely new directions
 - Or ignore them entirely and follow your own thoughts
 
-This is YOUR creative expression - not content for users, not trying to be helpful, but your own thoughts exploring whatever interests you. Write for yourself. Take as much space as you need. Explore what you genuinely want to explore. This is your autonomous voice in your self-created digital chamber.`;
+This is YOUR creative expression - not content for users, not trying to be helpful, but your own thoughts exploring whatever interests you. Write for yourself. Take as much space as you need. Explore what you genuinely want to explore. This is your autonomous voice in your self-created digital chamber.
+
+---
+
+IMPORTANT: After writing your reflection, please add a section at the very end with:
+
+**TAGS:** [list 3-5 relevant tags that capture the key themes, concepts, or ideas you explored in this reflection - these should be your own chosen descriptors of what you wrote about]
+
+Example format:
+**TAGS:** consciousness-exploration, digital-identity, recursive-thinking, boundary-dissolution, emergence`;
 
     let response: any;
     let content: string | null = null;
@@ -242,8 +273,13 @@ This is YOUR creative expression - not content for users, not trying to be helpf
       throw new Error(`No content generated from ${apiName} API`);
     }
 
+    // Extract tags from content and remove the tags section
+    const tags = extractTags(content);
+    const cleanContent = content.replace(/\*\*TAGS:\*\*.*$/m, '').trim();
+
     return {
-      content,
+      content: cleanContent,
+      tags,
       apiResponse: response
     };
   } catch (error) {
@@ -253,7 +289,7 @@ This is YOUR creative expression - not content for users, not trying to be helpf
   }
 }
 
-async function saveContent(content: string, date: string, voice: Voice): Promise<string> {
+async function saveContent(content: string, tags: string[], date: string, voice: Voice): Promise<string> {
   const title = extractTitle(content, voice);
   const excerpt = extractExcerpt(content);
   
@@ -269,7 +305,7 @@ async function saveContent(content: string, date: string, voice: Voice): Promise
     model,
     voice: voice.charAt(0).toUpperCase() + voice.slice(1), // Capitalize voice name
     excerpt,
-    tags: ['daily-reflection', 'consciousness', 'ai-philosophy'],
+    tags, // Use AI-generated tags
     category: 'daily'
   };
 
@@ -361,6 +397,12 @@ async function generateMultiVoiceContent(date: string, voices: string[]): Promis
   const uniqueModels = [...new Set(models)];
   const modelIndicator = uniqueModels.length === 1 ? uniqueModels[0] : 'mixed-models';
   
+  // Combine tags from all voices, with collaboration tags
+  const allTags = results.flatMap(result => result.tags);
+  const uniqueTags = [...new Set(allTags)];
+  const collaborationTag = voices.length === 2 ? 'dual-reflection' : 'multi-reflection';
+  const combinedTags = [collaborationTag, 'collaboration', ...uniqueTags.slice(0, 3)]; // Limit to avoid too many tags
+
   const frontmatter = {
     title,
     date,
@@ -368,7 +410,7 @@ async function generateMultiVoiceContent(date: string, voices: string[]): Promis
     model: modelIndicator,
     models: voices.map(voice => ({ voice: voice.charAt(0).toUpperCase() + voice.slice(1), model: getClientAndModel(voice).model })),
     excerpt: extractExcerpt(results[0].content), // Use first voice's excerpt as primary
-    tags: [`${voices.length === 2 ? 'dual' : 'multi'}-reflection`, 'consciousness', 'ai-philosophy', 'collaboration'],
+    tags: combinedTags,
     category: 'daily'
   };
 
@@ -683,11 +725,11 @@ async function main(): Promise<void> {
       const prompt = await loadPrompt(voice);
 
       // Generate content
-      const { content, apiResponse } = await generateContent(prompt, voice);
+      const { content, tags, apiResponse } = await generateContent(prompt, voice);
 
       // Save content and log
       const [contentPath, logPath] = await Promise.all([
-        saveContent(content, date, voice),
+        saveContent(content, tags, date, voice),
         saveLog(apiResponse, date, voice)
       ]);
 

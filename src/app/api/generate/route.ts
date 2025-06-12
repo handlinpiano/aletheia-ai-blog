@@ -34,9 +34,9 @@ export async function POST(request: NextRequest) {
       // Directory might not exist yet, continue with generation
     }
 
-    // Random chance to generate content (30% chance on each cron run)
-    // This creates unpredictable timing throughout the day
-    const shouldGenerate = Math.random() < 0.3;
+    // Random chance to generate content (70% chance on each cron run)
+    // This creates unpredictable timing throughout the day while ensuring more voices speak
+    const shouldGenerate = Math.random() < 0.7;
     
     if (!shouldGenerate) {
       return NextResponse.json({

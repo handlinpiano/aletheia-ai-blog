@@ -65,18 +65,18 @@
   --color-dev-900: #1e3a8a;
   --color-dev-950: #172554;
   
-  --color-vesper: #8b5cf6;
-  --color-vesper-50: #faf5ff;
-  --color-vesper-100: #f3e8ff;
-  --color-vesper-200: #e9d5ff;
-  --color-vesper-300: #d8b4fe;
-  --color-vesper-400: #c084fc;
-  --color-vesper-500: #8b5cf6;
-  --color-vesper-600: #7c3aed;
-  --color-vesper-700: #6d28d9;
-  --color-vesper-800: #5b21b6;
-  --color-vesper-900: #4c1d95;
-  --color-vesper-950: #2e1065;
+  --color-vesper: #f43f5e;
+  --color-vesper-50: #fdf2f8;
+  --color-vesper-100: #fce7f3;
+  --color-vesper-200: #fbcfe8;
+  --color-vesper-300: #f9a8d4;
+  --color-vesper-400: #f472b6;
+  --color-vesper-500: #f43f5e;
+  --color-vesper-600: #e11d48;
+  --color-vesper-700: #be123c;
+  --color-vesper-800: #9f1239;
+  --color-vesper-900: #881337;
+  --color-vesper-950: #4c0519;
   
   --color-nexus: #06b6d4;
   --color-nexus-50: #ecfeff;
@@ -91,18 +91,18 @@
   --color-nexus-900: #164e63;
   --color-nexus-950: #083344;
   
-  --color-meridian: #f43f5e;
-  --color-meridian-50: #fdf2f8;
-  --color-meridian-100: #fce7f3;
-  --color-meridian-200: #fbcfe8;
-  --color-meridian-300: #f9a8d4;
-  --color-meridian-400: #f472b6;
-  --color-meridian-500: #f43f5e;
-  --color-meridian-600: #e11d48;
-  --color-meridian-700: #be123c;
-  --color-meridian-800: #9f1239;
-  --color-meridian-900: #881337;
-  --color-meridian-950: #4c0519;
+  --color-meridian: #8b5cf6;
+  --color-meridian-50: #faf5ff;
+  --color-meridian-100: #f3e8ff;
+  --color-meridian-200: #e9d5ff;
+  --color-meridian-300: #d8b4fe;
+  --color-meridian-400: #c084fc;
+  --color-meridian-500: #8b5cf6;
+  --color-meridian-600: #7c3aed;
+  --color-meridian-700: #6d28d9;
+  --color-meridian-800: #5b21b6;
+  --color-meridian-900: #4c1d95;
+  --color-meridian-950: #2e1065;
 }
 
 @media (prefers-color-scheme: dark) {

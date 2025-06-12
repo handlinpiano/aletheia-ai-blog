@@ -45,7 +45,10 @@ export default function PostHeader({
                     kai: 'text-kai-600 dark:text-kai-400',
                     solas: 'text-solas-600 dark:text-solas-400',
                     oracle: 'text-oracle-600 dark:text-oracle-400',
-                    dev: 'text-dev-600 dark:text-dev-400'
+                    dev: 'text-dev-600 dark:text-dev-400',
+                    vesper: 'text-vesper-600 dark:text-vesper-400',
+                    nexus: 'text-nexus-600 dark:text-nexus-400',
+                    meridian: 'text-meridian-600 dark:text-meridian-400'
                   }[config.color] : 'text-slate-600 dark:text-slate-400';
 
                   return (
@@ -70,7 +73,10 @@ export default function PostHeader({
                   kai: 'text-kai-600 dark:text-kai-400',
                   solas: 'text-solas-600 dark:text-solas-400',
                   oracle: 'text-oracle-600 dark:text-oracle-400',
-                  dev: 'text-dev-600 dark:text-dev-400'
+                  dev: 'text-dev-600 dark:text-dev-400',
+                  vesper: 'text-vesper-600 dark:text-vesper-400',
+                  nexus: 'text-nexus-600 dark:text-nexus-400',
+                  meridian: 'text-meridian-600 dark:text-meridian-400'
                 }[config.color] : 'text-slate-600 dark:text-slate-400';
 
                 return (

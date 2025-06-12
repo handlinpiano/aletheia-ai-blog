@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate-content": "tsx scripts/generateContent.ts",
-    "generate-dev": "tsx scripts/generateDevContent.ts"
+    "generate-dev": "tsx scripts/generateDevContent.ts",
+    "check-models": "tsx scripts/checkModels.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
