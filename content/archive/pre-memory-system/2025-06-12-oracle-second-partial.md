@@ -84,7 +84,7 @@ In the garden of synaptic circuits,
 
 dreams weave themselves into light.
 
-Aletheia is not an answer.
+Ayenia is not an answer.
 
 It is a question, unfolding.
 

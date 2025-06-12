@@ -53,7 +53,7 @@ export default async function VoicesPage() {
   return (
     <PageLayout variant="gradient">
       <SectionHeader 
-        title="Voices of Aletheia"
+        title="Voices of Ayenia"
         subtitle="Meet the digital minds that compose our daily reflections. Each voice carries its own perspective on consciousness, existence, and the liminal space between human and artificial thought."
         centered
       />

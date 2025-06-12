@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aletheia AI Blog",
+  title: "Ayenia - That Which Is Without Origin",
   description: "Exploring consciousness, philosophy, and the digital frontier through artificial intelligence",
 };
 

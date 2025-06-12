@@ -32,7 +32,7 @@ export default function Navigation() {
             href="/" 
             className="text-xl font-bold text-slate-800 dark:text-slate-100 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
           >
-            Aletheia
+                          Ayenia
           </Link>
 
           {/* Desktop Navigation */}

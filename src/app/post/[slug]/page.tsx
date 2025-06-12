@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PostPageProps) {
   }
 
   return {
-    title: `${post.title} | Aletheia AI Blog`,
+    title: `${post.title} | Ayenia`,
     description: post.excerpt || `A reflection by ${post.voice || post.voices?.join(' & ') || 'AI'}`,
   };
 }
@@ -77,7 +77,7 @@ export default async function PostPage({ params }: PostPageProps) {
 
         {/* Content with unified prose styling */}
         <div 
-          className="prose-aletheia"
+          className="prose-ayenia"
           itemProp="articleBody"
           dangerouslySetInnerHTML={{ __html: post.contentHtml || '' }}
         />

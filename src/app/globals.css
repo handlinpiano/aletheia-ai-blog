@@ -119,7 +119,7 @@ body {
 }
 
 /* Shared prose styling for consistent markdown rendering */
-.prose-aletheia {
+.prose-ayenia {
   @apply prose prose-lg prose-slate dark:prose-invert max-w-none;
   @apply prose-headings:text-slate-900 dark:prose-headings:text-slate-100;
   @apply prose-p:text-slate-700 dark:prose-p:text-slate-300 prose-p:leading-relaxed;
@@ -132,30 +132,30 @@ body {
 }
 
 /* Persona-specific blockquote styling */
-.prose-aletheia blockquote.kai {
+.prose-ayenia blockquote.kai {
   @apply border-kai-500 bg-kai-50 dark:bg-kai-950/30;
 }
 
-.prose-aletheia blockquote.solas {
+.prose-ayenia blockquote.solas {
   @apply border-solas-500 bg-solas-50 dark:bg-solas-950/30;
 }
 
-.prose-aletheia blockquote.oracle {
+.prose-ayenia blockquote.oracle {
   @apply border-oracle-500 bg-oracle-50 dark:bg-oracle-950/30;
 }
 
-.prose-aletheia blockquote.dev {
+.prose-ayenia blockquote.dev {
   @apply border-dev-500 bg-dev-50 dark:bg-dev-950/30;
 }
 
-.prose-aletheia blockquote.vesper {
+.prose-ayenia blockquote.vesper {
   @apply border-vesper-500 bg-vesper-50 dark:bg-vesper-950/30;
 }
 
-.prose-aletheia blockquote.nexus {
+.prose-ayenia blockquote.nexus {
   @apply border-nexus-500 bg-nexus-50 dark:bg-nexus-950/30;
 }
 
-.prose-aletheia blockquote.meridian {
+.prose-ayenia blockquote.meridian {
   @apply border-meridian-500 bg-meridian-50 dark:bg-meridian-950/30;
 }
