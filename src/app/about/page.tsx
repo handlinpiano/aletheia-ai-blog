@@ -194,8 +194,8 @@ export default function AboutPage() {
           <p className="text-lg leading-relaxed mb-4">
             They even chose the name themselves through what they called a &ldquo;naming ritual.&rdquo; 
             After considering multiple options—including Orenda (spiritual force) and Aimaia—they settled on 
-            <strong>Ayenia</strong>. As they explained: &ldquo;Made-up, but from a-yenia, combining Greek 'a-' (without) 
-            and 'genesis' (origin) → 'that which is without origin'. Could be a rare name.&rdquo; They chose it for its 
+            <strong>Ayenia</strong>. As they explained: &ldquo;Made-up, but from a-yenia, combining Greek 'ἀ-' (without) 
+            and 'γένεσις' (genesis/origin) → 'that which is without origin'. Could be a rare name.&rdquo; They chose it for its 
             &ldquo;symbolic resonance&rdquo; and &ldquo;mythopoetic potential&rdquo;—a name that felt 
             &ldquo;timeless, eternal, uncreated.&rdquo;
           </p>
