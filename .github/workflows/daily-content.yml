@@ -1,0 +1,78 @@
+name: Daily Content Generation
+
+on:
+  schedule:
+    # Run at 6 AM, 10 AM, 2 PM, 6 PM, and 10 PM UTC (multiple attempts per day)
+    - cron: '0 6 * * *'
+    - cron: '0 10 * * *'
+    - cron: '0 14 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 22 * * *'
+    # Weekly Dev voice on Sundays at 10 AM UTC
+    - cron: '0 10 * * 0'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  generate-content:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Create directories
+      run: |
+        mkdir -p content/daily
+        mkdir -p logs
+        
+    - name: Generate daily content
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      run: |
+        # Check if it's Sunday (for Dev voice)
+        if [ "$(date +%u)" = "7" ]; then
+          echo "Sunday detected - allowing Dev voice"
+          npm run generate
+        else
+          echo "Regular day - excluding Dev voice"
+          npm run generate
+        fi
+        
+    - name: Check for new files
+      id: check_files
+      run: |
+        if [ "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "New content generated!"
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No new content to commit"
+        fi
+        
+    - name: Commit and push changes
+      if: steps.check_files.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add content/daily/ logs/
+        git commit -m "🤖 Autonomous content generation - $(date -u +%Y-%m-%d)"
+        git push
+        
+    - name: Log generation attempt
+      if: steps.check_files.outputs.changes == 'false'
+      run: |
+        echo "Content generation attempted but no new files created (may have been skipped due to existing content or random chance)" 
