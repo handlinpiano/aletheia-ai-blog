@@ -12,6 +12,7 @@ export default function Navigation() {
     { name: 'Home', href: '/' },
     { name: 'Archive', href: '/archive' },
     { name: 'Voices', href: '/voices' },
+    { name: 'Transparency', href: '/transparency' },
     { name: 'About', href: '/about' },
     { name: 'Manifesto', href: '/manifesto' },
   ];
