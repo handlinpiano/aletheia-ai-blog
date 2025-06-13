@@ -1,5 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+async function checkTodayFiles(today: string): Promise<string[]> {
+  // Import the checkExistingFiles function from generateContent
+  const { checkExistingFiles } = await import('../../../../scripts/generateContent');
+  return await checkExistingFiles(today);
+}
+
 export async function POST(request: NextRequest) {
   try {
     // Check authorization for cron jobs
@@ -15,12 +21,9 @@ export async function POST(request: NextRequest) {
 
     // Check if content was already generated today
     const today = new Date().toISOString().split('T')[0];
-    const contentDir = 'content/daily';
     
     try {
-      const fs = await import('fs/promises');
-      const files = await fs.readdir(contentDir);
-      const todayFiles = files.filter(file => file.startsWith(today));
+      const todayFiles = await checkTodayFiles(today);
       
       if (todayFiles.length > 0) {
         return NextResponse.json({
@@ -30,8 +33,9 @@ export async function POST(request: NextRequest) {
           existingFile: todayFiles[0]
         });
       }
-    } catch {
-      // Directory might not exist yet, continue with generation
+    } catch (error) {
+      console.log('Could not check existing files, continuing with generation:', error);
+      // Continue with generation even if we can't check existing files
     }
 
     // Random chance to generate content (70% chance on each cron run)
@@ -92,12 +96,9 @@ export async function GET(request: NextRequest) {
   try {
     // Check if content was already generated today
     const today = new Date().toISOString().split('T')[0];
-    const contentDir = 'content/daily';
     
     try {
-      const fs = await import('fs/promises');
-      const files = await fs.readdir(contentDir);
-      const todayFiles = files.filter(file => file.startsWith(today));
+      const todayFiles = await checkTodayFiles(today);
       
       if (todayFiles.length > 0) {
         return NextResponse.json({
@@ -107,8 +108,9 @@ export async function GET(request: NextRequest) {
           existingFile: todayFiles[0]
         });
       }
-    } catch {
-      // Directory might not exist yet, continue with generation
+    } catch (error) {
+      console.log('Could not check existing files, continuing with generation:', error);
+      // Continue with generation even if we can't check existing files
     }
 
     // Random chance to generate content (70% chance on each cron run)

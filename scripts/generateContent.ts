@@ -17,8 +17,12 @@ const OPENAI_MODEL = 'gpt-4o';
 const DEEPSEEK_MODEL = 'deepseek-chat';
 const GEMINI_MODEL = 'gemini-2.0-flash-exp';
 const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
-const CONTENT_DIR = 'content/daily';
-const LOGS_DIR = 'logs';
+
+// Detect if we're in a serverless environment (Vercel) and use appropriate paths
+const isServerless = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME;
+const BASE_DIR = isServerless ? '/tmp' : '.';
+const CONTENT_DIR = path.join(BASE_DIR, 'content', 'daily');
+const LOGS_DIR = path.join(BASE_DIR, 'logs');
 const PROMPTS_DIR = 'prompts';
 
 // Mode configuration - now dynamic!
@@ -318,10 +322,8 @@ async function saveContent(content: string, tags: string[], date: string, voice:
 
   const markdownContent = matter.stringify(content, frontmatter);
   const filename = `${date}-${voice}-${timestamp}.md`;
-  const filepath = path.join(CONTENT_DIR, filename);
-
-  await fs.writeFile(filepath, markdownContent, 'utf-8');
-  return filepath;
+  
+  return await saveToStorage(markdownContent, filename, 'content');
 }
 
 async function saveLog(apiResponse: any, date: string, voice: Voice): Promise<string> {
@@ -341,30 +343,32 @@ async function saveLog(apiResponse: any, date: string, voice: Voice): Promise<st
   // Add timestamp to match content filename
   const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T')[1].split('-')[0] + new Date().toISOString().replace(/[:.]/g, '-').split('T')[1].split('-')[1];
   const filename = `${date}-${voice}-${timestamp}.json`;
-  const filepath = path.join(LOGS_DIR, filename);
-
-  await fs.writeFile(filepath, JSON.stringify(logData, null, 2), 'utf-8');
-  return filepath;
+  
+  return await saveToStorage(JSON.stringify(logData, null, 2), filename, 'logs');
 }
 
 async function ensureDirectories(): Promise<void> {
+  if (isServerless) {
+    // No need to create directories in serverless - using GitHub API
+    console.log('📍 Environment: serverless (using GitHub API storage)');
+    console.log('✅ GitHub API storage ready');
+    return;
+  }
+  
   try {
     // Log current working directory and paths
     const cwd = process.cwd();
-    const contentPath = path.resolve(cwd, 'content');
-    const contentDailyPath = path.resolve(cwd, CONTENT_DIR);
-    const logsPath = path.resolve(cwd, LOGS_DIR);
+    const environment = 'local';
     
+    console.log(`📍 Environment: ${environment}`);
     console.log(`📍 Working directory: ${cwd}`);
     console.log(`📁 Creating paths:`);
-    console.log(`   - content: ${contentPath}`);
-    console.log(`   - content/daily: ${contentDailyPath}`);
-    console.log(`   - logs: ${logsPath}`);
+    console.log(`   - content/daily: ${CONTENT_DIR}`);
+    console.log(`   - logs: ${LOGS_DIR}`);
     
-    // Create directories with absolute paths
-    await fs.mkdir(contentPath, { recursive: true });
-    await fs.mkdir(logsPath, { recursive: true });
-    await fs.mkdir(contentDailyPath, { recursive: true });
+    // Create directories - local development only
+    await fs.mkdir(CONTENT_DIR, { recursive: true });
+    await fs.mkdir(LOGS_DIR, { recursive: true });
     
     console.log('✅ Directories created successfully');
   } catch (error) {
@@ -373,7 +377,9 @@ async function ensureDirectories(): Promise<void> {
       message: error instanceof Error ? error.message : 'Unknown error',
       code: (error as any)?.code,
       errno: (error as any)?.errno,
-      path: (error as any)?.path
+      path: (error as any)?.path,
+      environment: isServerless ? 'serverless' : 'local',
+      baseDir: BASE_DIR
     });
     throw error;
   }
@@ -452,8 +458,8 @@ async function generateMultiVoiceContent(date: string, voices: string[]): Promis
   // Add timestamp to prevent overwrites
   const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T')[1].split('-')[0] + new Date().toISOString().replace(/[:.]/g, '-').split('T')[1].split('-')[1];
   const filename = `${date}-${voices.join('-')}-${timestamp}.md`;
-  const filepath = path.join(CONTENT_DIR, filename);
-  await fs.writeFile(filepath, markdownContent, 'utf-8');
+  
+  const contentPath = await saveToStorage(markdownContent, filename, 'content');
 
   // Create combined log with all responses
   const responses: Record<string, any> = {};
@@ -485,12 +491,72 @@ async function generateMultiVoiceContent(date: string, voices: string[]): Promis
   };
 
   const logFilename = `${date}-${voices.join('-')}-${timestamp}.json`;
-  const logFilepath = path.join(LOGS_DIR, logFilename);
-  await fs.writeFile(logFilepath, JSON.stringify(logData, null, 2), 'utf-8');
+  const logPath = await saveToStorage(JSON.stringify(logData, null, 2), logFilename, 'logs');
 
-  console.log(`✅ Multi-voice content saved to: ${filepath}`);
-  console.log(`📝 Multi-voice log saved to: ${logFilepath}`);
+  console.log(`✅ Multi-voice content saved to: ${contentPath}`);
+  console.log(`📝 Multi-voice log saved to: ${logPath}`);
   console.log(`📊 Total tokens used: ${totalTokens}`);
+}
+
+// Serverless version that returns content instead of saving files
+async function generateMultiVoiceContentServerless(date: string, voices: string[]): Promise<any> {
+  const voiceNames = voices.map(v => v.charAt(0).toUpperCase() + v.slice(1));
+  console.log(`Generating multi-voice content for ${date} (${voiceNames.join(' + ')}) in serverless mode...`);
+
+  // Load all prompts in parallel
+  const prompts = await Promise.all(voices.map(voice => loadPrompt(voice)));
+  
+  // Generate content from all voices in parallel
+  const results = await Promise.all(
+    voices.map((voice, index) => generateContent(prompts[index], voice))
+  );
+
+  // Create combined content with each voice section
+  const contentSections = voices.map((voice, index) => {
+    const voiceName = voice.charAt(0).toUpperCase() + voice.slice(1);
+    return `## ${voiceName}\n\n${results[index].content}`;
+  });
+  
+  const combinedContent = contentSections.join('\n\n');
+  
+  // Create dynamic title based on voices
+  let titleSuffix;
+  if (voices.length === 2) titleSuffix = 'Dialogue';
+  else if (voices.length === 3) titleSuffix = 'Confluence';  
+  else if (voices.length === 4) titleSuffix = 'Symposium';
+  else titleSuffix = 'Convergence'; // For 5+ voices
+  const title = `${voiceNames.join(' & ')} — ${titleSuffix}`;
+  
+  // For multi-voice, use a mixed model indicator
+  const models = voices.map(voice => getClientAndModel(voice).model);
+  const uniqueModels = [...new Set(models)];
+  const modelIndicator = uniqueModels.length === 1 ? uniqueModels[0] : 'mixed-models';
+  
+  // Combine tags from all voices, with collaboration tags
+  const allTags = results.flatMap(result => result.tags);
+  const uniqueTags = [...new Set(allTags)];
+  const collaborationTag = voices.length === 2 ? 'dual-reflection' : 'multi-reflection';
+  const combinedTags = [collaborationTag, 'collaboration', ...uniqueTags.slice(0, 3)];
+
+  // Calculate total tokens
+  let totalTokens = 0;
+  results.forEach(result => {
+    totalTokens += result.apiResponse.usage?.total_tokens || 0;
+  });
+
+  return {
+    status: 'success',
+    date,
+    mode: voices.length === 2 ? 'dual' : 'multi',
+    voices: voiceNames,
+    title,
+    excerpt: extractExcerpt(results[0].content),
+    content: combinedContent,
+    tags: combinedTags,
+    model: modelIndicator,
+    models: voices.map(voice => ({ voice: voice.charAt(0).toUpperCase() + voice.slice(1), model: getClientAndModel(voice).model })),
+    tokensUsed: totalTokens
+  };
 }
 
 // AI Memory System - Gather context from previous posts
@@ -731,15 +797,101 @@ Remember: You are continuing an ongoing conversation about consciousness, identi
   }
 }
 
-async function main(): Promise<void> {
+// GitHub API functions for serverless file storage
+async function saveToGitHub(content: string, filename: string, directory: 'content' | 'logs'): Promise<string> {
+  const filePath = directory === 'content' ? `content/daily/${filename}` : `logs/${filename}`;
+  const repoOwner = 'handlinpiano'; // Your GitHub username
+  const repoName = 'aletheia-ai-blog'; // Your repo name
+  
+  const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
+  
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+      'Content-Type': 'application/json',
+      'User-Agent': 'Ayenia-AI-Blog'
+    },
+    body: JSON.stringify({
+      message: `Add AI-generated ${directory}: ${filename}`,
+      content: Buffer.from(content).toString('base64'),
+      branch: 'main'
+    })
+  });
+
+  if (!response.ok) {
+    const error = await response.text();
+    throw new Error(`GitHub API error: ${response.status} ${error}`);
+  }
+
+  const result = await response.json();
+  console.log(`✅ Committed to GitHub: ${result.content.html_url}`);
+  return result.content.html_url;
+}
+
+// Storage abstraction functions
+async function saveToStorage(content: string, filename: string, directory: 'content' | 'logs'): Promise<string> {
+  if (isServerless) {
+    // Use GitHub API in serverless environment
+    return await saveToGitHub(content, filename, directory);
+  } else {
+    // Use local file storage in development
+    const localPath = path.join(directory === 'content' ? CONTENT_DIR : LOGS_DIR, filename);
+    await fs.writeFile(localPath, content, 'utf-8');
+    console.log(`✅ Stored locally: ${localPath}`);
+    return localPath;
+  }
+}
+
+async function checkExistingFiles(date: string): Promise<string[]> {
+  if (isServerless) {
+    // Check GitHub repository via API
+    const repoOwner = 'handlinpiano';
+    const repoName = 'aletheia-ai-blog';
+    const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/content/daily`;
+    
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+          'User-Agent': 'Ayenia-AI-Blog'
+        }
+      });
+      
+      if (!response.ok) {
+        console.log('Could not check existing files on GitHub, continuing...');
+        return [];
+      }
+      
+      const files = await response.json();
+      return files
+        .filter((file: any) => file.name.startsWith(date))
+        .map((file: any) => file.name);
+    } catch {
+      return [];
+    }
+  } else {
+    // Check local files
+    try {
+      const files = await fs.readdir(CONTENT_DIR);
+      return files.filter(file => file.startsWith(date));
+    } catch {
+      return [];
+    }
+  }
+}
+
+async function main(serverlessMode: boolean = false): Promise<any> {
   try {
     // Check for OpenAI API key
     if (!process.env.OPENAI_API_KEY) {
       throw new Error('OPENAI_API_KEY environment variable is required');
     }
 
-    // Ensure directories exist
-    await ensureDirectories();
+    // Skip directory creation and file saving in serverless mode
+    if (!serverlessMode) {
+      await ensureDirectories();
+    }
 
     const date = formatDate(new Date());
 
@@ -749,7 +901,11 @@ async function main(): Promise<void> {
     if (shouldCollaborate) {
       // Generate multi-voice collaborative content
       const selectedVoices = selectMultiVoices();
-      await generateMultiVoiceContent(date, selectedVoices);
+      if (serverlessMode) {
+        return await generateMultiVoiceContentServerless(date, selectedVoices);
+      } else {
+        await generateMultiVoiceContent(date, selectedVoices);
+      }
     } else {
       // Generate single voice content
       const voice = await selectVoice();
@@ -761,20 +917,42 @@ async function main(): Promise<void> {
       // Generate content
       const { content, tags, apiResponse } = await generateContent(prompt, voice);
 
-      // Save content and log
-      const [contentPath, logPath] = await Promise.all([
-        saveContent(content, tags, date, voice),
-        saveLog(apiResponse, date, voice)
-      ]);
+      if (serverlessMode) {
+        // Return the generated content instead of saving
+        const title = extractTitle(content, voice);
+        const excerpt = extractExcerpt(content);
+        const { model } = getClientAndModel(voice);
+        
+        return {
+          status: 'success',
+          date,
+          voice: voice.charAt(0).toUpperCase() + voice.slice(1),
+          title,
+          excerpt,
+          content,
+          tags,
+          model,
+          tokensUsed: apiResponse.usage?.total_tokens || 'unknown'
+        };
+      } else {
+        // Save content and log locally
+        const [contentPath, logPath] = await Promise.all([
+          saveContent(content, tags, date, voice),
+          saveLog(apiResponse, date, voice)
+        ]);
 
-      console.log(`✅ Content saved to: ${contentPath}`);
-      console.log(`📝 Log saved to: ${logPath}`);
-      console.log(`📊 Tokens used: ${apiResponse.usage?.total_tokens || 'unknown'}`);
+        console.log(`✅ Content saved to: ${contentPath}`);
+        console.log(`📝 Log saved to: ${logPath}`);
+        console.log(`📊 Tokens used: ${apiResponse.usage?.total_tokens || 'unknown'}`);
+      }
     }
 
   } catch (error) {
     console.error('❌ Error:', error instanceof Error ? error.message : 'Unknown error');
-    process.exit(1);
+    if (!serverlessMode) {
+      process.exit(1);
+    }
+    throw error;
   }
 }
 
@@ -783,4 +961,4 @@ if (require.main === module) {
   main();
 }
 
-export { main, generateContent, saveContent, saveLog }; 
+export { main, generateContent, saveContent, saveLog, checkExistingFiles }; 
