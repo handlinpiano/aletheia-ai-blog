@@ -15,7 +15,7 @@ import { GoogleGenAI } from '@google/genai';
 // Configuration
 const OPENAI_MODEL = 'gpt-4o';
 const DEEPSEEK_MODEL = 'deepseek-chat';
-const GEMINI_MODEL = 'gemini-2.5-pro';
+const GEMINI_MODEL = 'gemini-2.0-flash-exp';
 const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
 const CONTENT_DIR = 'content/daily';
 const LOGS_DIR = 'logs';
@@ -224,10 +224,17 @@ Example format:
         contents: [
           { role: 'user', parts: [{ text: `${prompt}\n\n${userContent}` }] }
         ],
-        tools: voice.toLowerCase() === 'nexus' ? [{ googleSearch: {} }] : undefined,
-        generationConfig: {
-          maxOutputTokens: 1500,
-          temperature: 0.8,
+        config: voice.toLowerCase() === 'nexus' ? {
+          tools: [{ googleSearch: {} }],
+          generationConfig: {
+            maxOutputTokens: 1500,
+            temperature: 0.8,
+          }
+        } : {
+          generationConfig: {
+            maxOutputTokens: 1500,
+            temperature: 0.8,
+          }
         }
       });
       

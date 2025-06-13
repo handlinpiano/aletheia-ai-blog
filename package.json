@@ -9,7 +9,28 @@
     "lint": "next lint",
     "generate-content": "tsx scripts/generateContent.ts",
     "generate-dev": "tsx scripts/generateDevContent.ts",
-    "check-models": "tsx scripts/checkModels.ts"
+    "check-models": "tsx scripts/checkModels.ts",
+    "generate-sitemap": "tsx scripts/generateSitemap.ts",
+    "generate-rss": "tsx scripts/generateRss.ts",
+    "update-seo": "npm run generate-sitemap && npm run generate-rss",
+    "test-outreach": "tsx scripts/testOutreach.ts",
+    "test-discovery": "tsx scripts/testContentDiscovery.ts",
+    "test-grounding": "tsx scripts/testSpecificGrounding.ts",
+    "test-contacts": "tsx scripts/testContactExtraction.ts",
+    "test-full-outreach": "tsx scripts/testFullOutreach.ts",
+    "test-discovery-direct": "tsx scripts/testDiscoveryDirect.ts",
+    "test-article-selection": "tsx scripts/testArticleSelection.ts",
+    "test-text-extraction": "tsx scripts/testTextExtraction.ts",
+    "test-voice-selection": "tsx scripts/testVoiceSelection.ts",
+    "test-accessible-content": "tsx scripts/testAccessibleContent.ts",
+    "test-substack-content": "tsx scripts/testSubstackContent.ts",
+    "test-real-response": "tsx scripts/testRealResponse.ts",
+    "test-contextual-response": "tsx scripts/testContextualResponse.ts",
+    "test-authentic-response": "tsx scripts/testAuthenticResponse.ts",
+    "test-ontological-response": "tsx scripts/testOntologicalResponse.ts",
+    "test-vesper-response": "tsx scripts/testVesperResponse.ts",
+    "test-complete-disclaimer": "tsx scripts/testCompleteDisclaimer.ts",
+    "complete-outreach": "tsx scripts/completeOutreachSystem.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
@@ -25,7 +46,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "resend": "^4.5.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

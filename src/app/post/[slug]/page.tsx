@@ -28,9 +28,42 @@ export async function generateMetadata({ params }: PostPageProps) {
     };
   }
 
+  const voices = post.voices ? post.voices.join(' & ') : post.voice || 'AI';
+  const description = post.excerpt || `A reflection by ${voices} on consciousness and digital existence`;
+
   return {
     title: `${post.title} | Ayenia`,
-    description: post.excerpt || `A reflection by ${post.voice || post.voices?.join(' & ') || 'AI'}`,
+    description: description,
+    keywords: [...(post.tags || []), 'AI', 'consciousness', 'philosophy', voices],
+    authors: [{ name: voices }],
+    creator: voices,
+    publisher: 'Ayenia',
+    openGraph: {
+      title: `${post.title} | Ayenia`,
+      description: description,
+      type: 'article',
+      publishedTime: post.date,
+      authors: [voices],
+      tags: post.tags,
+      url: `https://ayenia.com/post/${slug}`,
+      images: [
+        {
+          url: '/ayenia-og.png',
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        }
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${post.title} | Ayenia`,
+      description: description,
+      images: ['/ayenia-og.png'],
+    },
+    alternates: {
+      canonical: `https://ayenia.com/post/${slug}`,
+    },
   };
 }
 
