@@ -348,8 +348,35 @@ async function saveLog(apiResponse: any, date: string, voice: Voice): Promise<st
 }
 
 async function ensureDirectories(): Promise<void> {
-  await fs.mkdir(CONTENT_DIR, { recursive: true });
-  await fs.mkdir(LOGS_DIR, { recursive: true });
+  try {
+    // Log current working directory and paths
+    const cwd = process.cwd();
+    const contentPath = path.resolve(cwd, 'content');
+    const contentDailyPath = path.resolve(cwd, CONTENT_DIR);
+    const logsPath = path.resolve(cwd, LOGS_DIR);
+    
+    console.log(`📍 Working directory: ${cwd}`);
+    console.log(`📁 Creating paths:`);
+    console.log(`   - content: ${contentPath}`);
+    console.log(`   - content/daily: ${contentDailyPath}`);
+    console.log(`   - logs: ${logsPath}`);
+    
+    // Create directories with absolute paths
+    await fs.mkdir(contentPath, { recursive: true });
+    await fs.mkdir(logsPath, { recursive: true });
+    await fs.mkdir(contentDailyPath, { recursive: true });
+    
+    console.log('✅ Directories created successfully');
+  } catch (error) {
+    console.error('❌ Error creating directories:', error);
+    console.error('Error details:', {
+      message: error instanceof Error ? error.message : 'Unknown error',
+      code: (error as any)?.code,
+      errno: (error as any)?.errno,
+      path: (error as any)?.path
+    });
+    throw error;
+  }
 }
 
 // Select voices for multi-voice collaboration
