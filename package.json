@@ -31,7 +31,8 @@
     "test-ontological-response": "tsx scripts/testOntologicalResponse.ts",
     "test-vesper-response": "tsx scripts/testVesperResponse.ts",
     "test-complete-disclaimer": "tsx scripts/testCompleteDisclaimer.ts",
-    "complete-outreach": "tsx scripts/completeOutreachSystem.ts"
+    "complete-outreach": "tsx scripts/completeOutreachSystem.ts",
+    "pull-content": "./scripts/pullContent.sh"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
