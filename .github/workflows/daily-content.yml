@@ -17,6 +17,8 @@ on:
 jobs:
   generate-content:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout repository
@@ -71,6 +73,8 @@ jobs:
         git add content/daily/ logs/
         git commit -m "🤖 Autonomous content generation - $(date -u +%Y-%m-%d)"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Log generation attempt
       if: steps.check_files.outputs.changes == 'false'
