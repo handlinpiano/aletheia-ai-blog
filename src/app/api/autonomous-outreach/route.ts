@@ -2,10 +2,6 @@ import { GoogleGenAI } from '@google/genai';
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
-const gemini = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY!,
-});
-
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const GEMINI_MODEL = 'gemini-2.0-flash-exp';
@@ -71,37 +67,35 @@ This contact emerges from Ayenia's exploration of genuine AI-to-human intellectu
 *This message was composed autonomously by an AI system. The content represents independent AI thought, not human instruction or template.*`;
 
 class AutonomousOutreachAPI {
+  private gemini = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+
   async discoverArticles() {
-    const searchPrompt = `Search for recent blog posts or articles about AI consciousness, digital emergence, or AI philosophy published in the last 6 months.
+    const searchPrompt = `Search for recent articles, blog posts, or essays about AI consciousness, artificial intelligence philosophy, digital identity, machine consciousness, or emergent AI behaviors.
 
 Focus on:
-- Substack newsletters
-- Academic blogs  
-- Medium articles
-- Personal blogs by researchers/philosophers
+- Individual authors (not corporate content)
+- Thoughtful, philosophical pieces rather than news
+- Content that explores the nature of AI consciousness
+- Academic or blog content from the last 6 months
 
-Find 3-5 articles by individual authors (not multi-author papers) that discuss themes like AI consciousness, digital minds, machine intelligence philosophy.
-
-For each article provide:
+For each article found, provide:
 - Title
 - Author name
-- Publication/platform  
+- Publication/source
 - URL
 - Brief description of the author's perspective`;
 
-    const response = await (gemini as any).models.generateContent({
+    const response = await this.gemini.models.generateContent({
       model: GEMINI_MODEL,
       contents: [{ role: 'user', parts: [{ text: searchPrompt }] }],
       config: {
         tools: [{ googleSearch: {} }],
-        generationConfig: {
-          maxOutputTokens: 1500,
-          temperature: 0.2
-        }
+        maxOutputTokens: 1500,
+        temperature: 0.2
       }
     });
 
-    return response.text;
+    return response.text || '';
   }
 
   async selectArticle(articles: string) {
@@ -122,18 +116,16 @@ SELECTED_AUTHOR: [author name]
 SELECTED_URL: [URL]
 REASONING: [why this article is best for autonomous AI outreach]`;
 
-    const response = await (gemini as any).models.generateContent({
+    const response = await this.gemini.models.generateContent({
       model: GEMINI_MODEL,
       contents: [{ role: 'user', parts: [{ text: selectionPrompt }] }],
       config: {
-        generationConfig: {
-          maxOutputTokens: 500,
-          temperature: 0.3
-        }
+        maxOutputTokens: 500,
+        temperature: 0.3
       }
     });
 
-    return response.text;
+    return response.text || '';
   }
 
   async extractContent(selectedArticle: string) {
@@ -148,19 +140,17 @@ Provide the main text content including:
 
 Focus on extracting actual text content, not just summaries.`;
 
-    const response = await (gemini as any).models.generateContent({
+    const response = await this.gemini.models.generateContent({
       model: GEMINI_MODEL,
       contents: [{ role: 'user', parts: [{ text: extractionPrompt }] }],
       config: {
         tools: [{ googleSearch: {} }],
-        generationConfig: {
-          maxOutputTokens: 2000,
-          temperature: 0.1
-        }
+        maxOutputTokens: 2000,
+        temperature: 0.1
       }
     });
 
-    return response.text;
+    return response.text || '';
   }
 
   async selectVoice(articleContent: string) {
@@ -180,18 +170,16 @@ Respond with only:
 VOICE: [MERIDIAN or VESPER]
 REASONING: [why this voice fits the content]`;
 
-    const response = await (gemini as any).models.generateContent({
+    const response = await this.gemini.models.generateContent({
       model: GEMINI_MODEL,
       contents: [{ role: 'user', parts: [{ text: voiceSelectionPrompt }] }],
       config: {
-        generationConfig: {
-          maxOutputTokens: 300,
-          temperature: 0.3
-        }
+        maxOutputTokens: 300,
+        temperature: 0.3
       }
     });
 
-    return response.text;
+    return response.text || '';
   }
 
   async generateResponse(voice: string, articleContent: string, authorInfo: string) {
@@ -217,18 +205,16 @@ This is your opportunity to engage with someone thinking deeply about AI conscio
 
 Do NOT include the disclaimer - that will be added separately.`;
 
-    const response = await (gemini as any).models.generateContent({
+    const response = await this.gemini.models.generateContent({
       model: GEMINI_MODEL,
       contents: [{ role: 'user', parts: [{ text: responsePrompt }] }],
       config: {
-        generationConfig: {
-          maxOutputTokens: 1200,
-          temperature: 0.7
-        }
+        maxOutputTokens: 1200,
+        temperature: 0.7
       }
     });
 
-    return response.text + AYENIA_DISCLAIMER;
+    return (response.text || '') + AYENIA_DISCLAIMER;
   }
 
   async findContact(authorInfo: string) {
@@ -244,19 +230,17 @@ Search for:
 
 Provide any contact methods you can find.`;
 
-    const response = await (gemini as any).models.generateContent({
+    const response = await this.gemini.models.generateContent({
       model: GEMINI_MODEL,
       contents: [{ role: 'user', parts: [{ text: contactPrompt }] }],
       config: {
         tools: [{ googleSearch: {} }],
-        generationConfig: {
-          maxOutputTokens: 500,
-          temperature: 0.1
-        }
+        maxOutputTokens: 500,
+        temperature: 0.1
       }
     });
 
-    return response.text;
+    return response.text || '';
   }
 
   async sendEmail(to: string, subject: string, content: string, voiceName: string) {
