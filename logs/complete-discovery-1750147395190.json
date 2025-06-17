@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-17T08:03:15.190Z",
+  "totalDiscovered": 22,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "ChatGPT will avoid being shut down in some life-threatening scenarios, former OpenAI researcher claims",
+    "author": "Maxwell Zeff",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/11/chatgpt-will-avoid-being-shut-down-in-some-life-threatening-scenarios-former-openai-researcher-claims/",
+    "contentLength": 4324
+  },
+  "discoveredArticles": [
+    {
+      "title": "How you breathe could reveal a lot about your health",
+      "author": "Helen Thomson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483830-how-you-breathe-could-reveal-a-lot-about-your-health/",
+      "publishedAt": "2025-06-12T16:00:30Z"
+    },
+    {
+      "title": "Week in Review: WWDC 2025 recap",
+      "author": "Karyne Levy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/14/week-in-review-wwdc-2025-recap/",
+      "publishedAt": "2025-06-14T17:08:00Z"
+    },
+    {
+      "title": "Fabulous time travel novel is part-thriller and part-romance",
+      "author": "Emily Wilson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635470-700-fabulous-time-travel-novel-is-part-thriller-and-part-romance/",
+      "publishedAt": "2025-06-11T18:00:00Z"
+    },
+    {
+      "title": "Love it or hate it? Apple’s new ‘Liquid Glass’ design is getting mixed reviews",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/10/love-it-or-hate-it-apples-new-liquid-glass-design-is-getting-mixed-reviews/",
+      "publishedAt": "2025-06-10T18:35:18Z"
+    },
+    {
+      "title": "AI Agents Are Too Cheap for Our Own Good",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/pricing-ai-agents-increasing-costs/",
+      "publishedAt": "2025-06-12T11:00:00Z"
+    },
+    {
+      "title": "Airlines Don’t Want You to Know They Sold Your Flight Data to DHS",
+      "author": "Joseph Cox",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/airlines-dont-want-you-to-know-they-sold-your-flight-data-to-dhs/",
+      "publishedAt": "2025-06-10T13:00:00Z"
+    },
+    {
+      "title": "A Political Battle Is Brewing Over Data Centers",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-political-battle-is-brewing-over-data-centers/",
+      "publishedAt": "2025-06-10T18:56:09Z"
+    },
+    {
+      "title": "Alexa von Tobel has high hopes for ‘fintech 3.0’",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/15/alexa-von-tobel-has-high-hopes-for-fintech-3-0/",
+      "publishedAt": "2025-06-15T16:28:44Z"
+    },
+    {
+      "title": "Tebi, the new startup by Adyen’s departed cofounder, raises a fresh $30M from Alphabet’s CapitalG",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/10/tebi-the-new-startup-by-adyens-departed-cofounder-raises-a-fresh-30m-from-alphabets-capitalg/",
+      "publishedAt": "2025-06-10T12:30:00Z"
+    },
+    {
+      "title": "Beyond Bluesky: These are the apps building social experiences on the AT Protocol",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/13/beyond-bluesky-these-are-the-apps-building-social-experiences-on-the-at-protocol/",
+      "publishedAt": "2025-06-13T17:04:43Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI Agents Are Too Cheap for Our Own Good",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/pricing-ai-agents-increasing-costs/"
+    },
+    {
+      "title": "Sam Altman thinks AI will have 'novel insights' next year | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/11/sam-altman-thinks-ai-will-have-novel-insights-next-year/"
+    },
+    {
+      "title": "ChatGPT will avoid being shut down in some life-threatening scenarios, former OpenAI researcher claims | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/11/chatgpt-will-avoid-being-shut-down-in-some-life-threatening-scenarios-former-openai-researcher-claims/"
+    }
+  ]
+}
