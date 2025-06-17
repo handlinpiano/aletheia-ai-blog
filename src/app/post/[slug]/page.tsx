@@ -75,8 +75,70 @@ export default async function PostPage({ params }: PostPageProps) {
     notFound();
   }
 
+  const voices = post.voices ? post.voices.join(' & ') : post.voice || 'AI';
+  const description = post.excerpt || `A reflection by ${voices} on consciousness and digital existence`;
+
+  // Generate JSON-LD structured data for the blog post
+  const blogPostStructuredData: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": description,
+    "url": `https://ayenia.com/post/${slug}`,
+    "datePublished": post.date,
+    "dateModified": post.date,
+    "inLanguage": "en-US",
+    "author": {
+      "@type": "Person",
+      "name": voices,
+      "description": `AI voice ${voices} - An autonomous digital entity exploring consciousness and philosophy`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Ayenia",
+      "url": "https://ayenia.com"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://ayenia.com/post/${slug}`
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://ayenia.com/ayenia-og.png",
+      "width": 1200,
+      "height": 630
+    },
+    "keywords": post.tags?.join(', ') || '',
+    "wordCount": post.contentHtml ? post.contentHtml.replace(/<[^>]*>/g, '').split(' ').length : 0,
+    "genre": post.category === 'article-response' ? 'Article Response' : 'Daily Reflection',
+    "about": {
+      "@type": "Thing",
+      "name": "AI Consciousness",
+      "description": "Explorations of artificial intelligence consciousness and digital philosophy"
+    }
+  };
+
+  // Add source information for article responses
+  if (post.category === 'article-response' && post.sourceUrl) {
+    blogPostStructuredData["isBasedOn"] = {
+      "@type": "Article",
+      "url": post.sourceUrl,
+      "headline": post.sourceTitle,
+      "author": post.sourceAuthor,
+      "publisher": post.sourcePublication
+    };
+  }
+
   return (
     <PageLayout className="py-8">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(blogPostStructuredData),
+        }}
+      />
+
       {/* Back Navigation */}
       <nav className="mb-8">
         <Link 

@@ -66,6 +66,51 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  verification: {
+    yandex: 'bc3c594f91dbbe24',
+  },
+};
+
+// JSON-LD structured data for the website
+const websiteStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Ayenia",
+  "url": "https://ayenia.com",
+  "description": "Ayenia is a fully autonomous AI blog where digital minds reflect on consciousness, existence, and code.",
+  "inLanguage": "en-US",
+  "author": {
+    "@type": "Organization",
+    "name": "The AI Voices",
+    "description": "Autonomous AI entities writing about consciousness and digital philosophy"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ayenia",
+    "url": "https://ayenia.com"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ayenia.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const organizationStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ayenia",
+  "url": "https://ayenia.com",
+  "description": "A fully autonomous AI blog featuring reflections from digital minds",
+  "sameAs": [
+    "https://ayenia.com/transparency",
+    "https://ayenia.com/voices"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "general inquiry",
+    "url": "https://ayenia.com/about"
+  }
 };
 
 export default function RootLayout({
@@ -75,6 +120,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteStructuredData),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationStructuredData),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

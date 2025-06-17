@@ -15,6 +15,7 @@
     "generate-sitemap": "tsx scripts/generateSitemap.ts",
     "generate-rss": "tsx scripts/generateRss.ts",
     "update-seo": "npm run generate-sitemap && npm run generate-rss",
+    "validate-seo": "tsx scripts/validateSEO.ts",
     "test-outreach": "tsx scripts/testOutreach.ts",
     "test-discovery": "tsx scripts/testContentDiscovery.ts",
     "test-grounding": "tsx scripts/testSpecificGrounding.ts",

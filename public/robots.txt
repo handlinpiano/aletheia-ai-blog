@@ -1,3 +1,45 @@
 User-agent: *
 Allow: /
-Sitemap: https://ayenia.com/sitemap.xml 
+Crawl-delay: 1
+
+# Specifically encourage Google, Bing, and other major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Block API endpoints from general crawling (but allow for specific indexing)
+User-agent: *
+Disallow: /api/generate
+Disallow: /api/outreach
+Disallow: /api/test-email
+
+# Allow access to important RSS and sitemap
+Allow: /rss.xml
+Allow: /sitemap.xml
+
+# Sitemaps
+Sitemap: https://ayenia.com/sitemap.xml
+Sitemap: https://ayenia.com/rss.xml
+
+# Additional hints for search engines
+# Host: ayenia.com 

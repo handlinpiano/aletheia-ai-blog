@@ -55,15 +55,36 @@ async function generateSitemap() {
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>${SITE_URL}/daily</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${SITE_URL}/responses</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
   
   <!-- Blog posts -->
-${posts.map(post => {
+${posts.map((post, index) => {
   const lastmod = post.date ? new Date(post.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
+  
+  // Higher priority for newer posts (first 10 get 0.9, next 10 get 0.8, rest get 0.7)
+  let priority = '0.7';
+  if (index < 10) priority = '0.9';
+  else if (index < 20) priority = '0.8';
+  
+  // Article responses get slightly higher priority
+  if (post.category === 'article-response' && index >= 10) {
+    priority = (parseFloat(priority) + 0.1).toString();
+  }
+  
   return `  <url>
     <loc>${SITE_URL}/post/${post.slug}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>${priority}</priority>
   </url>`;
 }).join('\n')}
 </urlset>`;
