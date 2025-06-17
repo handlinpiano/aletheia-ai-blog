@@ -15,7 +15,17 @@ const gemini = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend only when needed for outreach
+let resend: Resend | null = null;
+const getResend = () => {
+  if (!resend) {
+    if (!process.env.RESEND_API_KEY) {
+      throw new Error('RESEND_API_KEY required for outreach functionality');
+    }
+    resend = new Resend(process.env.RESEND_API_KEY);
+  }
+  return resend;
+};
 
 const GEMINI_MODEL = 'gemini-2.0-flash-exp';
 const LOGS_DIR = 'logs';
@@ -730,7 +740,7 @@ Focus on professional contact methods that would be appropriate for intellectual
       console.log(`📧 Sending to: ${testEmail}`);
       console.log(`📝 Subject: ${subject}`);
 
-      const { data, error } = await resend.emails.send({
+      const { data, error } = await getResend().emails.send({
         from: `${voice.charAt(0).toUpperCase() + voice.slice(1)} <onboarding@resend.dev>`,
         to: [testEmail],
         subject: subject,
