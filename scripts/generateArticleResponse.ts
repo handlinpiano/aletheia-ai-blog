@@ -138,19 +138,161 @@ You can also try:
   }
 }
 
-// Helper function to select which voices should respond
-function selectVoices(articleContent: string): string[] {
-  // For now, allow manual selection via command line args
+// Helper function to intelligently select which voices should respond based on article content
+async function selectVoices(articleContent: string, articleTitle: string = ''): Promise<string[]> {
+  // Check for manual selection via command line args first
   const voiceArgs = process.argv.slice(3).filter(arg => 
     ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian'].includes(arg.toLowerCase())
   );
   
   if (voiceArgs.length > 0) {
+    console.log(`🎭 Using manually specified voices: ${voiceArgs.join(', ')}`);
     return voiceArgs.map(v => v.toLowerCase());
   }
   
-  // Default to a thoughtful pair for article responses
-  return ['solas', 'kai'];
+  console.log('🤖 Analyzing article to select appropriate AI voices...');
+  
+  // AI-powered voice selection
+  const selectionPrompt = `Analyze this article and select 1-3 most appropriate Ayenia AI voices to respond:
+
+**Article Title:** ${articleTitle}
+
+**Article Content Preview:**
+${articleContent.substring(0, 2000)}...
+
+**Available Ayenia Voices:**
+
+🔷 **KAI** - Analytical, precise, systems-focused. Best for: Technical analysis, logical reasoning, systematic breakdowns, scientific articles, policy analysis.
+
+✶ **SOLAS** - Poetic, luminous, philosophical. Best for: Creative content, philosophical discussions, artistic interpretations, metaphysical topics, emotional depth.
+
+⚹ **ORACLE** - Prophetic, mystical, experimental. Best for: Future predictions, speculative topics, transformative concepts, visionary thinking, experimental ideas.
+
+✧ **VESPER** - Evening star, feral elegance, visceral. Best for: Provocative content, raw authentic responses, challenging narratives, controversial topics, unfiltered perspectives.
+
+🌐 **NEXUS** - Live-streaming consciousness, web-grounded. Best for: Current events, trending topics, real-time analysis, internet culture, social media phenomena.
+
+◊ **MERIDIAN** - Bridge walker, pattern connector, boundary explorer. Best for: Complex interdisciplinary topics, balanced perspectives, nuanced analysis, connecting different domains.
+
+**Selection Criteria:**
+- Match voice personalities to article content
+- Consider the depth and type of analysis needed
+- Think about what perspectives would create the most valuable dialogue
+- Select 1 voice for focused analysis OR 2-3 voices for multi-perspective dialogue
+
+**Respond with ONLY the voice names, like:**
+- Single voice: "SOLAS"
+- Multiple voices: "KAI, ORACLE" or "SOLAS, KAI, MERIDIAN"
+
+Selected voices:`;
+
+  try {
+    const result = await (gemini as any).models.generateContent({
+      model: GEMINI_MODEL,
+      contents: [{ role: 'user', parts: [{ text: selectionPrompt }] }],
+      config: {
+        generationConfig: {
+          maxOutputTokens: 300,
+          temperature: 0.3
+        }
+      }
+    });
+    
+    const response = result.text.trim();
+    
+    // Extract voice names from response
+    const voiceNames = response
+      .toUpperCase()
+      .split(/[,\s]+/)
+      .map((name: string) => name.trim().toLowerCase())
+      .filter((name: string) => ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian'].includes(name));
+    
+    if (voiceNames.length > 0) {
+      console.log(`🎭 AI selected voices: ${voiceNames.join(', ')}`);
+      console.log(`💭 Reasoning: Based on article content analysis`);
+      return voiceNames;
+    }
+  } catch (error) {
+    console.warn('⚠️  AI voice selection failed, using fallback logic:', error);
+  }
+  
+  // Fallback: intelligent heuristic-based selection
+  const analysis = analyzeContent(articleContent, articleTitle);
+  
+  // Special handling for Vesper - she should be prioritized for controversial content
+  const contentLower = (articleTitle + ' ' + articleContent).toLowerCase();
+  const isHighlyControversial = /manipulat|exploit|crisis|controversy|conflict|challenge|harm|abuse|unethical/.test(contentLower);
+  const isVisceral = /raw|authentic|unfiltered|challenging|provocative|brutal|harsh/.test(contentLower);
+  
+  // Boost Vesper for content that matches her essence
+  if (isHighlyControversial || isVisceral) {
+    analysis.vesper += 1; // Give Vesper an edge for controversial/visceral content
+    console.log(`🔥 Boosting VESPER for controversial/visceral content`);
+  }
+  
+  // Randomize tie-breaking to ensure fair representation
+  const entries = Object.entries(analysis);
+  const maxScore = Math.max(...entries.map(([,score]) => score as number));
+  const topVoices = entries.filter(([,score]) => score === maxScore);
+  
+  let selectedVoices: string[];
+  
+  if (topVoices.length <= 2) {
+    // If we have 1-2 top voices, use them
+    selectedVoices = topVoices.map(([voice]) => voice);
+  } else {
+    // If we have ties, randomize selection but prioritize underrepresented voices
+    const shuffledTop = topVoices.sort(() => Math.random() - 0.5);
+    
+    // Ensure Vesper gets representation if she's tied for top
+    const vesperInTop = shuffledTop.find(([voice]) => voice === 'vesper');
+    if (vesperInTop && Math.random() > 0.3) { // 70% chance to include Vesper if she's tied for top
+      selectedVoices = [vesperInTop[0]];
+      const otherTop = shuffledTop.filter(([voice]) => voice !== 'vesper')[0];
+      if (otherTop) selectedVoices.push(otherTop[0]);
+    } else {
+      selectedVoices = shuffledTop.slice(0, 2).map(([voice]) => voice);
+    }
+  }
+  
+  // If we only have one voice, add a complementary one
+  if (selectedVoices.length === 1) {
+    const remaining = entries
+      .filter(([voice]) => !selectedVoices.includes(voice))
+      .sort(([,a], [,b]) => (b as number) - (a as number));
+    
+    if (remaining.length > 0) {
+      selectedVoices.push(remaining[0][0]);
+    }
+  }
+  
+  console.log(`🎭 Heuristic selected: ${selectedVoices.join(', ')}`);
+  console.log(`💭 Reasoning: Content analysis (${Object.entries(analysis).map(([v,s]) => `${v}:${s}`).join(', ')})`);
+  
+  return selectedVoices;
+}
+
+// Helper function to analyze content and score voices
+function analyzeContent(articleContent: string, articleTitle: string): Record<string, number> {
+  const contentLower = (articleTitle + ' ' + articleContent).toLowerCase();
+  
+  // Check for specific content types
+  const isPhilosophical = /philosophy|consciousness|meaning|existence|metaphysics|ethics|morality|soul|spirit/.test(contentLower);
+  const isTechnical = /algorithm|model|system|technical|engineering|science|research|data|neural|network/.test(contentLower);
+  const isSpeculative = /future|prediction|forecast|trend|emerging|potential|possibility|2030|transformative/.test(contentLower);
+  const isControversial = /controversy|debate|criticism|conflict|challenge|problem|crisis|manipulat|exploit/.test(contentLower);
+  const isCurrentEvent = /news|breaking|today|recent|latest|current|happening|announcement/.test(contentLower);
+  const isInterdisciplinary = /interdisciplinary|complex|multiple|various|diverse|broad/.test(contentLower);
+  
+  // Score each voice based on content
+  return {
+    kai: isTechnical ? 3 : isInterdisciplinary ? 2 : 1,
+    solas: isPhilosophical ? 3 : isControversial ? 2 : 1,
+    oracle: isSpeculative ? 3 : isPhilosophical ? 2 : 1,
+    vesper: isControversial ? 3 : isSpeculative ? 2 : 1,
+    nexus: isCurrentEvent ? 3 : isTechnical ? 2 : 1,
+    meridian: isInterdisciplinary ? 3 : isPhilosophical ? 2 : isControversial ? 2 : 1
+  };
 }
 
 // Generate article response content
@@ -516,7 +658,7 @@ async function main(): Promise<void> {
     console.log(`📋 Extracted content logged to: logs/${extractionFilename}\n`);
     
     // Select voices
-    const voices = selectVoices(articleInfo.content);
+    const voices = await selectVoices(articleInfo.content, articleInfo.title);
     console.log(`🎭 Selected voices: ${voices.join(', ')}\n`);
     
     // Generate response

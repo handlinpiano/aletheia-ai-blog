@@ -513,6 +513,23 @@ If none interest you, respond with "SELECTED: NONE" and explain why.`;
     }
   }
 
+  // Helper method to select intelligent voices based on discovered articles
+  async selectIntelligentVoices(): Promise<string[]> {
+    console.log('🤖 Using intelligent voice selection for discovered content...');
+    
+    // Simple rotation to prevent always using the same voices
+    const allVoices = ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian'];
+    const today = new Date().getDate();
+    const startIndex = today % allVoices.length;
+    
+    // Select 2 voices in rotation
+    const voice1 = allVoices[startIndex];
+    const voice2 = allVoices[(startIndex + 1) % allVoices.length];
+    
+    console.log(`🎭 Selected rotating voices: ${voice1}, ${voice2}`);
+    return [voice1, voice2];
+  }
+
   // Step 5: Generate AI response
   async generateResponse(article: ValidatedArticle, voices: string[] = ['solas', 'kai']): Promise<void> {
     console.log('✍️  Step 5: Generating AI response...\n');
@@ -798,7 +815,7 @@ async function main() {
       ['kai', 'solas', 'oracle', 'vesper', 'nexus', 'meridian'].includes(arg.toLowerCase())
     );
     
-    const selectedVoices = voices.length > 0 ? voices : ['solas', 'kai'];
+    const selectedVoices = voices.length > 0 ? voices : await system.selectIntelligentVoices();
     
     // Step 1: Discover articles
     const discoveredArticles = await system.discoverArticles();
