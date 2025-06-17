@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-06-14T02:15:29.519Z",
+  "totalDiscovered": 8,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+    "author": "#author.fullName}",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/",
+    "contentLength": 3102
+  },
+  "discoveredArticles": [
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/",
+      "publishedAt": "2025-06-11T16:00:37Z"
+    },
+    {
+      "title": "Gene editing could treat damage from 'irreversible' kidney disease",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483470-gene-editing-could-treat-damage-from-irreversible-kidney-disease/",
+      "publishedAt": "2025-06-10T17:00:41Z"
+    },
+    {
+      "title": "As Robotaxi Rides Begin, We Still Don't Know the Mystery of Tesla’s Human Helpers",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/as-robotaxi-rides-begin-we-still-dont-know-the-mystery-of-teslas-human-helpers/",
+      "publishedAt": "2025-06-10T11:00:00Z"
+    },
+    {
+      "title": "Wayve and Uber plan London robotaxi launch after UK speeds up autonomous vehicle rollout  | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/10/wayve-and-uber-plan-london-robotaxi-launch-after-uk-speeds-up-autonomous-vehicle-rollout/",
+      "publishedAt": "2025-06-10T13:49:32Z"
+    },
+    {
+      "title": "Waymo robotaxis, Lime e-scooters set ablaze during LA protests | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/09/waymo-robotaxis-lime-e-scooters-set-ablaze-during-la-protests/",
+      "publishedAt": "2025-06-09T13:46:06Z"
+    },
+    {
+      "title": "The UK Accelerates Its Self-Driving Car Ambitions",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uk-self-driving-car-ambitions-wayve-uber/",
+      "publishedAt": "2025-06-10T08:30:00Z"
+    },
+    {
+      "title": "Waymo rides cost more than Uber or Lyft -- and people are paying anyway",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/12/waymo-rides-cost-more-than-uber-or-lyft-and-people-are-paying-anyway/",
+      "publishedAt": "2025-06-12T12:03:25Z"
+    },
+    {
+      "title": "How Waymo Handles Footage From Events Like the LA Immigration Protests",
+      "author": "Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/waymo-data-privacy-protests-los-angeles/",
+      "publishedAt": "2025-06-11T18:39:25Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/"
+    },
+    {
+      "title": "As Robotaxi Rides Begin, We Still Don't Know the Mystery of Tesla’s Human Helpers",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/as-robotaxi-rides-begin-we-still-dont-know-the-mystery-of-teslas-human-helpers/"
+    },
+    {
+      "title": "How Waymo Handles Footage From Events Like the LA Immigration Protests",
+      "author": "Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/waymo-data-privacy-protests-los-angeles/"
+    }
+  ]
+}

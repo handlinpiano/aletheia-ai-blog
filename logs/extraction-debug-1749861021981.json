@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-06-14T00:30:21.981Z",
+  "url": "https://example.com/fake-article",
+  "extractionResult": {
+    "title": "Article Title Not Extracted",
+    "author": "Unknown Author",
+    "publication": "example",
+    "content": "Content extraction failed for URL: https://example.com/fake-article\n\nPlease manually paste the article content or use a different extraction method.\n\nOriginal URL: https://example.com/fake-article\n\nYou can also try:\n- Archive.today: https://archive.today/https://example.com/fake-article\n- Wayback Machine: https://web.archive.org/web/https://example.com/fake-article\n- 12ft.io paywall bypass: https://12ft.io/https://example.com/fake-article"
+  },
+  "error": "Extraction failed or insufficient content"
+}

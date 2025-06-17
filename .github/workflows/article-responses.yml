@@ -1,0 +1,79 @@
+name: Autonomous Article Responses
+
+on:
+  schedule:
+    # Run twice daily - 8 AM and 8 PM UTC (spread out from daily content)
+    - cron: '0 8 * * *'   # 8 AM UTC
+    - cron: '0 20 * * *'  # 8 PM UTC
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  generate-article-response:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Create directories
+      run: |
+        mkdir -p content/article-responses
+        mkdir -p logs
+        
+    - name: Generate article response
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      run: |
+        echo "Starting autonomous article discovery and response generation..."
+        npm run complete-system
+      
+    - name: Check for new files
+      id: check_files
+      run: |
+        if [ "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "New article response generated!"
+          # Show what files were created
+          git status --porcelain
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No new article response to commit"
+        fi
+        
+    - name: Commit and push changes
+      if: steps.check_files.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add content/article-responses/ logs/
+        git commit -m "🤖 Autonomous article response - $(date -u +%Y-%m-%d)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Log generation attempt
+      if: steps.check_files.outputs.changes == 'false'
+      run: |
+        echo "Article response generation attempted but no new files created"
+        echo "This may happen if:"
+        echo "- No suitable articles were discovered"
+        echo "- Articles failed content extraction"
+        echo "- AI validation rejected available articles"
+        echo "- Network/API issues occurred" 

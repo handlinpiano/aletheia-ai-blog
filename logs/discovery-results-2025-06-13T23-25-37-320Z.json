@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-06-13T23:25:37.320Z",
+  "totalFound": 3,
+  "articles": [
+    {
+      "title": "A Deep Learning Alternative Can Help AI Agents Gameplay the Real World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-deep-learning-alternative-can-help-ai-agents-gameplay-the-real-world/",
+      "publishedAt": "2025-06-11T16:30:38Z",
+      "qualityScore": 25
+    },
+    {
+      "title": "Inside the AI Party at the End of the World",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-risk-party-san-francisco/",
+      "publishedAt": "2025-06-11T11:00:00Z",
+      "qualityScore": 25
+    },
+    {
+      "title": "Disney and Universal Sue AI Company Midjourney for Copyright Infringement",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/disney-universal-sue-midjourney/",
+      "publishedAt": "2025-06-11T17:52:23Z",
+      "qualityScore": 25
+    }
+  ]
+}

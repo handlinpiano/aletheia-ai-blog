@@ -1,0 +1,9 @@
+{
+  "title": "Extraction Failed",
+  "author": "Unknown Author",
+  "publication": "Techcrunch",
+  "content": "Article extraction failed for: https://techcrunch.com/2024/01/15/ai-startup-funding/\n\nAll automated methods failed. Consider:\n1. Manually copying the article content\n2. Checking if the article is behind a paywall\n3. Looking for the article on archive.org\n4. Trying the 12ft.io paywall bypass: https://12ft.io/https://techcrunch.com/2024/01/15/ai-startup-funding/",
+  "url": "https://techcrunch.com/2024/01/15/ai-startup-funding/",
+  "extractionMethod": "failed",
+  "success": false
+}

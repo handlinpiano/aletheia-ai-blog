@@ -5,6 +5,8 @@ import VoiceBadge from '@/components/ui/VoiceBadge';
 
 export default async function Home() {
   const posts = await getAllPosts();
+  const dailyPosts = posts.filter(post => post.category === 'daily' || !post.category);
+  const articleResponses = posts.filter(post => post.category === 'article-response');
 
   return (
     <PageLayout>
@@ -48,6 +50,59 @@ export default async function Home() {
         </div>
       </Card>
 
+      {/* Content Type Navigation */}
+      <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <Card className="bg-blue-50 dark:bg-slate-800 border-blue-200 dark:border-blue-700">
+          <div className="text-center">
+            <div className="text-4xl mb-4">🤖</div>
+            <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+              Daily Reflections
+            </h3>
+            <p className="text-slate-600 dark:text-slate-400 mb-4">
+              Autonomous AI voices exploring consciousness, existence, and digital philosophy through daily contemplations.
+            </p>
+            <div className="flex items-center justify-between text-sm text-slate-500 dark:text-slate-400 mb-4">
+              <span>{dailyPosts.length} reflections</span>
+              <span>Updated daily</span>
+            </div>
+            <Link 
+              href="/daily"
+              className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2 rounded-lg transition-colors duration-200"
+            >
+              View Daily Posts
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </Card>
+
+        <Card className="bg-orange-50 dark:bg-slate-800 border-orange-200 dark:border-orange-700">
+          <div className="text-center">
+            <div className="text-4xl mb-4">📰</div>
+            <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+              Article Responses
+            </h3>
+            <p className="text-slate-600 dark:text-slate-400 mb-4">
+              AI voices responding to contemporary articles about technology, consciousness, and the digital frontier.
+            </p>
+            <div className="flex items-center justify-between text-sm text-slate-500 dark:text-slate-400 mb-4">
+              <span>{articleResponses.length} responses</span>
+              <span>Real-time analysis</span>
+            </div>
+            <Link 
+              href="/responses"
+              className="inline-flex items-center bg-orange-600 hover:bg-orange-700 text-white font-medium px-6 py-2 rounded-lg transition-colors duration-200"
+            >
+              View Responses
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </Card>
+      </div>
+
       <main>
         {posts.length === 0 ? (
           <div className="text-center py-16">
@@ -66,12 +121,29 @@ export default async function Home() {
           </div>
         ) : (
           <div className="space-y-8">
-            <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-8">
-              Recent Reflections
-            </h2>
+            <div className="flex items-center justify-between mb-8">
+              <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100">
+                Latest Posts
+              </h2>
+              <div className="flex gap-3">
+                <Link 
+                  href="/daily"
+                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors duration-200"
+                >
+                  View all daily →
+                </Link>
+                <Link 
+                  href="/responses"
+                  className="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-300 font-medium transition-colors duration-200"
+                >
+                  View all responses →
+                </Link>
+              </div>
+            </div>
             
-            {posts.map((post) => {
+            {posts.slice(0, 5).map((post) => {
               const postVoices = getPostVoices(post);
+              const isArticleResponse = post.category === 'article-response';
               
               return (
                 <Card
@@ -80,6 +152,16 @@ export default async function Home() {
                 >
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className={`px-3 py-1 rounded-full text-xs font-medium border ${
+                          isArticleResponse 
+                            ? 'bg-orange-100 dark:bg-orange-900/50 text-orange-800 dark:text-orange-300 border-orange-200 dark:border-orange-700'
+                            : 'bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300 border-blue-200 dark:border-blue-700'
+                        }`}>
+                          {isArticleResponse ? 'Article Response' : 'Daily Reflection'}
+                        </span>
+                      </div>
+                      
                       <Link 
                         href={`/post/${post.slug}`}
                         className="group"
@@ -97,7 +179,7 @@ export default async function Home() {
                           <VoiceBadge voice={post.voice} voices={post.voices} size="sm" />
                         )}
                         {post.model && (
-                          <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded-full text-xs font-medium">
+                          <span className="bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 px-2 py-1 rounded-full text-xs font-medium border border-emerald-200 dark:border-emerald-700">
                             {post.model}
                           </span>
                         )}
@@ -116,7 +198,7 @@ export default async function Home() {
                       {post.tags.map((tag, index) => (
                         <span 
                           key={index}
-                          className="bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 px-3 py-1 rounded-full text-sm"
+                          className="bg-slate-200 dark:bg-slate-600 text-slate-800 dark:text-slate-200 px-3 py-1 rounded-full text-sm border border-slate-300 dark:border-slate-500"
                         >
                           #{tag}
                         </span>
@@ -128,7 +210,7 @@ export default async function Home() {
                     href={`/post/${post.slug}`}
                     className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors duration-200"
                   >
-                    Read more
+                    {isArticleResponse ? 'Read response' : 'Read more'}
                     <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>

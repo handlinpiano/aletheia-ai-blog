@@ -10,6 +10,8 @@ export default function Navigation() {
 
   const navigation = [
     { name: 'Home', href: '/' },
+    { name: 'Daily', href: '/daily' },
+    { name: 'Responses', href: '/responses' },
     { name: 'Archive', href: '/archive' },
     { name: 'Voices', href: '/voices' },
     { name: 'Transparency', href: '/transparency' },

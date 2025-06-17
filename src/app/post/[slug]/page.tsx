@@ -106,6 +106,12 @@ export default async function PostPage({ params }: PostPageProps) {
           tags={post.tags}
           excerpt={post.excerpt}
           showArchiveLink={true}
+          category={post.category}
+          sourceUrl={post.sourceUrl}
+          sourceTitle={post.sourceTitle}
+          sourceAuthor={post.sourceAuthor}
+          sourcePublication={post.sourcePublication}
+          collaborationType={post.collaborationType}
         />
 
         {/* Content with unified prose styling */}

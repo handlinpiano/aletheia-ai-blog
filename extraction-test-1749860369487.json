@@ -1,0 +1,9 @@
+{
+  "title": "Extraction Failed",
+  "author": "Unknown Author",
+  "publication": "Wired",
+  "content": "Article extraction failed for: https://www.wired.com/story/ai-models-make-stuff-up-is-making-them-search-the-web-the-answer/\n\nAll automated methods failed. Consider:\n1. Manually copying the article content\n2. Checking if the article is behind a paywall\n3. Looking for the article on archive.org\n4. Trying the 12ft.io paywall bypass: https://12ft.io/https://www.wired.com/story/ai-models-make-stuff-up-is-making-them-search-the-web-the-answer/",
+  "url": "https://www.wired.com/story/ai-models-make-stuff-up-is-making-them-search-the-web-the-answer/",
+  "extractionMethod": "failed",
+  "success": false
+}

@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-14T02:24:41.170Z",
+  "totalDiscovered": 22,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Meta's AI memorised books verbatim – that could cost it billions",
+    "author": "#author.fullName}",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2483352-metas-ai-memorised-books-verbatim-that-could-cost-it-billions/",
+    "contentLength": 5674
+  },
+  "discoveredArticles": [
+    {
+      "title": "Senators Warn DOGE’s Social Security Administration Work Could Break Benefits",
+      "author": "Makena Kelly",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/doge-social-security-administration-benefits/",
+      "publishedAt": "2025-06-11T14:32:32Z"
+    },
+    {
+      "title": "Meta's AI memorised books verbatim – that could cost it billions",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483352-metas-ai-memorised-books-verbatim-that-could-cost-it-billions/",
+      "publishedAt": "2025-06-10T18:00:39Z"
+    },
+    {
+      "title": "Artificial Intelligence Is Unlocking the Secrets of Black Holes",
+      "author": "Jorge Garay",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/artificial-intelligence-is-unlocking-the-secrets-of-black-holes/",
+      "publishedAt": "2025-06-11T09:30:00Z"
+    },
+    {
+      "title": "Apple Intelligence: Everything you need to know about Apple’s AI model and services",
+      "author": "Brian Heater, Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/10/apple-intelligence-everything-you-need-to-know-about-apples-ai-model-and-services/",
+      "publishedAt": "2025-06-10T21:31:56Z"
+    },
+    {
+      "title": "Still no AI-powered, ‘more personalized’ Siri from Apple at WWDC 25",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/09/still-no-ai-powered-more-personalized-siri-from-apple-at-wwdc-25/",
+      "publishedAt": "2025-06-09T21:01:37Z"
+    },
+    {
+      "title": "Unpacking AI Agents",
+      "author": "Lauren Goode, Michael Calore, Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-unpacking-ai-agents/",
+      "publishedAt": "2025-06-12T17:46:05Z"
+    },
+    {
+      "title": "Apple Is Pushing AI Into More of Its Products—but Still Lacks a State-of-the-Art Model",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apple-wwdc-ai-announcements/",
+      "publishedAt": "2025-06-10T00:22:26Z"
+    },
+    {
+      "title": "Disney and Universal Sue AI Company Midjourney for Copyright Infringement",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/disney-universal-sue-midjourney/",
+      "publishedAt": "2025-06-11T17:52:23Z"
+    },
+    {
+      "title": "A Deep Learning Alternative Can Help AI Agents Gameplay the Real World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-deep-learning-alternative-can-help-ai-agents-gameplay-the-real-world/",
+      "publishedAt": "2025-06-11T16:30:38Z"
+    },
+    {
+      "title": "A Political Battle Is Brewing Over Data Centers",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-political-battle-is-brewing-over-data-centers/",
+      "publishedAt": "2025-06-10T18:56:09Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Meta's AI memorised books verbatim – that could cost it billions",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483352-metas-ai-memorised-books-verbatim-that-could-cost-it-billions/"
+    },
+    {
+      "title": "A Deep Learning Alternative Can Help AI Agents Gameplay the Real World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-deep-learning-alternative-can-help-ai-agents-gameplay-the-real-world/"
+    },
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/"
+    }
+  ]
+}

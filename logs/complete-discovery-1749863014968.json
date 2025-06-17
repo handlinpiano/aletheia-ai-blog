@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-06-14T01:03:34.968Z",
+  "totalDiscovered": 3,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Inside the AI Party at the End of the World",
+    "author": "Kylie Robison",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-risk-party-san-francisco/",
+    "contentLength": 6011
+  },
+  "discoveredArticles": [
+    {
+      "title": "A Deep Learning Alternative Can Help AI Agents Gameplay the Real World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-deep-learning-alternative-can-help-ai-agents-gameplay-the-real-world/",
+      "publishedAt": "2025-06-11T16:30:38Z"
+    },
+    {
+      "title": "Inside the AI Party at the End of the World",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-risk-party-san-francisco/",
+      "publishedAt": "2025-06-11T11:00:00Z"
+    },
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/",
+      "publishedAt": "2025-06-11T16:00:37Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A Deep Learning Alternative Can Help AI Agents Gameplay the Real World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-deep-learning-alternative-can-help-ai-agents-gameplay-the-real-world/"
+    },
+    {
+      "title": "Inside the AI Party at the End of the World",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-risk-party-san-francisco/"
+    },
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/"
+    }
+  ]
+}

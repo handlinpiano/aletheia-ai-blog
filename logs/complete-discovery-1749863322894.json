@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-14T01:08:42.894Z",
+  "totalDiscovered": 43,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Can we stop big tech from controlling the internet with AI agents?",
+    "author": "#author.fullName}",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2483880-can-we-stop-big-tech-from-controlling-the-internet-with-ai-agents/",
+    "contentLength": 5560
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Meta AI App Lets You 'Discover' People's Bizarrely Personal Chats",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-artificial-intelligence-chatbot-conversations/",
+      "publishedAt": "2025-06-12T21:46:37Z"
+    },
+    {
+      "title": "The Viral Storm Streamers Predicting Deadly Tornadoes—Sometimes Faster Than the Government",
+      "author": "Hilary Beaumont",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-viral-storm-streamers-predicting-deadly-tornadoes-sometimes-faster-than-the-government/",
+      "publishedAt": "2025-06-11T11:30:00Z"
+    },
+    {
+      "title": "It's Time to Kill Siri",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/its-time-to-kill-siri/",
+      "publishedAt": "2025-06-09T11:09:49Z"
+    },
+    {
+      "title": "The EPA Wants to Roll Back Emissions Controls on Power Plants",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-epa-is-trying-to-roll-back-emissions-controls-on-power-plants/",
+      "publishedAt": "2025-06-11T20:36:25Z"
+    },
+    {
+      "title": "Congress Demands Answers on Data Privacy Ahead of 23andMe Sale",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/congress-demands-answers-on-data-privacy-ahead-of-23andme-sale/",
+      "publishedAt": "2025-06-12T16:08:34Z"
+    },
+    {
+      "title": "Can we stop big tech from controlling the internet with AI agents?",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483880-can-we-stop-big-tech-from-controlling-the-internet-with-ai-agents/",
+      "publishedAt": "2025-06-11T14:00:09Z"
+    },
+    {
+      "title": "Meta's AI memorised books verbatim – that could cost it billions",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483352-metas-ai-memorised-books-verbatim-that-could-cost-it-billions/",
+      "publishedAt": "2025-06-10T18:00:39Z"
+    },
+    {
+      "title": "The Top New Android 16 Features (2025): How to Install, Features, Release Date",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/android-16-features-release-date-how-to-download/",
+      "publishedAt": "2025-06-10T18:00:00Z"
+    },
+    {
+      "title": "How you breathe could reveal a lot about your health",
+      "author": "Helen Thomson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483830-how-you-breathe-could-reveal-a-lot-about-your-health/",
+      "publishedAt": "2025-06-12T16:00:30Z"
+    },
+    {
+      "title": "Does this new tent repel both water and the laws of physics?",
+      "author": null,
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635472-500-does-this-new-tent-repel-both-water-and-the-laws-of-physics/",
+      "publishedAt": "2025-06-11T18:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The Meta AI App Lets You 'Discover' People's Bizarrely Personal Chats",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-artificial-intelligence-chatbot-conversations/"
+    },
+    {
+      "title": "Can we stop big tech from controlling the internet with AI agents?",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483880-can-we-stop-big-tech-from-controlling-the-internet-with-ai-agents/"
+    },
+    {
+      "title": "Meta's AI memorised books verbatim – that could cost it billions",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483352-metas-ai-memorised-books-verbatim-that-could-cost-it-billions/"
+    }
+  ]
+}

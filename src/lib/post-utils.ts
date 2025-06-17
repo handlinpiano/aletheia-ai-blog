@@ -12,6 +12,12 @@ export interface PostData {
   category?: string;
   content?: string;
   contentHtml?: string;
+  // Article response specific fields
+  sourceUrl?: string;
+  sourceTitle?: string;
+  sourceAuthor?: string;
+  sourcePublication?: string;
+  collaborationType?: string;
 }
 
 // Helper function to get all voices from a post (single or multiple)
