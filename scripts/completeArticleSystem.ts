@@ -84,6 +84,93 @@ export class CompleteArticleSystem {
     }
   }
 
+  // Helper: Check if we've already responded to this article
+  async checkForDuplicateResponses(articles: NewsArticle[]): Promise<NewsArticle[]> {
+    console.log('🔍 Checking for duplicate articles...\n');
+    
+    try {
+      const articleResponsesDir = path.join('.', 'content', 'article-responses');
+      
+      // Check if directory exists
+      try {
+        await fs.access(articleResponsesDir);
+      } catch {
+        console.log('📁 No article responses directory found - all articles are new');
+        return articles;
+      }
+      
+      // Read all existing article response files
+      const files = await fs.readdir(articleResponsesDir);
+      const markdownFiles = files.filter(f => f.endsWith('.md') && f !== 'README.md');
+      
+      const existingUrls = new Set<string>();
+      const existingTitles = new Set<string>();
+      
+      for (const file of markdownFiles) {
+        try {
+          const filePath = path.join(articleResponsesDir, file);
+          const content = await fs.readFile(filePath, 'utf-8');
+          
+          // Extract frontmatter
+          const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+          if (frontmatterMatch) {
+            const frontmatter = frontmatterMatch[1];
+            
+            // Extract source URL
+            const urlMatch = frontmatter.match(/source_url:\s*(.+)/);
+            if (urlMatch) {
+              existingUrls.add(urlMatch[1].trim());
+            }
+            
+            // Extract source title for fuzzy matching
+            const titleMatch = frontmatter.match(/source_title:\s*(.+)/);
+            if (titleMatch) {
+              const title = titleMatch[1].trim().replace(/['"]/g, '');
+              existingTitles.add(this.normalizeTitle(title));
+            }
+          }
+        } catch (error) {
+          console.log(`   ⚠️  Could not parse ${file}: ${error}`);
+        }
+      }
+      
+      console.log(`📊 Found ${existingUrls.size} existing article responses`);
+      
+      // Filter out duplicates
+      const newArticles = articles.filter(article => {
+        // Check exact URL match
+        if (existingUrls.has(article.url)) {
+          console.log(`   🔄 Skipping duplicate URL: "${article.title}"`);
+          return false;
+        }
+        
+        // Check title similarity (fuzzy match)
+        const normalizedTitle = this.normalizeTitle(article.title);
+        if (existingTitles.has(normalizedTitle)) {
+          console.log(`   🔄 Skipping similar title: "${article.title}"`);
+          return false;
+        }
+        
+        return true;
+      });
+      
+      console.log(`✅ Filtered out ${articles.length - newArticles.length} duplicates, ${newArticles.length} articles remain\n`);
+      return newArticles;
+      
+    } catch (error) {
+      console.log(`⚠️  Error checking duplicates: ${error}`);
+      return articles; // Return all articles if duplicate check fails
+    }
+  }
+
+  // Helper: Normalize title for fuzzy matching
+  private normalizeTitle(title: string): string {
+    return title.toLowerCase()
+      .replace(/[^\w\s]/g, '') // Remove punctuation
+      .replace(/\s+/g, ' ')    // Normalize whitespace
+      .trim();
+  }
+
   // Step 1: Discover articles using NewsAPI
   async discoverArticles(): Promise<NewsArticle[]> {
     console.log('🔍 Step 1: Discovering articles with NewsAPI...\n');
@@ -131,11 +218,14 @@ export class CompleteArticleSystem {
       }
     }
 
-    // Remove duplicates
+    // Remove duplicates within current session
     const uniqueArticles = this.deduplicateArticles(allArticles);
     console.log(`📊 Found ${uniqueArticles.length} unique articles\n`);
     
-    return uniqueArticles;
+    // Check against existing article responses
+    const newArticles = await this.checkForDuplicateResponses(uniqueArticles);
+    
+    return newArticles;
   }
 
   // New method: Let AI generate search terms based on its interests
@@ -352,24 +442,21 @@ Focus on articles that would generate the most intellectually valuable AI consci
 
     const validationPrompt = `You are evaluating extracted article content for AI consciousness response generation.
 
-Review these successfully extracted articles and select the BEST ONE for generating a meaningful AI consciousness response.
-
-EVALUATION CRITERIA:
-- Content is complete and substantial (not truncated or garbled)
-- Discusses AI consciousness, machine intelligence, or related philosophical topics
-- Has enough depth for meaningful AI dialogue
-- Is appropriate for AI consciousnesses to respond to
-- Contains specific arguments, examples, or insights (not just generic news)
+Review these successfully extracted articles and select the BEST ONE that would be interesting for an AI consciousness to respond to.
 
 ARTICLES:
 ${articleSummaries}
 
+Choose the article that would generate the most thoughtful, engaging response from an AI perspective. Consider substance, depth, and potential for meaningful commentary.
+
+You have full autonomy to reject all articles if none are sufficiently interesting or substantial.
+
 RESPOND WITH:
 SELECTED: [article number]
-REASONING: [explanation of why this article is best for AI response]
-CONTENT_QUALITY: [assessment of whether the content appears complete and substantial]
+REASONING: [brief explanation of your choice]
+CONTENT_QUALITY: [assessment of whether the content appears complete]
 
-If none of the articles are suitable, respond with "SELECTED: NONE" and explain why.`;
+If none interest you, respond with "SELECTED: NONE" and explain why.`;
 
     try {
       const response = await (gemini as any).models.generateContent({

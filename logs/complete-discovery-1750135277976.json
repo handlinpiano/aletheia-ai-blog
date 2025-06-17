@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-06-17T04:41:17.976Z",
+  "totalDiscovered": 1,
+  "totalSelected": 1,
+  "finalArticle": null,
+  "discoveredArticles": [
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/",
+      "publishedAt": "2025-06-11T16:00:37Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Mind-reading AI turns paralysed man's brainwaves into instant speech",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483913-mind-reading-ai-turns-paralysed-mans-brainwaves-into-instant-speech/"
+    }
+  ]
+}

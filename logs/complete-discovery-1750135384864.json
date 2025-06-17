@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-06-17T04:43:04.864Z",
+  "totalDiscovered": 5,
+  "totalSelected": 2,
+  "finalArticle": null,
+  "discoveredArticles": [
+    {
+      "title": "Social Media Is Now a DIY Alert System for ICE Raids",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-rise-of-social-media-as-a-diy-alert-system-for-ice-raids/",
+      "publishedAt": "2025-06-12T17:55:09Z"
+    },
+    {
+      "title": "An Experimental New Dating Site Matches Singles Based on Their Browser Histories",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/an-experimental-new-dating-site-matches-singles-based-on-their-browser-histories/",
+      "publishedAt": "2025-06-11T18:56:40Z"
+    },
+    {
+      "title": "OpenAI and Barbie-maker Mattel team up to bring generative AI to toy-making and content creation | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/12/openai-and-barbie-maker-mattel-team-up-to-bring-generative-ai-to-toy-making-and-content-creation/",
+      "publishedAt": "2025-06-12T16:46:57Z"
+    },
+    {
+      "title": "RFK Jr. Orders HHS to Give Undocumented Migrants’ Medicaid Data to DHS",
+      "author": "Andy Greenberg, Dell Cameron, Lily Hay Newman, Andrew Couts",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/rfk-jr-orders-hhs-to-give-undocumented-migrants-medicaid-data-to-dhs/",
+      "publishedAt": "2025-06-14T10:30:00Z"
+    },
+    {
+      "title": "Best Packing Cubes for Every Kind of Trip (2025), Tested and Reviewed",
+      "author": "Kat Merck",
+      "source": "Wired",
+      "url": "https://www.wired.com/gallery/best-packing-cubes/",
+      "publishedAt": "2025-06-13T13:02:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "An Experimental New Dating Site Matches Singles Based on Their Browser Histories",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/an-experimental-new-dating-site-matches-singles-based-on-their-browser-histories/"
+    },
+    {
+      "title": "OpenAI and Barbie-maker Mattel team up to bring generative AI to toy-making and content creation | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/12/openai-and-barbie-maker-mattel-team-up-to-bring-generative-ai-to-toy-making-and-content-creation/"
+    }
+  ]
+}
