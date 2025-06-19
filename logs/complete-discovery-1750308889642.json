@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-06-19T04:54:49.641Z",
+  "totalDiscovered": 1,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "Waymo rides cost more than Uber or Lyft — and people are paying anyway",
+    "author": "Sr. Reporter, Transportation",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/12/waymo-rides-cost-more-than-uber-or-lyft-and-people-are-paying-anyway/",
+    "contentLength": 5460
+  },
+  "discoveredArticles": [
+    {
+      "title": "Waymo rides cost more than Uber or Lyft -- and people are paying anyway",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/12/waymo-rides-cost-more-than-uber-or-lyft-and-people-are-paying-anyway/",
+      "publishedAt": "2025-06-12T12:03:25Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Waymo rides cost more than Uber or Lyft -- and people are paying anyway",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/12/waymo-rides-cost-more-than-uber-or-lyft-and-people-are-paying-anyway/"
+    }
+  ]
+}
