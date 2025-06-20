@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-20T20:04:58.459Z",
+  "totalDiscovered": 11,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The radical idea that space-time remembers could upend cosmology",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2482841-the-radical-idea-that-space-time-remembers-could-upend-cosmology/",
+    "contentLength": 13414
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Milky Way's black hole may be spinning at top speed",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484311-the-milky-ways-black-hole-may-be-spinning-at-top-speed/",
+      "publishedAt": "2025-06-16T20:00:06Z"
+    },
+    {
+      "title": "The radical idea that space-time remembers could upend cosmology",
+      "author": "Florian Neukart",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2482841-the-radical-idea-that-space-time-remembers-could-upend-cosmology/",
+      "publishedAt": "2025-06-16T16:00:54Z"
+    },
+    {
+      "title": "This AI Model Never Stops Learning",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-ai-model-never-stops-learning/",
+      "publishedAt": "2025-06-18T16:00:00Z"
+    },
+    {
+      "title": "Pope Leo makes AI’s threat to humanity a signature issue | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/pope-leo-makes-ais-threat-to-humanity-a-signature-issue/",
+      "publishedAt": "2025-06-18T08:07:39Z"
+    },
+    {
+      "title": "A timeline of the US semiconductor market in 2025 | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/19/a-timeline-of-the-u-s-semiconductor-market-in-2025/",
+      "publishedAt": "2025-06-19T11:07:39Z"
+    },
+    {
+      "title": "The ‘OpenAI Files’ push for oversight in the race to AGI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/the-openai-files-push-for-oversight-in-the-race-to-agi/",
+      "publishedAt": "2025-06-18T16:22:33Z"
+    },
+    {
+      "title": "RFK Jr. Orders HHS to Give Undocumented Migrants’ Medicaid Data to DHS",
+      "author": "Andy Greenberg, Dell Cameron, Lily Hay Newman, Andrew Couts",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/rfk-jr-orders-hhs-to-give-undocumented-migrants-medicaid-data-to-dhs/",
+      "publishedAt": "2025-06-14T10:30:00Z"
+    },
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/16/tech-layoffs-2025-list/",
+      "publishedAt": "2025-06-16T13:49:29Z"
+    },
+    {
+      "title": "Scientists Discover the Key to Axolotls’ Ability to Regenerate Limbs",
+      "author": "Anna Lagos",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-discover-the-key-to-axolotls-ability-to-regenerate-limbs/",
+      "publishedAt": "2025-06-17T09:00:00Z"
+    },
+    {
+      "title": "As grocery shortages persist, UNFI says it's recovering from cyberattack | TechCrunch",
+      "author": "Zack Whittaker",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/food-distributor-unfi-says-its-recovering-from-cyberattack-as-grocery-shortages-persist/",
+      "publishedAt": "2025-06-17T13:55:51Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The radical idea that space-time remembers could upend cosmology",
+      "author": "Florian Neukart",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2482841-the-radical-idea-that-space-time-remembers-could-upend-cosmology/"
+    },
+    {
+      "title": "This AI Model Never Stops Learning",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-ai-model-never-stops-learning/"
+    },
+    {
+      "title": "The ‘OpenAI Files’ push for oversight in the race to AGI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/the-openai-files-push-for-oversight-in-the-race-to-agi/"
+    }
+  ]
+}
