@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-06-20T08:03:06.282Z",
+  "totalDiscovered": 4,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "Biotech firm aims to create ‘ChatGPT of biology’ – will it work?",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2484323-biotech-firm-aims-to-create-chatgpt-of-biology-will-it-work/",
+    "contentLength": 4846
+  },
+  "discoveredArticles": [
+    {
+      "title": "Apple’s Liquid Glass design is paving the way for AR glasses",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/13/apples-liquid-glass-design-is-paving-the-way-for-ar-glasses/",
+      "publishedAt": "2025-06-13T18:00:15Z"
+    },
+    {
+      "title": "Scientists Discover the Key to Axolotls’ Ability to Regenerate Limbs",
+      "author": "Anna Lagos",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-discover-the-key-to-axolotls-ability-to-regenerate-limbs/",
+      "publishedAt": "2025-06-17T09:00:00Z"
+    },
+    {
+      "title": "Biotech firm aims to create ‘ChatGPT of biology’ – will it work?",
+      "author": "James Dinneen",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484323-biotech-firm-aims-to-create-chatgpt-of-biology-will-it-work/",
+      "publishedAt": "2025-06-17T20:13:20Z"
+    },
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/tech-layoffs-2025-list/",
+      "publishedAt": "2025-06-17T20:25:51Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Biotech firm aims to create ‘ChatGPT of biology’ – will it work?",
+      "author": "James Dinneen",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484323-biotech-firm-aims-to-create-chatgpt-of-biology-will-it-work/"
+    }
+  ]
+}
