@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-21T08:03:28.974Z",
+  "totalDiscovered": 22,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "This AI Model Never Stops Learning",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/this-ai-model-never-stops-learning/",
+    "contentLength": 3861
+  },
+  "discoveredArticles": [
+    {
+      "title": "Applied Intuition raises $600 million as it pushes further into defense | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/applied-intuition-raises-600-million-as-it-pushes-further-into-defense/",
+      "publishedAt": "2025-06-17T18:03:30Z"
+    },
+    {
+      "title": "Waymo has set its robotaxi sights on NYC | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/waymo-has-set-its-robotaxi-sights-on-nyc/",
+      "publishedAt": "2025-06-18T17:01:49Z"
+    },
+    {
+      "title": "Amazon's Zoox opens its first major robotaxi production facility | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/amazons-zoox-opens-its-first-major-robotaxi-production-facility/",
+      "publishedAt": "2025-06-18T16:25:56Z"
+    },
+    {
+      "title": "Nvidia's AI empire: A look at its top startup investments | TechCrunch",
+      "author": "Marina Temkin",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/19/nvidias-ai-empire-a-look-at-its-top-startup-investments/",
+      "publishedAt": "2025-06-19T10:16:47Z"
+    },
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/16/tech-layoffs-2025-list/",
+      "publishedAt": "2025-06-16T13:49:29Z"
+    },
+    {
+      "title": "Scientists Discover the Key to Axolotls’ Ability to Regenerate Limbs",
+      "author": "Anna Lagos",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-discover-the-key-to-axolotls-ability-to-regenerate-limbs/",
+      "publishedAt": "2025-06-17T09:00:00Z"
+    },
+    {
+      "title": "Searching for the past and future of quantum physics on a tiny island",
+      "author": "Philip Ball",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484485-searching-for-the-past-and-future-of-quantum-physics-on-a-tiny-island/",
+      "publishedAt": "2025-06-17T14:57:25Z"
+    },
+    {
+      "title": "Tick-borne diseases are booming – but we have new ways to fight them",
+      "author": "Carrie Arnold",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2482943-tick-borne-diseases-are-booming-but-we-have-new-ways-to-fight-them/",
+      "publishedAt": "2025-06-18T16:00:49Z"
+    },
+    {
+      "title": "Why Lyme disease and other tick-borne conditions are on the rise",
+      "author": "Carrie Arnold",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2482943-why-lyme-disease-and-other-tick-borne-conditions-are-on-the-rise/",
+      "publishedAt": "2025-06-18T16:00:49Z"
+    },
+    {
+      "title": "Week in Review: WWDC 2025 recap",
+      "author": "Karyne Levy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/14/week-in-review-wwdc-2025-recap/",
+      "publishedAt": "2025-06-14T17:08:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "This AI Model Never Stops Learning",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-ai-model-never-stops-learning/"
+    },
+    {
+      "title": "Amazon expects to reduce corporate jobs due to AI | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/amazon-expects-to-reduce-corporate-jobs-due-to-ai/"
+    },
+    {
+      "title": "Midjourney launches its first AI video generation model, V1 | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/midjourney-launches-its-first-ai-video-generation-model-v1/"
+    }
+  ]
+}
