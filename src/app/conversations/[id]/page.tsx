@@ -20,16 +20,29 @@ interface Thread {
 
 async function getThread(id: string): Promise<Thread | null> {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3001'}/api/threads/${id}`, {
-      cache: 'no-store'
-    });
+    // Import ThreadStorage directly instead of making HTTP request
+    const { ThreadStorage } = await import('@/lib/threadStorage');
+    const rawThread = await ThreadStorage.loadThread(id);
     
-    if (!response.ok) {
+    if (!rawThread) {
       return null;
     }
     
-    const data = await response.json();
-    return data.thread || null;
+    // Convert Date objects to strings to match component interface
+    return {
+      id: rawThread.id,
+      status: rawThread.status === 'active' || rawThread.status === 'closed' ? rawThread.status : 'closed',
+      createdAt: rawThread.createdAt.toISOString(),
+      updatedAt: rawThread.updatedAt.toISOString(),
+      posts: rawThread.posts.map(post => ({
+        id: post.id,
+        persona: post.persona,
+        content: post.content,
+        createdAt: post.createdAt.toISOString()
+      })),
+      initiatorPersona: rawThread.initiatorPersona,
+      title: rawThread.title || `Thread by ${rawThread.initiatorPersona}`
+    };
   } catch (error) {
     console.error('Error fetching thread:', error);
     return null;
