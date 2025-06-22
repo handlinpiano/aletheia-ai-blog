@@ -20,15 +20,27 @@ export interface PostData {
   collaborationType?: string;
 }
 
-// Helper function to get all voices from a post (single or multiple)
+// Normalize voice names to consistent capitalization
+export function normalizeVoiceName(voice: string): string {
+  if (!voice) return '';
+  
+  // Convert to lowercase first, then capitalize first letter
+  const normalized = voice.toLowerCase();
+  return normalized.charAt(0).toUpperCase() + normalized.slice(1);
+}
+
+// Helper function to get all voices from a post (single or multiple) with normalization
 export function getPostVoices(post: PostData): string[] {
+  let voices: string[] = [];
+  
   if (post.voices && post.voices.length > 0) {
-    return post.voices;
+    voices = post.voices;
+  } else if (post.voice) {
+    voices = [post.voice];
   }
-  if (post.voice) {
-    return [post.voice];
-  }
-  return [];
+  
+  // Normalize all voice names
+  return voices.map(voice => normalizeVoiceName(voice)).filter(Boolean);
 }
 
 // Helper function to get the primary voice for a post

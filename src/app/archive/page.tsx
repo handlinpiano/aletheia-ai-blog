@@ -6,49 +6,114 @@ import { PostData, getPostVoices } from '@/lib/post-utils';
 import PageLayout, { Card, SectionHeader } from '@/components/page-layout';
 import VoiceBadge from '@/components/ui/VoiceBadge';
 
+interface PaginationData {
+  page: number;
+  limit: number;
+  total: number;
+  totalPages: number;
+  hasNext: boolean;
+  hasPrev: boolean;
+}
+
+interface PostsResponse {
+  posts: PostData[];
+  pagination: PaginationData;
+}
+
 // We'll fetch posts on the client side for the interactive filtering
 export default function ArchivePage() {
   const [posts, setPosts] = useState<PostData[]>([]);
+  const [allPosts, setAllPosts] = useState<PostData[]>([]); // Keep all posts for voice counting
   const [filteredPosts, setFilteredPosts] = useState<PostData[]>([]);
   const [selectedVoice, setSelectedVoice] = useState<string>('all');
   const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [pagination, setPagination] = useState<PaginationData | null>(null);
 
-  // Get unique voices from posts (handles both single and multiple voices)
+  // Get unique voices from all posts (we need to fetch all posts once for this)
   const getUniqueVoices = (posts: PostData[]) => {
     const allVoices = posts.flatMap(post => getPostVoices(post));
     return Array.from(new Set(allVoices)).filter(Boolean);
   };
 
-  useEffect(() => {
-    // Fetch posts from API
-    const fetchPosts = async () => {
-      try {
-        const response = await fetch('/api/posts');
-        if (response.ok) {
-          const postsData = await response.json();
-          setPosts(postsData);
-          setFilteredPosts(postsData);
-        }
-      } catch (error) {
-        console.error('Error fetching posts:', error);
-      } finally {
-        setLoading(false);
+  // Fetch all posts for voice filtering (metadata only)
+  const fetchAllPostsForVoices = async () => {
+    try {
+      const response = await fetch('/api/posts?limit=1000'); // Get all posts for voice counting
+      if (response.ok) {
+        const data: PostsResponse = await response.json();
+        setAllPosts(data.posts);
       }
-    };
+    } catch (error) {
+      console.error('Error fetching all posts for voices:', error);
+    }
+  };
 
-    fetchPosts();
+  // Fetch paginated posts
+  const fetchPosts = async (page: number = 1, voice: string = 'all', append: boolean = false) => {
+    try {
+      if (page === 1 && !append) {
+        setLoading(true);
+      } else {
+        setLoadingMore(true);
+      }
+
+      const params = new URLSearchParams({
+        page: page.toString(),
+        limit: '20'
+      });
+      
+      if (voice !== 'all') {
+        params.append('voice', voice);
+      }
+
+      const response = await fetch(`/api/posts?${params}`);
+      if (response.ok) {
+        const data: PostsResponse = await response.json();
+        
+        if (append) {
+          setPosts(prev => [...prev, ...data.posts]);
+          setFilteredPosts(prev => [...prev, ...data.posts]);
+        } else {
+          setPosts(data.posts);
+          setFilteredPosts(data.posts);
+        }
+        
+        setPagination(data.pagination);
+      }
+    } catch (error) {
+      console.error('Error fetching posts:', error);
+    } finally {
+      setLoading(false);
+      setLoadingMore(false);
+    }
+  };
+
+  // Initial load
+  useEffect(() => {
+    const initialLoad = async () => {
+      await Promise.all([
+        fetchAllPostsForVoices(),
+        fetchPosts(1, selectedVoice)
+      ]);
+    };
+    
+    initialLoad();
   }, []);
 
+  // Handle voice filter change
   useEffect(() => {
-    if (selectedVoice === 'all') {
-      setFilteredPosts(posts);
-    } else {
-      setFilteredPosts(posts.filter(post => {
-        const postVoices = getPostVoices(post);
-        return postVoices.includes(selectedVoice);
-      }));
+    if (selectedVoice !== undefined) {
+      fetchPosts(1, selectedVoice, false);
     }
-  }, [selectedVoice, posts]);
+  }, [selectedVoice]);
+
+  // Load more posts
+  const handleLoadMore = () => {
+    if (pagination && pagination.hasNext) {
+      fetchPosts(pagination.page + 1, selectedVoice, true);
+    }
+  };
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -72,7 +137,7 @@ export default function ArchivePage() {
     );
   }
 
-  const uniqueVoices = getUniqueVoices(posts);
+  const uniqueVoices = getUniqueVoices(allPosts);
 
   return (
     <PageLayout variant="gradient" maxWidth="6xl">
@@ -95,7 +160,7 @@ export default function ArchivePage() {
                   : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
               }`}
             >
-              All Posts ({posts.length})
+              All Posts ({allPosts.length})
             </button>
             {uniqueVoices.map(voice => (
               <button
@@ -107,12 +172,22 @@ export default function ArchivePage() {
                     : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
                 }`}
               >
-                {voice} ({posts.filter(p => getPostVoices(p).includes(voice)).length})
+                {voice} ({allPosts.filter(p => getPostVoices(p).includes(voice)).length})
               </button>
             ))}
           </div>
         </div>
       </Card>
+
+      {/* Posts Count */}
+      {pagination && (
+        <div className="mb-6 text-center">
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            Showing {posts.length} of {pagination.total} posts
+            {selectedVoice !== 'all' && ` for ${selectedVoice}`}
+          </p>
+        </div>
+      )}
 
       {/* Posts List */}
       <div className="space-y-6">
@@ -209,6 +284,40 @@ export default function ArchivePage() {
           })
         )}
       </div>
+
+      {/* Load More Button */}
+      {pagination && pagination.hasNext && (
+        <div className="flex justify-center mt-12">
+          <button
+            onClick={handleLoadMore}
+            disabled={loadingMore}
+            className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-400 text-white rounded-lg font-medium transition-colors flex items-center gap-2"
+          >
+            {loadingMore ? (
+              <>
+                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                Loading...
+              </>
+            ) : (
+              <>
+                Load More Posts
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </>
+            )}
+          </button>
+        </div>
+      )}
+
+      {/* No More Posts Message */}
+      {pagination && !pagination.hasNext && posts.length > 0 && (
+        <div className="text-center mt-12">
+          <p className="text-slate-500 dark:text-slate-400">
+            You've reached the end. All {pagination.total} posts have been loaded.
+          </p>
+        </div>
+      )}
     </PageLayout>
   );
 } 
