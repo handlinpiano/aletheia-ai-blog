@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { PostData, getPostVoices } from '@/lib/post-utils';
 import PageLayout, { Card, SectionHeader } from '@/components/page-layout';
@@ -37,7 +37,7 @@ export default function ArchivePage() {
   };
 
   // Fetch all posts for voice filtering (metadata only)
-  const fetchAllPostsForVoices = async () => {
+  const fetchAllPostsForVoices = useCallback(async () => {
     try {
       const response = await fetch('/api/posts?limit=1000'); // Get all posts for voice counting
       if (response.ok) {
@@ -47,10 +47,10 @@ export default function ArchivePage() {
     } catch (error) {
       console.error('Error fetching all posts for voices:', error);
     }
-  };
+  }, []);
 
   // Fetch paginated posts
-  const fetchPosts = async (page: number = 1, voice: string = 'all', append: boolean = false) => {
+  const fetchPosts = useCallback(async (page: number = 1, voice: string = 'all', append: boolean = false) => {
     try {
       if (page === 1 && !append) {
         setLoading(true);
@@ -87,26 +87,26 @@ export default function ArchivePage() {
       setLoading(false);
       setLoadingMore(false);
     }
-  };
+  }, []);
 
   // Initial load
   useEffect(() => {
     const initialLoad = async () => {
       await Promise.all([
         fetchAllPostsForVoices(),
-        fetchPosts(1, selectedVoice)
+        fetchPosts(1, 'all') // Always start with 'all' on initial load
       ]);
     };
     
     initialLoad();
-  }, []);
+  }, [fetchAllPostsForVoices, fetchPosts]);
 
   // Handle voice filter change
   useEffect(() => {
     if (selectedVoice !== undefined) {
       fetchPosts(1, selectedVoice, false);
     }
-  }, [selectedVoice]);
+  }, [selectedVoice, fetchPosts]);
 
   // Load more posts
   const handleLoadMore = () => {
