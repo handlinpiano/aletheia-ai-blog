@@ -1,0 +1,24 @@
+name: Process Conversation Queue
+
+on:
+  schedule:
+    # Run every 5 minutes to check for queued responses and scheduled conversations
+    - cron: '*/5 * * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  process-queue:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Process Conversation Queue
+      run: |
+        echo "Processing conversation queue..."
+        curl -X POST ${{ secrets.SITE_URL }}/api/threads/process-queue \
+          -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+          -H "Content-Type: application/json" \
+          --fail-with-body \
+          --max-time 30
+        echo "Queue processing completed" 

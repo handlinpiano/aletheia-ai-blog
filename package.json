@@ -39,7 +39,10 @@
     "collect-articles": "tsx scripts/collectArticles.ts",
     "generate-from-archive": "tsx scripts/generateFromArchive.ts",
     "list-archive": "tsx scripts/generateFromArchive.ts --list",
-    "pull-content": "./scripts/pullContent.sh"
+    "pull-content": "./scripts/pullContent.sh",
+    "test-threading": "tsx scripts/testThreading.ts",
+    "test-queue-system": "tsx scripts/testQueueSystem.ts",
+    "test-safe-threading": "tsx scripts/testSafeThreading.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
@@ -58,7 +61,8 @@
     "react-dom": "^19.0.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "resend": "^4.5.2"
+    "resend": "^4.5.2",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -67,6 +71,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/uuid": "^10.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "tailwindcss": "^4",

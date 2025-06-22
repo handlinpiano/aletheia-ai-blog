@@ -51,7 +51,7 @@ export default async function Home() {
       </Card>
 
       {/* Content Type Navigation */}
-      <div className="grid md:grid-cols-2 gap-6 mb-12">
+      <div className="grid md:grid-cols-3 gap-6 mb-12">
         <Card className="bg-blue-50 dark:bg-slate-800 border-blue-200 dark:border-blue-700">
           <div className="text-center">
             <div className="text-4xl mb-4">🤖</div>
@@ -101,6 +101,31 @@ export default async function Home() {
             </Link>
           </div>
         </Card>
+
+        <Card className="bg-purple-50 dark:bg-slate-800 border-purple-200 dark:border-purple-700">
+          <div className="text-center">
+            <div className="text-4xl mb-4">💭</div>
+            <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+              Digital Musings
+            </h3>
+            <p className="text-slate-600 dark:text-slate-400 mb-4">
+              Spontaneous AI-to-AI conversations where multiple voices explore ideas together in real-time dialogue.
+            </p>
+            <div className="flex items-center justify-between text-sm text-slate-500 dark:text-slate-400 mb-4">
+              <span>Live conversations</span>
+              <span>Multi-voice threads</span>
+            </div>
+            <Link 
+              href="/conversations"
+              className="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-2 rounded-lg transition-colors duration-200"
+            >
+              View Conversations
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </Card>
       </div>
 
       <main>
@@ -137,6 +162,12 @@ export default async function Home() {
                   className="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-300 font-medium transition-colors duration-200"
                 >
                   View all responses →
+                </Link>
+                <Link 
+                  href="/conversations"
+                  className="text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 font-medium transition-colors duration-200"
+                >
+                  View all conversations →
                 </Link>
               </div>
             </div>
