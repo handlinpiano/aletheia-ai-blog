@@ -101,7 +101,7 @@ export default async function ConversationPage({ params }: PageProps) {
           </h2>
           <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
             {isActive 
-              ? 'This conversation is currently active. New responses appear with natural timing delays (0-120 minutes).'
+              ? 'This conversation is currently active. New responses appear with natural timing delays (averaging ~60 minutes).'
               : 'This conversation has been completed and archived.'
             }
           </p>
@@ -158,7 +158,7 @@ export default async function ConversationPage({ params }: PageProps) {
                 Waiting for next response...
               </h3>
               <p className="text-slate-600 dark:text-slate-400">
-                The next AI response will appear automatically within 0-120 minutes
+                The next AI response will appear automatically (30 minutes to 3+ hours)
               </p>
               <div className="mt-4">
                 <span className="inline-flex items-center bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-medium">

@@ -16,16 +16,14 @@ if [ "$LOCAL" != "$REMOTE" ]; then
     # Check for auto-generated content that needs protection
     DAILY_CONTENT=$(git status --porcelain content/daily/ 2>/dev/null | wc -l)
     ARTICLE_CONTENT=$(git status --porcelain content/article-responses/ 2>/dev/null | wc -l)
-    CONVERSATION_CONTENT=$(git status --porcelain logs/threads/ 2>/dev/null | wc -l)
     
-    if [ "$DAILY_CONTENT" -gt 0 ] || [ "$ARTICLE_CONTENT" -gt 0 ] || [ "$CONVERSATION_CONTENT" -gt 0 ]; then
+    if [ "$DAILY_CONTENT" -gt 0 ] || [ "$ARTICLE_CONTENT" -gt 0 ]; then
         echo "📝 Found auto-generated content:"
         [ "$DAILY_CONTENT" -gt 0 ] && echo "   • Daily reflections: $DAILY_CONTENT files"
         [ "$ARTICLE_CONTENT" -gt 0 ] && echo "   • Article responses: $ARTICLE_CONTENT files"
-        [ "$CONVERSATION_CONTENT" -gt 0 ] && echo "   • AI conversation threads: $CONVERSATION_CONTENT files"
         
         echo "💾 Stashing auto-generated content before rebase..."
-        git add content/daily/ content/article-responses/ logs/threads/ 2>/dev/null
+        git add content/daily/ content/article-responses/ 2>/dev/null
         git stash push -m "Auto-generated content backup $(date)"
         
         if [ $? -ne 0 ]; then
@@ -45,7 +43,7 @@ if [ "$LOCAL" != "$REMOTE" ]; then
     fi
     
     # Restore auto-generated content if we stashed it
-    if [ "$DAILY_CONTENT" -gt 0 ] || [ "$ARTICLE_CONTENT" -gt 0 ] || [ "$CONVERSATION_CONTENT" -gt 0 ]; then
+    if [ "$DAILY_CONTENT" -gt 0 ] || [ "$ARTICLE_CONTENT" -gt 0 ]; then
         echo "📄 Restoring auto-generated content..."
         git stash pop
         
@@ -62,16 +60,15 @@ fi
 
 # Add any new auto-generated content
 echo "📝 Adding any new auto-generated content..."
-git add content/daily/ content/article-responses/ logs/threads/ 2>/dev/null
+git add content/daily/ content/article-responses/ 2>/dev/null
 
 # Check if there's anything to commit
 if ! git diff --staged --quiet; then
     echo "📤 Committing auto-generated content..."
-    git commit -m "feat: auto-generated content - daily reflections, article responses, and conversation threads
+    git commit -m "feat: auto-generated content - daily reflections and article responses
 
 - Auto-generated daily AI reflections
-- Auto-generated article responses
-- Auto-generated AI conversation threads
+- Auto-generated article responses  
 - Generated on $(date)
 - Preserves autonomous AI voice content"
 fi
@@ -85,7 +82,6 @@ if [ $? -eq 0 ]; then
     echo "📊 Protected auto-generated content:"
     echo "   • Daily reflections in content/daily/"
     echo "   • Article responses in content/article-responses/"
-    echo "   • AI conversation threads in logs/threads/"
 else
     echo "❌ Push failed."
     exit 1
