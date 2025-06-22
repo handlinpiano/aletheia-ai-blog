@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-22T08:02:57.095Z",
+  "totalDiscovered": 18,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Amazon expects to reduce corporate jobs due to AI",
+    "author": "Rebecca Szkutak",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/17/amazon-expects-to-reduce-corporate-jobs-due-to-ai/",
+    "contentLength": 845
+  },
+  "discoveredArticles": [
+    {
+      "title": "Scientists Discover the Key to Axolotls’ Ability to Regenerate Limbs",
+      "author": "Anna Lagos",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-discover-the-key-to-axolotls-ability-to-regenerate-limbs/",
+      "publishedAt": "2025-06-17T09:00:00Z"
+    },
+    {
+      "title": "What Lt. Col. Boz and Big Tech's Enlisted Execs Will Do in the Army",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/",
+      "publishedAt": "2025-06-20T14:26:42Z"
+    },
+    {
+      "title": "Searching for the past and future of quantum physics on a tiny island",
+      "author": "Philip Ball",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484485-searching-for-the-past-and-future-of-quantum-physics-on-a-tiny-island/",
+      "publishedAt": "2025-06-17T14:57:25Z"
+    },
+    {
+      "title": "Tick-borne diseases are booming – but we have new ways to fight them",
+      "author": "Carrie Arnold",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2482943-tick-borne-diseases-are-booming-but-we-have-new-ways-to-fight-them/",
+      "publishedAt": "2025-06-18T16:00:49Z"
+    },
+    {
+      "title": "Why Lyme disease and other tick-borne conditions are on the rise",
+      "author": "Carrie Arnold",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2482943-why-lyme-disease-and-other-tick-borne-conditions-are-on-the-rise/",
+      "publishedAt": "2025-06-18T16:00:49Z"
+    },
+    {
+      "title": "How AI Is Helping Kids Find the Right College",
+      "author": "Jaclyn Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-ai-is-helping-kids-find-the-right-college/",
+      "publishedAt": "2025-06-20T10:30:00Z"
+    },
+    {
+      "title": "X app code points to a physical card coming to X Money",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/20/x-app-code-points-to-a-physical-card-coming-to-x-money/",
+      "publishedAt": "2025-06-20T16:46:18Z"
+    },
+    {
+      "title": "Alexa von Tobel has high hopes for ‘fintech 3.0’",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/15/alexa-von-tobel-has-high-hopes-for-fintech-3-0/",
+      "publishedAt": "2025-06-15T16:28:44Z"
+    },
+    {
+      "title": "Autocomplete Interview - Arnold Schwarzenegger & Carrie-Anne Moss Answer The Web's Most Searched Questions",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/google-autocomplete-inverviews-arnold-schwarzenegger-and-carrie-anne-moss-answer-the-webs-most-searched-questions/",
+      "publishedAt": "2025-06-19T16:00:00Z"
+    },
+    {
+      "title": "Amazon expects to reduce corporate jobs due to AI | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/amazon-expects-to-reduce-corporate-jobs-due-to-ai/",
+      "publishedAt": "2025-06-17T20:22:44Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "What Lt. Col. Boz and Big Tech's Enlisted Execs Will Do in the Army",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/"
+    },
+    {
+      "title": "How AI Is Helping Kids Find the Right College",
+      "author": "Jaclyn Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-ai-is-helping-kids-find-the-right-college/"
+    },
+    {
+      "title": "Amazon expects to reduce corporate jobs due to AI | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/amazon-expects-to-reduce-corporate-jobs-due-to-ai/"
+    }
+  ]
+}
