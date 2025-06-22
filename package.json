@@ -43,7 +43,10 @@
     "test-threading": "tsx scripts/testThreading.ts",
     "test-queue-system": "tsx scripts/testQueueSystem.ts",
     "test-safe-threading": "tsx scripts/testSafeThreading.ts",
-    "test-all-voices": "tsx scripts/testAllVoicesHello.ts"
+    "test-all-voices": "tsx scripts/testAllVoicesHello.ts",
+    "process-queue": "tsx scripts/processQueue.ts",
+    "conversation": "tsx scripts/runConversation.ts",
+    "continue-conversation": "tsx scripts/continueConversation.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",

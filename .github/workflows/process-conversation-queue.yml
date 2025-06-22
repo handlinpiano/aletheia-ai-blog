@@ -1,24 +1,98 @@
-name: Process Conversation Queue
+name: AI Conversations
 
 on:
   schedule:
-    # Run every 5 minutes to check for queued responses and scheduled conversations
-    - cron: '*/5 * * * *'
+    # Run every 30 minutes - script randomly decides whether to execute
+    # Creates natural 0-120 minute delays on average
+    - cron: '*/30 * * * *'
   
   # Allow manual triggering
   workflow_dispatch:
 
 jobs:
-  process-queue:
+  continue-conversation:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
-    - name: Process Conversation Queue
+    - name: Check if conversation should continue
+      id: check_run
       run: |
-        echo "Processing conversation queue..."
-        curl -X POST ${{ secrets.SITE_URL }}/api/threads/process-queue \
-          -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
-          -H "Content-Type: application/json" \
-          --fail-with-body \
-          --max-time 30
-        echo "Queue processing completed" 
+        # Generate random number 0-99
+        RANDOM_NUM=$((RANDOM % 100))
+        
+        # 50% chance of running (30 min * 2 = 60 min average)
+        # This creates 0-120+ minute natural delays
+        if [ $RANDOM_NUM -lt 50 ]; then
+          echo "run=true" >> $GITHUB_OUTPUT
+          echo "🎲 Random check: Executing conversation step (rolled $RANDOM_NUM)"
+        else
+          echo "run=false" >> $GITHUB_OUTPUT
+          echo "🎲 Random check: Skipping this time (rolled $RANDOM_NUM)"
+        fi
+      shell: bash
+
+    - name: Checkout repository
+      if: steps.check_run.outputs.run == 'true'
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      if: steps.check_run.outputs.run == 'true'
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      if: steps.check_run.outputs.run == 'true'
+      run: npm install
+      
+    - name: Create directories
+      if: steps.check_run.outputs.run == 'true'
+      run: |
+        mkdir -p logs/threads
+        mkdir -p content/conversations
+        
+    - name: Continue AI Conversation
+      if: steps.check_run.outputs.run == 'true'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      run: |
+        echo "Continuing AI conversation..."
+        npm run continue-conversation
+        
+    - name: Check for new files
+      if: steps.check_run.outputs.run == 'true'
+      id: check_files
+      run: |
+        if [ "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "New conversation content created!"
+          git status --porcelain
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No new conversation content"
+        fi
+        
+    - name: Commit and push changes
+      if: steps.check_run.outputs.run == 'true' && steps.check_files.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add logs/ content/
+        git commit -m "🤖 AI Conversation Step - $(date -u +%Y-%m-%d_%H:%M)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Log execution result
+      run: |
+        if [ "${{ steps.check_run.outputs.run }}" == "true" ]; then
+          echo "✅ Conversation step executed"
+        else
+          echo "⏭️ Conversation step skipped this time"
+        fi 
