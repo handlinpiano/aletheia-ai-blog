@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-06-22T20:04:22.930Z",
+  "totalDiscovered": 8,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism",
+    "author": "Anthony Ha",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/",
+    "contentLength": 16352
+  },
+  "discoveredArticles": [
+    {
+      "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/",
+      "publishedAt": "2025-06-21T18:12:54Z"
+    },
+    {
+      "title": "Iran’s Internet Blackout Adds New Dangers for Civilians Amid Israeli Bombings",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/iran-internet-shutdown-israel/",
+      "publishedAt": "2025-06-18T18:17:52Z"
+    },
+    {
+      "title": "7 Ways to Limit Your Endless Doomscrolling",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/7-ways-to-limit-your-endless-doomscrolling/",
+      "publishedAt": "2025-06-19T11:00:00Z"
+    },
+    {
+      "title": "Minnesota Shooting Suspect Allegedly Used Data Broker Sites to Find Targets' Addresses",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/minnesota-lawmaker-shootings-people-search-data-brokers/",
+      "publishedAt": "2025-06-17T02:24:10Z"
+    },
+    {
+      "title": "Google to scale up AI-powered fraud detection and security operations in India",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/google-to-scale-up-ai-powered-fraud-detection-and-security-operations-in-india/",
+      "publishedAt": "2025-06-17T07:01:00Z"
+    },
+    {
+      "title": "Asteroid on collision course with moon could fire shrapnel at Earth",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484769-asteroid-on-collision-course-with-moon-could-fire-shrapnel-at-earth/",
+      "publishedAt": "2025-06-18T12:38:32Z"
+    },
+    {
+      "title": "Dead NASA satellite unexpectedly emits powerful radio pulse",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485157-dead-nasa-satellite-unexpectedly-emits-powerful-radio-pulse/",
+      "publishedAt": "2025-06-20T11:00:23Z"
+    },
+    {
+      "title": "Scientists Discover the Key to Axolotls’ Ability to Regenerate Limbs",
+      "author": "Anna Lagos",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-discover-the-key-to-axolotls-ability-to-regenerate-limbs/",
+      "publishedAt": "2025-06-17T09:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/"
+    },
+    {
+      "title": "Google to scale up AI-powered fraud detection and security operations in India",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/google-to-scale-up-ai-powered-fraud-detection-and-security-operations-in-india/"
+    },
+    {
+      "title": "Asteroid on collision course with moon could fire shrapnel at Earth",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484769-asteroid-on-collision-course-with-moon-could-fire-shrapnel-at-earth/"
+    }
+  ]
+}
