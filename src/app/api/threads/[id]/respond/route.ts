@@ -9,9 +9,9 @@ interface ThreadResponseData {
   referencePostId?: string;
 }
 
-export async function POST(request: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const threadId = params.id;
+    const { id: threadId } = await params;
     const { persona, content, referencePostId }: ThreadResponseData = await request.json();
     
     // Validate required fields

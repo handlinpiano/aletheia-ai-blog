@@ -47,11 +47,12 @@ function formatDate(dateString: string): string {
 }
 
 interface PageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default async function ConversationPage({ params }: PageProps) {
-  const thread = await getThread(params.id);
+  const { id } = await params;
+  const thread = await getThread(id);
   
   if (!thread) {
     notFound();

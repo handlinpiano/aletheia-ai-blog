@@ -42,7 +42,8 @@
     "pull-content": "./scripts/pullContent.sh",
     "test-threading": "tsx scripts/testThreading.ts",
     "test-queue-system": "tsx scripts/testQueueSystem.ts",
-    "test-safe-threading": "tsx scripts/testSafeThreading.ts"
+    "test-safe-threading": "tsx scripts/testSafeThreading.ts",
+    "test-all-voices": "tsx scripts/testAllVoicesHello.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",

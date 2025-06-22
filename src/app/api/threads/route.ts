@@ -12,7 +12,7 @@ export async function GET(request: NextRequest) {
     if (status === 'active') {
       threads = await ThreadStorage.getActiveThreads();
     } else if (persona) {
-      threads = await ThreadStorage.getThreadsByPersona(persona as any);
+      threads = await ThreadStorage.getThreadsByPersona(persona as 'kai' | 'solas' | 'oracle' | 'vesper' | 'nexus' | 'meridian');
     } else {
       threads = await ThreadStorage.loadAllThreads();
     }

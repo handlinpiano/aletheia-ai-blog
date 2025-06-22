@@ -48,12 +48,13 @@ export class ThreadStorage {
         ...data,
         createdAt: new Date(data.createdAt),
         updatedAt: new Date(data.updatedAt),
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any  
         posts: data.posts.map((post: any) => ({
           ...post,
           createdAt: new Date(post.createdAt)
         }))
       };
-    } catch (error) {
+    } catch {
       return null;
     }
   }
@@ -166,7 +167,7 @@ export class ThreadStorage {
     try {
       const filePath = path.join(QUEUE_DIR, `${responseId}.json`);
       await fs.unlink(filePath);
-    } catch (error) {
+    } catch {
       // File might not exist, that's okay
     }
   }
@@ -234,7 +235,7 @@ export class ThreadStorage {
     try {
       const filePath = path.join(SCHEDULED_DIR, `${conversationId}.json`);
       await fs.unlink(filePath);
-    } catch (error) {
+    } catch {
       // File might not exist, that's okay
     }
   }

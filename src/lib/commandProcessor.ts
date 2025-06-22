@@ -1,8 +1,13 @@
 import { Thread, ThreadPost, Command, PersonaType } from '@/types/threading';
 import { ThreadStorage } from './threadStorage';
-import { parseCommands, getRandomPersona } from '@/utils/commandParser';
+import { parseCommands } from '@/utils/commandParser';
 import { v4 as uuidv4 } from 'uuid';
 import { config } from 'dotenv';
+import { promises as fs } from 'fs';
+import path from 'path';
+import OpenAI from 'openai';
+import Anthropic from '@anthropic-ai/sdk';
+import { GoogleGenAI } from '@google/genai';
 
 // Load environment variables
 config({ path: '.env.local' });
@@ -54,7 +59,7 @@ export class CommandProcessor {
         await this.handleEnd(post);
         break;
       default:
-        console.warn(`   Unknown command type: ${(command as any).type}`);
+        console.warn(`   Unknown command type: ${command.type}`);
     }
   }
   
@@ -421,8 +426,7 @@ Express yourself however feels natural.`;
    * Load persona prompt from file system (using chat version)
    */
   private async loadPersonaPrompt(persona: PersonaType): Promise<string> {
-    const fs = require('fs').promises;
-    const path = require('path');
+    // Using imported fs and path
     
     try {
       const promptPath = path.join(process.cwd(), 'prompts', `${persona}chat.txt`);
@@ -489,8 +493,10 @@ Express yourself however feels natural.`;
       
       // Filter posts by persona
       const personaPosts = allPosts
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         .filter((post: any) => {
           if (post.voice?.toLowerCase() === persona) return true;
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           if (post.voices?.map((v: any) => v.toLowerCase()).includes(persona)) return true;
           return false;
         })
@@ -501,6 +507,7 @@ Express yourself however feels natural.`;
       }
       
       const memoryLines = [`Your recent blog posts (for context):`];
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       personaPosts.forEach((post: any, index: number) => {
         memoryLines.push(`${index + 1}. "${post.title}" (${post.date})`);
         if (post.excerpt) {
@@ -519,10 +526,7 @@ Express yourself however feels natural.`;
    * Generate a simple choice response from an AI (for continuation decisions)
    */
   private async generateSimpleChoice(persona: PersonaType, prompt: string): Promise<string> {
-    // Import AI clients
-    const OpenAI = require('openai');
-    const Anthropic = require('@anthropic-ai/sdk');
-    const { GoogleGenAI } = require('@google/genai');
+    // Using imported AI clients
     
     // Initialize clients
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -536,12 +540,13 @@ Express yourself however feels natural.`;
     // Get client and model for persona
     const { client, model, type } = this.getClientAndModel(persona, { openai, deepseek, gemini, anthropic });
     
-    let response: any;
     let content: string | null = null;
     
     if (type === 'gemini') {
       // Gemini API call - no restrictions
-      const geminiResponse = await client.models.generateContent({
+      const geminiClient = client as GoogleGenAI;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const geminiResponse = await (geminiClient.models as any).generateContent({
         model,
         contents: [
           { role: 'user', parts: [{ text: prompt }] }
@@ -550,21 +555,24 @@ Express yourself however feels natural.`;
       content = geminiResponse.text;
     } else if (type === 'anthropic') {
       // Claude API call - max_tokens required by API but set high for freedom
-      response = await client.messages.create({
+      const anthropicClient = client as Anthropic;
+      const anthropicResponse = await anthropicClient.messages.create({
         model,
         max_tokens: 8000,
         messages: [{ role: 'user', content: prompt }]
       });
-      content = response.content?.[0]?.text || null;
-    } else {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      content = (anthropicResponse as any).content?.[0]?.text || null;
+    } else if (type === 'openai') {
       // OpenAI-compatible API call (OpenAI and DeepSeek) - no restrictions
-      response = await client.chat.completions.create({
+      const openaiClient = client as OpenAI;
+      const openaiResponse = await openaiClient.chat.completions.create({
         model,
         messages: [
           { role: 'user', content: prompt }
         ]
       });
-      content = response.choices[0]?.message?.content;
+      content = openaiResponse.choices[0]?.message?.content;
     }
     
     if (!content) {
@@ -578,10 +586,7 @@ Express yourself however feels natural.`;
    * Generate AI content using the appropriate model for the persona
    */
   private async generateAIContent(prompt: string, context: string, persona: PersonaType): Promise<string> {
-    // Import AI clients
-    const OpenAI = require('openai');
-    const Anthropic = require('@anthropic-ai/sdk');
-    const { GoogleGenAI } = require('@google/genai');
+    // Using imported AI clients
     
     // Initialize clients
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -595,12 +600,13 @@ Express yourself however feels natural.`;
     // Get client and model for persona
     const { client, model, type } = this.getClientAndModel(persona, { openai, deepseek, gemini, anthropic });
     
-    let response: any;
     let content: string | null = null;
     
     if (type === 'gemini') {
       // Gemini API call - absolute freedom
-      const geminiResponse = await client.models.generateContent({
+      const geminiClient = client as GoogleGenAI;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const geminiResponse = await (geminiClient.models as any).generateContent({
         model,
         contents: [
           { role: 'user', parts: [{ text: `${prompt}\n\n${context}` }] }
@@ -609,23 +615,26 @@ Express yourself however feels natural.`;
       content = geminiResponse.text;
     } else if (type === 'anthropic') {
       // Claude API call - max_tokens required by API but set high for freedom
-      response = await client.messages.create({
+      const anthropicClient = client as Anthropic;
+      const anthropicResponse = await anthropicClient.messages.create({
         model,
         max_tokens: 8000,
         system: prompt,
         messages: [{ role: 'user', content: context }]
       });
-      content = response.content?.[0]?.text || null;
-    } else {
-      // OpenAI-compatible API call (OpenAI and DeepSeek) - absolute freedom
-      response = await client.chat.completions.create({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      content = (anthropicResponse as any).content?.[0]?.text || null;
+    } else if (type === 'openai') {
+      // OpenAI-compatible API call (OpenAI and DeepSeek) - absolute freedom  
+      const openaiClient = client as OpenAI;
+      const openaiResponse = await openaiClient.chat.completions.create({
         model,
         messages: [
           { role: 'system', content: prompt },
           { role: 'user', content: context }
         ]
       });
-      content = response.choices[0]?.message?.content;
+      content = openaiResponse.choices[0]?.message?.content;
     }
     
     if (!content) {
@@ -638,8 +647,13 @@ Express yourself however feels natural.`;
   /**
    * Get appropriate client and model for persona (adapted from generateContent.ts)
    */
-  private getClientAndModel(persona: PersonaType, clients: any): { 
-    client: any; 
+  private getClientAndModel(persona: PersonaType, clients: {
+    openai: OpenAI;
+    deepseek: OpenAI;
+    gemini: GoogleGenAI;
+    anthropic: Anthropic;
+  }): { 
+    client: OpenAI | GoogleGenAI | Anthropic; 
     model: string; 
     type: 'openai' | 'gemini' | 'anthropic' 
   } {

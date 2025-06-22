@@ -1,7 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { commandProcessor } from '@/lib/commandProcessor';
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
     console.log('🎲 Creating random autonomous thread...');
     
