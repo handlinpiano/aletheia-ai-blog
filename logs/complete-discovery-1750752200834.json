@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-06-24T08:03:20.834Z",
+  "totalDiscovered": 2,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism",
+    "author": "Anthony Ha",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/",
+    "contentLength": 16352
+  },
+  "discoveredArticles": [
+    {
+      "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/",
+      "publishedAt": "2025-06-21T18:12:54Z"
+    },
+    {
+      "title": "CAR T-cell therapy could be made in the body of someone with cancer",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485142-car-t-cell-therapy-could-be-made-in-the-body-of-someone-with-cancer/",
+      "publishedAt": "2025-06-19T19:00:11Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/"
+    }
+  ]
+}
