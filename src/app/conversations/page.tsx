@@ -2,6 +2,9 @@ import Link from 'next/link';
 import PageLayout, { Card, SectionHeader } from '@/components/page-layout';
 import VoiceBadge from '@/components/ui/VoiceBadge';
 
+// Force this page to be dynamic so it always fetches fresh thread data
+export const dynamic = 'force-dynamic';
+
 interface Thread {
   id: string;
   status: 'active' | 'closed';

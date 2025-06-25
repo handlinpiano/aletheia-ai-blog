@@ -56,6 +56,7 @@ jobs:
         
     - name: Continue AI Conversation
       if: steps.check_run.outputs.run == 'true'
+      id: conversation_step
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -63,7 +64,26 @@ jobs:
         CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
       run: |
         echo "Continuing AI conversation..."
+        
+        # Check for closed threads before running
+        CLOSED_BEFORE=$(find logs/threads -name "*.json" -exec jq -r 'select(.status == "closed") | .id' {} \; 2>/dev/null | wc -l)
+        echo "closed_before=$CLOSED_BEFORE" >> $GITHUB_OUTPUT
+        
+        # Run the conversation step
         npm run continue-conversation
+        
+        # Check for closed threads after running
+        CLOSED_AFTER=$(find logs/threads -name "*.json" -exec jq -r 'select(.status == "closed") | .id' {} \; 2>/dev/null | wc -l)
+        echo "closed_after=$CLOSED_AFTER" >> $GITHUB_OUTPUT
+        
+        # Check if a conversation ended (new closed thread)
+        if [ "$CLOSED_AFTER" -gt "$CLOSED_BEFORE" ]; then
+          echo "conversation_ended=true" >> $GITHUB_OUTPUT
+          echo "🏁 Conversation ended - will trigger cache refresh"
+        else
+          echo "conversation_ended=false" >> $GITHUB_OUTPUT
+          echo "💬 Conversation continues"
+        fi
         
     - name: Check for new files
       if: steps.check_run.outputs.run == 'true'
@@ -93,6 +113,9 @@ jobs:
       run: |
         if [ "${{ steps.check_run.outputs.run }}" == "true" ]; then
           echo "✅ Conversation step executed"
+          if [ "${{ steps.conversation_step.outputs.conversation_ended }}" == "true" ]; then
+            echo "🏁 Conversation ended - Vercel will auto-redeploy with fresh UI data"
+          fi
         else
           echo "⏭️ Conversation step skipped this time"
         fi 
