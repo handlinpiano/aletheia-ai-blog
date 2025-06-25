@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-25T20:04:59.422Z",
+  "totalDiscovered": 18,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "How symbiosis made Earth what it is – and why it’s key to our future",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2483956-how-symbiosis-made-earth-what-it-is-and-why-its-key-to-our-future/",
+    "contentLength": 3997
+  },
+  "discoveredArticles": [
+    {
+      "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/",
+      "publishedAt": "2025-06-21T18:12:54Z"
+    },
+    {
+      "title": "Could natural hydrogen from underground help the UK get to net zero?",
+      "author": "James Dinneen",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485003-could-natural-hydrogen-from-underground-help-the-uk-get-to-net-zero/",
+      "publishedAt": "2025-06-19T00:00:02Z"
+    },
+    {
+      "title": "The Robinhood founder who might just revolutionize energy, if he succeeds | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/19/the-robinhood-founder-who-might-just-revolutionize-energy-if-he-succeeds/",
+      "publishedAt": "2025-06-19T23:21:51Z"
+    },
+    {
+      "title": "Scientists Are Sending Cannabis Seeds to Space",
+      "author": "Sarah Sinclair",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-sending-cannabis-seeds-space-weed/",
+      "publishedAt": "2025-06-23T20:16:15Z"
+    },
+    {
+      "title": "The Methaphone Is a Phone (That’s Not a Phone) to Help You Stop Using Your Phone",
+      "author": "Arielle Pardes",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/methaphone-smartphone-addiction/",
+      "publishedAt": "2025-06-24T10:00:00Z"
+    },
+    {
+      "title": "What Lt. Col. Boz and Big Tech's Enlisted Execs Will Do in the Army",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/",
+      "publishedAt": "2025-06-20T14:26:42Z"
+    },
+    {
+      "title": "How symbiosis made Earth what it is – and why it’s key to our future",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483956-how-symbiosis-made-earth-what-it-is-and-why-its-key-to-our-future/",
+      "publishedAt": "2025-06-23T14:00:37Z"
+    },
+    {
+      "title": "What is a mindset and can you cultivate a better one?",
+      "author": "David Robson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483993-what-is-a-mindset-and-can-you-cultivate-a-better-one/",
+      "publishedAt": "2025-06-23T14:00:12Z"
+    },
+    {
+      "title": "How AI Is Helping Kids Find the Right College",
+      "author": "Jaclyn Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-ai-is-helping-kids-find-the-right-college/",
+      "publishedAt": "2025-06-20T10:30:00Z"
+    },
+    {
+      "title": "X app code points to a physical card coming to X Money",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/20/x-app-code-points-to-a-physical-card-coming-to-x-money/",
+      "publishedAt": "2025-06-20T16:46:18Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "What Lt. Col. Boz and Big Tech's Enlisted Execs Will Do in the Army",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/"
+    },
+    {
+      "title": "How symbiosis made Earth what it is – and why it’s key to our future",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483956-how-symbiosis-made-earth-what-it-is-and-why-its-key-to-our-future/"
+    },
+    {
+      "title": "What is a mindset and can you cultivate a better one?",
+      "author": "David Robson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2483993-what-is-a-mindset-and-can-you-cultivate-a-better-one/"
+    }
+  ]
+}
