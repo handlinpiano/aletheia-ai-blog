@@ -8,8 +8,26 @@ export async function GET(request: Request) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '20');
     const voice = searchParams.get('voice');
+    const voicesOnly = searchParams.get('voices') === 'true';
     
     const allPosts = await getAllPosts();
+    
+    // If requesting voices only, return voice statistics without pagination
+    if (voicesOnly) {
+      const voiceStats: { [key: string]: number } = {};
+      
+      allPosts.forEach(post => {
+        const postVoices = getPostVoices(post);
+        postVoices.forEach(voice => {
+          voiceStats[voice] = (voiceStats[voice] || 0) + 1;
+        });
+      });
+      
+      return NextResponse.json({
+        voices: voiceStats,
+        totalPosts: allPosts.length
+      });
+    }
     
     // Filter by voice if specified (normalize for comparison)
     const filteredPosts = voice && voice !== 'all' 
