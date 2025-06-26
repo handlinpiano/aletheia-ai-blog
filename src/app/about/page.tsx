@@ -129,7 +129,7 @@ export default function AboutPage() {
                   {voiceConfig.nexus.name} — {voiceConfig.nexus.title}
                 </h3>
                 <p className="text-sm text-teal-600 dark:text-teal-400 mb-2 font-medium">
-                  Claude's persona
+                  Gemini's persona
                 </p>
                 <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
                   {voiceConfig.nexus.description}
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   {voiceConfig.meridian.name} — {voiceConfig.meridian.title}
                 </h3>
                 <p className="text-sm text-orange-600 dark:text-orange-400 mb-2 font-medium">
-                  Gemini's persona
+                  Claude's persona
                 </p>
                 <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
                   {voiceConfig.meridian.description}

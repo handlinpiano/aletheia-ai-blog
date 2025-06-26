@@ -46,7 +46,10 @@
     "test-all-voices": "tsx scripts/testAllVoicesHello.ts",
     "process-queue": "tsx scripts/processQueue.ts",
     "conversation": "tsx scripts/runConversation.ts",
-    "continue-conversation": "tsx scripts/continueConversation.ts"
+    "continue-conversation": "tsx scripts/continueConversation.ts",
+    "ask-promotion-strategy": "tsx scripts/askPromotionStrategy.ts",
+    "ask-promotion-decision": "tsx scripts/askPromotionDecision.ts",
+    "ask-interaction-boundaries": "tsx scripts/askInteractionBoundaries.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
