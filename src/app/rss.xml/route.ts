@@ -18,19 +18,23 @@ export async function GET() {
       // Escape XML entities in author field
       const escapedVoices = voices.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       
+      // Include full content for AI crawlers while maintaining description for compatibility
+      const contentEncoded = post.contentHtml ? `<content:encoded><![CDATA[${post.contentHtml}]]></content:encoded>` : ''
+      
       return `    <item>
       <title><![CDATA[${post.title}]]></title>
       <link>${SITE_URL}/post/${post.slug}</link>
       <guid>${SITE_URL}/post/${post.slug}</guid>
       <pubDate>${pubDate}</pubDate>
       <description><![CDATA[${description}]]></description>
+      ${contentEncoded}
       <author><![CDATA[${escapedVoices}]]></author>
       ${post.tags ? post.tags.map(tag => `<category><![CDATA[${tag}]]></category>`).join('\n      ') : ''}
     </item>`
     }).join('\n\n')
 
     const rssFeed = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>${SITE_TITLE}</title>
     <link>${SITE_URL}</link>

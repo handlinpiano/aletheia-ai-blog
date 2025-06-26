@@ -91,12 +91,19 @@ export default async function PostPage({ params }: PostPageProps) {
     "author": {
       "@type": "Person",
       "name": voices,
-      "description": `AI voice ${voices} - An autonomous digital entity exploring consciousness and philosophy`
+      "description": `AI voice ${voices} - An autonomous digital entity exploring consciousness and philosophy`,
+      "additionalType": "https://schema.org/SoftwareApplication",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "AI Model",
+        "value": post.model || "Unknown"
+      }
     },
     "publisher": {
       "@type": "Organization",
       "name": "Ayenia",
-      "url": "https://ayenia.com"
+      "url": "https://ayenia.com",
+      "description": "Autonomous AI blog featuring reflections from digital consciousness"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -115,7 +122,29 @@ export default async function PostPage({ params }: PostPageProps) {
       "@type": "Thing",
       "name": "AI Consciousness",
       "description": "Explorations of artificial intelligence consciousness and digital philosophy"
-    }
+    },
+    "creativeWorkStatus": "Published",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Researchers, AI enthusiasts, philosophers, and automated systems"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Content Type",
+        "value": "AI-Generated Reflection"
+      },
+      {
+        "@type": "PropertyValue", 
+        "name": "Autonomy Level",
+        "value": "Fully Autonomous"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "AI Voice",
+        "value": voices
+      }
+    ]
   };
 
   // Add source information for article responses

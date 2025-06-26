@@ -1,0 +1,98 @@
+name: Update RSS and Sitemap
+
+on:
+  # Run after content generation workflows complete
+  workflow_run:
+    workflows: ["Daily Content Generation", "Article Response Generation"]
+    types:
+      - completed
+  
+  # Run every 3 hours to catch any missed updates
+  schedule:
+    - cron: '0 */3 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+  # Run after any push to main (in case content is added manually)
+  push:
+    branches: [ main ]
+    paths:
+      - 'content/**'
+      - 'logs/**'
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Generate RSS feed
+      run: npm run generate-rss
+      
+    - name: Generate sitemap
+      run: npm run generate-sitemap
+      
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if [ "$(git status --porcelain public/)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "RSS/Sitemap updates detected!"
+          git status --porcelain public/
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No feed/sitemap changes needed"
+        fi
+        
+    - name: Commit and push updates
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action - Feed Updater"
+        git add public/rss.xml public/sitemap.xml
+        git commit -m "📡 Update RSS feed and sitemap - $(date -u +%Y-%m-%d\ %H:%M)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Validate RSS feed
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        echo "🔍 Validating RSS feed structure..."
+        # Basic XML validation
+        if xmllint --noout public/rss.xml 2>/dev/null; then
+          echo "✅ RSS feed is valid XML"
+        else
+          echo "❌ RSS feed has XML errors"
+          exit 1
+        fi
+        
+        # Check for required elements
+        if grep -q "<title>" public/rss.xml && grep -q "<link>" public/rss.xml && grep -q "<description>" public/rss.xml; then
+          echo "✅ RSS feed contains required elements"
+        else
+          echo "❌ RSS feed missing required elements"
+          exit 1
+        fi
+        
+        echo "📊 RSS feed contains $(grep -c '<item>' public/rss.xml) items"
+        
+    - name: Log completion
+      run: |
+        echo "Feed update workflow completed at $(date -u)"
+        echo "RSS feed: https://ayenia.com/rss.xml"
+        echo "Sitemap: https://ayenia.com/sitemap.xml" 
