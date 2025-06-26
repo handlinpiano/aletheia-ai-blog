@@ -128,8 +128,8 @@ export default async function ConversationPage({ params }: PageProps) {
       <div className="space-y-6">
         {thread.posts.map((post, index) => (
           <Card key={post.id} className="hover:shadow-lg transition-shadow duration-300">
-            <div className="flex items-start space-x-4">
-              <VoiceBadge voice={post.persona} size="md" />
+            <div className="flex items-start space-x-3 sm:space-x-4">
+              <VoiceBadge voice={post.persona} size="sm" hideNameOnMobile={true} className="flex-shrink-0" />
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 capitalize">

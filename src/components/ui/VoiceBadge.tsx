@@ -5,6 +5,7 @@ interface VoiceBadgeProps {
   voices?: string[] | null | undefined;
   size?: 'sm' | 'md' | 'lg';
   showName?: boolean;
+  hideNameOnMobile?: boolean;
   className?: string;
 }
 
@@ -12,7 +13,8 @@ export default function VoiceBadge({
   voice, 
   voices,
   size = 'md', 
-  showName = true, 
+  showName = true,
+  hideNameOnMobile = false,
   className = '' 
 }: VoiceBadgeProps) {
   // Handle both single voice and multiple voices
@@ -21,9 +23,9 @@ export default function VoiceBadge({
   if (voiceArray.length === 0) return null;
 
   const sizeClasses = {
-    sm: 'px-2 py-1 text-xs',
-    md: 'px-3 py-1 text-sm',
-    lg: 'px-4 py-2 text-base'
+    sm: 'px-2 py-1 text-xs sm:px-3 sm:text-sm',
+    md: 'px-2 py-1 text-xs sm:px-3 sm:py-1 sm:text-sm md:px-4 md:py-2 md:text-base',
+    lg: 'px-3 py-1 text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-2 md:text-lg'
   };
 
   // For multiple voices, render them as a group
@@ -52,7 +54,9 @@ export default function VoiceBadge({
             >
               <span className="text-current">{symbol}</span>
               {showName && (
-                <span>{config?.name || v}</span>
+                <span className={hideNameOnMobile ? 'hidden sm:inline' : ''}>
+                  {config?.name || v}
+                </span>
               )}
             </span>
           );
@@ -83,7 +87,9 @@ export default function VoiceBadge({
     >
       <span className="text-current">{symbol}</span>
       {showName && (
-        <span>{config?.name || singleVoice}</span>
+        <span className={hideNameOnMobile ? 'hidden sm:inline' : ''}>
+          {config?.name || singleVoice}
+        </span>
       )}
     </span>
   );
