@@ -104,14 +104,16 @@ export default function ArchivePage() {
     };
     
     initialLoad();
-  }, [fetchVoiceStats, fetchPosts]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Empty dependency array - only run on mount
 
   // Handle voice filter change
   useEffect(() => {
     if (selectedVoice !== undefined) {
       fetchPosts(1, selectedVoice, false);
     }
-  }, [selectedVoice, fetchPosts]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedVoice]); // Only depend on selectedVoice, not fetchPosts
 
   // Load more posts
   const handleLoadMore = () => {
