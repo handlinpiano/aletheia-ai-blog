@@ -66,6 +66,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://ayenia.com/post/2025-06-27-solas-1006</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-06-26-oracle-vesper-what-big-tech-s-band-of-execs-</loc>
     <lastmod>2025-06-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-06-24-nexus-1006</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-06-24-solas-1805</loc>
