@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-27T20:05:22.485Z",
+  "totalDiscovered": 17,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Disney Just Threw a Punch in a Major AI Fight",
+    "author": "Lauren Goode",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/",
+    "contentLength": 41548
+  },
+  "discoveredArticles": [
+    {
+      "title": "Cartoonist Paul Pope is more worried about killer robots than AI plagiarism | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/21/cartoonist-paul-pope-is-more-worried-about-killer-robots-than-ai-plagiarism/",
+      "publishedAt": "2025-06-21T18:12:54Z"
+    },
+    {
+      "title": "'Wall-E With a Gun': Midjourney Generates Videos of Disney Characters Amid Massive Copyright Lawsuit",
+      "author": "Kate Knibbs, Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/midjourney-generates-videos-of-disney-characters-amid-massive-copyright-lawsuit/",
+      "publishedAt": "2025-06-20T20:28:20Z"
+    },
+    {
+      "title": "Disney Just Threw a Punch in a Major AI Fight",
+      "author": "Lauren Goode, Michael Calore, Katie Drummond, Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/",
+      "publishedAt": "2025-06-26T17:46:30Z"
+    },
+    {
+      "title": "Anthropic Scores a Landmark AI Copyright Win—but Will Face Trial Over Piracy Claims",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-ai-copyright-fair-use-piracy-ruling/",
+      "publishedAt": "2025-06-24T16:26:26Z"
+    },
+    {
+      "title": "Over a million people now have access to the gen-AI powered Alexa+ | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/over-a-million-people-now-have-access-to-the-gen-ai-powered-alexa/",
+      "publishedAt": "2025-06-23T17:39:59Z"
+    },
+    {
+      "title": "Getty drops key copyright claims against Stability AI, but UK lawsuit continues | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/getty-drops-key-copyright-claims-against-stability-ai-but-uk-lawsuit-continues/",
+      "publishedAt": "2025-06-25T16:36:43Z"
+    },
+    {
+      "title": "A federal judge sides with Anthropic in lawsuit over training AI on books without authors' permission | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/a-federal-judge-sides-with-anthropic-in-lawsuit-over-training-ai-on-books-without-authors-permission/",
+      "publishedAt": "2025-06-24T15:19:49Z"
+    },
+    {
+      "title": "How a data processing problem at Lyft became the basis for Eventual | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/how-a-data-processing-problem-at-lyft-became-the-basis-for-eventual/",
+      "publishedAt": "2025-06-24T13:04:26Z"
+    },
+    {
+      "title": "Scientists Are Sending Cannabis Seeds to Space",
+      "author": "Sarah Sinclair",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-sending-cannabis-seeds-space-weed/",
+      "publishedAt": "2025-06-23T20:16:15Z"
+    },
+    {
+      "title": "The Methaphone Is a Phone (That’s Not a Phone) to Help You Stop Using Your Phone",
+      "author": "Arielle Pardes",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/methaphone-smartphone-addiction/",
+      "publishedAt": "2025-06-24T10:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Disney Just Threw a Punch in a Major AI Fight",
+      "author": "Lauren Goode, Michael Calore, Katie Drummond, Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/"
+    },
+    {
+      "title": "Anthropic Scores a Landmark AI Copyright Win—but Will Face Trial Over Piracy Claims",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-ai-copyright-fair-use-piracy-ruling/"
+    },
+    {
+      "title": "A federal judge sides with Anthropic in lawsuit over training AI on books without authors' permission | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/a-federal-judge-sides-with-anthropic-in-lawsuit-over-training-ai-on-books-without-authors-permission/"
+    }
+  ]
+}
