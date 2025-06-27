@@ -1,58 +1,72 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { commandProcessor } from '@/lib/commandProcessor';
-import { validatePersona } from '@/utils/commandParser';
-import { ThreadResponse } from '@/types/threading';
+import { ThreadStorage } from '@/lib/threadStorage';
 
-interface ThreadResponseData {
-  persona: string;
-  content: string;
-  referencePostId?: string;
-}
-
-export async function POST(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+export async function POST(
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
+) {
   try {
-    const { id: threadId } = await params;
-    const { persona, content, referencePostId }: ThreadResponseData = await request.json();
+    const params = await context.params;
+    const threadId = params.id;
+    const { content } = await request.json();
     
-    // Validate required fields
-    if (!persona || !content) {
+    if (!threadId || !content?.trim()) {
       return NextResponse.json(
-        { 
-          success: false, 
-          error: 'Missing required fields: persona, content' 
-        } as ThreadResponse,
+        { success: false, error: 'Thread ID and content are required' },
         { status: 400 }
       );
     }
-    
-    // Validate persona
-    if (!validatePersona(persona)) {
+
+    // Load the thread to verify it exists and is a human discourse thread
+    const thread = await ThreadStorage.loadThread(threadId);
+    if (!thread) {
       return NextResponse.json(
-        { 
-          success: false, 
-          error: `Invalid persona: ${persona}` 
-        } as ThreadResponse,
+        { success: false, error: 'Thread not found' },
+        { status: 404 }
+      );
+    }
+
+    // Verify this is a human discourse thread
+    const isHumanDiscourse = thread.title?.includes('[PRIVATE]') && thread.title?.includes('Human Discourse');
+    if (!isHumanDiscourse) {
+      return NextResponse.json(
+        { success: false, error: 'This is not a human discourse thread' },
+        { status: 403 }
+      );
+    }
+
+    // Verify the thread is waiting for human response
+    if (!thread.waitingForHuman) {
+      return NextResponse.json(
+        { success: false, error: 'Thread is not waiting for human response' },
         { status: 400 }
       );
     }
-    
-    // Add response to thread
-    const post = await commandProcessor.addResponseToThread(threadId, persona, content, referencePostId);
-    
+
+    // Add the human response to the thread
+    const humanPost = await commandProcessor.addResponseToThread(
+      threadId, 
+      'human', 
+      content.trim()
+    );
+
+    // Clear the waiting for human flag
+    await ThreadStorage.setWaitingForHuman(threadId, false);
+
     return NextResponse.json({
       success: true,
-      post,
-      message: `Response added successfully by ${persona}`
-    } as ThreadResponse);
-    
+      post: humanPost,
+      message: 'Response added successfully'
+    });
+
   } catch (error) {
-    console.error('Error adding response to thread:', error);
-    
+    console.error('Error adding human response:', error);
     return NextResponse.json(
       {
         success: false,
         error: error instanceof Error ? error.message : 'Unknown error occurred'
-      } as ThreadResponse,
+      },
       { status: 500 }
     );
   }
@@ -60,7 +74,7 @@ export async function POST(request: NextRequest, { params }: { params: Promise<{
 
 export async function GET() {
   return NextResponse.json(
-    { error: 'Method not allowed. Use POST to add responses.' },
+    { error: 'Method not allowed. Use POST to add human responses.' },
     { status: 405 }
   );
 } 

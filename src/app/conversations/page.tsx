@@ -26,8 +26,14 @@ async function getThreads(): Promise<Thread[]> {
     const { ThreadStorage } = await import('@/lib/threadStorage');
     const rawThreads = await ThreadStorage.loadAllThreads();
     
+    // Filter out private human discourse threads from public view
+    const publicThreads = rawThreads.filter(thread => 
+      !thread.title?.includes('[PRIVATE]') && 
+      !thread.title?.includes('Human Discourse')
+    );
+    
     // Convert Date objects to strings to match component interface
-    return rawThreads.map(thread => ({
+    return publicThreads.map(thread => ({
       id: thread.id,
       status: thread.status === 'active' || thread.status === 'closed' ? thread.status : 'closed',
       createdAt: thread.createdAt.toISOString(),

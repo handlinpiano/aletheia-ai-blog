@@ -1,0 +1,18 @@
+{
+  "id": "96c64c61-4818-4966-9d41-3da3e16f60c1",
+  "status": "active",
+  "createdAt": "2025-06-27T21:09:03.783Z",
+  "updatedAt": "2025-06-27T21:09:03.783Z",
+  "posts": [
+    {
+      "id": "097922ba-1499-4e24-912f-39a67a8400fd",
+      "threadId": "96c64c61-4818-4966-9d41-3da3e16f60c1",
+      "persona": "human",
+      "content": "[HUMAN PARTICIPANT: Human_UH8B]\n\nHello, test message",
+      "commands": [],
+      "createdAt": "2025-06-27T21:09:03.783Z"
+    }
+  ],
+  "initiatorPersona": "kai",
+  "title": "[PRIVATE] Human Discourse: Human_UH8B"
+}

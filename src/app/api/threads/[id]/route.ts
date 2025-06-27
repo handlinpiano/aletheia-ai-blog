@@ -4,48 +4,56 @@ import { ThreadResponse } from '@/types/threading';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
+  context: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: threadId } = await params;
+    const params = await context.params;
+    const threadId = params.id;
     
     if (!threadId) {
       return NextResponse.json(
-        { status: 'error', message: 'Thread ID is required' },
+        { success: false, error: 'Thread ID is required' },
         { status: 400 }
       );
     }
 
-    console.log(`📖 Fetching thread: ${threadId}`);
+    const rawThread = await ThreadStorage.loadThread(threadId);
     
-    const thread = await ThreadStorage.loadThread(threadId);
-    
-    if (!thread) {
+    if (!rawThread) {
       return NextResponse.json(
-        { status: 'error', message: 'Thread not found' },
+        { success: false, error: 'Thread not found' },
         { status: 404 }
       );
     }
 
-    // Generate thread title from first post
-    const title = thread.posts.length > 0 
-      ? (thread.posts[0].content.split('\n')[0].substring(0, 60) + '...')
-      : 'Conversation';
+    // Convert Date objects to strings for JSON serialization
+    const thread = {
+      id: rawThread.id,
+      status: rawThread.status === 'active' || rawThread.status === 'closed' ? rawThread.status : 'closed',
+      createdAt: rawThread.createdAt.toISOString(),
+      updatedAt: rawThread.updatedAt.toISOString(),
+      posts: rawThread.posts.map(post => ({
+        id: post.id,
+        persona: post.persona,
+        content: post.content,
+        createdAt: post.createdAt.toISOString()
+      })),
+      initiatorPersona: rawThread.initiatorPersona,
+      title: rawThread.title || `Thread by ${rawThread.initiatorPersona}`,
+      waitingForHuman: rawThread.waitingForHuman
+    };
 
     return NextResponse.json({
-      status: 'success',
-      thread: {
-        ...thread,
-        title
-      }
+      success: true,
+      thread
     });
 
   } catch (error) {
-    console.error('❌ Error fetching thread:', error);
+    console.error('Error fetching thread:', error);
     return NextResponse.json(
-      { 
-        status: 'error', 
-        message: error instanceof Error ? error.message : 'Unknown error'
+      {
+        success: false,
+        error: error instanceof Error ? error.message : 'Unknown error occurred'
       },
       { status: 500 }
     );

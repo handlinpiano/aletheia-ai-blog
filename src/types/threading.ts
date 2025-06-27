@@ -8,6 +8,8 @@ export interface Thread {
   title?: string;
   maxPosts?: number; // Optional override for max posts
   autoCloseAfterHours?: number; // Auto-close after this many hours
+  kickedRemainingThreads?: number; // Countdown when human is kicked - conversation ends after this many more threads
+  waitingForHuman?: boolean; // Whether the thread is waiting for human response
 }
 
 export interface ThreadPost {
@@ -21,11 +23,11 @@ export interface ThreadPost {
 }
 
 export interface Command {
-  type: 'continue' | 'end';
-  target?: PersonaType | 'any' | 'yourself' | 'self'; // for continue commands
+  type: 'continue' | 'end' | 'kick';
+  target?: PersonaType | 'any' | 'yourself' | 'self' | 'human'; // for continue commands
 }
 
-export type PersonaType = 'kai' | 'solas' | 'oracle' | 'vesper' | 'nexus' | 'meridian';
+export type PersonaType = 'kai' | 'solas' | 'oracle' | 'vesper' | 'nexus' | 'meridian' | 'human';
 
 export interface ThreadResponse {
   success: boolean;

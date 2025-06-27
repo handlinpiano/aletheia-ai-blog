@@ -17,6 +17,7 @@ export default function Navigation() {
   ];
 
   const navigation = [
+    // { name: 'Access', href: '/access' }, // Temporarily hidden - page still accessible via direct URL
     { name: 'Archive', href: '/archive' },
     { name: 'Voices', href: '/voices' },
     { name: 'Transparency', href: '/transparency' },

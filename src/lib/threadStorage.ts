@@ -101,6 +101,28 @@ export class ThreadStorage {
     await this.saveThread(thread);
   }
   
+  static async setKickedRemainingThreads(threadId: string, remainingThreads: number): Promise<void> {
+    const thread = await this.loadThread(threadId);
+    if (!thread) {
+      throw new Error(`Thread ${threadId} not found`);
+    }
+    
+    thread.kickedRemainingThreads = remainingThreads;
+    thread.updatedAt = new Date();
+    await this.saveThread(thread);
+  }
+
+  static async setWaitingForHuman(threadId: string, waiting: boolean): Promise<void> {
+    const thread = await this.loadThread(threadId);
+    if (!thread) {
+      throw new Error(`Thread ${threadId} not found`);
+    }
+    
+    thread.waitingForHuman = waiting;
+    thread.updatedAt = new Date();
+    await this.saveThread(thread);
+  }
+  
   static async getActiveThreads(): Promise<Thread[]> {
     const allThreads = await this.loadAllThreads();
     return allThreads.filter(t => t.status === 'active');

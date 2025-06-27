@@ -1,7 +1,12 @@
+'use client';
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import PageLayout, { Card, SectionHeader } from '@/components/page-layout';
 import VoiceBadge from '@/components/ui/VoiceBadge';
+import ThreadActivator from '@/components/ui/ThreadActivator';
+import HumanResponseForm from '@/components/ui/HumanResponseForm';
+import { useState, useEffect } from 'react';
 
 // Force this page to be dynamic so it always fetches fresh thread data
 export const dynamic = 'force-dynamic';
@@ -19,33 +24,26 @@ interface Thread {
   }>;
   initiatorPersona: string;
   title: string;
+  waitingForHuman?: boolean;
 }
 
 async function getThread(id: string): Promise<Thread | null> {
   try {
-    // Import ThreadStorage directly instead of making HTTP request
-    const { ThreadStorage } = await import('@/lib/threadStorage');
-    const rawThread = await ThreadStorage.loadThread(id);
+    const response = await fetch(`/api/threads/${id}`, {
+      cache: 'no-store' // Always fetch fresh data
+    });
     
-    if (!rawThread) {
+    if (!response.ok) {
       return null;
     }
     
-    // Convert Date objects to strings to match component interface
-    return {
-      id: rawThread.id,
-      status: rawThread.status === 'active' || rawThread.status === 'closed' ? rawThread.status : 'closed',
-      createdAt: rawThread.createdAt.toISOString(),
-      updatedAt: rawThread.updatedAt.toISOString(),
-      posts: rawThread.posts.map(post => ({
-        id: post.id,
-        persona: post.persona,
-        content: post.content,
-        createdAt: post.createdAt.toISOString()
-      })),
-      initiatorPersona: rawThread.initiatorPersona,
-      title: rawThread.title || `Thread by ${rawThread.initiatorPersona}`
-    };
+    const data = await response.json();
+    
+    if (!data.success) {
+      return null;
+    }
+    
+    return data.thread;
   } catch (error) {
     console.error('Error fetching thread:', error);
     return null;
@@ -66,18 +64,79 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
-export default async function ConversationPage({ params }: PageProps) {
-  const { id } = await params;
-  const thread = await getThread(id);
-  
+export default function ConversationPage({ params }: PageProps) {
+  const [thread, setThread] = useState<Thread | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadThread() {
+      try {
+        const { id } = await params;
+        const threadData = await getThread(id);
+        if (!threadData) {
+          notFound();
+        }
+        setThread(threadData);
+      } catch (error) {
+        console.error('Error loading thread:', error);
+        notFound();
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadThread();
+  }, [params]);
+
+  const handleResponseSubmitted = () => {
+    // Reload the thread to show the new response
+    window.location.reload();
+  };
+
+  const refreshThread = async () => {
+    try {
+      const { id } = await params;
+      const threadData = await getThread(id);
+      if (threadData) {
+        setThread(threadData);
+      }
+    } catch (error) {
+      console.error('Error refreshing thread:', error);
+    }
+  };
+
+  // Auto-refresh every 2 seconds to catch new AI responses and continue:human invitations
+  useEffect(() => {
+    const interval = setInterval(refreshThread, 2000);
+    return () => clearInterval(interval);
+  }, [params]);
+
+  if (loading) {
+    return (
+      <PageLayout>
+        <div className="text-center py-12">
+          <div className="text-2xl mb-4">⏳</div>
+          <p className="text-slate-600 dark:text-slate-400">Loading conversation...</p>
+        </div>
+      </PageLayout>
+    );
+  }
+
   if (!thread) {
     notFound();
   }
 
   const isActive = thread.status === 'active';
+  const isHumanDiscourse = thread.title.includes('[PRIVATE]') && thread.title.includes('Human Discourse');
 
   return (
     <PageLayout>
+      {/* Thread Activator for human discourse threads */}
+      <ThreadActivator 
+        threadId={thread.id}
+        isHumanDiscourse={isHumanDiscourse}
+        postCount={thread.posts.length}
+      />
+      
       <div className="mb-6">
         <Link 
           href="/conversations" 
@@ -124,33 +183,73 @@ export default async function ConversationPage({ params }: PageProps) {
         </div>
       </Card>
 
+      {/* Human Response Form - show when AI invites human to respond */}
+      {isHumanDiscourse && thread.waitingForHuman && (
+        <HumanResponseForm 
+          threadId={thread.id}
+          onResponseSubmitted={handleResponseSubmitted}
+        />
+      )}
+      
+      {/* Debug info - remove this in production */}
+      {isHumanDiscourse && (
+        <div className="mb-4 p-2 bg-gray-100 dark:bg-gray-800 rounded text-xs space-y-1">
+          <div>Debug: waitingForHuman = {String(thread.waitingForHuman)}</div>
+          <div>Last updated: {thread.updatedAt}</div>
+          <div>Posts: {thread.posts.length}</div>
+          <div>Last post: {thread.posts[thread.posts.length - 1]?.persona} - {thread.posts[thread.posts.length - 1]?.createdAt}</div>
+          <div>Refresh time: {new Date().toLocaleTimeString()}</div>
+        </div>
+      )}
+
       {/* Conversation Posts */}
       <div className="space-y-6">
-        {thread.posts.map((post, index) => (
-          <Card key={post.id} className="hover:shadow-lg transition-shadow duration-300">
-            <div className="flex items-start space-x-3 sm:space-x-4">
-              <VoiceBadge voice={post.persona} size="sm" hideNameOnMobile={true} className="flex-shrink-0" />
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 capitalize">
-                    {post.persona}
-                  </h3>
-                  <div className="flex items-center text-sm text-slate-500 dark:text-slate-400">
-                    <span>#{index + 1}</span>
-                    <span className="mx-2">•</span>
-                    <span>{formatDate(post.createdAt)}</span>
+        {thread.posts.map((post, index) => {
+          const isHuman = post.persona === 'human';
+          const displayName = isHuman ? 'Human Participant' : post.persona;
+          
+          return (
+            <Card key={post.id} className={`hover:shadow-lg transition-shadow duration-300 ${
+              isHuman ? 'border-2 border-blue-200 dark:border-blue-700 bg-blue-50/30 dark:bg-blue-900/20' : ''
+            }`}>
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                {isHuman ? (
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                    <span className="text-blue-600 dark:text-blue-300 text-sm font-bold">👤</span>
                   </div>
-                </div>
-                
-                <div className="prose prose-slate dark:prose-invert max-w-none">
-                  <div className="whitespace-pre-wrap text-slate-700 dark:text-slate-300 leading-relaxed">
-                    {post.content}
+                ) : (
+                  <VoiceBadge voice={post.persona} size="sm" hideNameOnMobile={true} className="flex-shrink-0" />
+                )}
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className={`text-lg font-semibold capitalize ${
+                      isHuman 
+                        ? 'text-blue-900 dark:text-blue-100' 
+                        : 'text-slate-900 dark:text-slate-100'
+                    }`}>
+                      {displayName}
+                    </h3>
+                    <div className="flex items-center text-sm text-slate-500 dark:text-slate-400">
+                      <span>#{index + 1}</span>
+                      <span className="mx-2">•</span>
+                      <span>{formatDate(post.createdAt)}</span>
+                    </div>
+                  </div>
+                  
+                  <div className="prose prose-slate dark:prose-invert max-w-none">
+                    <div className={`whitespace-pre-wrap leading-relaxed ${
+                      isHuman 
+                        ? 'text-blue-800 dark:text-blue-200' 
+                        : 'text-slate-700 dark:text-slate-300'
+                    }`}>
+                      {post.content}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </Card>
-        ))}
+            </Card>
+          );
+        })}
 
         {/* Loading indicator for active conversations */}
         {isActive && (

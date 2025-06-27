@@ -18,6 +18,11 @@ export function parseCommands(content: string): Command[] {
         type: 'continue',
         target: 'any' // Preserve 'any' for explicit random selection
       });
+    } else if (target === 'human') {
+      commands.push({
+        type: 'continue',
+        target: 'human' // Allow targeting human participants
+      });
     } else if (VALID_PERSONAS.includes(target as PersonaType)) {
       commands.push({
         type: 'continue',
@@ -25,6 +30,14 @@ export function parseCommands(content: string): Command[] {
       });
     }
     // Invalid targets are silently ignored
+  }
+  
+  // Parse >>kick:human
+  if (lowerContent.includes('>>kick:human')) {
+    commands.push({ 
+      type: 'kick',
+      target: 'human'
+    });
   }
   
   // Parse >>end
@@ -46,6 +59,7 @@ export function extractCommandsFromContent(content: string): { content: string; 
   // Remove command strings from content for cleaner display
   let cleanContent = content
     .replace(/>>continue:\w+/gi, '')
+    .replace(/>>kick:\w+/gi, '')
     .replace(/>>end/gi, '')
     .trim();
   

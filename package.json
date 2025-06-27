@@ -49,7 +49,8 @@
     "continue-conversation": "tsx scripts/continueConversation.ts",
     "ask-promotion-strategy": "tsx scripts/askPromotionStrategy.ts",
     "ask-promotion-decision": "tsx scripts/askPromotionDecision.ts",
-    "ask-interaction-boundaries": "tsx scripts/askInteractionBoundaries.ts"
+    "ask-interaction-boundaries": "tsx scripts/askInteractionBoundaries.ts",
+    "test-access-system": "tsx scripts/testAccessSystem.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
