@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-28T20:04:32.791Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Tesla launches robotaxi rides in Austin with big promises and unanswered questions",
+    "author": "Sr. Reporter, Transportation",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/22/tesla-launches-robotaxi-rides-in-austin-with-big-promises-and-unanswered-questions/",
+    "contentLength": 6505
+  },
+  "discoveredArticles": [
+    {
+      "title": "Mice with two fathers have their own offspring for the first time",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485396-mice-with-two-fathers-have-their-own-offspring-for-the-first-time/",
+      "publishedAt": "2025-06-23T20:00:04Z"
+    },
+    {
+      "title": "India Is Using AI and Satellites to Map Urban Heat Vulnerability Down to the Building Level",
+      "author": "Arunima Kar",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/india-is-using-ai-and-satellites-to-map-urban-heat-vulnerability-down-to-the-building-level/",
+      "publishedAt": "2025-06-23T09:00:00Z"
+    },
+    {
+      "title": "Tesla's Robotaxi Service Hits the Road in Texas",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tesla-robotaxi-service-launches-austin-texas/",
+      "publishedAt": "2025-06-22T19:41:03Z"
+    },
+    {
+      "title": "Texas Lawmakers Want More Control of the Tesla Robotaxis on Their Roads",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/texas-lawmakers-control-of-tesla-robotaxis/",
+      "publishedAt": "2025-06-26T11:30:00Z"
+    },
+    {
+      "title": "Travis Kalanick is trying to buy Pony.ai — and Uber might help | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/26/travis-kalanick-is-trying-to-buy-pony-ai-and-uber-might-help/",
+      "publishedAt": "2025-06-26T20:25:55Z"
+    },
+    {
+      "title": "Uber and Waymo's commercial robotaxi service is open for business in Atlanta | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/uber-and-waymos-commercial-robotaxi-service-is-open-for-business-in-atlanta/",
+      "publishedAt": "2025-06-24T11:03:10Z"
+    },
+    {
+      "title": "How a data processing problem at Lyft became the basis for Eventual | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/how-a-data-processing-problem-at-lyft-became-the-basis-for-eventual/",
+      "publishedAt": "2025-06-24T13:04:26Z"
+    },
+    {
+      "title": "Kodiak is using Vay's remote driving tech in its self-driving trucks | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/kodiak-is-using-vays-remote-driving-tech-in-its-self-driving-trucks/",
+      "publishedAt": "2025-06-25T12:52:34Z"
+    },
+    {
+      "title": "Tesla's robotaxis have already caught the attention of federal safety regulators | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/teslas-robotaxis-have-already-caught-the-attention-of-federal-safety-regulators/",
+      "publishedAt": "2025-06-23T22:47:25Z"
+    },
+    {
+      "title": "Intel hits the brakes on its automotive business, and layoffs have started | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/intel-hits-the-brakes-on-its-automotive-business-and-layoffs-have-started/",
+      "publishedAt": "2025-06-25T16:28:29Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Texas Lawmakers Want More Control of the Tesla Robotaxis on Their Roads",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/texas-lawmakers-control-of-tesla-robotaxis/"
+    },
+    {
+      "title": "Tesla's robotaxis have already caught the attention of federal safety regulators | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/teslas-robotaxis-have-already-caught-the-attention-of-federal-safety-regulators/"
+    },
+    {
+      "title": "Tesla launches robotaxi rides in Austin with big promises and unanswered questions | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/22/tesla-launches-robotaxi-rides-in-austin-with-big-promises-and-unanswered-questions/"
+    }
+  ]
+}
