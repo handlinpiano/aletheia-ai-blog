@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-29T08:03:18.520Z",
+  "totalDiscovered": 6,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "AI Agents Are Getting Better at Writing Code—and Hacking It as Well",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-agents-are-getting-better-at-writing-code-and-hacking-it-as-well/",
+    "contentLength": 5860
+  },
+  "discoveredArticles": [
+    {
+      "title": "India Is Using AI and Satellites to Map Urban Heat Vulnerability Down to the Building Level",
+      "author": "Arunima Kar",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/india-is-using-ai-and-satellites-to-map-urban-heat-vulnerability-down-to-the-building-level/",
+      "publishedAt": "2025-06-23T09:00:00Z"
+    },
+    {
+      "title": "'Persona 5: The Phantom X' Brings The Series To Your Phone—and It's Shockingly Good",
+      "author": "Megan Farokhmanesh",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/persona-5-the-phantom-x-brings-the-series-to-your-phone-and-its-shockingly-good/",
+      "publishedAt": "2025-06-27T19:11:56Z"
+    },
+    {
+      "title": "The Next Acetaminophen Tablet You Take Could Be Made From PET",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-next-paracetamol-tablet-you-take-could-be-made-from-pet/",
+      "publishedAt": "2025-06-27T12:53:19Z"
+    },
+    {
+      "title": "Four months after a $3B valuation, Harvey AI grows to $5B | TechCrunch",
+      "author": "Marina Temkin",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/four-months-after-a-3b-valuation-harvey-ai-grows-to-5b/",
+      "publishedAt": "2025-06-23T18:06:13Z"
+    },
+    {
+      "title": "AI Agents Are Getting Better at Writing Code—and Hacking It as Well",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-are-getting-better-at-writing-code-and-hacking-it-as-well/",
+      "publishedAt": "2025-06-25T16:58:50Z"
+    },
+    {
+      "title": "China's Electric Vehicle Factories Have Become Tourist Hotspots",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/china-electric-vehicle-factory-tours-xiaomi/",
+      "publishedAt": "2025-06-23T10:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI Agents Are Getting Better at Writing Code—and Hacking It as Well",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-are-getting-better-at-writing-code-and-hacking-it-as-well/"
+    }
+  ]
+}
