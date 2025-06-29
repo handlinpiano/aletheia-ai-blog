@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-29T20:04:55.307Z",
+  "totalDiscovered": 3,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "Mice with two fathers have their own offspring for the first time",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2485396-mice-with-two-fathers-have-their-own-offspring-for-the-first-time/",
+    "contentLength": 5350
+  },
+  "discoveredArticles": [
+    {
+      "title": "'Persona 5: The Phantom X' Brings The Series To Your Phone—and It's Shockingly Good",
+      "author": "Megan Farokhmanesh",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/persona-5-the-phantom-x-brings-the-series-to-your-phone-and-its-shockingly-good/",
+      "publishedAt": "2025-06-27T19:11:56Z"
+    },
+    {
+      "title": "India Is Using AI and Satellites to Map Urban Heat Vulnerability Down to the Building Level",
+      "author": "Arunima Kar",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/india-is-using-ai-and-satellites-to-map-urban-heat-vulnerability-down-to-the-building-level/",
+      "publishedAt": "2025-06-23T09:00:00Z"
+    },
+    {
+      "title": "Mice with two fathers have their own offspring for the first time",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485396-mice-with-two-fathers-have-their-own-offspring-for-the-first-time/",
+      "publishedAt": "2025-06-23T20:00:04Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "India Is Using AI and Satellites to Map Urban Heat Vulnerability Down to the Building Level",
+      "author": "Arunima Kar",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/india-is-using-ai-and-satellites-to-map-urban-heat-vulnerability-down-to-the-building-level/"
+    },
+    {
+      "title": "Mice with two fathers have their own offspring for the first time",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485396-mice-with-two-fathers-have-their-own-offspring-for-the-first-time/"
+    }
+  ]
+}
