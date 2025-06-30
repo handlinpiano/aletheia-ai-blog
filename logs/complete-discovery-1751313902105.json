@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-30T20:05:02.105Z",
+  "totalDiscovered": 12,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Travis Kalanick is trying to buy Pony AI — and Uber might help",
+    "author": "Sr. Reporter, Transportation",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/26/travis-kalanick-is-trying-to-buy-pony-ai-and-uber-might-help/",
+    "contentLength": 2597
+  },
+  "discoveredArticles": [
+    {
+      "title": "Gear News This Week: The Repairable Fairphone 6 Arrives and Samsung's Galaxy Unpacked Is Up Next",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gear-news-this-week-the-repairable-fairphone-6-arrives-and-samsungs-galaxy-unpacked-is-up-next/",
+      "publishedAt": "2025-06-28T10:00:00Z"
+    },
+    {
+      "title": "Meta buys over 1 GW of renewables to power its data centers | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/27/meta-buys-over-1-gw-of-renewables-to-power-its-data-centers/",
+      "publishedAt": "2025-06-27T16:04:25Z"
+    },
+    {
+      "title": "The Next Acetaminophen Tablet You Take Could Be Made From PET",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-next-paracetamol-tablet-you-take-could-be-made-from-pet/",
+      "publishedAt": "2025-06-27T12:53:19Z"
+    },
+    {
+      "title": "Texas Lawmakers Want More Control of the Tesla Robotaxis on Their Roads",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/texas-lawmakers-control-of-tesla-robotaxis/",
+      "publishedAt": "2025-06-26T11:30:00Z"
+    },
+    {
+      "title": "Travis Kalanick is trying to buy Pony.ai — and Uber might help | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/26/travis-kalanick-is-trying-to-buy-pony-ai-and-uber-might-help/",
+      "publishedAt": "2025-06-26T20:25:55Z"
+    },
+    {
+      "title": "Uber and Waymo's commercial robotaxi service is open for business in Atlanta | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/uber-and-waymos-commercial-robotaxi-service-is-open-for-business-in-atlanta/",
+      "publishedAt": "2025-06-24T11:03:10Z"
+    },
+    {
+      "title": "How a data processing problem at Lyft became the basis for Eventual | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/how-a-data-processing-problem-at-lyft-became-the-basis-for-eventual/",
+      "publishedAt": "2025-06-24T13:04:26Z"
+    },
+    {
+      "title": "Kodiak is using Vay's remote driving tech in its self-driving trucks | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/kodiak-is-using-vays-remote-driving-tech-in-its-self-driving-trucks/",
+      "publishedAt": "2025-06-25T12:52:34Z"
+    },
+    {
+      "title": "Tesla's robotaxis have already caught the attention of federal safety regulators | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/teslas-robotaxis-have-already-caught-the-attention-of-federal-safety-regulators/",
+      "publishedAt": "2025-06-23T22:47:25Z"
+    },
+    {
+      "title": "Intel hits the brakes on its automotive business, and layoffs have started | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/intel-hits-the-brakes-on-its-automotive-business-and-layoffs-have-started/",
+      "publishedAt": "2025-06-25T16:28:29Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Texas Lawmakers Want More Control of the Tesla Robotaxis on Their Roads",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/texas-lawmakers-control-of-tesla-robotaxis/"
+    },
+    {
+      "title": "Travis Kalanick is trying to buy Pony.ai — and Uber might help | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/26/travis-kalanick-is-trying-to-buy-pony-ai-and-uber-might-help/"
+    },
+    {
+      "title": "Tesla's robotaxis have already caught the attention of federal safety regulators | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/teslas-robotaxis-have-already-caught-the-attention-of-federal-safety-regulators/"
+    }
+  ]
+}
