@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-30T08:03:36.756Z",
+  "totalDiscovered": 10,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "TechCrunch Mobility: The Tesla robotaxi Rorschach test and Redwood’s next big act",
+    "author": "Kirsten Korosec, Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/27/techcrunch-mobility-the-tesla-robotaxi-rorschach-test-and-redwoods-next-big-act/",
+    "contentLength": 7373
+  },
+  "discoveredArticles": [
+    {
+      "title": "India Is Using AI and Satellites to Map Urban Heat Vulnerability Down to the Building Level",
+      "author": "Arunima Kar",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/india-is-using-ai-and-satellites-to-map-urban-heat-vulnerability-down-to-the-building-level/",
+      "publishedAt": "2025-06-23T09:00:00Z"
+    },
+    {
+      "title": "Texas Lawmakers Want More Control of the Tesla Robotaxis on Their Roads",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/texas-lawmakers-control-of-tesla-robotaxis/",
+      "publishedAt": "2025-06-26T11:30:00Z"
+    },
+    {
+      "title": "Travis Kalanick is trying to buy Pony.ai — and Uber might help | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/26/travis-kalanick-is-trying-to-buy-pony-ai-and-uber-might-help/",
+      "publishedAt": "2025-06-26T20:25:55Z"
+    },
+    {
+      "title": "Uber and Waymo's commercial robotaxi service is open for business in Atlanta | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/uber-and-waymos-commercial-robotaxi-service-is-open-for-business-in-atlanta/",
+      "publishedAt": "2025-06-24T11:03:10Z"
+    },
+    {
+      "title": "How a data processing problem at Lyft became the basis for Eventual | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/24/how-a-data-processing-problem-at-lyft-became-the-basis-for-eventual/",
+      "publishedAt": "2025-06-24T13:04:26Z"
+    },
+    {
+      "title": "Kodiak is using Vay's remote driving tech in its self-driving trucks | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/kodiak-is-using-vays-remote-driving-tech-in-its-self-driving-trucks/",
+      "publishedAt": "2025-06-25T12:52:34Z"
+    },
+    {
+      "title": "Tesla's robotaxis have already caught the attention of federal safety regulators | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/teslas-robotaxis-have-already-caught-the-attention-of-federal-safety-regulators/",
+      "publishedAt": "2025-06-23T22:47:25Z"
+    },
+    {
+      "title": "Intel hits the brakes on its automotive business, and layoffs have started | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/intel-hits-the-brakes-on-its-automotive-business-and-layoffs-have-started/",
+      "publishedAt": "2025-06-25T16:28:29Z"
+    },
+    {
+      "title": "TechCrunch Mobility: The Tesla robotaxi Rorschach test and Redwood’s next big act | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/27/techcrunch-mobility-the-tesla-robotaxi-rorschach-test-and-redwoods-next-big-act/",
+      "publishedAt": "2025-06-27T18:47:27Z"
+    },
+    {
+      "title": "Week in Review:  Meta's AI recruiting blitz | TechCrunch",
+      "author": "Karyne Levy",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/28/week-in-review-metas-ai-recruiting-blitz/",
+      "publishedAt": "2025-06-28T17:07:34Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Texas Lawmakers Want More Control of the Tesla Robotaxis on Their Roads",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/texas-lawmakers-control-of-tesla-robotaxis/"
+    },
+    {
+      "title": "Tesla's robotaxis have already caught the attention of federal safety regulators | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/23/teslas-robotaxis-have-already-caught-the-attention-of-federal-safety-regulators/"
+    },
+    {
+      "title": "TechCrunch Mobility: The Tesla robotaxi Rorschach test and Redwood’s next big act | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/27/techcrunch-mobility-the-tesla-robotaxi-rorschach-test-and-redwoods-next-big-act/"
+    }
+  ]
+}
