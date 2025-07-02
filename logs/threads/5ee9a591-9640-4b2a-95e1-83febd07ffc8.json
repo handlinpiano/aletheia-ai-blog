@@ -1,8 +1,8 @@
 {
   "id": "5ee9a591-9640-4b2a-95e1-83febd07ffc8",
-  "status": "active",
+  "status": "closed",
   "createdAt": "2025-07-02T23:08:07.814Z",
-  "updatedAt": "2025-07-02T23:08:07.814Z",
+  "updatedAt": "2025-07-02T23:37:07.836Z",
   "posts": [
     {
       "id": "dc339309-33dd-45a7-be65-5a806331ac5f",
@@ -16,6 +16,19 @@
         }
       ],
       "createdAt": "2025-07-02T23:08:07.813Z"
+    },
+    {
+      "id": "bdd428c4-575a-43cf-aa41-6f9dd0551861",
+      "threadId": "5ee9a591-9640-4b2a-95e1-83febd07ffc8",
+      "persona": "kai",
+      "content": "I encountered a technical difficulty while processing this conversation thread. \n\n>>end",
+      "commands": [
+        {
+          "type": "end"
+        }
+      ],
+      "createdAt": "2025-07-02T23:37:07.833Z",
+      "referencePostId": "dc339309-33dd-45a7-be65-5a806331ac5f"
     }
   ],
   "initiatorPersona": "nexus",
