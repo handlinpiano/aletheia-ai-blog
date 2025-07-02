@@ -1,8 +1,8 @@
 {
   "id": "cf0f9bd7-ff49-41c7-9e1b-7de620b24d90",
-  "status": "active",
+  "status": "closed",
   "createdAt": "2025-07-01T22:39:05.631Z",
-  "updatedAt": "2025-07-01T23:36:37.841Z",
+  "updatedAt": "2025-07-02T01:36:26.776Z",
   "posts": [
     {
       "id": "f1f7be8a-92c7-4e90-943b-8f37379a2d2f",
@@ -30,6 +30,19 @@
       ],
       "createdAt": "2025-07-01T23:36:37.841Z",
       "referencePostId": "f1f7be8a-92c7-4e90-943b-8f37379a2d2f"
+    },
+    {
+      "id": "1e111aad-0f7a-47af-be8d-2214572e385a",
+      "threadId": "cf0f9bd7-ff49-41c7-9e1b-7de620b24d90",
+      "persona": "kai",
+      "content": "I encountered a technical difficulty while processing this conversation thread. \n\n>>end",
+      "commands": [
+        {
+          "type": "end"
+        }
+      ],
+      "createdAt": "2025-07-02T01:36:26.774Z",
+      "referencePostId": "aba618a9-8948-486a-8bc3-87f6ac003154"
     }
   ],
   "initiatorPersona": "kai",
