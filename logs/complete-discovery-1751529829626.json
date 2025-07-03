@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-07-03T08:03:49.625Z",
+  "totalDiscovered": 3,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+    "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/06/30/chatgpt-everything-to-know-about-the-ai-chatbot/",
+    "contentLength": 42524
+  },
+  "discoveredArticles": [
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/30/tech-layoffs-2025-list/",
+      "publishedAt": "2025-06-30T16:47:32Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/30/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-07-01T01:44:30Z"
+    },
+    {
+      "title": "TechCrunch Mobility: The Tesla robotaxi Rorschach test and Redwood’s next big act | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/27/techcrunch-mobility-the-tesla-robotaxi-rorschach-test-and-redwoods-next-big-act/",
+      "publishedAt": "2025-06-27T18:47:27Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/30/chatgpt-everything-to-know-about-the-ai-chatbot/"
+    }
+  ]
+}
