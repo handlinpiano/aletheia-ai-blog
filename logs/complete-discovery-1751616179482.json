@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-04T08:02:59.481Z",
+  "totalDiscovered": 25,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "OpenAI’s Unreleased AGI Paper Could Complicate Microsoft Negotiations",
+    "author": "Kylie Robison",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/openai-five-levels-agi-paper-microsoft-negotiations/",
+    "contentLength": 6574
+  },
+  "discoveredArticles": [
+    {
+      "title": "Vegan cheese could be about to get a lot closer to the real thing",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486509-vegan-cheese-could-be-about-to-get-a-lot-closer-to-the-real-thing/",
+      "publishedAt": "2025-07-02T16:00:55Z"
+    },
+    {
+      "title": "Business Travel Is Evolving Faster Than Ever. We’ll Help You Navigate It",
+      "author": "Katie Drummond, Jesse Ashlock",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-business-travel-editors-letter/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "The Next Acetaminophen Tablet You Take Could Be Made From PET",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-next-paracetamol-tablet-you-take-could-be-made-from-pet/",
+      "publishedAt": "2025-06-27T12:53:19Z"
+    },
+    {
+      "title": "OpenAI’s Unreleased AGI Paper Could Complicate Microsoft Negotiations",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-five-levels-agi-paper-microsoft-negotiations/",
+      "publishedAt": "2025-06-27T19:35:29Z"
+    },
+    {
+      "title": "Fancy Airplane Seats Have Nowhere Left to Go—So What Now?",
+      "author": "Jenny Southan",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/fancy-airplane-seats-have-nowhere-left-to-go-so-what-now/",
+      "publishedAt": "2025-06-28T11:00:00Z"
+    },
+    {
+      "title": "Could hormone implants allow us to boost focus, endurance and libido?",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635500-200-could-hormone-implants-allow-us-to-boost-focus-endurance-and-libido/",
+      "publishedAt": "2025-07-02T18:00:00Z"
+    },
+    {
+      "title": "Read an extract from Adam Roberts’s far future-set Lake of Darkness",
+      "author": "Adam Roberts",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2485990-read-an-extract-from-adam-robertss-far-future-set-lake-of-darkness/",
+      "publishedAt": "2025-06-27T09:45:31Z"
+    },
+    {
+      "title": "The best new science fiction books of July 2025",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486387-the-best-new-science-fiction-books-of-july-2025/",
+      "publishedAt": "2025-07-01T10:00:03Z"
+    },
+    {
+      "title": "Bioplastic habitats on Mars could be built from algae",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486653-bioplastic-habitats-on-mars-could-be-built-from-algae/",
+      "publishedAt": "2025-07-02T19:00:55Z"
+    },
+    {
+      "title": "Solving the 250-year-old puzzle of how static electricity works",
+      "author": "Elise Cutts",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484276-solving-the-250-year-old-puzzle-of-how-static-electricity-works/",
+      "publishedAt": "2025-07-01T16:00:35Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "OpenAI’s Unreleased AGI Paper Could Complicate Microsoft Negotiations",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-five-levels-agi-paper-microsoft-negotiations/"
+    },
+    {
+      "title": "What Could a Healthy AI Companion Look Like?",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tolan-chatbot-ai-companion/"
+    },
+    {
+      "title": "Sam Altman Slams Meta’s AI Talent Poaching Spree: 'Missionaries Will Beat Mercenaries'",
+      "author": "Zoë Schiffer",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sam-altman-meta-ai-talent-poaching-spree-leaked-messages/"
+    }
+  ]
+}
