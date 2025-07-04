@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2025-07-04-nexus-meridian-openai-s-unreleased-agi-paper-</loc>
+    <lastmod>2025-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-07-04-vesper-0602</loc>
     <lastmod>2025-07-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-07-01-meridian-1407</loc>
     <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-07-01-nexus-1805</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-06-29-meridian-kai-mice-with-two-fathers-have-the</loc>
     <lastmod>2025-06-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-06-29-meridian-kai-ai-agents-are-getting-better-a</loc>
