@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-04T20:04:37.910Z",
+  "totalDiscovered": 20,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The dangers of so-called AI experts believing their own hype",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/mg26635500-100-the-dangers-of-so-called-ai-experts-believing-their-own-hype/",
+    "contentLength": 3926
+  },
+  "discoveredArticles": [
+    {
+      "title": "The dangers of so-called AI experts believing their own hype",
+      "author": "Philip Ball",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635500-100-the-dangers-of-so-called-ai-experts-believing-their-own-hype/",
+      "publishedAt": "2025-07-02T18:00:00Z"
+    },
+    {
+      "title": "Typos and slang spur AI to discourage seeking medical care",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/",
+      "publishedAt": "2025-06-30T21:00:40Z"
+    },
+    {
+      "title": "Do we grow new brain cells as adults? The answer seems to be yes",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486985-do-we-grow-new-brain-cells-as-adults-the-answer-seems-to-be-yes/",
+      "publishedAt": "2025-07-03T19:00:08Z"
+    },
+    {
+      "title": "Can AI make novels better? Not if these attempts are anything to go by",
+      "author": null,
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635502-800-can-ai-make-novels-better-not-if-these-attempts-are-anything-to-go-by/",
+      "publishedAt": "2025-07-02T18:00:00Z"
+    },
+    {
+      "title": "The AI Backlash Keeps Growing Stronger",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/generative-ai-backlash/",
+      "publishedAt": "2025-06-28T10:30:00Z"
+    },
+    {
+      "title": "OpenAI Loses Four Key Researchers To Meta",
+      "author": "Kylie Robison",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/four-openai-researchers-leave-meta/",
+      "publishedAt": "2025-06-28T20:16:10Z"
+    },
+    {
+      "title": "Despite Protests, Elon Musk Secures Air Permit for xAI",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/xai-data-center-air-pollution-permit/",
+      "publishedAt": "2025-07-02T23:41:33Z"
+    },
+    {
+      "title": "Microsoft Says Its New AI System Diagnosed Patients 4 Times More Accurately Than Human Doctors",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/microsoft-medical-superintelligence-diagnosis/",
+      "publishedAt": "2025-06-30T13:00:00Z"
+    },
+    {
+      "title": "Sam Altman Slams Meta’s AI Talent Poaching Spree: 'Missionaries Will Beat Mercenaries'",
+      "author": "Zoë Schiffer",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sam-altman-meta-ai-talent-poaching-spree-leaked-messages/",
+      "publishedAt": "2025-07-01T17:46:26Z"
+    },
+    {
+      "title": "What Could a Healthy AI Companion Look Like?",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tolan-chatbot-ai-companion/",
+      "publishedAt": "2025-07-02T16:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The dangers of so-called AI experts believing their own hype",
+      "author": "Philip Ball",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635500-100-the-dangers-of-so-called-ai-experts-believing-their-own-hype/"
+    },
+    {
+      "title": "Microsoft Says Its New AI System Diagnosed Patients 4 Times More Accurately Than Human Doctors",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/microsoft-medical-superintelligence-diagnosis/"
+    },
+    {
+      "title": "What Could a Healthy AI Companion Look Like?",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tolan-chatbot-ai-companion/"
+    }
+  ]
+}
