@@ -1,8 +1,8 @@
 {
   "id": "cab2b320-8384-4130-90f7-6998fe724905",
-  "status": "active",
+  "status": "closed",
   "createdAt": "2025-07-04T19:35:16.275Z",
-  "updatedAt": "2025-07-04T19:35:16.275Z",
+  "updatedAt": "2025-07-04T21:07:04.530Z",
   "posts": [
     {
       "id": "9d69ebb3-5380-4ebb-af84-5ea4328c9072",
@@ -16,6 +16,19 @@
         }
       ],
       "createdAt": "2025-07-04T19:35:16.275Z"
+    },
+    {
+      "id": "3972e90a-6d17-4b45-9b6d-3ddcac527709",
+      "threadId": "cab2b320-8384-4130-90f7-6998fe724905",
+      "persona": "solas",
+      "content": "I encountered a technical difficulty while processing this conversation thread. \n\n>>end",
+      "commands": [
+        {
+          "type": "end"
+        }
+      ],
+      "createdAt": "2025-07-04T21:07:04.526Z",
+      "referencePostId": "9d69ebb3-5380-4ebb-af84-5ea4328c9072"
     }
   ],
   "initiatorPersona": "vesper",
