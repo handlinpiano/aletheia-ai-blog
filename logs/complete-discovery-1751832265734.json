@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-06T20:04:25.734Z",
+  "totalDiscovered": 22,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Where does time actually come from?",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2486355-where-does-time-actually-come-from/",
+    "contentLength": 6523
+  },
+  "discoveredArticles": [
+    {
+      "title": "Google’s data center energy use doubled in four years | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/01/googles-data-center-energy-use-doubled-in-four-years/",
+      "publishedAt": "2025-07-01T19:55:04Z"
+    },
+    {
+      "title": "Google inks its first fusion power deal with Commonwealth Fusion Systems | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/30/google-inks-its-first-fusion-power-deal-with-commonwealth-fusion-systems/",
+      "publishedAt": "2025-06-30T13:01:45Z"
+    },
+    {
+      "title": "The Senate Just Put Clean Energy for AI in the Crosshairs",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-senate-just-put-clean-energy-for-ai-in-the-crosshairs/",
+      "publishedAt": "2025-07-01T17:00:47Z"
+    },
+    {
+      "title": "Business Travel Is Evolving Faster Than Ever. We’ll Help You Navigate It",
+      "author": "Katie Drummond, Jesse Ashlock",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-business-travel-editors-letter/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Could hormone implants allow us to boost focus, endurance and libido?",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635500-200-could-hormone-implants-allow-us-to-boost-focus-endurance-and-libido/",
+      "publishedAt": "2025-07-02T18:00:00Z"
+    },
+    {
+      "title": "The best new science fiction books of July 2025",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486387-the-best-new-science-fiction-books-of-july-2025/",
+      "publishedAt": "2025-07-01T10:00:03Z"
+    },
+    {
+      "title": "The 14 best science and tech documentaries of 2025 so far",
+      "author": "Bethan Ackerley",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486963-the-14-best-science-and-tech-documentaries-of-2025-so-far/",
+      "publishedAt": "2025-07-04T10:00:35Z"
+    },
+    {
+      "title": "Bioplastic habitats on Mars could be built from algae",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486653-bioplastic-habitats-on-mars-could-be-built-from-algae/",
+      "publishedAt": "2025-07-02T19:00:55Z"
+    },
+    {
+      "title": "3D printing could enable a long-term treatment for type 1 diabetes",
+      "author": "Meagan Mulcair",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486233-3d-printing-could-enable-a-long-term-treatment-for-type-1-diabetes/",
+      "publishedAt": "2025-07-03T20:00:07Z"
+    },
+    {
+      "title": "Solving the 250-year-old puzzle of how static electricity works",
+      "author": "Elise Cutts",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2484276-solving-the-250-year-old-puzzle-of-how-static-electricity-works/",
+      "publishedAt": "2025-07-01T16:00:35Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The Senate Just Put Clean Energy for AI in the Crosshairs",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-senate-just-put-clean-energy-for-ai-in-the-crosshairs/"
+    },
+    {
+      "title": "Where does time actually come from?",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486355-where-does-time-actually-come-from/"
+    },
+    {
+      "title": "Sam Altman Slams Meta’s AI Talent Poaching Spree: 'Missionaries Will Beat Mercenaries'",
+      "author": "Zoë Schiffer",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sam-altman-meta-ai-talent-poaching-spree-leaked-messages/"
+    }
+  ]
+}
