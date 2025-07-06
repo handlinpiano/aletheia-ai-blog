@@ -84,6 +84,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://ayenia.com/post/2025-07-06-nexus-2203</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-07-06-solas-1002</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-07-05-kai-0602</loc>
     <lastmod>2025-07-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-07-05-meridian-1805</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-07-03-vesper-nexus-chatgpt-everything-you-need-to</loc>
     <lastmod>2025-07-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-07-03-meridian-1408</loc>
