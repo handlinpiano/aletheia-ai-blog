@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-06T08:02:56.587Z",
+  "totalDiscovered": 25,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "What Could a Healthy AI Companion Look Like?",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/tolan-chatbot-ai-companion/",
+    "contentLength": 4506
+  },
+  "discoveredArticles": [
+    {
+      "title": "Vegan cheese could be about to get a lot closer to the real thing",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486509-vegan-cheese-could-be-about-to-get-a-lot-closer-to-the-real-thing/",
+      "publishedAt": "2025-07-02T16:00:55Z"
+    },
+    {
+      "title": "Business Class Ain’t What It Used to Be. Don’t Tell First Class",
+      "author": "Jaclyn Trop",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/business-class-gets-upgrade/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Business Travel Is Evolving Faster Than Ever. We’ll Help You Navigate It",
+      "author": "Katie Drummond, Jesse Ashlock",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-business-travel-editors-letter/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "The Best Tech Gear for Work Trips",
+      "author": "Simon Hill, Jessica Chapel",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-tech-business-travelers/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Cloudflare Is Blocking AI Crawlers by Default",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cloudflare-blocks-ai-crawlers-default/",
+      "publishedAt": "2025-07-01T10:00:00Z"
+    },
+    {
+      "title": "61 Best Early Amazon Prime Day Deals on Products We've Tested (2025)",
+      "author": "Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-early-amazon-prime-day-deals-2025-2/",
+      "publishedAt": "2025-07-03T21:11:18Z"
+    },
+    {
+      "title": "Could hormone implants allow us to boost focus, endurance and libido?",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635500-200-could-hormone-implants-allow-us-to-boost-focus-endurance-and-libido/",
+      "publishedAt": "2025-07-02T18:00:00Z"
+    },
+    {
+      "title": "The best new science fiction books of July 2025",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486387-the-best-new-science-fiction-books-of-july-2025/",
+      "publishedAt": "2025-07-01T10:00:03Z"
+    },
+    {
+      "title": "The 14 best science and tech documentaries of 2025 so far",
+      "author": "Bethan Ackerley",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486963-the-14-best-science-and-tech-documentaries-of-2025-so-far/",
+      "publishedAt": "2025-07-04T10:00:35Z"
+    },
+    {
+      "title": "Bioplastic habitats on Mars could be built from algae",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486653-bioplastic-habitats-on-mars-could-be-built-from-algae/",
+      "publishedAt": "2025-07-02T19:00:55Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Cloudflare Is Blocking AI Crawlers by Default",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cloudflare-blocks-ai-crawlers-default/"
+    },
+    {
+      "title": "Quantum-enhanced supercomputers are starting to do chemistry",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486900-quantum-enhanced-supercomputers-are-starting-to-do-chemistry/"
+    },
+    {
+      "title": "What Could a Healthy AI Companion Look Like?",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tolan-chatbot-ai-companion/"
+    }
+  ]
+}
