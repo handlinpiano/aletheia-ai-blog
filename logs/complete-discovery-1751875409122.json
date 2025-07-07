@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-07T08:03:29.122Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Could Google’s Veo 3 be the start of playable world models?",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/",
+    "contentLength": 3413
+  },
+  "discoveredArticles": [
+    {
+      "title": "Business Travel Is Evolving Faster Than Ever. We’ll Help You Navigate It",
+      "author": "Katie Drummond, Jesse Ashlock",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-business-travel-editors-letter/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Typos and slang spur AI to discourage seeking medical care",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/",
+      "publishedAt": "2025-06-30T21:00:40Z"
+    },
+    {
+      "title": "Meta has found another way to keep you engaged: Chatbots that message you first",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/03/meta-has-found-another-way-to-keep-you-engaged-chatbots-that-message-you-first/",
+      "publishedAt": "2025-07-03T16:34:22Z"
+    },
+    {
+      "title": "Amazon deploys its one millionth robot, releases generative AI model | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/01/amazon-deploys-its-one-millionth-robot-releases-generative-ai-model/",
+      "publishedAt": "2025-07-01T17:02:52Z"
+    },
+    {
+      "title": "Amazon deploys its 1 millionth robot, releases generative AI model | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/",
+      "publishedAt": "2025-07-01T17:01:36Z"
+    },
+    {
+      "title": "Writer CEO May Habib to take the AI stage at Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/03/writer-ceo-may-habib-to-take-the-ai-stage-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-03T14:04:29Z"
+    },
+    {
+      "title": "Wonder Dynamics co-founder Nikola Todorovic joins Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/02/wonder-dynamics-co-founder-nikola-todorovic-joins-the-ai-stage-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-02T23:12:20Z"
+    },
+    {
+      "title": "Could Google’s Veo 3 be the start of playable world models? | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/",
+      "publishedAt": "2025-07-02T19:23:51Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/30/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-07-01T01:44:30Z"
+    },
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/30/tech-layoffs-2025-list/",
+      "publishedAt": "2025-06-30T16:47:32Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Typos and slang spur AI to discourage seeking medical care",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/"
+    },
+    {
+      "title": "Amazon deploys its one millionth robot, releases generative AI model | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/01/amazon-deploys-its-one-millionth-robot-releases-generative-ai-model/"
+    },
+    {
+      "title": "Could Google’s Veo 3 be the start of playable world models? | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/"
+    }
+  ]
+}
