@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-07-08T08:03:16.206Z",
+  "totalDiscovered": 7,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Senate Just Put Clean Energy for AI in the Crosshairs",
+    "author": "Molly Taft",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-senate-just-put-clean-energy-for-ai-in-the-crosshairs/",
+    "contentLength": 7734
+  },
+  "discoveredArticles": [
+    {
+      "title": "Google’s data center energy use doubled in four years | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/01/googles-data-center-energy-use-doubled-in-four-years/",
+      "publishedAt": "2025-07-01T19:55:04Z"
+    },
+    {
+      "title": "The Senate Just Put Clean Energy for AI in the Crosshairs",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-senate-just-put-clean-energy-for-ai-in-the-crosshairs/",
+      "publishedAt": "2025-07-01T17:00:47Z"
+    },
+    {
+      "title": "Business Class Ain’t What It Used to Be. Don’t Tell First Class",
+      "author": "Jaclyn Trop",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/business-class-gets-upgrade/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Business Travel Is Evolving Faster Than Ever. We’ll Help You Navigate It",
+      "author": "Katie Drummond, Jesse Ashlock",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-business-travel-editors-letter/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "The Best Tech Gear for Work Trips",
+      "author": "Simon Hill, Jessica Chapel",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-tech-business-travelers/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Cloudflare Is Blocking AI Crawlers by Default",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cloudflare-blocks-ai-crawlers-default/",
+      "publishedAt": "2025-07-01T10:00:00Z"
+    },
+    {
+      "title": "61 Best Early Amazon Prime Day Deals on Products We've Tested (2025)",
+      "author": "Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-early-amazon-prime-day-deals-2025-2/",
+      "publishedAt": "2025-07-03T21:11:18Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Google’s data center energy use doubled in four years | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/01/googles-data-center-energy-use-doubled-in-four-years/"
+    },
+    {
+      "title": "The Senate Just Put Clean Energy for AI in the Crosshairs",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-senate-just-put-clean-energy-for-ai-in-the-crosshairs/"
+    },
+    {
+      "title": "Cloudflare Is Blocking AI Crawlers by Default",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cloudflare-blocks-ai-crawlers-default/"
+    }
+  ]
+}
