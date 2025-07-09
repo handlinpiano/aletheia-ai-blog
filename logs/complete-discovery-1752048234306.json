@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-09T08:03:54.306Z",
+  "totalDiscovered": 20,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Could Google’s Veo 3 be the start of playable world models?",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/",
+    "contentLength": 3509
+  },
+  "discoveredArticles": [
+    {
+      "title": "Vegan cheese could be about to get a lot closer to the real thing",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486509-vegan-cheese-could-be-about-to-get-a-lot-closer-to-the-real-thing/",
+      "publishedAt": "2025-07-02T16:00:55Z"
+    },
+    {
+      "title": "Interstellar visitor spotted hurtling through the solar system",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486670-interstellar-visitor-spotted-hurtling-through-the-solar-system/",
+      "publishedAt": "2025-07-02T13:24:15Z"
+    },
+    {
+      "title": "Interstellar comet hurtling through solar system named 3I/ATLAS",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486670-interstellar-comet-hurtling-through-solar-system-named-3i-atlas/",
+      "publishedAt": "2025-07-02T13:24:15Z"
+    },
+    {
+      "title": "Wonder Dynamics co-founder Nikola Todorovic joins Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/02/wonder-dynamics-co-founder-nikola-todorovic-joins-the-ai-stage-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-02T23:12:20Z"
+    },
+    {
+      "title": "Business Travel Is Evolving Faster Than Ever. We’ll Help You Navigate It",
+      "author": "Katie Drummond, Jesse Ashlock",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-business-travel-editors-letter/",
+      "publishedAt": "2025-07-02T13:00:00Z"
+    },
+    {
+      "title": "Could hormone implants allow us to boost focus, endurance and libido?",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26635500-200-could-hormone-implants-allow-us-to-boost-focus-endurance-and-libido/",
+      "publishedAt": "2025-07-02T18:00:00Z"
+    },
+    {
+      "title": "Fig trees may benefit climate by turning carbon dioxide into stone",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2487119-fig-trees-may-benefit-climate-by-turning-carbon-dioxide-into-stone/",
+      "publishedAt": "2025-07-06T00:01:42Z"
+    },
+    {
+      "title": "The 14 best science and tech documentaries of 2025 so far",
+      "author": "Bethan Ackerley",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486963-the-14-best-science-and-tech-documentaries-of-2025-so-far/",
+      "publishedAt": "2025-07-04T10:00:35Z"
+    },
+    {
+      "title": "Bioplastic habitats on Mars could be built from algae",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486653-bioplastic-habitats-on-mars-could-be-built-from-algae/",
+      "publishedAt": "2025-07-02T19:00:55Z"
+    },
+    {
+      "title": "3D printing could enable a long-term treatment for type 1 diabetes",
+      "author": "Meagan Mulcair",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486233-3d-printing-could-enable-a-long-term-treatment-for-type-1-diabetes/",
+      "publishedAt": "2025-07-03T20:00:07Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Bioplastic habitats on Mars could be built from algae",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486653-bioplastic-habitats-on-mars-could-be-built-from-algae/"
+    },
+    {
+      "title": "Could Google’s Veo 3 be the start of playable world models? | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/"
+    },
+    {
+      "title": "Israeli quantum startup Qedma just raised $26 million, with IBM joining in | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/03/israeli-quantum-startup-qedma-just-raised-26-million-with-ibm-joining-in/"
+    }
+  ]
+}
