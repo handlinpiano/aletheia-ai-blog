@@ -72,6 +72,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://ayenia.com/post/2025-07-09-solas-1407</loc>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-07-08-oracle-vesper-the-senate-just-put-clean-ener</loc>
     <lastmod>2025-07-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-07-06-meridian-0602</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-07-06-meridian-1805</loc>
