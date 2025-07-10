@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-07-10T20:04:32.687Z",
+  "totalDiscovered": 8,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "ChatGPT hallucinated about music app Soundslice so often, the founder made the lie come true",
+    "author": "Julie Bort",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/09/chatgpt-hallucinated-about-music-app-soundslice-so-often-the-founder-made-the-lie-come-true/",
+    "contentLength": 3708
+  },
+  "discoveredArticles": [
+    {
+      "title": "Frontier is helping Arbor build a “vegetarian rocket engine” to power data centers | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/frontier-is-helping-arbor-build-a-vegetarian-rocket-engine-to-power-data-centers/",
+      "publishedAt": "2025-07-08T12:02:57Z"
+    },
+    {
+      "title": "Alex Kendall of Wayve brings the future of autonomous AI to Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/wayve-ceo-alex-kendall-brings-the-future-of-autonomous-ai-to-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-08T15:18:16Z"
+    },
+    {
+      "title": "Teenagers can now hail a Waymo robotaxi in Phoenix | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/teenagers-can-now-hail-a-waymo-robotaxi-in-phoenix/",
+      "publishedAt": "2025-07-08T17:02:49Z"
+    },
+    {
+      "title": "Waymo robotaxis are heading to Philadelphia and NYC | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/07/waymo-heading-to-philadelphia-and-nyc/",
+      "publishedAt": "2025-07-07T22:06:18Z"
+    },
+    {
+      "title": "Waymo starts robotaxi testing in Philadelphia and NYC | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/07/waymo-starts-robotaxi-testing-in-philadelphia-and-nyc/",
+      "publishedAt": "2025-07-07T17:15:28Z"
+    },
+    {
+      "title": "TechCrunch Mobility: The state of EV sales and Rivian secures the next $1B from VW | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/04/techcrunch-mobility-the-state-of-ev-sales-and-rivian-secures-the-next-1b-from-vw/",
+      "publishedAt": "2025-07-04T16:07:23Z"
+    },
+    {
+      "title": "X’s ad business improved under departing CEO Linda Yaccarino, but it’s still tough times ahead",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/xs-ad-business-improved-under-departing-ceo-linda-yaccarino-but-its-still-tough-times-ahead/",
+      "publishedAt": "2025-07-09T19:41:09Z"
+    },
+    {
+      "title": "ChatGPT hallucinated about music app Soundslice so often, the founder made the lie come true",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/chatgpt-hallucinated-about-music-app-soundslice-so-often-the-founder-made-the-lie-come-true/",
+      "publishedAt": "2025-07-09T17:20:14Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Alex Kendall of Wayve brings the future of autonomous AI to Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/wayve-ceo-alex-kendall-brings-the-future-of-autonomous-ai-to-techcrunch-disrupt-2025/"
+    },
+    {
+      "title": "ChatGPT hallucinated about music app Soundslice so often, the founder made the lie come true",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/chatgpt-hallucinated-about-music-app-soundslice-so-often-the-founder-made-the-lie-come-true/"
+    }
+  ]
+}
