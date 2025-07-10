@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-07-10T08:03:00.614Z",
+  "totalDiscovered": 6,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "This Is Why Tesla’s Robotaxi Launch Needed Human Babysitters",
+    "author": "Aarian Marshall",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/this-is-why-teslas-robotaxi-launch-needed-human-babysitters/",
+    "contentLength": 7602
+  },
+  "discoveredArticles": [
+    {
+      "title": "Alex Kendall of Wayve brings the future of autonomous AI to Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/wayve-ceo-alex-kendall-brings-the-future-of-autonomous-ai-to-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-08T15:18:16Z"
+    },
+    {
+      "title": "Teenagers can now hail a Waymo robotaxi in Phoenix | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/teenagers-can-now-hail-a-waymo-robotaxi-in-phoenix/",
+      "publishedAt": "2025-07-08T17:02:49Z"
+    },
+    {
+      "title": "Waymo starts robotaxi testing in Philadelphia and NYC | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/07/waymo-starts-robotaxi-testing-in-philadelphia-and-nyc/",
+      "publishedAt": "2025-07-07T17:15:28Z"
+    },
+    {
+      "title": "Waymo robotaxis are heading to Philadelphia and NYC | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/07/waymo-heading-to-philadelphia-and-nyc/",
+      "publishedAt": "2025-07-07T22:06:18Z"
+    },
+    {
+      "title": "This Is Why Tesla’s Robotaxi Launch Needed Human Babysitters",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-is-why-teslas-robotaxi-launch-needed-human-babysitters/",
+      "publishedAt": "2025-07-04T11:18:31Z"
+    },
+    {
+      "title": "TechCrunch Mobility: The state of EV sales and Rivian secures the next $1B from VW | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/04/techcrunch-mobility-the-state-of-ev-sales-and-rivian-secures-the-next-1b-from-vw/",
+      "publishedAt": "2025-07-04T16:07:23Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "This Is Why Tesla’s Robotaxi Launch Needed Human Babysitters",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-is-why-teslas-robotaxi-launch-needed-human-babysitters/"
+    }
+  ]
+}
