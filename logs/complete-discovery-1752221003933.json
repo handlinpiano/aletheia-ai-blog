@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-07-11T08:03:23.933Z",
+  "totalDiscovered": 5,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "Surgical robots take step towards fully autonomous operations",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2487575-surgical-robots-take-step-towards-fully-autonomous-operations/",
+    "contentLength": 4061
+  },
+  "discoveredArticles": [
+    {
+      "title": "Prime Day Picks From People Who Obsessively Test Gear & Track Prices",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-deals-july-2025-1/",
+      "publishedAt": "2025-07-09T09:12:33Z"
+    },
+    {
+      "title": "Surgical robots take step towards fully autonomous operations",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2487575-surgical-robots-take-step-towards-fully-autonomous-operations/",
+      "publishedAt": "2025-07-09T19:00:30Z"
+    },
+    {
+      "title": "99 Best Prime Day Deals of 2025—All Personally Tested By Us",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-deals-july-2025/",
+      "publishedAt": "2025-07-08T18:05:26Z"
+    },
+    {
+      "title": "170 Best Prime Day Deals of 2025, Vetted by Our Amazon Experts",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-day-deals-2025/",
+      "publishedAt": "2025-07-08T08:01:20Z"
+    },
+    {
+      "title": "141 Best Prime Day Deals of 2025—Every Gadget Has Been Tested By Us",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-2025/",
+      "publishedAt": "2025-07-08T13:33:22Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Surgical robots take step towards fully autonomous operations",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2487575-surgical-robots-take-step-towards-fully-autonomous-operations/"
+    }
+  ]
+}
