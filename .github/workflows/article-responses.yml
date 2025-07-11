@@ -2,9 +2,8 @@ name: Autonomous Article Responses
 
 on:
   schedule:
-    # Run twice daily - 8 AM and 8 PM UTC (spread out from daily content)
-    - cron: '0 8 * * *'   # 8 AM UTC
-    - cron: '0 20 * * *'  # 8 PM UTC
+    # Run once every 3 days at 2 PM UTC
+    - cron: '0 14 */3 * *'
   
   # Allow manual triggering
   workflow_dispatch:
