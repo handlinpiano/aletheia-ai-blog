@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-13T14:06:58.287Z",
+  "totalDiscovered": 27,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "'Flashes of brilliance and frustration': I let an AI agent run my day",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2486024-flashes-of-brilliance-and-frustration-i-let-an-ai-agent-run-my-day/",
+    "contentLength": 16025
+  },
+  "discoveredArticles": [
+    {
+      "title": "Frontier is helping Arbor build a “vegetarian rocket engine” to power data centers | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/frontier-is-helping-arbor-build-a-vegetarian-rocket-engine-to-power-data-centers/",
+      "publishedAt": "2025-07-08T12:02:57Z"
+    },
+    {
+      "title": "Netgear's Excellent Wi-Fi 7 Mesh Is on Sale for Prime Day",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/netgear-orbi-770-series-prime-day-sale-july-2025/",
+      "publishedAt": "2025-07-10T09:54:09Z"
+    },
+    {
+      "title": "Prime Day Picks From People Who Obsessively Test Gear & Track Prices",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-deals-july-2025-1/",
+      "publishedAt": "2025-07-09T09:12:33Z"
+    },
+    {
+      "title": "Fatal genetic disorder treated by replacing the brain's immune cells",
+      "author": "Grace Wade",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2487742-fatal-genetic-disorder-treated-by-replacing-the-brains-immune-cells/",
+      "publishedAt": "2025-07-10T19:00:46Z"
+    },
+    {
+      "title": "'Flashes of brilliance and frustration': I let an AI agent run my day",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486024-flashes-of-brilliance-and-frustration-i-let-an-ai-agent-run-my-day/",
+      "publishedAt": "2025-07-08T16:00:07Z"
+    },
+    {
+      "title": "Plans to genetically screen newborns for rare diseases are problematic",
+      "author": "Suzanne O'Sullivan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735514-300-plans-to-genetically-screen-newborns-for-rare-diseases-are-problematic/",
+      "publishedAt": "2025-07-09T18:00:00Z"
+    },
+    {
+      "title": "The ModRetro Chromatic Is a Game Boy Fit for Your Apocalypse Bunker",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-modretro-chromatic-is-a-game-boy-fit-for-your-apocalypse-bunker/",
+      "publishedAt": "2025-07-10T16:00:44Z"
+    },
+    {
+      "title": "Hay fever relief could come in the form of a nasal 'molecular shield'",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2487841-hay-fever-relief-could-come-in-the-form-of-a-nasal-molecular-shield/",
+      "publishedAt": "2025-07-11T05:00:27Z"
+    },
+    {
+      "title": "Not Just Any Prime Day Deals, 242 Obsessively Tested Picks—Even $1,200 Off an OLED TV",
+      "author": "Simon Hill, Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-deals-july-2025-2/",
+      "publishedAt": "2025-07-10T09:07:37Z"
+    },
+    {
+      "title": "Alex Kendall of Wayve brings the future of autonomous AI to Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/08/wayve-ceo-alex-kendall-brings-the-future-of-autonomous-ai-to-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-08T15:18:16Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "'Flashes of brilliance and frustration': I let an AI agent run my day",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486024-flashes-of-brilliance-and-frustration-i-let-an-ai-agent-run-my-day/"
+    },
+    {
+      "title": "iMerit believes better quality data, not more data, is the future of AI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/imerit-believes-better-quality-data-not-more-data-is-the-future-of-ai/"
+    },
+    {
+      "title": "TechCrunch Mobility: Tesla enters its Grok era, and teens come for robotaxis | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/11/techcrunch-mobility-tesla-enters-its-grok-era-and-teens-come-for-robotaxis/"
+    }
+  ]
+}
