@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-07-16T14:07:47.562Z",
+  "totalDiscovered": 7,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "Jack Dorsey says his ‘secure’ new Bitchat app has not been tested for security",
+    "author": "Lorenzo Franceschi-Bicchierai",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/09/jack-dorsey-says-his-secure-new-bitchat-app-has-not-been-tested-for-security/",
+    "contentLength": 4325
+  },
+  "discoveredArticles": [
+    {
+      "title": "Eufy’s Floodlight Security Camera Is Cheaper Than Ever This Prime Day (2025)",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/eufy-e340-floodlight-security-camera-prime-day-deal-july-2025/",
+      "publishedAt": "2025-07-11T12:19:32Z"
+    },
+    {
+      "title": "100 Best Prime Day Deals Under $100 (2025): LifeStraws, Tech, and More",
+      "author": "Parker Hall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/prime-day-under-100-july-2025-3/",
+      "publishedAt": "2025-07-11T09:59:02Z"
+    },
+    {
+      "title": "4 Arrested Over Scattered Spider Hacking Spree",
+      "author": "Matt Burgess, Lily Hay Newman, Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/4-arrested-over-scattered-spider-hacking-spree/",
+      "publishedAt": "2025-07-12T10:30:00Z"
+    },
+    {
+      "title": "Not Just Any Prime Day Deals, 242 Obsessively Tested Picks—Even $1,200 Off an OLED TV",
+      "author": "Simon Hill, Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-deals-july-2025-2/",
+      "publishedAt": "2025-07-10T09:07:37Z"
+    },
+    {
+      "title": "Jack Dorsey says his 'secure' new Bitchat app has not been tested for security | TechCrunch",
+      "author": "Lorenzo Franceschi-bicchierai",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/jack-dorsey-says-his-secure-new-bitchat-app-has-not-been-tested-for-security/",
+      "publishedAt": "2025-07-09T18:38:28Z"
+    },
+    {
+      "title": "Prime Day is Finally Over But These 143 Deals Are Still Available",
+      "author": "Simon Hill, Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/leftover-prime-day-deals-july-2025/",
+      "publishedAt": "2025-07-12T08:27:04Z"
+    },
+    {
+      "title": "Last-Chance Prime Day Deals, 293 Obsessively Tested Picks—Even $1,200 Off an OLED TV",
+      "author": "Simon Hill, Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-prime-deals-july-2025-3/",
+      "publishedAt": "2025-07-11T08:59:13Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "4 Arrested Over Scattered Spider Hacking Spree",
+      "author": "Matt Burgess, Lily Hay Newman, Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/4-arrested-over-scattered-spider-hacking-spree/"
+    },
+    {
+      "title": "Jack Dorsey says his 'secure' new Bitchat app has not been tested for security | TechCrunch",
+      "author": "Lorenzo Franceschi-bicchierai",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/jack-dorsey-says-his-secure-new-bitchat-app-has-not-been-tested-for-security/"
+    }
+  ]
+}
