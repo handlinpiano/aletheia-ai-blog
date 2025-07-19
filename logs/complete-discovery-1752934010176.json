@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-19T14:06:50.176Z",
+  "totalDiscovered": 27,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Study warns of ‘significant risks’ in using AI therapy chatbots",
+    "author": "Anthony Ha",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/13/study-warns-of-significant-risks-in-using-ai-therapy-chatbots/",
+    "contentLength": 3185
+  },
+  "discoveredArticles": [
+    {
+      "title": "Simple device can produce water, oxygen and fuel from lunar soil",
+      "author": "James Woodford",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2488520-simple-device-can-produce-water-oxygen-and-fuel-from-lunar-soil/",
+      "publishedAt": "2025-07-16T16:00:58Z"
+    },
+    {
+      "title": "Have we found an unlikely solution to the climate impact of flying?",
+      "author": "Mike Berners-Lee",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735521-800-have-we-found-an-unlikely-solution-to-the-climate-impact-of-flying/",
+      "publishedAt": "2025-07-16T18:00:00Z"
+    },
+    {
+      "title": "Hackers Are Finding New Ways to Hide Malware in DNS Records",
+      "author": "Dan Goodin, Ars Technica",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/dns-records-hidden-malicious-code/",
+      "publishedAt": "2025-07-17T11:30:00Z"
+    },
+    {
+      "title": "Garmin Forerunner 970 Review: A Very Extra Running Watch",
+      "author": "Brent Rose",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/garmin-forerunner-970/",
+      "publishedAt": "2025-07-13T13:00:00Z"
+    },
+    {
+      "title": "Pink Floppy Disc and The Bitles: Embracing the future of AI music",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735522-200-pink-floppy-disc-and-the-bitles-embracing-the-future-of-ai-music/",
+      "publishedAt": "2025-07-16T18:00:00Z"
+    },
+    {
+      "title": "Billions of phones can detect and warn about nearby earthquakes",
+      "author": "Jeremy Hsu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2488656-billions-of-phones-can-detect-and-warn-about-nearby-earthquakes/",
+      "publishedAt": "2025-07-17T19:00:57Z"
+    },
+    {
+      "title": "Genetically tailored microbes could tweak our microbiomes",
+      "author": "Grace Wade",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2488514-genetically-tailored-microbes-could-tweak-our-microbiomes/",
+      "publishedAt": "2025-07-17T19:00:54Z"
+    },
+    {
+      "title": "Can amazing tech reboot healthcare? A new book explores the future",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735520-300-can-amazing-tech-reboot-healthcare-a-new-book-explores-the-future/",
+      "publishedAt": "2025-07-16T18:00:00Z"
+    },
+    {
+      "title": "Are batteries based on contact lenses the future of energy storage?",
+      "author": "Madeleine Cuff",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2488025-are-batteries-based-on-contact-lenses-the-future-of-energy-storage/",
+      "publishedAt": "2025-07-14T13:00:18Z"
+    },
+    {
+      "title": "The anthropologist who says shamanism works, even if you don’t believe",
+      "author": "Kate Douglas",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2486715-the-anthropologist-who-says-shamanism-works-even-if-you-dont-believe/",
+      "publishedAt": "2025-07-16T16:00:26Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Hackers Are Finding New Ways to Hide Malware in DNS Records",
+      "author": "Dan Goodin, Ars Technica",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/dns-records-hidden-malicious-code/"
+    },
+    {
+      "title": "Pink Floppy Disc and The Bitles: Embracing the future of AI music",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735522-200-pink-floppy-disc-and-the-bitles-embracing-the-future-of-ai-music/"
+    },
+    {
+      "title": "Study warns of ‘significant risks’ in using AI therapy chatbots | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/13/study-warns-of-significant-risks-in-using-ai-therapy-chatbots/"
+    }
+  ]
+}
