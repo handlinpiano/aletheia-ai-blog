@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-25T14:09:19.634Z",
+  "totalDiscovered": 27,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "National security meets next-gen tech at TechCrunch Disrupt 2025’s AI Defense panel",
+    "author": "TechCrunch Events",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/22/national-security-meets-next-gen-tech-at-techcrunch-disrupt-2025s-ai-defense-panel/",
+    "contentLength": 3105
+  },
+  "discoveredArticles": [
+    {
+      "title": "Episode 5 - Why Responsible AI is Your Competitive Edge",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-why-responsible-ai-is-your-competitive-edge/",
+      "publishedAt": "2025-07-21T16:00:00Z"
+    },
+    {
+      "title": "AI Agents: Your Next Employee, or Your Next Boss - Matt Webb",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-ai-agents-your-next-employee-or-your-next-boss/",
+      "publishedAt": "2025-07-21T16:00:00Z"
+    },
+    {
+      "title": "National security meets next-gen tech at Disrupt 2025 AI Defense panel | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/22/national-security-meets-next-gen-tech-at-techcrunch-disrupt-2025s-ai-defense-panel/",
+      "publishedAt": "2025-07-22T15:01:33Z"
+    },
+    {
+      "title": "Instead of selling to Meta, AI chip startup FuriosaAI signed a huge customer | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/21/instead-of-selling-to-meta-ai-chip-startup-furiosaai-signed-a-huge-customer/",
+      "publishedAt": "2025-07-22T05:04:06Z"
+    },
+    {
+      "title": "Our brain's mitochondria may play a crucial role in the onset of sleep",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2489223-our-brains-mitochondria-may-play-a-crucial-role-in-the-onset-of-sleep/",
+      "publishedAt": "2025-07-24T13:00:20Z"
+    },
+    {
+      "title": "Did Tesla’s Robotaxi Launch Backfire?",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tesla-robotaxi-launch-survey-data/",
+      "publishedAt": "2025-07-22T10:00:00Z"
+    },
+    {
+      "title": "Automakers Are Canceling Plans for New EVs. Here’s a List of What’s Been Killed So Far",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/list-of-new-evs-canceled-by-automakers/",
+      "publishedAt": "2025-07-19T10:30:00Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Uber makes a bet on premium robotaxis | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/21/techcrunch-mobility-uber-makes-a-bet-on-premium-robotaxis/",
+      "publishedAt": "2025-07-21T16:04:36Z"
+    },
+    {
+      "title": "Amazon backs programmable optics startup Lumotive | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/22/amazon-backs-programmable-optics-startup-lumotive/",
+      "publishedAt": "2025-07-22T12:10:15Z"
+    },
+    {
+      "title": "Episode 1 - AI: The Time to Act is Now",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-ai-the-time-to-act-is-now/",
+      "publishedAt": "2025-07-21T16:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Episode 5 - Why Responsible AI is Your Competitive Edge",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-why-responsible-ai-is-your-competitive-edge/"
+    },
+    {
+      "title": "AI Agents: Your Next Employee, or Your Next Boss - Matt Webb",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-ai-agents-your-next-employee-or-your-next-boss/"
+    },
+    {
+      "title": "National security meets next-gen tech at Disrupt 2025 AI Defense panel | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/22/national-security-meets-next-gen-tech-at-techcrunch-disrupt-2025s-ai-defense-panel/"
+    }
+  ]
+}
