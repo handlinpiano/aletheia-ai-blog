@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-28T14:09:58.355Z",
+  "totalDiscovered": 18,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Very Real Case for Brain-Computer Implants",
+    "author": "Lauren Goode",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-the-very-real-case-for-brain-computer-implants/",
+    "contentLength": 33265
+  },
+  "discoveredArticles": [
+    {
+      "title": "Episode 5 - Why Responsible AI is Your Competitive Edge",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-why-responsible-ai-is-your-competitive-edge/",
+      "publishedAt": "2025-07-21T16:00:00Z"
+    },
+    {
+      "title": "AI Agents: Your Next Employee, or Your Next Boss - Matt Webb",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-ai-agents-your-next-employee-or-your-next-boss/",
+      "publishedAt": "2025-07-21T16:00:00Z"
+    },
+    {
+      "title": "National security meets next-gen tech at Disrupt 2025 AI Defense panel | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/22/national-security-meets-next-gen-tech-at-techcrunch-disrupt-2025s-ai-defense-panel/",
+      "publishedAt": "2025-07-22T15:01:33Z"
+    },
+    {
+      "title": "Join Our Next Livestream: Inside Katie Drummond’s Viral Interview With Bryan Johnson",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inside-katie-drummonds-viral-interview-with-bryan-johnson/",
+      "publishedAt": "2025-07-25T18:40:23Z"
+    },
+    {
+      "title": "The Very Real Case for Brain-Computer Implants",
+      "author": "Lauren Goode, Michael Calore, Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-the-very-real-case-for-brain-computer-implants/",
+      "publishedAt": "2025-07-24T18:38:16Z"
+    },
+    {
+      "title": "Instead of selling to Meta, AI chip startup FuriosaAI signed a huge customer | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/21/instead-of-selling-to-meta-ai-chip-startup-furiosaai-signed-a-huge-customer/",
+      "publishedAt": "2025-07-22T05:04:06Z"
+    },
+    {
+      "title": "Our brain's mitochondria may play a crucial role in the onset of sleep",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2489223-our-brains-mitochondria-may-play-a-crucial-role-in-the-onset-of-sleep/",
+      "publishedAt": "2025-07-24T13:00:20Z"
+    },
+    {
+      "title": "Tesla Readies a Taxi Service in San Francisco—but Not With Robotaxis",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tesla-robotaxi-san-francisco-bay-area/",
+      "publishedAt": "2025-07-25T21:26:14Z"
+    },
+    {
+      "title": "Did Tesla’s Robotaxi Launch Backfire?",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tesla-robotaxi-launch-survey-data/",
+      "publishedAt": "2025-07-22T10:00:00Z"
+    },
+    {
+      "title": "Lyft to add autonomous shuttles in 2026 as Uber inks more self-driving deals | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/25/lyft-to-add-autonomous-shuttles-in-2026-as-uber-inks-more-self-driving-deals/",
+      "publishedAt": "2025-07-25T15:38:58Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Episode 5 - Why Responsible AI is Your Competitive Edge",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-why-responsible-ai-is-your-competitive-edge/"
+    },
+    {
+      "title": "AI Agents: Your Next Employee, or Your Next Boss - Matt Webb",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/rethink-ai-how-to-unlock-meaningful-value-in-the-new-age-of-business-ai-agents-your-next-employee-or-your-next-boss/"
+    },
+    {
+      "title": "The Very Real Case for Brain-Computer Implants",
+      "author": "Lauren Goode, Michael Calore, Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-the-very-real-case-for-brain-computer-implants/"
+    }
+  ]
+}
