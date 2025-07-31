@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-07-31T14:09:20.554Z",
+  "totalDiscovered": 3,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "AI companions: A threat to love, or an evolution of it?",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/24/ai-companions-a-threat-to-love-or-an-evolution-of-it/",
+    "contentLength": 8428
+  },
+  "discoveredArticles": [
+    {
+      "title": "The first look: Disrupt 2025 AI Stage revealed | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/28/meet-the-minds-shaping-ai-techcrunch-disrupt-2025-ai-stage-revealed/",
+      "publishedAt": "2025-07-28T14:02:17Z"
+    },
+    {
+      "title": "AI companions: A threat to love, or an evolution of it? | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/24/ai-companions-a-threat-to-love-or-an-evolution-of-it/",
+      "publishedAt": "2025-07-24T17:43:47Z"
+    },
+    {
+      "title": "Join Our Next Livestream: Inside Katie Drummond’s Viral Interview With Bryan Johnson",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inside-katie-drummonds-viral-interview-with-bryan-johnson/",
+      "publishedAt": "2025-07-25T18:40:23Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI companions: A threat to love, or an evolution of it? | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/24/ai-companions-a-threat-to-love-or-an-evolution-of-it/"
+    }
+  ]
+}
