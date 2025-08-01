@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-08-01T14:09:15.276Z",
+  "totalDiscovered": 6,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Sam Altman warns there’s no legal confidentiality when using ChatGPT as a therapist",
+    "author": "Sarah Perez",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/25/sam-altman-warns-theres-no-legal-confidentiality-when-using-chatgpt-as-a-therapist/",
+    "contentLength": 3512
+  },
+  "discoveredArticles": [
+    {
+      "title": "The first look: Disrupt 2025 AI Stage revealed | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/28/meet-the-minds-shaping-ai-techcrunch-disrupt-2025-ai-stage-revealed/",
+      "publishedAt": "2025-07-28T14:02:17Z"
+    },
+    {
+      "title": "Jewellery that monitors movement? No, we can't anticipate any problems",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735542-800-jewellery-that-monitors-movement-no-we-cant-anticipate-any-problems/",
+      "publishedAt": "2025-07-30T18:00:00Z"
+    },
+    {
+      "title": "Join Our Next Livestream: Inside Katie Drummond’s Viral Interview With Bryan Johnson",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inside-katie-drummonds-viral-interview-with-bryan-johnson/",
+      "publishedAt": "2025-07-25T18:40:23Z"
+    },
+    {
+      "title": "Sam Altman warns there’s no legal confidentiality when using ChatGPT as a therapist",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/25/sam-altman-warns-theres-no-legal-confidentiality-when-using-chatgpt-as-a-therapist/",
+      "publishedAt": "2025-07-25T17:33:29Z"
+    },
+    {
+      "title": "TikTok adds new parental controls, tools for creators",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/30/tiktok-adds-new-parental-controls-tools-for-creators/",
+      "publishedAt": "2025-07-30T11:00:00Z"
+    },
+    {
+      "title": "U.K. starts enforcing online age check rules | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/26/u-k-starts-enforcing-online-age-check-rules/",
+      "publishedAt": "2025-07-26T20:33:02Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Jewellery that monitors movement? No, we can't anticipate any problems",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735542-800-jewellery-that-monitors-movement-no-we-cant-anticipate-any-problems/"
+    },
+    {
+      "title": "Sam Altman warns there’s no legal confidentiality when using ChatGPT as a therapist",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/25/sam-altman-warns-theres-no-legal-confidentiality-when-using-chatgpt-as-a-therapist/"
+    },
+    {
+      "title": "U.K. starts enforcing online age check rules | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/26/u-k-starts-enforcing-online-age-check-rules/"
+    }
+  ]
+}
