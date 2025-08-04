@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-08-04T14:10:56.557Z",
+  "totalDiscovered": 10,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+    "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+    "contentLength": 46414
+  },
+  "discoveredArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-07-31T14:53:51Z"
+    },
+    {
+      "title": "Everything You Wanted to Know About China’s Auto Industry Takeover",
+      "author": "Jeremy White, Sophie Johal, Michaela Neville",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/electric-vehicles-china-takeover/",
+      "publishedAt": "2025-07-30T17:00:00Z"
+    },
+    {
+      "title": "Waymo’s co-CEO on the truth behind autonomous vehicles at Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/waymos-tekedra-mawakana-on-the-truth-behind-autonomous-vehicles-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-07-31T14:00:58Z"
+    },
+    {
+      "title": "Waymo taps Avis to manage robotaxi fleet in Dallas | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/28/waymo-taps-avis-to-manage-robotaxi-fleet-in-dallas/",
+      "publishedAt": "2025-07-28T23:43:45Z"
+    },
+    {
+      "title": "Aurora's autonomous trucks are now driving at night. Its next big challenge is rain. | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/30/auroras-autonomous-trucks-are-now-driving-at-night-its-next-big-challenge-is-rain/",
+      "publishedAt": "2025-07-30T23:49:29Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Tesla vs GM: A tale of two earnings | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/28/techcrunch-mobility-tesla-vs-gm-a-tale-of-two-earnings/",
+      "publishedAt": "2025-07-28T16:07:51Z"
+    },
+    {
+      "title": "Uber’s Drive to Become the Kleenex of Robotaxis",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ubers-drive-to-become-the-kleenex-of-robotaxis/",
+      "publishedAt": "2025-08-01T10:00:00Z"
+    },
+    {
+      "title": "Google Will Use AI to Guess People’s Ages Based on Search History",
+      "author": "Dell Cameron",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/security-news-this-week-google-will-use-ai-to-guess-peoples-ages-based-on-search-history/",
+      "publishedAt": "2025-08-02T10:30:00Z"
+    },
+    {
+      "title": "TikTok adds new parental controls, tools for creators",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/30/tiktok-adds-new-parental-controls-tools-for-creators/",
+      "publishedAt": "2025-07-30T11:00:00Z"
+    },
+    {
+      "title": "Amazon CEO wants to put ads in your Alexa+ conversations | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/amazon-ceo-wants-to-put-ads-in-your-alexa-conversations/",
+      "publishedAt": "2025-07-31T23:37:33Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/chatgpt-everything-to-know-about-the-ai-chatbot/"
+    },
+    {
+      "title": "Google Will Use AI to Guess People’s Ages Based on Search History",
+      "author": "Dell Cameron",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/security-news-this-week-google-will-use-ai-to-guess-peoples-ages-based-on-search-history/"
+    },
+    {
+      "title": "Amazon CEO wants to put ads in your Alexa+ conversations | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/amazon-ceo-wants-to-put-ads-in-your-alexa-conversations/"
+    }
+  ]
+}
