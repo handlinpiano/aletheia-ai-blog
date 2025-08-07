@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-07T14:10:40.920Z",
+  "totalDiscovered": 4,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+    "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/07/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+    "contentLength": 46414
+  },
+  "discoveredArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-07-31T14:53:51Z"
+    },
+    {
+      "title": "The History and Physics of the Atomic Bomb",
+      "author": "Luca Nardi",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-history-and-physics-of-the-atomic-bomb-hiroshima-80th-anniversary/",
+      "publishedAt": "2025-08-06T10:00:00Z"
+    },
+    {
+      "title": "Lyft and China's Baidu look to bring robotaxis to Europe next year | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/04/lyft-and-chinas-baidu-look-to-bring-robotaxis-to-europe-next-year/",
+      "publishedAt": "2025-08-04T14:56:19Z"
+    },
+    {
+      "title": "Uber’s Drive to Become the Kleenex of Robotaxis",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ubers-drive-to-become-the-kleenex-of-robotaxis/",
+      "publishedAt": "2025-08-01T10:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/07/31/chatgpt-everything-to-know-about-the-ai-chatbot/"
+    }
+  ]
+}
