@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-08-10T14:06:57.054Z",
+  "totalDiscovered": 1,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "Why mathematicians want to destroy infinity – and may succeed",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2489813-why-mathematicians-want-to-destroy-infinity-and-may-succeed/",
+    "contentLength": 19921
+  },
+  "discoveredArticles": [
+    {
+      "title": "Why mathematicians want to destroy infinity – and may succeed",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2489813-why-mathematicians-want-to-destroy-infinity-and-may-succeed/",
+      "publishedAt": "2025-08-04T16:00:02Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Why mathematicians want to destroy infinity – and may succeed",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2489813-why-mathematicians-want-to-destroy-infinity-and-may-succeed/"
+    }
+  ]
+}
