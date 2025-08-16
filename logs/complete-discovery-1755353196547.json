@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-08-16T14:06:36.547Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Mind-reading AI can turn even imagined speech into spoken words",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2492622-mind-reading-ai-can-turn-even-imagined-speech-into-spoken-words/",
+    "contentLength": 5223
+  },
+  "discoveredArticles": [
+    {
+      "title": "Mind-reading AI can turn even imagined speech into spoken words",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2492622-mind-reading-ai-can-turn-even-imagined-speech-into-spoken-words/",
+      "publishedAt": "2025-08-14T16:00:09Z"
+    },
+    {
+      "title": "Bill McKibben makes a powerful pitch for solar in optimistic new book",
+      "author": "James Dinneen",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735560-700-bill-mckibben-makes-a-powerful-pitch-for-solar-in-optimistic-new-book/",
+      "publishedAt": "2025-08-13T18:00:00Z"
+    },
+    {
+      "title": "Sam Altman, OpenAI will reportedly back a startup that takes on Musk’s Neuralink | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/12/sam-altman-openai-will-reportedly-back-a-startup-that-takes-on-musks-neuralink/",
+      "publishedAt": "2025-08-13T00:31:29Z"
+    },
+    {
+      "title": "Buzzy AI startup Multiverse creates two of the smallest high-performing models ever | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/",
+      "publishedAt": "2025-08-14T15:01:29Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/14/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-08-14T15:51:23Z"
+    },
+    {
+      "title": "TechCrunch Mobility: The triple punch headed for automakers | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/11/techcrunch-mobility-the-triple-punch-headed-for-automakers/",
+      "publishedAt": "2025-08-11T16:07:32Z"
+    },
+    {
+      "title": "Elon Musk confirms shutdown of Tesla Dojo, ‘an evolutionary dead end’  | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/11/elon-musk-confirms-shutdown-of-tesla-dojo-an-evolutionary-dead-end/",
+      "publishedAt": "2025-08-11T14:51:46Z"
+    },
+    {
+      "title": "How a once-tiny research lab helped Nvidia become a $4 trillion-dollar company | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/12/how-a-once-tiny-research-lab-helped-nvidia-become-a-4-trillion-dollar-company/",
+      "publishedAt": "2025-08-12T12:31:37Z"
+    },
+    {
+      "title": "How AI poisoning is fighting bots that hoover data without permission",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2490598-how-ai-poisoning-is-fighting-bots-that-hoover-data-without-permission/",
+      "publishedAt": "2025-08-12T16:00:24Z"
+    },
+    {
+      "title": "'War of the Worlds' Isn’t Just Bad. It’s Also Shameless Tech Propaganda",
+      "author": "Alana Yzola",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/war-of-the-worlds-isnt-just-bad-its-also-shameless-tech-propaganda/",
+      "publishedAt": "2025-08-13T14:00:46Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Mind-reading AI can turn even imagined speech into spoken words",
+      "author": "Christa Lesté-Lasserre",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2492622-mind-reading-ai-can-turn-even-imagined-speech-into-spoken-words/"
+    },
+    {
+      "title": "Buzzy AI startup Multiverse creates two of the smallest high-performing models ever | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/"
+    },
+    {
+      "title": "How AI poisoning is fighting bots that hoover data without permission",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2490598-how-ai-poisoning-is-fighting-bots-that-hoover-data-without-permission/"
+    }
+  ]
+}
