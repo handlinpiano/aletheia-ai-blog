@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-08-19T14:07:59.658Z",
+  "totalDiscovered": 5,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "Sam Altman, over bread rolls, explores life after GPT-5",
+    "author": "Maxwell Zeff",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/08/15/sam-altman-over-bread-rolls-explores-life-after-gpt-5/",
+    "contentLength": 6196
+  },
+  "discoveredArticles": [
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/15/tech-layoffs-2025-list/",
+      "publishedAt": "2025-08-15T16:08:50Z"
+    },
+    {
+      "title": "Sam Altman, OpenAI will reportedly back a startup that takes on Musk’s Neuralink | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/12/sam-altman-openai-will-reportedly-back-a-startup-that-takes-on-musks-neuralink/",
+      "publishedAt": "2025-08-13T00:31:29Z"
+    },
+    {
+      "title": "Buzzy AI startup Multiverse creates two of the smallest high-performing models ever | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/",
+      "publishedAt": "2025-08-14T15:01:29Z"
+    },
+    {
+      "title": "Sam Altman, over bread rolls, explores life after GPT-5 | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/15/sam-altman-over-bread-rolls-explores-life-after-gpt-5/",
+      "publishedAt": "2025-08-15T22:22:28Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/14/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-08-14T15:51:23Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Buzzy AI startup Multiverse creates two of the smallest high-performing models ever | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/"
+    },
+    {
+      "title": "Sam Altman, over bread rolls, explores life after GPT-5 | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/15/sam-altman-over-bread-rolls-explores-life-after-gpt-5/"
+    }
+  ]
+}
