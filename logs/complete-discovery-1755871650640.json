@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-22T14:07:30.640Z",
+  "totalDiscovered": 3,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "AI-generated responses are undermining crowdsourced research studies",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2492984-ai-generated-responses-are-undermining-crowdsourced-research-studies/",
+    "contentLength": 4767
+  },
+  "discoveredArticles": [
+    {
+      "title": "AI-generated responses are undermining crowdsourced research studies",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2492984-ai-generated-responses-are-undermining-crowdsourced-research-studies/",
+      "publishedAt": "2025-08-19T08:00:40Z"
+    },
+    {
+      "title": "Mining for renewable tech inflicts huge damage. Is there a solution?",
+      "author": "Vince Beiser",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2491628-mining-for-renewable-tech-inflicts-huge-damage-is-there-a-solution/",
+      "publishedAt": "2025-08-19T16:00:55Z"
+    },
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/15/tech-layoffs-2025-list/",
+      "publishedAt": "2025-08-15T16:08:50Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI-generated responses are undermining crowdsourced research studies",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2492984-ai-generated-responses-are-undermining-crowdsourced-research-studies/"
+    }
+  ]
+}
