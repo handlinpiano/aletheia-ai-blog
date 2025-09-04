@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-09-04T14:07:57.031Z",
+  "totalDiscovered": 7,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Tesla Dojo: The rise and fall of Elon Musk’s AI supercomputer",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/09/02/tesla-dojo-the-rise-and-fall-of-elon-musks-ai-supercomputer/",
+    "contentLength": 14247
+  },
+  "discoveredArticles": [
+    {
+      "title": "Advanced geothermal startups are just getting warmed up | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/03/advanced-geothermal-startups-are-just-getting-warmed-up/",
+      "publishedAt": "2025-09-03T13:19:08Z"
+    },
+    {
+      "title": "Waymo expands to Denver and Seattle with its Zeekr-made vans | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/waymo-expands-to-denver-and-seattle-with-its-zeekr-made-vans/",
+      "publishedAt": "2025-09-02T20:48:57Z"
+    },
+    {
+      "title": "Tesla's fourth 'Master Plan' reads like LLM-generated nonsense | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/teslas-fourth-master-plan-reads-like-llm-generated-nonsense/",
+      "publishedAt": "2025-09-02T17:20:33Z"
+    },
+    {
+      "title": "TechCrunch Mobility: A new speed bump for EV owners and Waymo's robotaxi fleet surpasses 2,000 | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/31/techcrunch-mobility-a-new-speed-bump-for-ev-owners-and-waymos-robotaxi-fleet-surpasses-2000/",
+      "publishedAt": "2025-08-31T16:05:49Z"
+    },
+    {
+      "title": "Tesla Dojo: the rise and fall of Elon Musk's AI supercomputer | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/tesla-dojo-the-rise-and-fall-of-elon-musks-ai-supercomputer/",
+      "publishedAt": "2025-09-02T16:20:13Z"
+    },
+    {
+      "title": "A comprehensive list of 2025 tech layoffs | TechCrunch",
+      "author": "Cody Corrall",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/29/tech-layoffs-2025-list/",
+      "publishedAt": "2025-08-29T15:43:32Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/29/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-08-29T15:47:42Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Tesla's fourth 'Master Plan' reads like LLM-generated nonsense | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/teslas-fourth-master-plan-reads-like-llm-generated-nonsense/"
+    },
+    {
+      "title": "Tesla Dojo: the rise and fall of Elon Musk's AI supercomputer | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/tesla-dojo-the-rise-and-fall-of-elon-musks-ai-supercomputer/"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/29/chatgpt-everything-to-know-about-the-ai-chatbot/"
+    }
+  ]
+}
