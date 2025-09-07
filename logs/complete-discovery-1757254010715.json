@@ -1,0 +1,97 @@
+{
+  "timestamp": "2025-09-07T14:06:50.715Z",
+  "totalDiscovered": 9,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The futuristic new tech that could bridge broken nerves and mend minds",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2492875-the-futuristic-new-tech-that-could-bridge-broken-nerves-and-mend-minds/",
+    "contentLength": 15473
+  },
+  "discoveredArticles": [
+    {
+      "title": "Neuralink’s Bid to Trademark ‘Telepathy’ and ‘Telekinesis’ Faces Legal Issues",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uspto-denies-neuralinks-applications-for-telepathy-telekinesis-marks/",
+      "publishedAt": "2025-09-04T18:47:28Z"
+    },
+    {
+      "title": "The futuristic new tech that could bridge broken nerves and mend minds",
+      "author": "Edd Gent",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2492875-the-futuristic-new-tech-that-could-bridge-broken-nerves-and-mend-minds/",
+      "publishedAt": "2025-09-03T15:09:02Z"
+    },
+    {
+      "title": "Captions rebrands as Mirage, expands beyond creator tools to AI video research | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/04/captions-rebrands-as-mirage-expands-beyond-creator-tools-to-ai-video-research/",
+      "publishedAt": "2025-09-04T15:43:07Z"
+    },
+    {
+      "title": "Nepal blocks Facebook, Instagram, YouTube, X over rule breach, amid censorship concerns | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/04/nepal-blocks-facebook-instagram-youtube-x-over-rule-breach-amid-censorship-concerns/",
+      "publishedAt": "2025-09-04T19:07:50Z"
+    },
+    {
+      "title": "How 'Hollow Knight: Silksong' Fans Turned Waiting for Its Release Into a Game",
+      "author": "Megan Farokhmanesh",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-fans-turned-waiting-for-hollow-knight-silksongs-release-into-a-game/",
+      "publishedAt": "2025-09-03T19:00:47Z"
+    },
+    {
+      "title": "The deadliest mushroom, the death cap, is still concocting new poisons",
+      "author": "Joni Wildman",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2493864-the-deadliest-mushroom-the-death-cap-is-still-concocting-new-poisons/",
+      "publishedAt": "2025-09-02T16:00:31Z"
+    },
+    {
+      "title": "Tesla's fourth 'Master Plan' reads like LLM-generated nonsense | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/teslas-fourth-master-plan-reads-like-llm-generated-nonsense/",
+      "publishedAt": "2025-09-02T17:20:33Z"
+    },
+    {
+      "title": "This Robot Only Needs a Single AI Model to Master Humanlike Movements",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-humanoid-robot-is-showing-signs-of-generalized-learning/",
+      "publishedAt": "2025-09-03T18:00:00Z"
+    },
+    {
+      "title": "LayerX uses AI to cut enterprise back-office workload, scores $100M in Series B | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/01/layerx-uses-ai-to-cut-enterprise-back-office-workload-scores-100m-in-series-b/",
+      "publishedAt": "2025-09-01T23:02:31Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The futuristic new tech that could bridge broken nerves and mend minds",
+      "author": "Edd Gent",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2492875-the-futuristic-new-tech-that-could-bridge-broken-nerves-and-mend-minds/"
+    },
+    {
+      "title": "Tesla's fourth 'Master Plan' reads like LLM-generated nonsense | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/02/teslas-fourth-master-plan-reads-like-llm-generated-nonsense/"
+    },
+    {
+      "title": "This Robot Only Needs a Single AI Model to Master Humanlike Movements",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-humanoid-robot-is-showing-signs-of-generalized-learning/"
+    }
+  ]
+}
