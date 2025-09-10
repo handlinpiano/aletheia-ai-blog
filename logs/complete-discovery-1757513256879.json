@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-09-10T14:07:36.879Z",
+  "totalDiscovered": 8,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "We have run out of new visions of the future. This needs to change",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/mg26735592-400-we-have-run-out-of-new-visions-of-the-future-this-needs-to-change/",
+    "contentLength": 5248
+  },
+  "discoveredArticles": [
+    {
+      "title": "We have run out of new visions of the future. This needs to change",
+      "author": "Sarah Housley",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735592-400-we-have-run-out-of-new-visions-of-the-future-this-needs-to-change/",
+      "publishedAt": "2025-09-03T18:00:00Z"
+    },
+    {
+      "title": "Facebook is trying to make ‘pokes’ happen again",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/04/facebook-is-trying-to-make-pokes-happen-again/",
+      "publishedAt": "2025-09-04T21:32:52Z"
+    },
+    {
+      "title": "Uber and Momenta to test autonomous vehicles in Germany in 2026 | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/07/uber-and-momenta-to-test-autonomous-vehicles-in-germany-in-2026/",
+      "publishedAt": "2025-09-08T06:01:01Z"
+    },
+    {
+      "title": "Tesla shareholders to vote on investing in Musk's AI startup xAI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/05/tesla-shareholders-to-vote-on-investing-in-musks-ai-startup-xai/",
+      "publishedAt": "2025-09-05T14:24:04Z"
+    },
+    {
+      "title": "Musk's $1T pay package is full of watered-down versions of his own broken promises | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/06/musks-1t-pay-package-is-full-of-watered-down-versions-of-his-own-broken-promises/",
+      "publishedAt": "2025-09-06T14:04:36Z"
+    },
+    {
+      "title": "Orchard Robotics, founded by a Thiel fellow Cornell dropout, raises $22M for farm vision AI  | TechCrunch",
+      "author": "Marina Temkin",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/03/orchard-robotics-founded-by-a-thiel-fellow-cornell-dropout-raises-22m-for-farm-vision-ai/",
+      "publishedAt": "2025-09-03T17:31:10Z"
+    },
+    {
+      "title": "Tesla Proposes a Trillion-Dollar Bet That It's More Than Just Cars",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/elon-musk-trillion-dollar-tesla-pay-package/",
+      "publishedAt": "2025-09-05T22:26:44Z"
+    },
+    {
+      "title": "Neuralink’s Bid to Trademark ‘Telepathy’ and ‘Telekinesis’ Faces Legal Issues",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uspto-denies-neuralinks-applications-for-telepathy-telekinesis-marks/",
+      "publishedAt": "2025-09-04T18:47:28Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "We have run out of new visions of the future. This needs to change",
+      "author": "Sarah Housley",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735592-400-we-have-run-out-of-new-visions-of-the-future-this-needs-to-change/"
+    },
+    {
+      "title": "Tesla shareholders to vote on investing in Musk's AI startup xAI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/05/tesla-shareholders-to-vote-on-investing-in-musks-ai-startup-xai/"
+    },
+    {
+      "title": "Tesla Proposes a Trillion-Dollar Bet That It's More Than Just Cars",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/elon-musk-trillion-dollar-tesla-pay-package/"
+    }
+  ]
+}
