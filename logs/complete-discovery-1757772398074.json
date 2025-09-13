@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-09-13T14:06:38.074Z",
+  "totalDiscovered": 6,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "Box CEO Aaron Levie on AI’s ‘era of context’",
+    "author": "Russell Brandom",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/09/11/box-ceo-aaron-levie-on-ais-era-of-context/",
+    "contentLength": 7247
+  },
+  "discoveredArticles": [
+    {
+      "title": "Here Come the Robotaxis: Zoox and Lyft Both Launch Driverless Ride Sharing",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/here-come-the-robotaxis-zoox-lyft-may-mobility/",
+      "publishedAt": "2025-09-10T13:00:00Z"
+    },
+    {
+      "title": "Uber and Momenta to test autonomous vehicles in Germany in 2026 | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/07/uber-and-momenta-to-test-autonomous-vehicles-in-germany-in-2026/",
+      "publishedAt": "2025-09-08T06:01:01Z"
+    },
+    {
+      "title": "Tesla is seeking permits to offer ride-hail services at Silicon Valley airports | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/09/tesla-is-seeking-permits-to-offer-ride-hail-services-at-silicon-valley-airports/",
+      "publishedAt": "2025-09-09T16:29:06Z"
+    },
+    {
+      "title": "Tesla's robotaxi plans for Nevada move forward with testing permit | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/11/teslas-robotaxi-plans-for-nevada-move-forward-with-testing-permit/",
+      "publishedAt": "2025-09-11T20:22:42Z"
+    },
+    {
+      "title": "Box CEO Aaron Levie on AI’s 'era of context' | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/11/box-ceo-aaron-levie-on-ais-era-of-context/",
+      "publishedAt": "2025-09-11T14:39:27Z"
+    },
+    {
+      "title": "More than 10 European startups became unicorns this year | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/08/more-than-10-european-startups-became-unicorns-this-year/",
+      "publishedAt": "2025-09-08T10:57:29Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Box CEO Aaron Levie on AI’s 'era of context' | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/11/box-ceo-aaron-levie-on-ais-era-of-context/"
+    }
+  ]
+}
