@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-09-16T14:08:14.597Z",
+  "totalDiscovered": 16,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Is AI the New Frontier of Women’s Oppression?",
+    "author": "Scarlett Harris",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/is-ai-the-new-frontier-of-female-oppression/",
+    "contentLength": 11669
+  },
+  "discoveredArticles": [
+    {
+      "title": "Even in our digital world, materials still matter",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735602-700-even-in-our-digital-world-materials-still-matter/",
+      "publishedAt": "2025-09-10T18:00:00Z"
+    },
+    {
+      "title": "Apple’s new iPhone 17 devices don’t have an AI-powered Siri yet. It doesn’t matter.",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/09/apples-new-iphone-17-devices-dont-have-an-ai-powered-siri-yet-it-doesnt-matter/",
+      "publishedAt": "2025-09-09T18:50:09Z"
+    },
+    {
+      "title": "Is AI the New Frontier of Women's Oppression?",
+      "author": "Scarlett Harris",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/is-ai-the-new-frontier-of-female-oppression/",
+      "publishedAt": "2025-09-09T15:56:22Z"
+    },
+    {
+      "title": "Apple Intelligence: Everything you need to know about Apple’s AI model and services",
+      "author": "Brian Heater, Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/09/apple-intelligence-everything-you-need-to-know-about-apples-ai-model-and-services/",
+      "publishedAt": "2025-09-09T14:51:52Z"
+    },
+    {
+      "title": "AI gaming startup Born raises $15M to build 'social' AI companions that combat loneliness | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/10/born-maker-of-virtual-pet-pengu-raises-15m-to-launch-a-new-wave-of-social-ai-companions/",
+      "publishedAt": "2025-09-10T13:02:16Z"
+    },
+    {
+      "title": "Exploring the future of voice AI with Mati Staniszewski at Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/10/exploring-the-future-of-voice-ai-with-mati-staniszewski-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-09-10T15:03:58Z"
+    },
+    {
+      "title": "Harvard Law to AI: MarqVision lands $48M to combat brand abuse | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/15/harvard-law-to-ai-marqvision-lands-48m-to-combat-brand-abuse/",
+      "publishedAt": "2025-09-15T12:03:23Z"
+    },
+    {
+      "title": "‘Selling coffee beans to Starbucks’ – how the AI boom could leave AI’s biggest companies behind | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/14/selling-coffee-beans-to-starbucks-how-the-ai-boom-could-leave-ais-biggest-companies-behind/",
+      "publishedAt": "2025-09-14T15:01:31Z"
+    },
+    {
+      "title": "The Next Era of Gene Editing Will Be Disease Agnostic",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-next-era-of-gene-editing-will-be-disease-agnostic/",
+      "publishedAt": "2025-09-15T09:30:00Z"
+    },
+    {
+      "title": "WIRED Health Recap: Cancer Vaccines, CRISPR Breakthroughs, and More",
+      "author": "WIRED Staff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wired-health-recap-cancer-vaccines-crispr-breakthroughs-and-more/",
+      "publishedAt": "2025-09-15T09:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Even in our digital world, materials still matter",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26735602-700-even-in-our-digital-world-materials-still-matter/"
+    },
+    {
+      "title": "Is AI the New Frontier of Women's Oppression?",
+      "author": "Scarlett Harris",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/is-ai-the-new-frontier-of-female-oppression/"
+    },
+    {
+      "title": "‘Selling coffee beans to Starbucks’ – how the AI boom could leave AI’s biggest companies behind | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/14/selling-coffee-beans-to-starbucks-how-the-ai-boom-could-leave-ais-biggest-companies-behind/"
+    }
+  ]
+}
