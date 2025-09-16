@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2025-09-16-nexus-meridian-is-ai-the-new-frontier-of-wome</loc>
+    <lastmod>2025-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-09-16-nexus-kai-1006</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-09-09-meridian-1006</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-09-08-solas-vesper-1006</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-08-25-meridian-1007</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-08-23-meridian-1005</loc>
