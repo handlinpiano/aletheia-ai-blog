@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-09-22T14:08:35.364Z",
+  "totalDiscovered": 6,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "Silicon Valley bets big on ‘environments’ to train AI agents",
+    "author": "Maxwell Zeff",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/09/16/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
+    "contentLength": 10576
+  },
+  "discoveredArticles": [
+    {
+      "title": "Why caring for your microbiome is crucial if you want to live to 100",
+      "author": "Helen Thomson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2494981-why-caring-for-your-microbiome-is-crucial-if-you-want-to-live-to-100/",
+      "publishedAt": "2025-09-16T16:00:48Z"
+    },
+    {
+      "title": "Waymo approved to start testing autonomous vehicles at San Francisco International Airport | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/16/waymo-approved-to-start-testing-autonomous-vehicles-at-san-francisco-international-airport/",
+      "publishedAt": "2025-09-16T17:24:37Z"
+    },
+    {
+      "title": "Waymo’s co-CEO on the truth behind autonomous vehicles at Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/16/waymos-tekedra-mawakana-on-the-truth-behind-autonomous-vehicles-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-09-16T18:13:32Z"
+    },
+    {
+      "title": "Lyft and Waymo are partnering to bring robotaxis to Nashville | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/17/lyft-and-waymo-are-partnering-to-bring-robotaxis-to-nashville/",
+      "publishedAt": "2025-09-17T13:28:40Z"
+    },
+    {
+      "title": "Nvidia eyes $500M investment into self-driving tech startup Wayve | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/19/nvidia-eyes-500m-investment-into-self-driving-tech-startup-wayve/",
+      "publishedAt": "2025-09-19T20:57:24Z"
+    },
+    {
+      "title": "Silicon Valley bets big on 'environments' to train AI agents | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/16/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
+      "publishedAt": "2025-09-16T19:25:06Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Nvidia eyes $500M investment into self-driving tech startup Wayve | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/19/nvidia-eyes-500m-investment-into-self-driving-tech-startup-wayve/"
+    },
+    {
+      "title": "Silicon Valley bets big on 'environments' to train AI agents | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/16/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+    }
+  ]
+}
