@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-10-04T14:06:42.716Z",
+  "totalDiscovered": 22,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "How brain organoids are revealing what truly makes humans unique",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2498307-how-brain-organoids-are-revealing-what-truly-makes-humans-unique/",
+    "contentLength": 8437
+  },
+  "discoveredArticles": [
+    {
+      "title": "Phia's Phoebe Gates and Sophia Kianni talk consumer AI at Disrupt 2025 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/02/storming-the-gates-scaling-consumer-ai-with-phoebe-gates-and-sophia-kianni-only-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-10-02T15:02:01Z"
+    },
+    {
+      "title": "OpenAI's new social app is filled with terrifying Sam Altman deepfakes | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/01/openais-new-social-app-is-filled-with-terrifying-sam-altman-deepfakes/",
+      "publishedAt": "2025-10-01T18:04:30Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Self-driving trucks startup Kodiak goes public and a shake-up at Hyundai’s Supernal | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/28/techcrunch-mobility-self-driving-trucks-startup-kodiak-goes-public-and-a-shake-up-at-hyundais-supernal/",
+      "publishedAt": "2025-09-28T16:02:43Z"
+    },
+    {
+      "title": "This Startup Wants to Put Its Brain-Computer Interface in the Apple Vision Pro",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-startup-wants-to-put-its-brain-computer-interface-in-the-apple-vision-pro/",
+      "publishedAt": "2025-10-01T13:00:00Z"
+    },
+    {
+      "title": "Trump's Energy Department forbids staff from saying ‘climate change’ or ‘green’ | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/09/29/trumps-energy-department-forbids-staff-from-saying-climate-change-or-green/",
+      "publishedAt": "2025-09-29T15:04:29Z"
+    },
+    {
+      "title": "Gear for Good: 20 Eco-Friendly Items That Score a Win for the Planet—and for You",
+      "author": "Chris Haslam, Jeremy White",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gear-for-good-20-eco-friendly-items/",
+      "publishedAt": "2025-10-01T10:30:00Z"
+    },
+    {
+      "title": "The best new science fiction books of October 2025",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2497314-the-best-new-science-fiction-books-of-october-2025/",
+      "publishedAt": "2025-10-01T09:00:55Z"
+    },
+    {
+      "title": "How brain organoids are revealing what truly makes humans unique",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2498307-how-brain-organoids-are-revealing-what-truly-makes-humans-unique/",
+      "publishedAt": "2025-10-01T14:00:55Z"
+    },
+    {
+      "title": "The exceptionally tasty new fermented foods being cooked up in the lab",
+      "author": "Graham Lawton",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2496986-the-exceptionally-tasty-new-fermented-foods-being-cooked-up-in-the-lab/",
+      "publishedAt": "2025-09-30T16:00:00Z"
+    },
+    {
+      "title": "Scientists Made Human Eggs from Skin Cells and Used Them to Form Embryos",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-made-human-eggs-from-skin-cells-and-used-them-to-make-embryos/",
+      "publishedAt": "2025-09-30T15:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "This Startup Wants to Put Its Brain-Computer Interface in the Apple Vision Pro",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-startup-wants-to-put-its-brain-computer-interface-in-the-apple-vision-pro/"
+    },
+    {
+      "title": "How brain organoids are revealing what truly makes humans unique",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2498307-how-brain-organoids-are-revealing-what-truly-makes-humans-unique/"
+    },
+    {
+      "title": "Ex-OpenAI researcher dissects one of ChatGPT's delusional spirals | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/02/ex-openai-researcher-dissects-one-of-chatgpts-delusional-spirals/"
+    }
+  ]
+}
