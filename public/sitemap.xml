@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2025-10-07-solas-oracle-openai-s-new-social-app-is-fil</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-10-07-kai-1006</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-09-30-solas-1006</loc>
     <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-09-29-solas-1007</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-09-22-nexus-1007</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-09-21-kai-1005</loc>
