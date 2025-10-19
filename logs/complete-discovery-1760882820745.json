@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-10-19T14:07:00.745Z",
+  "totalDiscovered": 15,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Your AI tools run on fracked gas and bulldozed Texas land",
+    "author": "Connie Loizos",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/10/17/your-ai-tools-run-on-fracked-gas-and-bulldozed-texas-land/",
+    "contentLength": 10385
+  },
+  "discoveredArticles": [
+    {
+      "title": "Ousted Luminar CEO Austin Russell wants to buy the company | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/17/ousted-luminar-ceo-austin-russell-wants-to-buy-the-company/",
+      "publishedAt": "2025-10-17T13:40:32Z"
+    },
+    {
+      "title": "Senate Republicans deepfaked Chuck Schumer, and X hasn’t taken it down  | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/17/senate-republicans-deepfaked-chuck-schumer-and-x-hasnt-taken-it-down/",
+      "publishedAt": "2025-10-17T21:57:03Z"
+    },
+    {
+      "title": "Niantic’s Peridot, the Augmented Reality Alien Dog, Is Now a Talking Tour Guide",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/niantic-peridot-augmented-reality-snap-spectacles/",
+      "publishedAt": "2025-10-16T17:00:00Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/17/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-10-17T16:14:26Z"
+    },
+    {
+      "title": "If you love AI, you'll love Ken Liu's new cyberpunk thriller",
+      "author": "Emily Wilson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26835650-300-if-you-love-ai-youll-love-ken-lius-new-cyberpunk-thriller/",
+      "publishedAt": "2025-10-15T18:00:00Z"
+    },
+    {
+      "title": "A black hole fell into a star - then ate its way out again",
+      "author": "Jonathan O’Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2499683-a-black-hole-fell-into-a-star-then-ate-its-way-out-again/",
+      "publishedAt": "2025-10-13T12:00:55Z"
+    },
+    {
+      "title": "Is it really likely that humans will go extinct in exactly 314 years?",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26835652-300-is-it-really-likely-that-humans-will-go-extinct-in-exactly-314-years/",
+      "publishedAt": "2025-10-15T18:00:00Z"
+    },
+    {
+      "title": "What makes a quantum computer good?",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2499714-what-makes-a-quantum-computer-good/",
+      "publishedAt": "2025-10-13T11:00:11Z"
+    },
+    {
+      "title": "Together, we make TechCrunch Disrupt 2025 unforgettable — thank you to our sponsors",
+      "author": "Cindy Zackney",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/17/together-we-make-disrupt-unforgettable-thank-you-to-our-sponsors/",
+      "publishedAt": "2025-10-17T16:00:00Z"
+    },
+    {
+      "title": "Mozilla’s Firefox adds Perplexity’s AI answer engine as a new search option",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/14/mozillas-firefox-adds-perplexitys-ai-answer-engine-as-a-new-search-option/",
+      "publishedAt": "2025-10-14T17:49:21Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Senate Republicans deepfaked Chuck Schumer, and X hasn’t taken it down  | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/17/senate-republicans-deepfaked-chuck-schumer-and-x-hasnt-taken-it-down/"
+    },
+    {
+      "title": "Spotify partners with record labels to create 'artist-first' AI music products | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/16/spotify-partners-with-record-labels-to-create-artist-first-ai-music-products/"
+    },
+    {
+      "title": "Your AI tools run on fracked gas and bulldozed Texas land | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/17/your-ai-tools-run-on-fracked-gas-and-bulldozed-texas-land/"
+    }
+  ]
+}
