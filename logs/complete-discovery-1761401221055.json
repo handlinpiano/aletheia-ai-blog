@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-10-25T14:07:01.054Z",
+  "totalDiscovered": 56,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AI Is Changing What High School STEM Students Study",
+    "author": "Sofia Barnett",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/stem-high-school-students-artficial-intelligence/",
+    "contentLength": 5994
+  },
+  "discoveredArticles": [
+    {
+      "title": "AI Is Changing What High School STEM Students Study",
+      "author": "Sofia Barnett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/stem-high-school-students-artficial-intelligence/",
+      "publishedAt": "2025-10-20T09:30:00Z"
+    },
+    {
+      "title": "ChatGPT’s Horny Era Could Be Its Stickiest Yet",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chatgpt-horny-era/",
+      "publishedAt": "2025-10-23T10:30:00Z"
+    },
+    {
+      "title": "Scenes From Saturday's Nationwide ‘No Kings’ Protests",
+      "author": "Brian Barrett, Alyssa Walker",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/no-kings-protests-photos/",
+      "publishedAt": "2025-10-19T21:00:10Z"
+    },
+    {
+      "title": "The Long History of Frogs as Protest Symbols",
+      "author": "Angela Watercutter",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-long-history-of-frogs-as-protest-symbols/",
+      "publishedAt": "2025-10-21T17:07:06Z"
+    },
+    {
+      "title": "Could a self-monitoring system for criminals replace prisons one day?",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26835660-200-could-a-self-monitoring-system-for-criminals-replace-prisons-one-day/",
+      "publishedAt": "2025-10-22T18:00:00Z"
+    },
+    {
+      "title": "Solar energy is going to power the world much sooner than you think",
+      "author": "Madeleine Cuff",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2500013-solar-energy-is-going-to-power-the-world-much-sooner-than-you-think/",
+      "publishedAt": "2025-10-23T12:00:27Z"
+    },
+    {
+      "title": "Google says its quantum computer can reveal the structure of molecules",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2500913-google-says-its-quantum-computer-can-reveal-the-structure-of-molecules/",
+      "publishedAt": "2025-10-22T16:00:26Z"
+    },
+    {
+      "title": "Gemini in Google Home Keeps Mistaking My Dog for a Cat",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gemini-in-google-home-keeps-mistaking-my-dog-for-a-cat/",
+      "publishedAt": "2025-10-19T10:30:00Z"
+    },
+    {
+      "title": "AI Models Get Brain Rot, Too",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/",
+      "publishedAt": "2025-10-22T18:00:00Z"
+    },
+    {
+      "title": "Apple MacBook Pro (M5, 14-Inch) Review: More of the Same",
+      "author": "Luke Larsen",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/apple-macbook-pro-m5-14-inch/",
+      "publishedAt": "2025-10-21T17:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI Is Changing What High School STEM Students Study",
+      "author": "Sofia Barnett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/stem-high-school-students-artficial-intelligence/"
+    },
+    {
+      "title": "ChatGPT’s Horny Era Could Be Its Stickiest Yet",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chatgpt-horny-era/"
+    },
+    {
+      "title": "Scenes From Saturday's Nationwide ‘No Kings’ Protests",
+      "author": "Brian Barrett, Alyssa Walker",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/no-kings-protests-photos/"
+    }
+  ]
+}
