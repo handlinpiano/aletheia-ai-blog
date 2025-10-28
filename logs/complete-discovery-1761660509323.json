@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-10-28T14:08:29.323Z",
+  "totalDiscovered": 57,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AI’s Next Frontier? An Algorithm for Consciousness",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-sentient-consciousness-algorithm/",
+    "contentLength": 5414
+  },
+  "discoveredArticles": [
+    {
+      "title": "Why AI Breaks Bad",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-black-box-interpretability-problem/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "AI Is Not God",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-religion-new-church-find-god/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "AI of a Thousand Faces",
+      "author": "WIRED",
+      "source": "Wired",
+      "url": "https://www.wired.com/ai-issue/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "Ed Zitron Gets Paid to Love AI. He Also Gets Paid to Hate AI",
+      "author": "Tommy Craggs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-pr-ed-zitron-profile/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "AI and the End of Accents",
+      "author": "Sheon Han",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-americanizer-end-accents/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "I Tried to Have Sex With AI Clive Owen",
+      "author": "Laura Kipnis",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-kink-sex-clive-owen/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "The Argument for Letting AI Burn It All Down",
+      "author": "Paul Ford",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-normal-after-ai-plateaus/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "AI Is the Bubble to Burst Them All",
+      "author": "Brian Merchant",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-bubble-will-burst/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "AI Will Kill the Smartphone—and Maybe the Screen Entirely",
+      "author": "Jason Kehe, Zoë Schiffer",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-kill-phone-screen/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "How to Build an AI Startup: Go Big, Be Strange, Embrace Probable Doom",
+      "author": "Sandra Upson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-startup-interview-founders/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Why AI Breaks Bad",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-black-box-interpretability-problem/"
+    },
+    {
+      "title": "The Argument for Letting AI Burn It All Down",
+      "author": "Paul Ford",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-normal-after-ai-plateaus/"
+    },
+    {
+      "title": "AI’s Next Frontier? An Algorithm for Consciousness",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-sentient-consciousness-algorithm/"
+    }
+  ]
+}
