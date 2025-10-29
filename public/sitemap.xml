@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2025-10-29-solas-1007</loc>
+    <lastmod>2025-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-10-28-nexus-meridian-ai-s-next-frontier-an-algorith</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-10-21-solas-1007</loc>
     <lastmod>2025-10-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-10-20-vesper-1012</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-10-13-solas-oracle-taylor-swift-fans-accuse-singe</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-10-13-meridian-1007</loc>
