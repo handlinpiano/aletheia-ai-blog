@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-10-31T14:08:32.055Z",
+  "totalDiscovered": 5,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "How AI labs use Mercor to get the data companies won’t share",
+    "author": "Maxwell Zeff",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/10/29/how-ai-labs-use-mercor-to-get-the-data-companies-wont-share/",
+    "contentLength": 5735
+  },
+  "discoveredArticles": [
+    {
+      "title": "TechCrunch Disrupt 2025: Day 2",
+      "author": "TechCrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/28/techcrunch-disrupt-2025-day-2/",
+      "publishedAt": "2025-10-28T14:00:00Z"
+    },
+    {
+      "title": "How AI labs use Mercor to get the data companies won’t share | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/how-ai-labs-use-mercor-to-get-the-data-companies-wont-share/",
+      "publishedAt": "2025-10-29T16:19:08Z"
+    },
+    {
+      "title": "TechCrunch Disrupt 2025 Side Events schedule: Women in Tech, MongoDB, Silkroad Innovation Hub and more to host | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/24/techcrunch-disrupt-2025-side-events-schedule-women-in-tech-mongodb-silkroad-innovation-hub-and-more-to-host/",
+      "publishedAt": "2025-10-24T15:32:53Z"
+    },
+    {
+      "title": "San Francisco mayor: 'We should be the testbed for emerging tech' | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/sf-mayor-we-should-be-the-testbed-for-emerging-tech/",
+      "publishedAt": "2025-10-29T18:38:55Z"
+    },
+    {
+      "title": "Robotaxi companies must do more to prove safety, Waymo co-CEO says | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/27/robotaxi-companies-must-do-more-to-prove-safety-waymo-co-ceo-says/",
+      "publishedAt": "2025-10-27T20:29:11Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "How AI labs use Mercor to get the data companies won’t share | TechCrunch",
+      "author": "Maxwell Zeff",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/how-ai-labs-use-mercor-to-get-the-data-companies-wont-share/"
+    },
+    {
+      "title": "San Francisco mayor: 'We should be the testbed for emerging tech' | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/sf-mayor-we-should-be-the-testbed-for-emerging-tech/"
+    },
+    {
+      "title": "Robotaxi companies must do more to prove safety, Waymo co-CEO says | TechCrunch",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/27/robotaxi-companies-must-do-more-to-prove-safety-waymo-co-ceo-says/"
+    }
+  ]
+}
