@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-11-01T14:07:02.748Z",
+  "totalDiscovered": 32,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A New Startup Wants to Edit Human Embryos",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/startup-edit-human-embryos-manhattan-genomics-cathy-tie/",
+    "contentLength": 13487
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Worst Thing About AI Is That People Can’t Shut Up About It",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-journalism-worst-thing-about-ai/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "Ed Zitron Gets Paid to Love AI. He Also Gets Paid to Hate AI",
+      "author": "Tommy Craggs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-pr-ed-zitron-profile/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "AI Is the Bubble to Burst Them All",
+      "author": "Brian Merchant",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-bubble-will-burst/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "Rise of the Killer Chatbots",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-weapon-anduril-llms-drones/",
+      "publishedAt": "2025-10-27T10:00:00Z"
+    },
+    {
+      "title": "The Director of a Raunchy 3-Hour Dracula Movie Says AI Is Gross and Slimy. That’s Why He Used It",
+      "author": "John Semley",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-director-of-a-raunchy-3-hour-dracula-movie-says-ai-is-gross-and-slimy-thats-why-he-used-it/",
+      "publishedAt": "2025-10-29T11:00:00Z"
+    },
+    {
+      "title": "Donald Trump Is the First AI Slop President",
+      "author": "Jake Lahut",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/donald-trump-ai-slop-white-house/",
+      "publishedAt": "2025-10-29T15:00:00Z"
+    },
+    {
+      "title": "Adobe launches AI assistants for Express and Photoshop | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/28/adobe-launches-ai-assistants-for-express-and-photoshop/",
+      "publishedAt": "2025-10-28T12:08:32Z"
+    },
+    {
+      "title": "Amazon to cut 14,000 corporate jobs | TechCrunch",
+      "author": "Ram Iyer",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/28/amazon-to-cut-14000-corporate-jobs/",
+      "publishedAt": "2025-10-28T13:44:08Z"
+    },
+    {
+      "title": "Google partners with Ambani's Reliance to offer free AI Pro access to millions of Jio users in India | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/30/google-partners-with-ambanis-reliance-to-offer-free-ai-pro-access-to-millions-of-jio-users-in-india/",
+      "publishedAt": "2025-10-30T14:08:29Z"
+    },
+    {
+      "title": "The Prompting Company snags $6.5M to help products get mentioned in ChatGPT and other AI apps | TechCrunch",
+      "author": "Tage Kene-okafor",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/",
+      "publishedAt": "2025-10-30T13:14:11Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Rise of the Killer Chatbots",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-weapon-anduril-llms-drones/"
+    },
+    {
+      "title": "A New Startup Wants to Edit Human Embryos",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/startup-edit-human-embryos-manhattan-genomics-cathy-tie/"
+    },
+    {
+      "title": "How to Build an AI Startup: Go Big, Be Strange, Embrace Probable Doom",
+      "author": "Sandra Upson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-startup-interview-founders/"
+    }
+  ]
+}
