@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-11-04T14:08:40.688Z",
+  "totalDiscovered": 8,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+    "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+    "contentLength": 57810
+  },
+  "discoveredArticles": [
+    {
+      "title": "Inside CampusAI's mission to close the AI training gap for everyday workers — check it out at TechCrunch Disrupt 2025",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/28/inside-campusais-mission-to-close-the-ai-training-gap-for-everyday-workers-check-it-out-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-10-28T22:17:50Z"
+    },
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-10-31T17:43:55Z"
+    },
+    {
+      "title": "Meta bought 1 GW of solar this week | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
+      "publishedAt": "2025-10-31T19:29:04Z"
+    },
+    {
+      "title": "Alphabet is increasingly launching \"moonshot\" projects as independent companies -- here's why | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/02/alphabet-is-increasingly-launching-moonshot-projects-as-independent-companies-heres-why/",
+      "publishedAt": "2025-11-03T01:04:02Z"
+    },
+    {
+      "title": "San Francisco mayor: 'We should be the testbed for emerging tech' | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/sf-mayor-we-should-be-the-testbed-for-emerging-tech/",
+      "publishedAt": "2025-10-29T18:38:55Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Everything said on, and off, the stage at TechCrunch Disrupt 2025 | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/02/techcrunch-mobility-everything-said-on-and-off-the-stage-at-techcrunch-disrupt-2025/",
+      "publishedAt": "2025-11-02T17:06:29Z"
+    },
+    {
+      "title": "Nvidia expands AI ties with Hyundai, Samsung, SK, Naver | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/nvidia-expands-ai-ties-with-hyundai-samsung-sk-naver/",
+      "publishedAt": "2025-10-31T13:34:42Z"
+    },
+    {
+      "title": "Scenes from TechCrunch Disrupt | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/30/scenes-from-techcrunch-disrupt/",
+      "publishedAt": "2025-10-31T04:04:09Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/"
+    },
+    {
+      "title": "San Francisco mayor: 'We should be the testbed for emerging tech' | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/sf-mayor-we-should-be-the-testbed-for-emerging-tech/"
+    },
+    {
+      "title": "Nvidia expands AI ties with Hyundai, Samsung, SK, Naver | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/nvidia-expands-ai-ties-with-hyundai-samsung-sk-naver/"
+    }
+  ]
+}
