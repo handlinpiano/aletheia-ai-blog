@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-11-07T14:08:42.475Z",
+  "totalDiscovered": 2,
+  "totalSelected": 1,
+  "finalArticle": {
+    "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+    "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+    "contentLength": 57810
+  },
+  "discoveredArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "publishedAt": "2025-10-31T17:43:55Z"
+    },
+    {
+      "title": "IKEA's Smart Home Reset Goes Back to Basics",
+      "author": "Sophie Charara",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ikeas-smart-home-reset-goes-back-to-basics/",
+      "publishedAt": "2025-11-06T12:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "ChatGPT: Everything you need to know about the AI chatbot",
+      "author": "Kyle Wiggers",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/"
+    }
+  ]
+}
