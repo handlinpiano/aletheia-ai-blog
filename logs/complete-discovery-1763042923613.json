@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-11-13T14:08:43.613Z",
+  "totalDiscovered": 46,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "How to Talk to ChatGPT for Free Inside WhatsApp (While You Still Can)",
+    "author": "David Nield",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/talk-to-chatgpt-for-free-inside-whatsapp/",
+    "contentLength": 4586
+  },
+  "discoveredArticles": [
+    {
+      "title": "How to Talk to ChatGPT for Free Inside WhatsApp (While You Still Can)",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/talk-to-chatgpt-for-free-inside-whatsapp/",
+      "publishedAt": "2025-11-12T12:00:00Z"
+    },
+    {
+      "title": "AI may blunt our thinking skills – here’s what you can do about it",
+      "author": "Miriam Frankel",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2501634-ai-may-blunt-our-thinking-skills-heres-what-you-can-do-about-it/",
+      "publishedAt": "2025-11-10T14:30:13Z"
+    },
+    {
+      "title": "AI power use forecast finds the industry far off track to net zero",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2503556-ai-power-use-forecast-finds-the-industry-far-off-track-to-net-zero/",
+      "publishedAt": "2025-11-10T10:00:32Z"
+    },
+    {
+      "title": "‘Breaking Bad’ creator’s new show ‘Pluribus’ was emphatically ‘made by humans,’ not AI",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/08/breaking-bad-creators-new-show-pluribus-was-emphatically-made-by-humans-not-ai/",
+      "publishedAt": "2025-11-08T19:31:07Z"
+    },
+    {
+      "title": "What Is Adobe Firefly? Here’s How to Use This Powerful Generative AI Tool",
+      "author": "Jacob Roach",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/what-is-adobe-firefly/",
+      "publishedAt": "2025-11-09T14:00:00Z"
+    },
+    {
+      "title": "Meta Quest Promo Codes: $50 Off | November 2025",
+      "author": "Brad Bourque",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-quest-promo-code/",
+      "publishedAt": "2025-11-07T07:00:00Z"
+    },
+    {
+      "title": "The Former Staffer Calling Out OpenAI’s Erotica Claims",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-steven-adler-openai-erotica/",
+      "publishedAt": "2025-11-11T11:30:00Z"
+    },
+    {
+      "title": "Acer Predator Triton 14 AI Review: A Laptop for Gamers and Creators",
+      "author": "Christopher Null",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/acer-predator-triton-14-ai/",
+      "publishedAt": "2025-11-07T12:00:00Z"
+    },
+    {
+      "title": "Fat Savings on the Super Skinny Razer Blade 14 Gaming Laptop",
+      "author": "Brad Bourque",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/razer-blade-14-oled-deal-1125/",
+      "publishedAt": "2025-11-07T20:14:42Z"
+    },
+    {
+      "title": "Meta brings its short-form video feed of AI slop to Europe",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/06/meta-brings-its-short-form-video-feed-of-ai-slop-to-europe/",
+      "publishedAt": "2025-11-06T18:22:38Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "How to Talk to ChatGPT for Free Inside WhatsApp (While You Still Can)",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/talk-to-chatgpt-for-free-inside-whatsapp/"
+    },
+    {
+      "title": "AI may blunt our thinking skills – here’s what you can do about it",
+      "author": "Miriam Frankel",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2501634-ai-may-blunt-our-thinking-skills-heres-what-you-can-do-about-it/"
+    },
+    {
+      "title": "AI power use forecast finds the industry far off track to net zero",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2503556-ai-power-use-forecast-finds-the-industry-far-off-track-to-net-zero/"
+    }
+  ]
+}
