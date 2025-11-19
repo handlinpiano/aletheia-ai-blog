@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-11-19T14:09:03.512Z",
+  "totalDiscovered": 48,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The AI Boom Is Fueling a Need for Speed in Chip Networking",
+    "author": "Lauren Goode",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-boom-networking-technology-photonics/",
+    "contentLength": 6688
+  },
+  "discoveredArticles": [
+    {
+      "title": "The AI Boom Is Fueling a Need for Speed in Chip Networking",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-boom-networking-technology-photonics/",
+      "publishedAt": "2025-11-12T17:00:00Z"
+    },
+    {
+      "title": "AI Relationships Are on the Rise. A Divorce Boom Could Be Next",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-relationships-are-on-the-rise-a-divorce-boom-could-be-next/",
+      "publishedAt": "2025-11-13T11:30:00Z"
+    },
+    {
+      "title": "The 4 Things You Need for a Tech Bubble",
+      "author": "Lauren Goode, Michael Calore",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-4-things-you-need-for-a-tech-bubble/",
+      "publishedAt": "2025-11-17T22:09:54Z"
+    },
+    {
+      "title": "OpenAI’s Open-Weight Models Are Coming to the US Military",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/open-ai-artificial-intelligence-open-weight-model/",
+      "publishedAt": "2025-11-13T11:00:00Z"
+    },
+    {
+      "title": "Mathematicians say Google's AI tools are supercharging their research",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2504763-mathematicians-say-googles-ai-tools-are-supercharging-their-research/",
+      "publishedAt": "2025-11-18T12:14:09Z"
+    },
+    {
+      "title": "Is the future of education outside universities?",
+      "author": "Annalee Newitz",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26835691-900-is-the-future-of-education-outside-universities/",
+      "publishedAt": "2025-11-12T18:00:00Z"
+    },
+    {
+      "title": "Apple’s new App Review Guidelines clamp down on apps sharing personal data with ‘third-party AI’",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/13/apples-new-app-review-guidelines-clamp-down-on-apps-sharing-personal-data-with-third-party-ai/",
+      "publishedAt": "2025-11-13T21:14:35Z"
+    },
+    {
+      "title": "Are we nearing the end of Apple’s Tim Cook era?",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/16/are-we-nearing-the-end-of-apples-tim-cook-era/",
+      "publishedAt": "2025-11-16T19:35:55Z"
+    },
+    {
+      "title": "How Windows Recall Works—and Whether You Should Switch It On",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-windows-recall-works-and-whether-you-should-switch-it-on/",
+      "publishedAt": "2025-11-14T11:30:00Z"
+    },
+    {
+      "title": "A Major Leak Spills a Chinese Hacking Contractor’s Tools and Targets",
+      "author": "Andy Greenberg, Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/major-leak-spills-chinese-hacking-contractor-tools-targets/",
+      "publishedAt": "2025-11-15T11:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The AI Boom Is Fueling a Need for Speed in Chip Networking",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-boom-networking-technology-photonics/"
+    },
+    {
+      "title": "AI Relationships Are on the Rise. A Divorce Boom Could Be Next",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-relationships-are-on-the-rise-a-divorce-boom-could-be-next/"
+    },
+    {
+      "title": "The 4 Things You Need for a Tech Bubble",
+      "author": "Lauren Goode, Michael Calore",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-4-things-you-need-for-a-tech-bubble/"
+    }
+  ]
+}
