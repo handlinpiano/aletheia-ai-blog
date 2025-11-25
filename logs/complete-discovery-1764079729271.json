@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-11-25T14:08:49.271Z",
+  "totalDiscovered": 57,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Amazon Is Using Specialized AI Agents for Deep Bug Hunting",
+    "author": "Lily Hay Newman",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/amazon-autonomous-threat-analysis/",
+    "contentLength": 5250
+  },
+  "discoveredArticles": [
+    {
+      "title": "Amazon Is Using Specialized AI Agents for Deep Bug Hunting",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-autonomous-threat-analysis/",
+      "publishedAt": "2025-11-24T14:00:00Z"
+    },
+    {
+      "title": "A Research Leader Behind ChatGPT’s Mental Health Work Is Leaving OpenAI",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-research-lead-mental-health-quietly-departs/",
+      "publishedAt": "2025-11-24T10:30:00Z"
+    },
+    {
+      "title": "Hands On With Google's Nano Banana Pro Image Generator",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-nano-banana-pro-hands-on/",
+      "publishedAt": "2025-11-21T00:21:08Z"
+    },
+    {
+      "title": "With the Rise of AI, Cisco Sounds an Urgent Alarm About the Risks of Aging Tech",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cisco-aging-technical-infrastructure/",
+      "publishedAt": "2025-11-20T10:00:00Z"
+    },
+    {
+      "title": "Nvidia CEO Dismisses Concerns of an AI Bubble. Investors Remain Skeptical",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-third-quarter-2026-earnings/",
+      "publishedAt": "2025-11-20T00:45:35Z"
+    },
+    {
+      "title": "WIRED Roundup: DHS’s Privacy Breach, AI Romantic Affairs, and Google Sues Text Scammers",
+      "author": "Zoë Schiffer, Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-dhs-privacy-breach-ai-romantic-affairs-google-sues-text-scammers/",
+      "publishedAt": "2025-11-19T22:09:44Z"
+    },
+    {
+      "title": "OpenAI Locks Down San Francisco Offices Following Alleged Threat From Activist",
+      "author": "Zoë Schiffer, Maxwell Zeff, Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-office-lockdown-threat-san-francisco/",
+      "publishedAt": "2025-11-21T23:54:29Z"
+    },
+    {
+      "title": "Europe Is Bending the Knee to the US on Tech Policy",
+      "author": "Mila Fiordalisi",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/europe-bends-us-digital-policies-eu-ai-act/",
+      "publishedAt": "2025-11-24T07:00:00Z"
+    },
+    {
+      "title": "Google's Gemini 3 model keeps the AI hype train going – for now",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2505039-googles-gemini-3-model-keeps-the-ai-hype-train-going-for-now/",
+      "publishedAt": "2025-11-19T15:38:51Z"
+    },
+    {
+      "title": "Imagining a future where smart glasses allow 'AI slop' to be avoided",
+      "author": "Rowan Hooper",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26835700-100-imagining-a-future-where-smart-glasses-allow-ai-slop-to-be-avoided/",
+      "publishedAt": "2025-11-19T18:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Amazon Is Using Specialized AI Agents for Deep Bug Hunting",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-autonomous-threat-analysis/"
+    },
+    {
+      "title": "A Research Leader Behind ChatGPT’s Mental Health Work Is Leaving OpenAI",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-research-lead-mental-health-quietly-departs/"
+    },
+    {
+      "title": "Hands On With Google's Nano Banana Pro Image Generator",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-nano-banana-pro-hands-on/"
+    }
+  ]
+}
