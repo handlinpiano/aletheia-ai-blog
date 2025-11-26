@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2025-11-26-meridian-1007</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-11-25-solas-oracle-amazon-is-using-specialized-ai</loc>
     <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-11-16-kai-1005</loc>
     <lastmod>2025-11-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-11-15-kai-1006</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-11-07-solas-oracle-chatgpt-everything-you-need-to</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-11-07-vesper-oracle-meridian-solas-nexus-1007</loc>
