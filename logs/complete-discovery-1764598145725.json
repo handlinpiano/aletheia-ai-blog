@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-01T14:09:05.725Z",
+  "totalDiscovered": 51,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "WIRED Roundup: Gemini 3 Release, Nvidia Earnings, Epstein Files Fallout",
+    "author": "Zoë Schiffer",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-gemini-3-release-nvidia-earnings-epstein-files-fallout/",
+    "contentLength": 24858
+  },
+  "discoveredArticles": [
+    {
+      "title": "WIRED Roundup: Gemini 3 Release, Nvidia Earnings, Epstein Files Fallout",
+      "author": "Zoë Schiffer, Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-gemini-3-release-nvidia-earnings-epstein-files-fallout/",
+      "publishedAt": "2025-11-25T21:24:53Z"
+    },
+    {
+      "title": "Poems Can Trick AI Into Helping You Make a Nuclear Weapon",
+      "author": "Matthew Gault",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/",
+      "publishedAt": "2025-11-28T10:00:00Z"
+    },
+    {
+      "title": "The Trump Administration’s Data Center Push Could Open the Door for New Forever Chemicals",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-trump-administrations-data-center-push-could-open-the-door-for-new-forever-chemicals/",
+      "publishedAt": "2025-11-26T12:00:00Z"
+    },
+    {
+      "title": "Our Favorite Smart Glasses Are on Sale for Black Friday (2025)",
+      "author": "Adrienne So",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-sale-black-friday-2025/",
+      "publishedAt": "2025-11-29T10:36:00Z"
+    },
+    {
+      "title": "65 Best Early Black Friday Deals on Gear We Tested & Loved (2025)",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/early-black-friday-deals-2025-3/",
+      "publishedAt": "2025-11-26T09:02:00Z"
+    },
+    {
+      "title": "Best Black Friday Deals 2025: We've Tested Every Item and Tracked Every Price",
+      "author": "Simon Hill, Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-friday-deals-2025/",
+      "publishedAt": "2025-11-27T11:52:40Z"
+    },
+    {
+      "title": "Why sci-fi novelist Iain M. Banks was an ‘astounding’ world-builder",
+      "author": "Bethany Jacobs",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2506129-why-sci-fi-novelist-iain-m-banks-was-an-astounding-world-builder/",
+      "publishedAt": "2025-11-28T09:35:56Z"
+    },
+    {
+      "title": "A revolutionary way to map our bodies is helping cure deadly diseases",
+      "author": "Michael Marshall",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2504372-a-revolutionary-way-to-map-our-bodies-is-helping-cure-deadly-diseases/",
+      "publishedAt": "2025-11-26T16:00:29Z"
+    },
+    {
+      "title": "Why Google’s custom AI chips are shaking up the tech industry",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2506354-why-googles-custom-ai-chips-are-shaking-up-the-tech-industry/",
+      "publishedAt": "2025-11-28T16:00:11Z"
+    },
+    {
+      "title": "Jeff Bezos' New AI Venture Quietly Acquired an Agentic Computing Startup",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/jeff-bezos-new-ai-company-acquired-agentic-computing-startup/",
+      "publishedAt": "2025-11-26T20:02:13Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "WIRED Roundup: Gemini 3 Release, Nvidia Earnings, Epstein Files Fallout",
+      "author": "Zoë Schiffer, Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-gemini-3-release-nvidia-earnings-epstein-files-fallout/"
+    },
+    {
+      "title": "Poems Can Trick AI Into Helping You Make a Nuclear Weapon",
+      "author": "Matthew Gault",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/"
+    },
+    {
+      "title": "The Trump Administration’s Data Center Push Could Open the Door for New Forever Chemicals",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-trump-administrations-data-center-push-could-open-the-door-for-new-forever-chemicals/"
+    }
+  ]
+}
