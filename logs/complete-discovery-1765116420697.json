@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-07T14:07:00.697Z",
+  "totalDiscovered": 58,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AI Slop Is Ruining Reddit for Everyone",
+    "author": "Kat Tenbarge",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-slop-is-ruining-reddit-for-everyone/",
+    "contentLength": 10264
+  },
+  "discoveredArticles": [
+    {
+      "title": "AI Slop Is Ruining Reddit for Everyone",
+      "author": "Kat Tenbarge",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-slop-is-ruining-reddit-for-everyone/",
+      "publishedAt": "2025-12-05T12:00:00Z"
+    },
+    {
+      "title": "InnAIO AI Translator T10 Review: Feature-Loaded but Needs Work",
+      "author": "Christopher Null",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/innaio-t10-ai-translator/",
+      "publishedAt": "2025-12-04T15:00:00Z"
+    },
+    {
+      "title": "AWS CEO Matt Garman Wants to Reassert Amazon’s Cloud Dominance in the AI Era",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-aws-ceo-matt-garman-ai-agents/",
+      "publishedAt": "2025-12-02T16:00:00Z"
+    },
+    {
+      "title": "Cloudflare Has Blocked 416 Billion AI Bot Requests Since July 1",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/big-interview-event-matthew-prince-cloudflare/",
+      "publishedAt": "2025-12-04T22:04:31Z"
+    },
+    {
+      "title": "An AI Dark Horse Is Rewriting the Rules of Game Design",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tecent-3d-models-video-game-design-artificial-intelligence/",
+      "publishedAt": "2025-12-03T19:00:00Z"
+    },
+    {
+      "title": "Amazon Has New Frontier AI Models—and a Way for Customers to Build Their Own",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-nova-forge-ai-models/",
+      "publishedAt": "2025-12-02T16:00:00Z"
+    },
+    {
+      "title": "Jon M. Chu Says AI Couldn’t Have Made One of Wicked’s Best Moments",
+      "author": "Marah Eakin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/big-interview-event-jon-chu-wicked/",
+      "publishedAt": "2025-12-04T20:18:26Z"
+    },
+    {
+      "title": "12 Best Cyber Monday Home Security Deals 2025",
+      "author": "Simon Hill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cyber-monday-home-security-deals-2025/",
+      "publishedAt": "2025-12-01T15:56:01Z"
+    },
+    {
+      "title": "Gevi Espresso Machine Review: Quick but Quirky",
+      "author": "Pete Cottell",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/gevi-espresso-machine/",
+      "publishedAt": "2025-12-06T11:08:00Z"
+    },
+    {
+      "title": "169 Best Black Friday Deals 2025: Everything Tested and Actually Discounted",
+      "author": "Simon Hill, Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-friday-deals-2025-3/",
+      "publishedAt": "2025-11-30T16:05:44Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI Slop Is Ruining Reddit for Everyone",
+      "author": "Kat Tenbarge",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-slop-is-ruining-reddit-for-everyone/"
+    },
+    {
+      "title": "InnAIO AI Translator T10 Review: Feature-Loaded but Needs Work",
+      "author": "Christopher Null",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/innaio-t10-ai-translator/"
+    },
+    {
+      "title": "AWS CEO Matt Garman Wants to Reassert Amazon’s Cloud Dominance in the AI Era",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-aws-ceo-matt-garman-ai-agents/"
+    }
+  ]
+}
