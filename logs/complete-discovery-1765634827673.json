@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-13T14:07:07.673Z",
+  "totalDiscovered": 62,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Cursor Launches an AI Coding Tool For Designers",
+    "author": "Maxwell Zeff",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/cursor-launches-pro-design-tools-figma/",
+    "contentLength": 6515
+  },
+  "discoveredArticles": [
+    {
+      "title": "Cursor Launches an AI Coding Tool For Designers",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cursor-launches-pro-design-tools-figma/",
+      "publishedAt": "2025-12-11T16:00:00Z"
+    },
+    {
+      "title": "OpenAI, Anthropic, and Block Are Teaming Up to Make AI Agents Play Nice",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-anthropic-and-block-are-teaming-up-on-ai-agent-standards/",
+      "publishedAt": "2025-12-09T17:06:58Z"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.2 as It Navigates ‘Code Red’",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-gpt-launch-gemini-code-red/",
+      "publishedAt": "2025-12-11T18:00:00Z"
+    },
+    {
+      "title": "Intel Takes Major Step in Plan to Acquire Chip Startup SambaNova",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/intel-signs-term-sheet-sambanova-ai/",
+      "publishedAt": "2025-12-09T23:08:59Z"
+    },
+    {
+      "title": "This year we were drowning in a sea of slick, nonsensical AI slop",
+      "author": "Annalee Newitz",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2507742-this-year-we-were-drowning-in-a-sea-of-slick-nonsensical-ai-slop/",
+      "publishedAt": "2025-12-10T18:00:44Z"
+    },
+    {
+      "title": "Best acronym? Best use of AI? We present our end-of-year awards",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26835731-400-best-acronym-best-use-of-ai-we-present-our-end-of-year-awards/",
+      "publishedAt": "2025-12-10T18:00:00Z"
+    },
+    {
+      "title": "Inside the wild experiments physicists would do with zero limits",
+      "author": "Jesse Thaler, Arttu Rajantie, Thorsten Schumm, Huangyu Xiao, Abhishek Banerjee",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2501960-inside-the-wild-experiments-physicists-would-do-with-zero-limits/",
+      "publishedAt": "2025-12-10T16:00:27Z"
+    },
+    {
+      "title": "Donald Trump and Elon Musk put science on the chopping block in 2025",
+      "author": "Chelsea Whyte",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2506505-donald-trump-and-elon-musk-put-science-on-the-chopping-block-in-2025/",
+      "publishedAt": "2025-12-10T18:00:25Z"
+    },
+    {
+      "title": "Disney and OpenAI have made a surprise deal – what happens next?",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2508397-disney-and-openai-have-made-a-surprise-deal-what-happens-next/",
+      "publishedAt": "2025-12-11T17:25:40Z"
+    },
+    {
+      "title": "Are we living in a simulation? This experiment could tell us",
+      "author": "Miriam Frankel",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2503844-are-we-living-in-a-simulation-this-experiment-could-tell-us/",
+      "publishedAt": "2025-12-08T10:00:13Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Cursor Launches an AI Coding Tool For Designers",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cursor-launches-pro-design-tools-figma/"
+    },
+    {
+      "title": "OpenAI, Anthropic, and Block Are Teaming Up to Make AI Agents Play Nice",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-anthropic-and-block-are-teaming-up-on-ai-agent-standards/"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.2 as It Navigates ‘Code Red’",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-gpt-launch-gemini-code-red/"
+    }
+  ]
+}
