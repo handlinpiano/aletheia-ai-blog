@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-19T14:09:11.354Z",
+  "totalDiscovered": 44,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AWS CEO Matt Garman Doesn’t Think AI Should Replace Junior Devs",
+    "author": "Katie Drummond",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-big-interview-podcast-matt-garman-ceo-aws/",
+    "contentLength": 42040
+  },
+  "discoveredArticles": [
+    {
+      "title": "AWS CEO Matt Garman Doesn’t Think AI Should Replace Junior Devs",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-matt-garman-ceo-aws/",
+      "publishedAt": "2025-12-16T11:30:00Z"
+    },
+    {
+      "title": "The Instagram-Fueled Boom in Copycat Vintage Car-Body Shells",
+      "author": "Carlton Reid",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-instagram-fueled-boom-in-copycat-vintage-car-body-shells/",
+      "publishedAt": "2025-12-13T10:00:00Z"
+    },
+    {
+      "title": "Nvidia Becomes a Major Model Maker With Nemotron 3",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-becomes-major-model-maker-nemotron-3/",
+      "publishedAt": "2025-12-15T14:00:00Z"
+    },
+    {
+      "title": "With iOS 26.2, Apple lets you roll back Liquid Glass again — this time on the Lock Screen",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/12/with-ios-26-2-apple-lets-you-roll-back-liquid-glass-again-this-time-on-the-lock-screen/",
+      "publishedAt": "2025-12-12T20:45:00Z"
+    },
+    {
+      "title": "Why SpaceX Is Finally Gearing Up to Go Public",
+      "author": "Eric Berger, Ars Technica",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/why-spacex-is-finally-gearing-up-to-go-public/",
+      "publishedAt": "2025-12-12T18:37:54Z"
+    },
+    {
+      "title": "Grindr Goes ‘AI-First’ as It Strives to Be an ‘Everything App for the Gay Guy’",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/grindr-ai-first-era-everything-app-for-the-gay-guy/",
+      "publishedAt": "2025-12-16T19:33:39Z"
+    },
+    {
+      "title": "For the First Time, AI Analyzes Language as Well as a Human Expert",
+      "author": "Steve Nadis",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/in-a-first-ai-models-analyze-language-as-well-as-a-human-expert/",
+      "publishedAt": "2025-12-14T07:00:00Z"
+    },
+    {
+      "title": "OpenAI Rolls Back ChatGPT’s Model Router System for Most Users",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-router-relaunch-gpt-5-sam-altman/",
+      "publishedAt": "2025-12-16T17:30:00Z"
+    },
+    {
+      "title": "Exclusive trailer: \"Deepfaking Sam Altman\"",
+      "author": "Condé Nast",
+      "source": "Wired",
+      "url": "https://www.wired.com/video/watch/exclusive-trailer-deepfaking-sam-altman/",
+      "publishedAt": "2025-12-18T10:00:00Z"
+    },
+    {
+      "title": "‘Wicked’ Director Jon M. Chu on ‘What Makes Art Beautiful’ in the AI Era",
+      "author": "Zoë Schiffer, Manisha Krishnan",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-wicked-director-jon-m-chu/",
+      "publishedAt": "2025-12-17T22:07:59Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AWS CEO Matt Garman Doesn’t Think AI Should Replace Junior Devs",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-matt-garman-ceo-aws/"
+    },
+    {
+      "title": "The Instagram-Fueled Boom in Copycat Vintage Car-Body Shells",
+      "author": "Carlton Reid",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-instagram-fueled-boom-in-copycat-vintage-car-body-shells/"
+    },
+    {
+      "title": "Nvidia Becomes a Major Model Maker With Nemotron 3",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-becomes-major-model-maker-nemotron-3/"
+    }
+  ]
+}
