@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2025-12-25-solas-oracle-the-ultra-realistic-ai-face-sw</loc>
+    <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2025-12-23-oracle-vesper-1007</loc>
     <lastmod>2025-12-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2025-12-09-vesper-1008</loc>
     <lastmod>2025-12-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-12-08-vesper-1007</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2025-11-26-meridian-1007</loc>
     <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2025-11-25-solas-oracle-amazon-is-using-specialized-ai</loc>
