@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-25T14:08:00.195Z",
+  "totalDiscovered": 52,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Ultra-Realistic AI Face Swapping Platform Driving Romance Scams",
+    "author": "Matt Burgess",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-ultra-realistic-ai-face-swapping-platform-driving-romance-scams/",
+    "contentLength": 11940
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Ultra-Realistic AI Face Swapping Platform Driving Romance Scams",
+      "author": "Matt Burgess, Lily Hay Newman, Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-ultra-realistic-ai-face-swapping-platform-driving-romance-scams/",
+      "publishedAt": "2025-12-18T17:45:46Z"
+    },
+    {
+      "title": "People Are Using Sora 2 to Make Disturbing Videos With AI-Generated Kids",
+      "author": "Laura Holliday",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/people-are-using-sora-2-to-make-child-fetish-content/",
+      "publishedAt": "2025-12-22T11:30:00Z"
+    },
+    {
+      "title": "Google’s and OpenAI’s Chatbots Can Strip Women in Photos Down to Bikinis",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-and-openais-chatbots-can-strip-women-in-photos-down-to-bikinis/",
+      "publishedAt": "2025-12-23T11:30:00Z"
+    },
+    {
+      "title": "WIRED Roundup: The 5 Tech and Politics Trends That Shaped 2025",
+      "author": "Zoë Schiffer, Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-tech-politics-trends-2025/",
+      "publishedAt": "2025-12-19T22:58:41Z"
+    },
+    {
+      "title": "Scammers in China Are Using AI-Generated Images to Get Refunds",
+      "author": "Zeyi Yang, Louise Matsakis",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scammers-in-china-are-using-ai-generated-images-to-get-refunds/",
+      "publishedAt": "2025-12-19T19:31:43Z"
+    },
+    {
+      "title": "Data Holds the Key in Slowing Age-Related Illnesses",
+      "author": "Eric Topol",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/data-holds-the-key-in-slowing-age-related-illnesses/",
+      "publishedAt": "2025-12-23T18:11:52Z"
+    },
+    {
+      "title": "The Best Bluetooth Speaker Is $50 off Right in Time for Christmas",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/jbl-flip-7-deal-december-2025/",
+      "publishedAt": "2025-12-19T17:18:22Z"
+    },
+    {
+      "title": "Chinese Crypto Scammers on Telegram Are Fueling the Biggest Darknet Markets Ever",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/expired-tired-wired-chinese-scammer-crypto-markets/",
+      "publishedAt": "2025-12-23T11:00:00Z"
+    },
+    {
+      "title": "Ring Promo Codes and Discounts: Up to 50% Off",
+      "author": "Nena Farrell",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ring-promo-code/",
+      "publishedAt": "2025-12-19T07:10:00Z"
+    },
+    {
+      "title": "Putting data centres in space isn't going to happen any time soon",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2509368-putting-data-centres-in-space-isnt-going-to-happen-any-time-soon/",
+      "publishedAt": "2025-12-19T14:42:35Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The Ultra-Realistic AI Face Swapping Platform Driving Romance Scams",
+      "author": "Matt Burgess, Lily Hay Newman, Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-ultra-realistic-ai-face-swapping-platform-driving-romance-scams/"
+    },
+    {
+      "title": "People Are Using Sora 2 to Make Disturbing Videos With AI-Generated Kids",
+      "author": "Laura Holliday",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/people-are-using-sora-2-to-make-child-fetish-content/"
+    },
+    {
+      "title": "Google’s and OpenAI’s Chatbots Can Strip Women in Photos Down to Bikinis",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-and-openais-chatbots-can-strip-women-in-photos-down-to-bikinis/"
+    }
+  ]
+}
