@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-31T14:08:31.085Z",
+  "totalDiscovered": 46,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "3 New Tricks to Try With Google Gemini Live After Its Latest Major Upgrade",
+    "author": "David Nield",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/3-tricks-google-gemini-live-latest-major-upgrade/",
+    "contentLength": 4119
+  },
+  "discoveredArticles": [
+    {
+      "title": "3 New Tricks to Try With Google Gemini Live After Its Latest Major Upgrade",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/3-tricks-google-gemini-live-latest-major-upgrade/",
+      "publishedAt": "2025-12-29T11:00:00Z"
+    },
+    {
+      "title": "Sleep Number P6 Smart Bed Review: Advanced and Adaptive",
+      "author": "Julia Forbes",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/sleep-number-p6-smart-bed/",
+      "publishedAt": "2025-12-26T11:32:00Z"
+    },
+    {
+      "title": "The US Must Stop Underestimating Drone Warfare",
+      "author": "Raj Shah and Christopher Kirchhoff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-us-must-stop-underestimating-drone-warfare/",
+      "publishedAt": "2025-12-27T10:00:00Z"
+    },
+    {
+      "title": "The best and most ridiculous robots of 2025 in pictures",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2501142-the-best-and-most-ridiculous-robots-of-2025-in-pictures/",
+      "publishedAt": "2025-12-29T14:00:19Z"
+    },
+    {
+      "title": "'Spectacular' progress has been made towards useful quantum computers",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2509259-spectacular-progress-has-been-made-towards-useful-quantum-computers/",
+      "publishedAt": "2025-12-26T08:00:07Z"
+    },
+    {
+      "title": "So Long, GPT-5. Hello, Qwen",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/expired-tired-wired-gpt-5/",
+      "publishedAt": "2025-12-27T11:00:00Z"
+    },
+    {
+      "title": "Billion-Dollar Data Centers Are Taking Over the World",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/expired-tired-wired-data-centers/",
+      "publishedAt": "2025-12-28T11:00:00Z"
+    },
+    {
+      "title": "Best Apple Watch apps for boosting your productivity",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/27/best-apple-watch-apps-for-boosting-your-productivity/",
+      "publishedAt": "2025-12-28T02:00:00Z"
+    },
+    {
+      "title": "The Best After-Christmas Deals on Gear We've Tested (2025)",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/after-christmas-deals-2025/",
+      "publishedAt": "2025-12-27T16:42:31Z"
+    },
+    {
+      "title": "As people look for ways to make new friends, here are the apps promising to help",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/26/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
+      "publishedAt": "2025-12-26T19:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "3 New Tricks to Try With Google Gemini Live After Its Latest Major Upgrade",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/3-tricks-google-gemini-live-latest-major-upgrade/"
+    },
+    {
+      "title": "Sleep Number P6 Smart Bed Review: Advanced and Adaptive",
+      "author": "Julia Forbes",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/sleep-number-p6-smart-bed/"
+    },
+    {
+      "title": "The US Must Stop Underestimating Drone Warfare",
+      "author": "Raj Shah and Christopher Kirchhoff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-us-must-stop-underestimating-drone-warfare/"
+    }
+  ]
+}
