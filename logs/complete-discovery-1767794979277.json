@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-01-07T14:09:39.277Z",
+  "totalDiscovered": 46,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "CES Live Blog, Day 3: Even More of the Coolest Tech We’ve Seen",
+    "author": "WIRED",
+    "publication": "Wired",
+    "url": "https://www.wired.com/live/ces-2026-live-blog/",
+    "contentLength": 30446
+  },
+  "discoveredArticles": [
+    {
+      "title": "CES Live Blog, Day 1: The Coolest Tech We’ve Seen So Far",
+      "author": "WIRED",
+      "source": "Wired",
+      "url": "https://www.wired.com/live/ces-2026-live-blog/",
+      "publishedAt": "2026-01-05T11:00:00Z"
+    },
+    {
+      "title": "At CES 2026, Everything Is AI. What Matters Is How You Use It",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ces-2026-what-to-expect/",
+      "publishedAt": "2026-01-05T11:00:00Z"
+    },
+    {
+      "title": "Disinformation Floods Social Media After Nicolás Maduro's Capture",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/disinformation-floods-social-media-after-nicolas-maduros-capture/",
+      "publishedAt": "2026-01-03T18:14:47Z"
+    },
+    {
+      "title": "Ring and Watch Duty Team Up to Keep a Closer Eye on Wildfires",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ring-watch-duty-team-up-wildfire-tracking/",
+      "publishedAt": "2026-01-06T14:00:00Z"
+    },
+    {
+      "title": "A strange kind of quantumness may be key to quantum computers' success",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2509667-a-strange-kind-of-quantumness-may-be-key-to-quantum-computers-success/",
+      "publishedAt": "2026-01-05T12:00:59Z"
+    },
+    {
+      "title": "The best new popular science books of January 2026",
+      "author": "Liz Else",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2509326-the-best-new-popular-science-books-of-january-2026/",
+      "publishedAt": "2026-01-05T15:00:17Z"
+    },
+    {
+      "title": "AI Labor Is Boring. AI Lust Is Big Business",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/expired-tired-wired-sexy-chatbots/",
+      "publishedAt": "2026-01-01T11:00:00Z"
+    },
+    {
+      "title": "The US Invaded Venezuela and Captured Nicolás Maduro. ChatGPT Disagrees",
+      "author": "Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/us-invaded-venezuela-and-captured-nicolas-maduro-chatgpt-disagrees/",
+      "publishedAt": "2026-01-03T16:03:15Z"
+    },
+    {
+      "title": "Stop Using Your Keyboard and Start Using Handy, a Free Speech-to-Text App",
+      "author": "Justin Pot",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/handy-free-speech-to-text-app/",
+      "publishedAt": "2026-01-03T12:00:00Z"
+    },
+    {
+      "title": "AI Deepfakes Are Impersonating Pastors to Try to Scam Their Congregations",
+      "author": "Kat Tenbarge",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-deepfakes-are-impersonating-pastors-to-try-and-scam-their-congregations/",
+      "publishedAt": "2026-01-05T11:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "CES Live Blog, Day 1: The Coolest Tech We’ve Seen So Far",
+      "author": "WIRED",
+      "source": "Wired",
+      "url": "https://www.wired.com/live/ces-2026-live-blog/"
+    },
+    {
+      "title": "At CES 2026, Everything Is AI. What Matters Is How You Use It",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ces-2026-what-to-expect/"
+    },
+    {
+      "title": "Disinformation Floods Social Media After Nicolás Maduro's Capture",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/disinformation-floods-social-media-after-nicolas-maduros-capture/"
+    }
+  ]
+}
