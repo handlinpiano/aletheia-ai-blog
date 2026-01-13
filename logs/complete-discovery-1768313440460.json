@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-01-13T14:10:40.459Z",
+  "totalDiscovered": 58,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Is Craigslist the Last Real Place on the Internet?",
+    "author": "Jennifer Swann",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/is-craigslist-the-last-real-place-on-the-internet/",
+    "contentLength": 4160
+  },
+  "discoveredArticles": [
+    {
+      "title": "Is Craigslist the Last Real Place on the Internet?",
+      "author": "Jennifer Swann",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/is-craigslist-the-last-real-place-on-the-internet/",
+      "publishedAt": "2026-01-08T10:00:00Z"
+    },
+    {
+      "title": "Why a Chinese Robot Vacuum Company Spun Off Two EV Brands",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/made-in-china-what-chinese-companies-showed-off-at-ces/",
+      "publishedAt": "2026-01-08T21:25:40Z"
+    },
+    {
+      "title": "X Didn't Fix Grok's ‘Undressing’ Problem. It Just Makes People Pay for It",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/x-didnt-fix-groks-undressing-problem-it-just-makes-people-pay-for-it/",
+      "publishedAt": "2026-01-09T15:19:18Z"
+    },
+    {
+      "title": "The Inevitable Rise of the Art TV",
+      "author": "Parker Hall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/art-frame-tv-trends/",
+      "publishedAt": "2026-01-06T20:41:46Z"
+    },
+    {
+      "title": "AI chatbots miss urgent issues in queries about women's health",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2510065-ai-chatbots-miss-urgent-issues-in-queries-about-womens-health/",
+      "publishedAt": "2026-01-07T10:00:34Z"
+    },
+    {
+      "title": "Some quantum computers might need more power than supercomputers",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2509492-some-quantum-computers-might-need-more-power-than-supercomputers/",
+      "publishedAt": "2026-01-08T17:00:11Z"
+    },
+    {
+      "title": "Motorola Razr Fold Book-Style Foldable: Specs, Details, Release Date",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/motorola-razr-fold-ces-2026/",
+      "publishedAt": "2026-01-07T01:00:00Z"
+    },
+    {
+      "title": "AI Devices Are Coming. Will Your Favorite Apps Be Along for the Ride?",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-amazon-operating-system-ai-apps-ads/",
+      "publishedAt": "2026-01-08T19:00:00Z"
+    },
+    {
+      "title": "AI Models Are Starting to Learn by Asking Themselves Questions",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-models-keep-learning-after-training-research/",
+      "publishedAt": "2026-01-07T19:00:00Z"
+    },
+    {
+      "title": "‘Physical AI’ Is Coming for Your Car",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/physical-ai-is-coming-for-your-car/",
+      "publishedAt": "2026-01-09T11:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Is Craigslist the Last Real Place on the Internet?",
+      "author": "Jennifer Swann",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/is-craigslist-the-last-real-place-on-the-internet/"
+    },
+    {
+      "title": "Why a Chinese Robot Vacuum Company Spun Off Two EV Brands",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/made-in-china-what-chinese-companies-showed-off-at-ces/"
+    },
+    {
+      "title": "X Didn't Fix Grok's ‘Undressing’ Problem. It Just Makes People Pay for It",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/x-didnt-fix-groks-undressing-problem-it-just-makes-people-pay-for-it/"
+    }
+  ]
+}
