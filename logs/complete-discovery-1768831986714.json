@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-01-19T14:13:06.714Z",
+  "totalDiscovered": 54,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "How AI Companies Got Caught Up in US Military Efforts",
+    "author": "Nick Srnicek",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/book-excerpt-silicon-empires-nick-srnicek/",
+    "contentLength": 19050
+  },
+  "discoveredArticles": [
+    {
+      "title": "How AI Companies Got Caught Up in US Military Efforts",
+      "author": "Nick Srnicek",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/book-excerpt-silicon-empires-nick-srnicek/",
+      "publishedAt": "2026-01-14T12:00:00Z"
+    },
+    {
+      "title": "OpenAI Invests in Sam Altman’s New Brain Tech Startup Merge Labs",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-invests-in-sam-altmans-new-brain-tech-startup-merge-labs/",
+      "publishedAt": "2026-01-15T18:24:51Z"
+    },
+    {
+      "title": "Former CISA Director Jen Easterly Will Lead RSA Conference",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/former-cisa-director-jen-easterly-will-lead-rsa-conference/",
+      "publishedAt": "2026-01-15T13:00:00Z"
+    },
+    {
+      "title": "Tech Workers Are Condemning ICE Even as Their CEOs Stay Quiet",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/backlash-against-ice-policing-tactics-grows-in-silicon-valley/",
+      "publishedAt": "2026-01-14T22:48:32Z"
+    },
+    {
+      "title": "Amateur mathematicians solve long-standing maths problems with AI",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2511954-amateur-mathematicians-solve-long-standing-maths-problems-with-ai/",
+      "publishedAt": "2026-01-16T15:24:18Z"
+    },
+    {
+      "title": "All major AI models risk encouraging dangerous science experiments",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2511098-all-major-ai-models-risk-encouraging-dangerous-science-experiments/",
+      "publishedAt": "2026-01-15T10:36:11Z"
+    },
+    {
+      "title": "AI is promising to revolutionise how we diagnose mental illness",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935782-300-ai-is-promising-to-revolutionise-how-we-diagnose-mental-illness/",
+      "publishedAt": "2026-01-14T18:00:00Z"
+    },
+    {
+      "title": "We're getting intimate with chatbots. A new book asks what this means",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935780-400-were-getting-intimate-with-chatbots-a-new-book-asks-what-this-means/",
+      "publishedAt": "2026-01-14T18:00:00Z"
+    },
+    {
+      "title": "Best Baby Gear (2026): Baby Monitors, Strollers, Crib Mattresses",
+      "author": "Nena Farrell",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-baby-gear-guide/",
+      "publishedAt": "2026-01-13T10:23:00Z"
+    },
+    {
+      "title": "Psychiatry has finally found an objective way to spot mental illness",
+      "author": "David Robson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2509966-psychiatry-has-finally-found-an-objective-way-to-spot-mental-illness/",
+      "publishedAt": "2026-01-14T16:00:14Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "How AI Companies Got Caught Up in US Military Efforts",
+      "author": "Nick Srnicek",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/book-excerpt-silicon-empires-nick-srnicek/"
+    },
+    {
+      "title": "OpenAI Invests in Sam Altman’s New Brain Tech Startup Merge Labs",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-invests-in-sam-altmans-new-brain-tech-startup-merge-labs/"
+    },
+    {
+      "title": "Former CISA Director Jen Easterly Will Lead RSA Conference",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/former-cisa-director-jen-easterly-will-lead-rsa-conference/"
+    }
+  ]
+}
