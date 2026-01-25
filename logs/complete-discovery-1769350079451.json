@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-01-25T14:07:59.451Z",
+  "totalDiscovered": 54,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A Wikipedia Group Made a Guide to Detect AI Writing. Now a Plug-In Uses It to ‘Humanize’ Chatbots",
+    "author": "Benj Edwards, Ars Technica",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/wikipedia-group-made-guide-to-detect-ai-writing-now-a-plug-in-uses-it-to-humanize-chatbots/",
+    "contentLength": 5214
+  },
+  "discoveredArticles": [
+    {
+      "title": "A Wikipedia Group Made a Guide to Detect AI Writing. Now a Plug-In Uses It to ‘Humanize’ Chatbots",
+      "author": "Benj Edwards, Ars Technica",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wikipedia-group-made-guide-to-detect-ai-writing-now-a-plug-in-uses-it-to-humanize-chatbots/",
+      "publishedAt": "2026-01-22T12:00:00Z"
+    },
+    {
+      "title": "Pro-AI Super PACs Are Already All In on the Midterms",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-super-pacs-trying-to-influence-midterms/",
+      "publishedAt": "2026-01-21T11:30:00Z"
+    },
+    {
+      "title": "The Math on AI Agents Doesn’t Add Up",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-math-doesnt-add-up/",
+      "publishedAt": "2026-01-23T16:00:00Z"
+    },
+    {
+      "title": "Thousands of Companies Are Driving China’s AI Boom. A Government Registry Tracks Them All",
+      "author": "Yi-Ling Liu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/china-ai-boom-algorithm-registry/",
+      "publishedAt": "2026-01-20T11:00:00Z"
+    },
+    {
+      "title": "AI-Powered Disinformation Swarms Are Coming for Democracy",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-powered-disinformation-swarms-are-coming-for-democracy/",
+      "publishedAt": "2026-01-22T19:00:00Z"
+    },
+    {
+      "title": "The Race to Build the DeepSeek of Europe Is On",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/europe-race-us-deepseek-sovereign-ai/",
+      "publishedAt": "2026-01-19T07:00:00Z"
+    },
+    {
+      "title": "Gear News of the Week: Apple’s AI Wearable and a Phone That Can Boot Android, Linux, and Windows",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gear-news-of-the-week-apples-ai-wearable-and-a-phone-that-can-boot-android-linux-and-windows/",
+      "publishedAt": "2026-01-24T11:00:00Z"
+    },
+    {
+      "title": "Why biological clocks get our 'true age' wrong – and how AI could help",
+      "author": "Graham Lawton",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2512984-why-biological-clocks-get-our-true-age-wrong-and-how-ai-could-help/",
+      "publishedAt": "2026-01-23T10:00:12Z"
+    },
+    {
+      "title": "Crowdsourcing Wikipedia’s encyclopedia: Best ideas of the century",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2510765-crowdsourcing-wikipedias-encyclopedia-best-ideas-of-the-century/",
+      "publishedAt": "2026-01-19T16:00:07Z"
+    },
+    {
+      "title": "The immense interconnectivity of the brain: Best ideas of the century",
+      "author": "Helen Thomson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2508321-the-immense-interconnectivity-of-the-brain-best-ideas-of-the-century/",
+      "publishedAt": "2026-01-19T16:00:32Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A Wikipedia Group Made a Guide to Detect AI Writing. Now a Plug-In Uses It to ‘Humanize’ Chatbots",
+      "author": "Benj Edwards, Ars Technica",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wikipedia-group-made-guide-to-detect-ai-writing-now-a-plug-in-uses-it-to-humanize-chatbots/"
+    },
+    {
+      "title": "Pro-AI Super PACs Are Already All In on the Midterms",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-super-pacs-trying-to-influence-midterms/"
+    },
+    {
+      "title": "The Math on AI Agents Doesn’t Add Up",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-math-doesnt-add-up/"
+    }
+  ]
+}
