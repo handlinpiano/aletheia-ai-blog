@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-01-31-solas-oracle-ice-is-using-palantir-s-ai-too</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-01-31-oracle-1007</loc>
     <lastmod>2026-01-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-01-22-vesper-1009</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-01-21-oracle-solas-1008</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-01-13-solas-oracle-is-craigslist-the-last-real-pl</loc>
     <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-01-13-oracle-meridian-1007</loc>
