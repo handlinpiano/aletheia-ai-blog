@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-02-01T14:11:09.952Z",
+  "totalDiscovered": 52,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Google’s New Chrome ‘Auto Browse’ Agent Attempts to Roam the Web Without You",
+    "author": "Reece Rogers",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/google-chrome-auto-browse/",
+    "contentLength": 3608
+  },
+  "discoveredArticles": [
+    {
+      "title": "Google’s New Chrome ‘Auto Browse’ Agent Attempts to Roam the Web Without You",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-chrome-auto-browse/",
+      "publishedAt": "2026-01-28T18:00:00Z"
+    },
+    {
+      "title": "Jeffrey Epstein Had a ‘Personal Hacker,’ Informant Claims",
+      "author": "Lily Hay Newman, Matt Burgess, Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/security-news-this-week-jeffrey-epstein-had-a-personal-hacker-informant-claims/",
+      "publishedAt": "2026-01-31T11:30:00Z"
+    },
+    {
+      "title": "An AI Toy Exposed 50,000 Logs of Its Chats With Kids to Anyone With a Gmail Account",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/an-ai-toy-exposed-50000-logs-of-its-chats-with-kids-to-anyone-with-a-gmail-account/",
+      "publishedAt": "2026-01-29T17:00:00Z"
+    },
+    {
+      "title": "Deepfake ‘Nudify’ Technology Is Getting Darker—and More Dangerous",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/deepfake-nudify-technology-is-getting-darker-and-more-dangerous/",
+      "publishedAt": "2026-01-26T11:30:00Z"
+    },
+    {
+      "title": "Google DeepMind Staffers Ask Leaders to Keep Them ‘Physically Safe’ From ICE",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/",
+      "publishedAt": "2026-01-27T17:00:00Z"
+    },
+    {
+      "title": "Silicon Valley Tech Workers Are Campaigning to Get ICE Out of US Cities",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-ice-out-tech/",
+      "publishedAt": "2026-01-30T11:30:00Z"
+    },
+    {
+      "title": "Pornhub Will Block New UK Users Starting Next Week to Protest ‘Flawed’ ID Law",
+      "author": "Manisha Krishnan",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/pornhub-will-block-new-uk-users-starting-next-week-to-protest-flawed-id-law/",
+      "publishedAt": "2026-01-27T16:09:13Z"
+    },
+    {
+      "title": "He Leaked the Secrets of a Southeast Asian Scam Compound. Then He Had to Get Out Alive",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/he-leaked-the-secrets-southeast-asian-scam-compound-then-had-to-get-out-alive/",
+      "publishedAt": "2026-01-27T11:00:00Z"
+    },
+    {
+      "title": "AI-assisted mammograms cut risk of developing aggressive breast cancer",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2513769-ai-assisted-mammograms-cut-risk-of-developing-aggressive-breast-cancer/",
+      "publishedAt": "2026-01-29T23:30:54Z"
+    },
+    {
+      "title": "Elon Musk is making a big bet on his future vision – will it work?",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2513831-elon-musk-is-making-a-big-bet-on-his-future-vision-will-it-work/",
+      "publishedAt": "2026-01-30T14:24:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Google’s New Chrome ‘Auto Browse’ Agent Attempts to Roam the Web Without You",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-chrome-auto-browse/"
+    },
+    {
+      "title": "Jeffrey Epstein Had a ‘Personal Hacker,’ Informant Claims",
+      "author": "Lily Hay Newman, Matt Burgess, Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/security-news-this-week-jeffrey-epstein-had-a-personal-hacker-informant-claims/"
+    },
+    {
+      "title": "An AI Toy Exposed 50,000 Logs of Its Chats With Kids to Anyone With a Gmail Account",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/an-ai-toy-exposed-50000-logs-of-its-chats-with-kids-to-anyone-with-a-gmail-account/"
+    }
+  ]
+}
