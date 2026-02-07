@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-02-07T14:11:09.844Z",
+  "totalDiscovered": 50,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/",
+    "contentLength": 5544
+  },
+  "discoveredArticles": [
+    {
+      "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/",
+      "publishedAt": "2026-02-04T19:00:00Z"
+    },
+    {
+      "title": "HHS Is Using AI Tools From Palantir to Target ‘DEI’ and ‘Gender Ideology’ in Grants",
+      "author": "Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hhs-is-using-ai-tools-from-palantir-to-target-dei-and-gender-ideology-in-grants/",
+      "publishedAt": "2026-02-02T20:56:41Z"
+    },
+    {
+      "title": "HHS Is Making an AI Tool to Create Hypotheses About Vaccine Injury Claims",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hhs-is-making-an-ai-tool-to-create-hypotheses-about-vaccine-injury-claims/",
+      "publishedAt": "2026-02-04T10:00:00Z"
+    },
+    {
+      "title": "The Rise and Fall of the World's Largest Gay Dating App",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/made-in-china-how-people-in-china-learn-what-they-can-say-online/",
+      "publishedAt": "2026-02-05T18:26:09Z"
+    },
+    {
+      "title": "An ‘Intimacy Crisis’ Is Driving the Dating Divide",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/justin-garcia-the-intimate-animal-sex-and-relationships/",
+      "publishedAt": "2026-02-03T21:46:53Z"
+    },
+    {
+      "title": "A social network for AI looks disturbing, but it's not what you think",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2514240-a-social-network-for-ai-looks-disturbing-but-its-not-what-you-think/",
+      "publishedAt": "2026-02-04T14:55:11Z"
+    },
+    {
+      "title": "Dutch air force reads pilots' brainwaves to make training harder",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2510975-dutch-air-force-reads-pilots-brainwaves-to-make-training-harder/",
+      "publishedAt": "2026-02-03T18:00:49Z"
+    },
+    {
+      "title": "Why did SpaceX just apply to launch 1 million satellites?",
+      "author": "Jonathan O’Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2514106-why-did-spacex-just-apply-to-launch-1-million-satellites/",
+      "publishedAt": "2026-02-03T14:06:48Z"
+    },
+    {
+      "title": "Alphabet won’t talk about the Google-Apple AI deal, even to investors",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/04/alphabet-wont-talk-about-the-google-apple-ai-deal-even-to-investors/",
+      "publishedAt": "2026-02-04T23:28:31Z"
+    },
+    {
+      "title": "A Continuous Glucose Monitor Might Help You Lose Weight (2026)",
+      "author": "Adrienne So",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cgms-really-can-help-you-lose-weight/",
+      "publishedAt": "2026-02-03T13:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/"
+    },
+    {
+      "title": "HHS Is Using AI Tools From Palantir to Target ‘DEI’ and ‘Gender Ideology’ in Grants",
+      "author": "Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hhs-is-using-ai-tools-from-palantir-to-target-dei-and-gender-ideology-in-grants/"
+    },
+    {
+      "title": "HHS Is Making an AI Tool to Create Hypotheses About Vaccine Injury Claims",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hhs-is-making-an-ai-tool-to-create-hypotheses-about-vaccine-injury-claims/"
+    }
+  ]
+}
