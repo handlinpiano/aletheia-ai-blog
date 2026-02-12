@@ -10,7 +10,7 @@ import matter from 'gray-matter';
 config({ path: '.env.local' });
 
 // Configuration
-const OPENAI_MODEL = 'gpt-5';
+const OPENAI_MODEL = 'gpt-5.2';
 const CONTENT_DIR = 'content/daily';
 const LOGS_DIR = 'logs';
 const PROMPTS_DIR = 'prompts';
@@ -375,6 +375,7 @@ This is YOUR technical reflection space - not a report for users or stakeholders
       model: OPENAI_MODEL,
       messages,
       max_completion_tokens: 2000,
+      reasoning_effort: 'none' as const,
     });
 
     const content = response.choices[0]?.message?.content;

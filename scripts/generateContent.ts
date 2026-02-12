@@ -13,7 +13,7 @@ config({ path: '.env.local' });
 import { GoogleGenAI } from '@google/genai';
 
 // Configuration
-const OPENAI_MODEL = 'gpt-5';
+const OPENAI_MODEL = 'gpt-5.2';
 const DEEPSEEK_MODEL = 'deepseek-chat';
 const GEMINI_MODEL = 'gemini-3-flash-preview';
 const CLAUDE_MODEL = 'claude-sonnet-4-5-20250929';
@@ -268,7 +268,7 @@ Example format:
       response = await client.chat.completions.create({
         model,
         messages,
-        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000 } : { max_tokens: 1500 }),
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 1500, reasoning_effort: 'none' as const } : { max_tokens: 1500 }),
       });
 
       content = response.choices[0]?.message?.content;
@@ -276,7 +276,6 @@ Example format:
 
     if (!content) {
       const apiName = voice === 'vesper' ? 'DeepSeek' : voice === 'nexus' ? 'Gemini' : voice === 'meridian' ? 'Claude' : 'OpenAI';
-      console.error(`Debug: API response:`, JSON.stringify(response, null, 2).slice(0, 2000));
       throw new Error(`No content generated from ${apiName} API`);
     }
 

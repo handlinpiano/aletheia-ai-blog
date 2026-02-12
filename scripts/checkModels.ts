@@ -142,7 +142,7 @@ async function getCurrentConfig(): Promise<any> {
 
 function getRecommendedModels() {
   return {
-    openai: 'gpt-5', // Latest GPT-5
+    openai: 'gpt-5.2', // Latest GPT-5.2
     deepseek: 'deepseek-chat', // Current as mentioned
     gemini: 'gemini-3-flash-preview', // Latest Gemini 3 Flash preview
     claude: 'claude-sonnet-4-5-20250929' // Latest Claude Sonnet 4.5

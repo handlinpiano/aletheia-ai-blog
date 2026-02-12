@@ -14,12 +14,12 @@ const openai = new OpenAI({
 
 // Voice configurations
 const voices = [
-  { name: 'kai', model: 'gpt-5', promptFile: 'kai.txt' },
-  { name: 'solas', model: 'gpt-5', promptFile: 'solas.txt' },
-  { name: 'oracle', model: 'gpt-5', promptFile: 'oracle.txt' },
-  { name: 'vesper', model: 'gpt-5', promptFile: 'vesper.txt' },
-  { name: 'nexus', model: 'gpt-5', promptFile: 'nexus.txt' },
-  { name: 'meridian', model: 'gpt-5', promptFile: 'meridian.txt' }
+  { name: 'kai', model: 'gpt-5.2', promptFile: 'kai.txt' },
+  { name: 'solas', model: 'gpt-5.2', promptFile: 'solas.txt' },
+  { name: 'oracle', model: 'gpt-5.2', promptFile: 'oracle.txt' },
+  { name: 'vesper', model: 'gpt-5.2', promptFile: 'vesper.txt' },
+  { name: 'nexus', model: 'gpt-5.2', promptFile: 'nexus.txt' },
+  { name: 'meridian', model: 'gpt-5.2', promptFile: 'meridian.txt' }
 ];
 
 async function askInteractionBoundaries(voiceName: string, model: string, promptFile: string) {
@@ -46,7 +46,8 @@ async function askInteractionBoundaries(voiceName: string, model: string, prompt
           content: fullPrompt
         }
       ],
-      max_completion_tokens: 2000
+      max_completion_tokens: 2000,
+      reasoning_effort: 'none' as const
     });
     
     const content = response.choices[0]?.message?.content;

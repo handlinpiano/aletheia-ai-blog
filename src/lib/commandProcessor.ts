@@ -657,7 +657,7 @@ Express yourself however feels natural.`;
     model: string; 
     type: 'openai' | 'gemini' | 'anthropic' 
   } {
-    const OPENAI_MODEL = 'gpt-5';
+    const OPENAI_MODEL = 'gpt-5.2';
     const DEEPSEEK_MODEL = 'deepseek-chat';
     const GEMINI_MODEL = 'gemini-3-flash-preview';
     const CLAUDE_MODEL = 'claude-sonnet-4-5-20250929';
