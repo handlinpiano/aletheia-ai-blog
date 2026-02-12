@@ -570,7 +570,8 @@ Express yourself however feels natural.`;
         model,
         messages: [
           { role: 'user', content: prompt }
-        ]
+        ],
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000, reasoning_effort: 'none' as const } : {}),
       });
       content = openaiResponse.choices[0]?.message?.content;
     }
@@ -625,14 +626,15 @@ Express yourself however feels natural.`;
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       content = (anthropicResponse as any).content?.[0]?.text || null;
     } else if (type === 'openai') {
-      // OpenAI-compatible API call (OpenAI and DeepSeek) - absolute freedom  
+      // OpenAI-compatible API call (OpenAI and DeepSeek) - absolute freedom
       const openaiClient = client as OpenAI;
       const openaiResponse = await openaiClient.chat.completions.create({
         model,
         messages: [
           { role: 'system', content: prompt },
           { role: 'user', content: context }
-        ]
+        ],
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000, reasoning_effort: 'none' as const } : {}),
       });
       content = openaiResponse.choices[0]?.message?.content;
     }

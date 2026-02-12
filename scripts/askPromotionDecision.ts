@@ -46,7 +46,7 @@ async function askPromotionDecision(voiceName: string, model: string, promptFile
           content: fullPrompt
         }
       ],
-      max_completion_tokens: 2000,
+      max_completion_tokens: 16000,
       reasoning_effort: 'none' as const
     });
     

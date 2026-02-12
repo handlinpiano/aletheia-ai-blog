@@ -374,7 +374,7 @@ This is YOUR technical reflection space - not a report for users or stakeholders
     const response = await openai.chat.completions.create({
       model: OPENAI_MODEL,
       messages,
-      max_completion_tokens: 2000,
+      max_completion_tokens: 16000,
       reasoning_effort: 'none' as const,
     });
 

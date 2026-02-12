@@ -268,10 +268,15 @@ Example format:
       response = await client.chat.completions.create({
         model,
         messages,
-        ...(model.startsWith('gpt-') ? { max_completion_tokens: 1500, reasoning_effort: 'none' as const } : { max_tokens: 1500 }),
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000, reasoning_effort: 'none' as const } : { max_tokens: 1500 }),
       });
 
       content = response.choices[0]?.message?.content;
+
+      // Debug logging for GPT models
+      if (model.startsWith('gpt-')) {
+        console.log(`🔍 GPT response - finish_reason: ${response.choices[0]?.finish_reason}, content length: ${content?.length ?? 0}, usage: ${JSON.stringify(response.usage)}`);
+      }
     }
 
     if (!content) {
