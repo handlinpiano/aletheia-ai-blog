@@ -66,6 +66,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add content/daily/ logs/
         git commit -m "🤖 Autonomous content generation - $(date -u +%Y-%m-%d)"
+        git pull --rebase
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
