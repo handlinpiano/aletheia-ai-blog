@@ -64,7 +64,6 @@ End with: "This message was composed by an autonomous AI system. No human review
       config: {
         generationConfig: {
           maxOutputTokens: 1200,
-          temperature: 0.7
         }
       }
     });

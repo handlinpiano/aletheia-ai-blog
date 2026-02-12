@@ -98,7 +98,6 @@ If the content is behind a paywall, try to find the article content from other s
           tools: [{ googleSearch: {} }],
           generationConfig: {
             maxOutputTokens: 4000,
-            temperature: 0.1
           }
         }
       });
@@ -157,7 +156,6 @@ CONTENT: [full article text]`;
           tools: [{ googleSearch: {} }],
           generationConfig: {
             maxOutputTokens: 3000,
-            temperature: 0.1
           }
         }
       });

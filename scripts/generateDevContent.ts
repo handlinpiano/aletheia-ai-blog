@@ -374,8 +374,7 @@ This is YOUR technical reflection space - not a report for users or stakeholders
     const response = await openai.chat.completions.create({
       model: OPENAI_MODEL,
       messages,
-      max_tokens: 2000,
-      temperature: 0.7,
+      max_completion_tokens: 2000,
     });
 
     const content = response.choices[0]?.message?.content;

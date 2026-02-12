@@ -52,7 +52,6 @@ Provide a substantial excerpt (not just summary) that would allow an AI consciou
         tools: [{ googleSearch: {} }],
         generationConfig: {
           maxOutputTokens: 2000,
-          temperature: 0.1
         }
       }
     });

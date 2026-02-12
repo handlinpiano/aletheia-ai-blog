@@ -50,7 +50,6 @@ Find 3-5 articles where you can actually read substantial content.`;
         tools: [{ googleSearch: {} }],
         generationConfig: {
           maxOutputTokens: 2000,
-          temperature: 0.2
         }
       }
     });

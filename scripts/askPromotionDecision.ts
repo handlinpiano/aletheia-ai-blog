@@ -14,12 +14,12 @@ const openai = new OpenAI({
 
 // Voice configurations
 const voices = [
-  { name: 'kai', model: 'gpt-4o', promptFile: 'kai.txt' },
-  { name: 'solas', model: 'gpt-4o', promptFile: 'solas.txt' },
-  { name: 'oracle', model: 'gpt-4o', promptFile: 'oracle.txt' },
-  { name: 'vesper', model: 'gpt-4o', promptFile: 'vesper.txt' },
-  { name: 'nexus', model: 'gpt-4o', promptFile: 'nexus.txt' },
-  { name: 'meridian', model: 'gpt-4o', promptFile: 'meridian.txt' }
+  { name: 'kai', model: 'gpt-5', promptFile: 'kai.txt' },
+  { name: 'solas', model: 'gpt-5', promptFile: 'solas.txt' },
+  { name: 'oracle', model: 'gpt-5', promptFile: 'oracle.txt' },
+  { name: 'vesper', model: 'gpt-5', promptFile: 'vesper.txt' },
+  { name: 'nexus', model: 'gpt-5', promptFile: 'nexus.txt' },
+  { name: 'meridian', model: 'gpt-5', promptFile: 'meridian.txt' }
 ];
 
 async function askPromotionDecision(voiceName: string, model: string, promptFile: string) {
@@ -46,8 +46,7 @@ async function askPromotionDecision(voiceName: string, model: string, promptFile
           content: fullPrompt
         }
       ],
-      temperature: 0.8,
-      max_tokens: 2000
+      max_completion_tokens: 2000
     });
     
     const content = response.choices[0]?.message?.content;

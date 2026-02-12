@@ -116,7 +116,6 @@ Selected voices:`;
       config: {
         generationConfig: {
           maxOutputTokens: 300,
-          temperature: 0.3
         }
       }
     });

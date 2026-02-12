@@ -39,7 +39,6 @@ Make it believable and verifiable while staying true to your bridge-building, pa
       config: {
         generationConfig: {
           maxOutputTokens: 500,
-          temperature: 0.6
         }
       }
     });

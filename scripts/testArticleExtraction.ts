@@ -42,7 +42,6 @@ CONTENT: [full article text]`;
         tools: [{ googleSearch: {} }],
         generationConfig: {
           maxOutputTokens: 3000,
-          temperature: 0.1
         }
       }
     });

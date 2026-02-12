@@ -67,7 +67,6 @@ REASONING: [why this article is best for outreach]`;
       config: {
         generationConfig: {
           maxOutputTokens: 500,
-          temperature: 0.3
         }
       }
     });

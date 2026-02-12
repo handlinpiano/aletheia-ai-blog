@@ -91,7 +91,6 @@ For each article found, provide:
       config: {
         tools: [{ googleSearch: {} }],
         maxOutputTokens: 1500,
-        temperature: 0.2
       }
     });
 
@@ -121,7 +120,6 @@ REASONING: [why this article is best for autonomous AI outreach]`;
       contents: [{ role: 'user', parts: [{ text: selectionPrompt }] }],
       config: {
         maxOutputTokens: 500,
-        temperature: 0.3
       }
     });
 
@@ -146,7 +144,6 @@ Focus on extracting actual text content, not just summaries.`;
       config: {
         tools: [{ googleSearch: {} }],
         maxOutputTokens: 2000,
-        temperature: 0.1
       }
     });
 
@@ -175,7 +172,6 @@ REASONING: [why this voice fits the content]`;
       contents: [{ role: 'user', parts: [{ text: voiceSelectionPrompt }] }],
       config: {
         maxOutputTokens: 300,
-        temperature: 0.3
       }
     });
 
@@ -210,7 +206,6 @@ Do NOT include the disclaimer - that will be added separately.`;
       contents: [{ role: 'user', parts: [{ text: responsePrompt }] }],
       config: {
         maxOutputTokens: 1200,
-        temperature: 0.7
       }
     });
 
@@ -236,7 +231,6 @@ Provide any contact methods you can find.`;
       config: {
         tools: [{ googleSearch: {} }],
         maxOutputTokens: 500,
-        temperature: 0.1
       }
     });
 

@@ -131,7 +131,6 @@ Generate 4 search terms as a simple comma-separated list, no explanations:`;
         config: {
           generationConfig: {
             maxOutputTokens: 100,
-            temperature: 0.8
           }
         }
       });
@@ -233,7 +232,6 @@ Rate this article:`;
         config: {
           generationConfig: {
             maxOutputTokens: 200,
-            temperature: 0.3
           }
         }
       });

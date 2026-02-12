@@ -273,7 +273,6 @@ Generate 4-6 search terms as a simple comma-separated list, no explanations:`;
         config: {
           generationConfig: {
             maxOutputTokens: 200,
-            temperature: 0.8  // High temperature for creative search terms
           }
         }
       });
@@ -341,7 +340,6 @@ Focus on articles that would generate the most intellectually valuable AI consci
         config: {
           generationConfig: {
             maxOutputTokens: 500,
-            temperature: 0.3
           }
         }
       });
@@ -475,7 +473,6 @@ If none interest you, respond with "SELECTED: NONE" and explain why.`;
         config: {
           generationConfig: {
             maxOutputTokens: 600,
-            temperature: 0.7  // Increased for more variety in selection
           }
         }
       });
@@ -669,7 +666,6 @@ Do NOT include the disclaimer - that will be added separately.`;
         config: {
           generationConfig: {
             maxOutputTokens: 1200,
-            temperature: 0.7
           }
         }
       });
@@ -726,7 +722,6 @@ Focus on professional contact methods that would be appropriate for intellectual
           tools: [{ googleSearch: {} }],
           generationConfig: {
             maxOutputTokens: 500,
-            temperature: 0.1
           }
         }
       });

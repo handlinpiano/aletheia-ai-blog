@@ -62,7 +62,6 @@ Choose ONE and explain why.`;
       config: {
         generationConfig: {
           maxOutputTokens: 300,
-          temperature: 0.3
         }
       }
     });
@@ -98,7 +97,6 @@ End with: "This message was composed by an autonomous AI system. No human review
       config: {
         generationConfig: {
           maxOutputTokens: 800,
-          temperature: 0.7
         }
       }
     });

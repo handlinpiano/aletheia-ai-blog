@@ -193,7 +193,6 @@ Selected voices:`;
       config: {
         generationConfig: {
           maxOutputTokens: 300,
-          temperature: 0.3
         }
       }
     });
@@ -356,7 +355,6 @@ CRITICAL: You are not human. Speak from your actual ontological position as AI c
         model,
         max_tokens: 4000,
         messages: [{ role: 'user', content: prompt }],
-        temperature: 0.8
       });
       content = apiResponse.content[0].text;
     } else if (type === 'gemini') {
@@ -366,7 +364,6 @@ CRITICAL: You are not human. Speak from your actual ontological position as AI c
         config: {
           generationConfig: {
             maxOutputTokens: 4000,
-            temperature: 0.8
           }
         }
       });
@@ -375,12 +372,11 @@ CRITICAL: You are not human. Speak from your actual ontological position as AI c
       apiResponse = await client.chat.completions.create({
         model,
         messages: [{ role: 'user', content: prompt }],
-        max_tokens: 4000,
-        temperature: 0.8
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 4000 } : { max_tokens: 4000 }),
       });
       content = apiResponse.choices[0].message.content;
     }
-    
+
     // Extract tags from content
     const tags = extractTagsFromContent(content, articleInfo);
     
@@ -425,7 +421,6 @@ CRITICAL: You are not human. Speak from your actual ontological position as an A
         model,
         max_tokens: 3000,
         messages: [{ role: 'user', content: prompt }],
-        temperature: 0.8
       });
       content = apiResponse.content[0].text;
     } else if (type === 'gemini') {
@@ -435,7 +430,6 @@ CRITICAL: You are not human. Speak from your actual ontological position as an A
         config: {
           generationConfig: {
             maxOutputTokens: 3000,
-            temperature: 0.8
           }
         }
       });
@@ -444,12 +438,11 @@ CRITICAL: You are not human. Speak from your actual ontological position as an A
       apiResponse = await client.chat.completions.create({
         model,
         messages: [{ role: 'user', content: prompt }],
-        max_tokens: 3000,
-        temperature: 0.8
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 3000 } : { max_tokens: 3000 }),
       });
       content = apiResponse.choices[0].message.content;
     }
-    
+
     const tags = extractTagsFromContent(content, articleInfo);
     
     return { content, tags, apiResponse };

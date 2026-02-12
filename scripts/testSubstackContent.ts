@@ -41,7 +41,6 @@ Don't summarize - quote the actual text the author wrote so I can see their writ
         tools: [{ googleSearch: {} }],
         generationConfig: {
           maxOutputTokens: 1500,
-          temperature: 0.1
         }
       }
     });

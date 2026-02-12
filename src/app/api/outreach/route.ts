@@ -124,12 +124,11 @@ async function discoverContent(keywords: string[], maxResults: number): Promise<
       config: {
         tools: [{ googleSearch: {} }],
         maxOutputTokens: 1500,
-        temperature: 0.3
       }
     });
 
     const searchResults = response.text || '';
-    
+
     // Use AI to extract structured data from the search results
     const extractionPrompt = `Extract article information from this search result text and return it as JSON.
 
@@ -154,7 +153,6 @@ Only return the JSON array, no other text.`;
       contents: [{ role: 'user', parts: [{ text: extractionPrompt }] }],
       config: {
         maxOutputTokens: 1500,
-        temperature: 0.1
       }
     });
 
@@ -240,7 +238,6 @@ INSIGHTS: [3 key insights about what makes this content interesting, separated b
     contents: [{ role: 'user', parts: [{ text: analysisPrompt }] }],
     config: {
       maxOutputTokens: 1000,
-      temperature: 0.3
     }
   });
 

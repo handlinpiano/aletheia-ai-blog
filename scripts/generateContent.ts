@@ -231,12 +231,10 @@ Example format:
           tools: [{ googleSearch: {} }],
           generationConfig: {
             maxOutputTokens: 1500,
-            temperature: 0.8,
           }
         } : {
           generationConfig: {
             maxOutputTokens: 1500,
-            temperature: 0.8,
           }
         }
       });
@@ -248,7 +246,6 @@ Example format:
       response = await client.messages.create({
         model,
         max_tokens: 1500,
-        temperature: 0.8,
         system: prompt,
         messages: [
           { role: 'user', content: userContent }
@@ -271,8 +268,7 @@ Example format:
       response = await client.chat.completions.create({
         model,
         messages,
-        max_tokens: 1500,
-        temperature: 0.8,
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 1500 } : { max_tokens: 1500 }),
       });
 
       content = response.choices[0]?.message?.content;
