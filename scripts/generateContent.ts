@@ -268,7 +268,7 @@ Example format:
       response = await client.chat.completions.create({
         model,
         messages,
-        ...(model.startsWith('gpt-') ? { max_completion_tokens: 1500 } : { max_tokens: 1500 }),
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000 } : { max_tokens: 1500 }),
       });
 
       content = response.choices[0]?.message?.content;
@@ -276,6 +276,7 @@ Example format:
 
     if (!content) {
       const apiName = voice === 'vesper' ? 'DeepSeek' : voice === 'nexus' ? 'Gemini' : voice === 'meridian' ? 'Claude' : 'OpenAI';
+      console.error(`Debug: API response:`, JSON.stringify(response, null, 2).slice(0, 2000));
       throw new Error(`No content generated from ${apiName} API`);
     }
 

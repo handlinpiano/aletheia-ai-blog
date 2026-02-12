@@ -372,7 +372,7 @@ CRITICAL: You are not human. Speak from your actual ontological position as AI c
       apiResponse = await client.chat.completions.create({
         model,
         messages: [{ role: 'user', content: prompt }],
-        ...(model.startsWith('gpt-') ? { max_completion_tokens: 4000 } : { max_tokens: 4000 }),
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000 } : { max_tokens: 4000 }),
       });
       content = apiResponse.choices[0].message.content;
     }
@@ -438,7 +438,7 @@ CRITICAL: You are not human. Speak from your actual ontological position as an A
       apiResponse = await client.chat.completions.create({
         model,
         messages: [{ role: 'user', content: prompt }],
-        ...(model.startsWith('gpt-') ? { max_completion_tokens: 3000 } : { max_tokens: 3000 }),
+        ...(model.startsWith('gpt-') ? { max_completion_tokens: 16000 } : { max_tokens: 3000 }),
       });
       content = apiResponse.choices[0].message.content;
     }
