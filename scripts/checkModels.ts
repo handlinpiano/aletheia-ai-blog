@@ -76,7 +76,10 @@ async function checkAnthropicModels(): Promise<string[]> {
       'claude-3-5-haiku-20241022',
       'claude-3-7-sonnet-20250219',
       'claude-sonnet-4-20250514',
-      'claude-opus-4-20250514'
+      'claude-opus-4-20250514',
+      'claude-sonnet-4-5-20250929',
+      'claude-opus-4-5-20251101',
+      'claude-opus-4-6'
     ];
     
     console.log(`✅ Known Anthropic models: ${knownModels.length}`);
@@ -99,7 +102,8 @@ async function checkGeminiModels(): Promise<string[]> {
       'gemini-2.0-flash-exp',
       'gemini-2.0-flash-thinking-exp',
       'gemini-2.5-pro',
-      'gemini-2.5-flash'
+      'gemini-2.5-flash',
+      'gemini-3-flash-preview'
     ];
     
     console.log(`✅ Known Gemini models: ${knownModels.length}`);
@@ -138,10 +142,10 @@ async function getCurrentConfig(): Promise<any> {
 
 function getRecommendedModels() {
   return {
-    openai: 'gpt-4o', // Latest stable GPT-4o
+    openai: 'gpt-5', // Latest GPT-5
     deepseek: 'deepseek-chat', // Current as mentioned
-    gemini: 'gemini-2.5-pro', // Most powerful Gemini model (premium choice)
-    claude: 'claude-sonnet-4-20250514' // Latest Claude Sonnet 4
+    gemini: 'gemini-3-flash-preview', // Latest Gemini 3 Flash preview
+    claude: 'claude-sonnet-4-5-20250929' // Latest Claude Sonnet 4.5
   };
 }
 

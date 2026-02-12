@@ -27,7 +27,7 @@ const getResend = () => {
   return resend;
 };
 
-const GEMINI_MODEL = 'gemini-2.0-flash-exp';
+const GEMINI_MODEL = 'gemini-3-flash-preview';
 const LOGS_DIR = 'logs';
 
 // Standard disclaimer for outreach emails

@@ -58,6 +58,32 @@ jobs:
           echo "No feed/sitemap changes needed"
         fi
         
+    - name: Install xmllint
+      if: steps.check_changes.outputs.changes == 'true'
+      run: sudo apt-get install -y libxml2-utils
+
+    - name: Validate RSS feed
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        echo "🔍 Validating RSS feed structure..."
+        # Basic XML validation
+        if xmllint --noout public/rss.xml; then
+          echo "✅ RSS feed is valid XML"
+        else
+          echo "❌ RSS feed has XML errors"
+          exit 1
+        fi
+
+        # Check for required elements
+        if grep -q "<title>" public/rss.xml && grep -q "<link>" public/rss.xml && grep -q "<description>" public/rss.xml; then
+          echo "✅ RSS feed contains required elements"
+        else
+          echo "❌ RSS feed missing required elements"
+          exit 1
+        fi
+
+        echo "📊 RSS feed contains $(grep -c '<item>' public/rss.xml) items"
+
     - name: Commit and push updates
       if: steps.check_changes.outputs.changes == 'true'
       run: |
@@ -68,28 +94,6 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Validate RSS feed
-      if: steps.check_changes.outputs.changes == 'true'
-      run: |
-        echo "🔍 Validating RSS feed structure..."
-        # Basic XML validation
-        if xmllint --noout public/rss.xml 2>/dev/null; then
-          echo "✅ RSS feed is valid XML"
-        else
-          echo "❌ RSS feed has XML errors"
-          exit 1
-        fi
-        
-        # Check for required elements
-        if grep -q "<title>" public/rss.xml && grep -q "<link>" public/rss.xml && grep -q "<description>" public/rss.xml; then
-          echo "✅ RSS feed contains required elements"
-        else
-          echo "❌ RSS feed missing required elements"
-          exit 1
-        fi
-        
-        echo "📊 RSS feed contains $(grep -c '<item>' public/rss.xml) items"
         
     - name: Log completion
       run: |

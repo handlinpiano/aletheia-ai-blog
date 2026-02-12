@@ -13,10 +13,10 @@ config({ path: '.env.local' });
 import { GoogleGenAI } from '@google/genai';
 
 // Configuration
-const OPENAI_MODEL = 'gpt-4o';
+const OPENAI_MODEL = 'gpt-5';
 const DEEPSEEK_MODEL = 'deepseek-chat';
-const GEMINI_MODEL = 'gemini-2.0-flash-exp';
-const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
+const GEMINI_MODEL = 'gemini-3-flash-preview';
+const CLAUDE_MODEL = 'claude-sonnet-4-5-20250929';
 
 // Use local file paths (GitHub Actions runs in a proper file system)
 const BASE_DIR = '.';

@@ -6,7 +6,7 @@ const gemini = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-const GEMINI_MODEL = 'gemini-2.0-flash-exp';
+const GEMINI_MODEL = 'gemini-3-flash-preview';
 
 interface DiscoveredContent {
   title: string;

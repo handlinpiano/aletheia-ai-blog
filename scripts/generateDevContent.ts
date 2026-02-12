@@ -10,7 +10,7 @@ import matter from 'gray-matter';
 config({ path: '.env.local' });
 
 // Configuration
-const OPENAI_MODEL = 'gpt-4o';
+const OPENAI_MODEL = 'gpt-5';
 const CONTENT_DIR = 'content/daily';
 const LOGS_DIR = 'logs';
 const PROMPTS_DIR = 'prompts';
