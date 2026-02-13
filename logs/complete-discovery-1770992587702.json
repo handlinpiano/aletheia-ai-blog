@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-02-13T14:23:07.702Z",
+  "totalDiscovered": 5,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "I Tried RentAHuman, Where AI Agents Hired Me to Hype Their AI Startups",
+    "author": "Reece Rogers",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/",
+    "contentLength": 7832
+  },
+  "discoveredArticles": [
+    {
+      "title": "Twilio co-founder’s fusion power startup raises $450M from Bessemer and Alphabet’s GV | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/11/twilio-co-founders-fusion-power-startup-raises-450m-from-bessemer-and-alphabets-gv/",
+      "publishedAt": "2026-02-11T16:34:04Z"
+    },
+    {
+      "title": "I Tried RentAHuman, Where AI Agents Hired Me to Hype Their AI Startups",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/",
+      "publishedAt": "2026-02-12T11:00:00Z"
+    },
+    {
+      "title": "Okay, I’m slightly less mad about that ‘Magnificent Ambersons’ AI project | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/08/okay-im-slightly-less-mad-about-that-magnificent-ambersons-ai-project/",
+      "publishedAt": "2026-02-08T19:38:38Z"
+    },
+    {
+      "title": "Humanoid robot startup Apptronik has now raised $935M at a $5B+ valuation | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/",
+      "publishedAt": "2026-02-11T14:05:19Z"
+    },
+    {
+      "title": "Boston Dynamics CEO Robert Playter steps down after 30 years at the company | TechCrunch",
+      "author": "Rebecca Szkutak",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/boston-dynamics-ceo-robert-playter-steps-down-after-30-years-at-the-company/",
+      "publishedAt": "2026-02-10T21:21:35Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "I Tried RentAHuman, Where AI Agents Hired Me to Hype Their AI Startups",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/"
+    },
+    {
+      "title": "Okay, I’m slightly less mad about that ‘Magnificent Ambersons’ AI project | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/08/okay-im-slightly-less-mad-about-that-magnificent-ambersons-ai-project/"
+    },
+    {
+      "title": "Humanoid robot startup Apptronik has now raised $935M at a $5B+ valuation | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/"
+    }
+  ]
+}
