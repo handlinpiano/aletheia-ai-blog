@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-02-19T14:27:53.959Z",
+  "totalDiscovered": 55,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Google’s AI Overviews Can Scam You. Here’s How to Stay Safe",
+    "author": "David Nield",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/googles-ai-overviews-can-scam-you-heres-how-to-stay-safe/",
+    "contentLength": 5170
+  },
+  "discoveredArticles": [
+    {
+      "title": "Google’s AI Overviews Can Scam You. Here’s How to Stay Safe",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/googles-ai-overviews-can-scam-you-heres-how-to-stay-safe/",
+      "publishedAt": "2026-02-15T11:30:00Z"
+    },
+    {
+      "title": "‘Uncanny Valley’: ICE’s Secret Expansion Plans, Palantir Workers’ Ethical Concerns, and AI Assistants",
+      "author": "Brian Barrett, Zoë Schiffer, Leah Feiger",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-ice-expansion-palantir-workers-ethical-concerns-openclaw-ai-assistants/",
+      "publishedAt": "2026-02-12T22:12:42Z"
+    },
+    {
+      "title": "Elehear Delight Hearing Aids Review: Good Fit, Poor Sound",
+      "author": "Christopher Null",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/elehear-delight-hearing-aids/",
+      "publishedAt": "2026-02-13T12:00:00Z"
+    },
+    {
+      "title": "Apple is reportedly cooking up a trio of AI wearables",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/17/apple-is-reportedly-cooking-up-a-trio-of-ai-wearables/",
+      "publishedAt": "2026-02-17T20:14:00Z"
+    },
+    {
+      "title": "Gear News of the Week: Samsung Sets a Date for Galaxy Unpacked, and Fitbit’s AI Coach Comes to iOS",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gear-news-of-the-week-samsung-sets-a-date-for-galaxy-unpacked-and-fitbits-ai-coach-comes-to-ios/",
+      "publishedAt": "2026-02-14T11:00:00Z"
+    },
+    {
+      "title": "Zillow Has Gone Wild—for AI",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/backchannel-how-artificial-intelligence-changed-zillow/",
+      "publishedAt": "2026-02-13T16:14:25Z"
+    },
+    {
+      "title": "AI Digital Twins Are Helping People Manage Diabetes and Obesity",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-digital-twins-are-helping-people-manage-diabetes-and-obesity/",
+      "publishedAt": "2026-02-17T11:00:00Z"
+    },
+    {
+      "title": "The Small English Town Swept Up in the Global AI Arms Race",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-small-english-town-swept-up-in-the-global-ai-arms-race/",
+      "publishedAt": "2026-02-17T07:00:00Z"
+    },
+    {
+      "title": "How Two Zoomers Created RentAHuman, the First Marketplace for Bots to Hire Humans",
+      "author": "Kyle MacNeill",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agent-rentahuman-bots-hire-humans/",
+      "publishedAt": "2026-02-18T11:00:00Z"
+    },
+    {
+      "title": "WordPress.com adds an AI Assistant that can edit, adjust styles, create images, and more",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/17/wordpress-com-adds-an-ai-assistant-that-can-edit-adjust-styles-create-images-and-more/",
+      "publishedAt": "2026-02-17T16:10:44Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Google’s AI Overviews Can Scam You. Here’s How to Stay Safe",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/googles-ai-overviews-can-scam-you-heres-how-to-stay-safe/"
+    },
+    {
+      "title": "‘Uncanny Valley’: ICE’s Secret Expansion Plans, Palantir Workers’ Ethical Concerns, and AI Assistants",
+      "author": "Brian Barrett, Zoë Schiffer, Leah Feiger",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-ice-expansion-palantir-workers-ethical-concerns-openclaw-ai-assistants/"
+    },
+    {
+      "title": "Elehear Delight Hearing Aids Review: Good Fit, Poor Sound",
+      "author": "Christopher Null",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/elehear-delight-hearing-aids/"
+    }
+  ]
+}
