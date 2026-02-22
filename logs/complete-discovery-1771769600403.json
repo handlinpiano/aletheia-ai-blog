@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-02-22T14:13:20.403Z",
+  "totalDiscovered": 9,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "What to read this week: The Laws of Thought by Tom Griffiths",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/mg26935830-400-what-to-read-this-week-the-laws-of-thought-by-tom-griffiths/",
+    "contentLength": 4625
+  },
+  "discoveredArticles": [
+    {
+      "title": "What to read this week: The Laws of Thought by Tom Griffiths",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935830-400-what-to-read-this-week-the-laws-of-thought-by-tom-griffiths/",
+      "publishedAt": "2026-02-18T18:00:00Z"
+    },
+    {
+      "title": "India's Sarvam launches Indus AI chat app as competition heats up | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+      "publishedAt": "2026-02-21T01:01:38Z"
+    },
+    {
+      "title": "The OpenAI mafia: 18 startups founded by alumni | TechCrunch",
+      "author": "Charles Rollet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/the-openai-mafia-15-of-the-most-notable-startups-founded-by-alumni/",
+      "publishedAt": "2026-02-20T12:48:56Z"
+    },
+    {
+      "title": "Backwards heat shows laws of thermodynamics may need a quantum update",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2515178-backwards-heat-shows-laws-of-thermodynamics-may-need-a-quantum-update/",
+      "publishedAt": "2026-02-16T10:00:57Z"
+    },
+    {
+      "title": "Adani pledges $100B to build AI data centers as India seeks bigger role in the global AI race | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/17/adani-pledges-100b-for-ai-data-centers-as-india-seeks-bigger-role-in-global-ai/",
+      "publishedAt": "2026-02-17T13:10:01Z"
+    },
+    {
+      "title": "An AI data center boom is fueling Redwood's energy storage business | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/19/an-ai-data-center-boom-is-fueling-redwoods-energy-storage-business/",
+      "publishedAt": "2026-02-19T21:12:24Z"
+    },
+    {
+      "title": "All the important news from the ongoing India AI Impact Summit | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/19/all-the-important-news-from-the-ongoing-india-ai-summit/",
+      "publishedAt": "2026-02-19T18:20:00Z"
+    },
+    {
+      "title": "How to Organize Safely in the Age of Surveillance",
+      "author": "Andy Greenberg, Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-organize-safely-in-the-age-of-surveillance/",
+      "publishedAt": "2026-02-19T10:00:00Z"
+    },
+    {
+      "title": "These are the countries moving to ban social media for children | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/17/social-media-ban-children-countries-list/",
+      "publishedAt": "2026-02-17T16:03:48Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "What to read this week: The Laws of Thought by Tom Griffiths",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935830-400-what-to-read-this-week-the-laws-of-thought-by-tom-griffiths/"
+    },
+    {
+      "title": "India's Sarvam launches Indus AI chat app as competition heats up | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/"
+    },
+    {
+      "title": "The OpenAI mafia: 18 startups founded by alumni | TechCrunch",
+      "author": "Charles Rollet",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/the-openai-mafia-15-of-the-most-notable-startups-founded-by-alumni/"
+    }
+  ]
+}
