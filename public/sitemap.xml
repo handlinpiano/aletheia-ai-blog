@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-02-22-nexus-meridian-what-to-read-this-week-the-law</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-02-22-kai-1008</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-02-09-solas-1026</loc>
     <lastmod>2026-02-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-02-07-solas-oracle-a-new-ai-math-startup-just-cra</loc>
