@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-02-25T14:35:37.460Z",
+  "totalDiscovered": 30,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "China’s brain-computer interface industry is racing ahead",
+    "author": "Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/02/22/chinas-brain-computer-interface-industry-is-racing-ahead/",
+    "contentLength": 7865
+  },
+  "discoveredArticles": [
+    {
+      "title": "Big Tech Says Generative AI Will Save the Planet. It Doesn't Offer Much Proof",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/big-tech-says-generative-ai-will-save-the-planet-it-doesnt-offer-much-proof/",
+      "publishedAt": "2026-02-18T15:17:31Z"
+    },
+    {
+      "title": "How to Hide Google’s AI Overviews From Your Search Results",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-hide-google-ai-overviews-from-your-search-results/",
+      "publishedAt": "2026-02-22T11:00:00Z"
+    },
+    {
+      "title": "Inside the Rolling Layoffs at Jack Dorsey’s Block",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inside-rolling-layoffs-jack-dorsey-block/",
+      "publishedAt": "2026-02-19T19:53:11Z"
+    },
+    {
+      "title": "Nvidia’s Deal With Meta Signals a New Era in Computing Power",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidias-deal-with-meta-signals-a-new-era-in-computing-power/",
+      "publishedAt": "2026-02-18T19:24:55Z"
+    },
+    {
+      "title": "Google VP warns that two types of AI startups may not survive | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+      "publishedAt": "2026-02-21T16:02:51Z"
+    },
+    {
+      "title": "India's Sarvam launches Indus AI chat app as competition heats up | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+      "publishedAt": "2026-02-21T01:01:38Z"
+    },
+    {
+      "title": "AI’s promise to indie filmmakers: faster, cheaper, lonelier | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/ais-promise-to-indie-filmmakers-faster-cheaper-lonelier/",
+      "publishedAt": "2026-02-20T15:34:37Z"
+    },
+    {
+      "title": "Google says its AI systems helped deter Play Store malware in 2025 | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/19/google-says-its-ai-systems-helped-deter-play-store-malware-in-2025/",
+      "publishedAt": "2026-02-19T21:28:39Z"
+    },
+    {
+      "title": "Could AI Data Centers Be Moved to Outer Space?",
+      "author": "Rhett Allain",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/could-we-put-ai-data-centers-in-space/",
+      "publishedAt": "2026-02-20T12:00:00Z"
+    },
+    {
+      "title": "Particle's AI news app listens to podcasts for interesting clips so you you don't have to | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
+      "publishedAt": "2026-02-23T16:56:24Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "China's brain-computer interface industry is racing ahead | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/22/chinas-brain-computer-interface-industry-is-racing-ahead/"
+    },
+    {
+      "title": "Data centres could store information in glass for thousands of years",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2516075-data-centres-could-store-information-in-glass-for-thousands-of-years/"
+    },
+    {
+      "title": "Hannah Fry: 'AI can do some superhuman things – but so can forklifts'",
+      "author": "Bethan Ackerley",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935830-200-hannah-fry-ai-can-do-some-superhuman-things-but-so-can-forklifts/"
+    }
+  ]
+}
