@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-02-28T14:09:36.507Z",
+  "totalDiscovered": 16,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "China’s brain-computer interface industry is racing ahead",
+    "author": "Kate Park",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/02/22/chinas-brain-computer-interface-industry-is-racing-ahead/",
+    "contentLength": 7865
+  },
+  "discoveredArticles": [
+    {
+      "title": "China's brain-computer interface industry is racing ahead | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/22/chinas-brain-computer-interface-industry-is-racing-ahead/",
+      "publishedAt": "2026-02-22T16:03:58Z"
+    },
+    {
+      "title": "How to Hide Google’s AI Overviews From Your Search Results",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-hide-google-ai-overviews-from-your-search-results/",
+      "publishedAt": "2026-02-22T11:00:00Z"
+    },
+    {
+      "title": "Google VP warns that two types of AI startups may not survive | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+      "publishedAt": "2026-02-21T16:02:51Z"
+    },
+    {
+      "title": "Music generator ProducerAI joins Google Labs | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs/",
+      "publishedAt": "2026-02-24T16:57:21Z"
+    },
+    {
+      "title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled 'coach' | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
+      "publishedAt": "2026-02-25T19:14:15Z"
+    },
+    {
+      "title": "Particle's AI news app listens to podcasts for interesting clips so you you don't have to | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
+      "publishedAt": "2026-02-23T16:56:24Z"
+    },
+    {
+      "title": "India's AI boom pushes firms to trade near-term revenue for users | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/",
+      "publishedAt": "2026-02-25T02:00:00Z"
+    },
+    {
+      "title": "Gushwork bets on AI search for customer leads — and early results are emerging | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging/",
+      "publishedAt": "2026-02-26T00:04:43Z"
+    },
+    {
+      "title": "Can the creator economy stay afloat in a flood of AI slop? | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/22/can-the-creator-economy-stay-afloat-in-a-flood-of-ai-slop/",
+      "publishedAt": "2026-02-22T22:18:01Z"
+    },
+    {
+      "title": "Canva acquires startups working on animation and marketing | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/canva-acquires-startups-working-on-animation-and-marketing/",
+      "publishedAt": "2026-02-24T07:40:37Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "China's brain-computer interface industry is racing ahead | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/22/chinas-brain-computer-interface-industry-is-racing-ahead/"
+    },
+    {
+      "title": "Can the creator economy stay afloat in a flood of AI slop? | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/22/can-the-creator-economy-stay-afloat-in-a-flood-of-ai-slop/"
+    },
+    {
+      "title": "Talk to Your Own Personal Isaac Newton With Ailias’s Hologram Avatars",
+      "author": "Dulcie Godfrey",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ailias-hologram-avatars/"
+    }
+  ]
+}
