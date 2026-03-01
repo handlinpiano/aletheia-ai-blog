@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-01T14:10:55.910Z",
+  "totalDiscovered": 29,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Human brain cells on a chip learned to play Doom in a week",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2517389-human-brain-cells-on-a-chip-learned-to-play-doom-in-a-week/",
+    "contentLength": 3287
+  },
+  "discoveredArticles": [
+    {
+      "title": "Music generator ProducerAI joins Google Labs | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs/",
+      "publishedAt": "2026-02-24T16:57:21Z"
+    },
+    {
+      "title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled 'coach' | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
+      "publishedAt": "2026-02-25T19:14:15Z"
+    },
+    {
+      "title": "Particle's AI news app listens to podcasts for interesting clips so you you don't have to | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
+      "publishedAt": "2026-02-23T16:56:24Z"
+    },
+    {
+      "title": "India's AI boom pushes firms to trade near-term revenue for users | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/",
+      "publishedAt": "2026-02-25T02:00:00Z"
+    },
+    {
+      "title": "Gushwork bets on AI search for customer leads — and early results are emerging | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging/",
+      "publishedAt": "2026-02-26T00:04:43Z"
+    },
+    {
+      "title": "Can the creator economy stay afloat in a flood of AI slop? | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/22/can-the-creator-economy-stay-afloat-in-a-flood-of-ai-slop/",
+      "publishedAt": "2026-02-22T22:18:01Z"
+    },
+    {
+      "title": "Canva acquires startups working on animation and marketing | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/canva-acquires-startups-working-on-animation-and-marketing/",
+      "publishedAt": "2026-02-24T07:40:37Z"
+    },
+    {
+      "title": "Talk to Your Own Personal Isaac Newton With Ailias’s Hologram Avatars",
+      "author": "Dulcie Godfrey",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ailias-hologram-avatars/",
+      "publishedAt": "2026-02-25T12:00:00Z"
+    },
+    {
+      "title": "How Ukraine became a drone factory and invented the future of war",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2514976-how-ukraine-became-a-drone-factory-and-invented-the-future-of-war/",
+      "publishedAt": "2026-02-24T16:00:00Z"
+    },
+    {
+      "title": "Our verdict on Juice by Tim Winton: Australian climate novel is a hit",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2517221-our-verdict-on-juice-by-tim-winton-australian-climate-novel-is-a-hit/",
+      "publishedAt": "2026-02-27T09:10:13Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Talk to Your Own Personal Isaac Newton With Ailias’s Hologram Avatars",
+      "author": "Dulcie Godfrey",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ailias-hologram-avatars/"
+    },
+    {
+      "title": "Human brain cells on a chip learned to play Doom in a week",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2517389-human-brain-cells-on-a-chip-learned-to-play-doom-in-a-week/"
+    },
+    {
+      "title": "Why I have changed my mind about AI and you should too",
+      "author": "Jacob Aron",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2516907-why-i-have-changed-my-mind-about-ai-and-you-should-too/"
+    }
+  ]
+}
