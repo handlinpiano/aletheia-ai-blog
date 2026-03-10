@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-10T14:29:42.760Z",
+  "totalDiscovered": 9,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "What It’s Like to Have a Brain Implant for 5 Years",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/synchron-brain-computer-interface-five-years-als/",
+    "contentLength": 7700
+  },
+  "discoveredArticles": [
+    {
+      "title": "What It’s Like to Have a Brain Implant for 5 Years",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/synchron-brain-computer-interface-five-years-als/",
+      "publishedAt": "2026-03-04T10:00:00Z"
+    },
+    {
+      "title": "Science Corp raises $230M as it races to bring its brain implant to market | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/science-corp-closes-230m-round-as-it-pushes-to-get-its-brain-implant-to-patients/",
+      "publishedAt": "2026-03-05T14:00:00Z"
+    },
+    {
+      "title": "Grammarly Is Offering ‘Expert’ AI Reviews From Your Favorite Authors—Dead or Alive",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/",
+      "publishedAt": "2026-03-04T22:56:37Z"
+    },
+    {
+      "title": "Netflix buys Ben Affleck's AI filmmaking company InterPositive | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/netflix-buys-ben-afflecks-ai-filmmaking-company-interpositive/",
+      "publishedAt": "2026-03-05T16:23:04Z"
+    },
+    {
+      "title": "X says it will suspend creators from revenue-sharing program for unlabeled AI posts of 'armed conflict' | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/",
+      "publishedAt": "2026-03-03T18:28:50Z"
+    },
+    {
+      "title": "Cursor is rolling out a new kind of agentic coding tool | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "publishedAt": "2026-03-05T17:04:49Z"
+    },
+    {
+      "title": "Why Is Alexa+ So Bad?",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/why-is-amazon-alexa-plus-so-bad/",
+      "publishedAt": "2026-03-06T11:00:00Z"
+    },
+    {
+      "title": "Feeld Was a Dating App for the Freaks. Now Some People Call It ‘Normie Hell’",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/feeld-was-a-dating-app-for-the-freaks-now-some-people-call-it-normie-hell/",
+      "publishedAt": "2026-03-09T13:00:00Z"
+    },
+    {
+      "title": "MacBook Neo, iPhone 17e, and everything else Apple announced this week",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/04/everything-apple-announced-macbook-neo-iphone-17e-ipad-air/",
+      "publishedAt": "2026-03-04T19:00:43Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "What It’s Like to Have a Brain Implant for 5 Years",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/synchron-brain-computer-interface-five-years-als/"
+    },
+    {
+      "title": "Science Corp raises $230M as it races to bring its brain implant to market | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/science-corp-closes-230m-round-as-it-pushes-to-get-its-brain-implant-to-patients/"
+    },
+    {
+      "title": "Grammarly Is Offering ‘Expert’ AI Reviews From Your Favorite Authors—Dead or Alive",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/"
+    }
+  ]
+}
