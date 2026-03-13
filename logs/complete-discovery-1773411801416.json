@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-13T14:23:21.415Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Yann LeCun’s AMI Labs raises $1.03B to build world models",
+    "author": "Anna Heim",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+    "contentLength": 5742
+  },
+  "discoveredArticles": [
+    {
+      "title": "Chinese brain interface startup Gestala raises $21M just two months after launch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/",
+      "publishedAt": "2026-03-12T04:00:00Z"
+    },
+    {
+      "title": "Anthropic Sues Department of Defense Over Supply-Chain Risk Designation",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-sues-department-of-defense-over-supply-chain-risk-designation/",
+      "publishedAt": "2026-03-09T15:29:57Z"
+    },
+    {
+      "title": "I Used Google’s New Gemini-Powered ‘Help Me Create’ Tool in Docs. It’s Great at Corporate-Speak",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-gemini-workspace-ai-tools-hands-on/",
+      "publishedAt": "2026-03-10T13:00:00Z"
+    },
+    {
+      "title": "Meta Developed Four New Chips to Power Its AI and Recommendation Systems",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-unveils-four-new-chips-to-power-its-ai-and-recommendation-systems/",
+      "publishedAt": "2026-03-11T14:23:05Z"
+    },
+    {
+      "title": "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-investing-26-billion-open-source-models/",
+      "publishedAt": "2026-03-11T18:00:00Z"
+    },
+    {
+      "title": "Google Maps Gets Chatty With a New Gemini-Powered Interface",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/",
+      "publishedAt": "2026-03-12T12:30:00Z"
+    },
+    {
+      "title": "Adobe is debuting an AI assistant for Photoshop | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
+      "publishedAt": "2026-03-10T13:07:22Z"
+    },
+    {
+      "title": "Netflix may have paid $600 million for Ben Affleck's AI startup | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+      "publishedAt": "2026-03-11T22:01:48Z"
+    },
+    {
+      "title": "Google brings Gemini in Chrome to India | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/",
+      "publishedAt": "2026-03-11T02:34:37Z"
+    },
+    {
+      "title": "Yann LeCun's AMI Labs raises $1.03 billion to build world models | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+      "publishedAt": "2026-03-10T05:01:38Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Chinese brain interface startup Gestala raises $21M just two months after launch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/"
+    },
+    {
+      "title": "Yann LeCun's AMI Labs raises $1.03 billion to build world models | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
+    },
+    {
+      "title": "SETI may have missed alien signals because of space weather",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518324-seti-may-have-missed-alien-signals-because-of-space-weather/"
+    }
+  ]
+}
