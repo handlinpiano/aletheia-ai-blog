@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-16T14:36:40.166Z",
+  "totalDiscovered": 11,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Mathematics is undergoing the biggest change in its history",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/",
+    "contentLength": 8823
+  },
+  "discoveredArticles": [
+    {
+      "title": "Chinese brain interface startup Gestala raises $21M just two months after launch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/",
+      "publishedAt": "2026-03-12T04:00:00Z"
+    },
+    {
+      "title": "Chemistry may not be the 'killer app' for quantum computers after all",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/",
+      "publishedAt": "2026-03-12T17:00:15Z"
+    },
+    {
+      "title": "The race to solve the biggest problem in quantum computing",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/",
+      "publishedAt": "2026-03-13T07:00:40Z"
+    },
+    {
+      "title": "How our ancestors used mushrooms to change the course of human history",
+      "author": "Benjamin Taub",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2516720-how-our-ancestors-used-mushrooms-to-change-the-course-of-human-history/",
+      "publishedAt": "2026-03-10T16:00:55Z"
+    },
+    {
+      "title": "We’ve only just confirmed that Homo habilis really existed",
+      "author": "Michael Marshall",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518316-weve-only-just-confirmed-that-homo-habilis-really-existed/",
+      "publishedAt": "2026-03-09T18:00:13Z"
+    },
+    {
+      "title": "Human populations evolved in similar ways after we began farming",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518181-human-populations-evolved-in-similar-ways-after-we-began-farming/",
+      "publishedAt": "2026-03-10T11:00:12Z"
+    },
+    {
+      "title": "Former Apple engineer raises $5M for a note-taking pendant that only records your voice",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/former-apple-engineer-raises-5m-for-a-note-taking-pendant-that-only-records-your-voice/",
+      "publishedAt": "2026-03-11T14:00:00Z"
+    },
+    {
+      "title": "AI 'actor' Tilly Norwood put out the worst song I've ever heard | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/",
+      "publishedAt": "2026-03-11T23:35:03Z"
+    },
+    {
+      "title": "Rivian's RJ Scaringe thinks we're doing robots all wrong | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/15/rivians-rj-scaringe-thinks-were-doing-robots-all-wrong/",
+      "publishedAt": "2026-03-15T14:34:36Z"
+    },
+    {
+      "title": "Mathematics is undergoing the biggest change in its history",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/",
+      "publishedAt": "2026-03-10T12:00:25Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Chinese brain interface startup Gestala raises $21M just two months after launch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/"
+    },
+    {
+      "title": "AI 'actor' Tilly Norwood put out the worst song I've ever heard | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/"
+    },
+    {
+      "title": "Mathematics is undergoing the biggest change in its history",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/"
+    }
+  ]
+}
