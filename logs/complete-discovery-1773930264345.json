@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-19T14:24:24.345Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A very serious guide to buying your own humanoid robot butler",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2517880-a-very-serious-guide-to-buying-your-own-humanoid-robot-butler/",
+    "contentLength": 12773
+  },
+  "discoveredArticles": [
+    {
+      "title": "6G Is Coming. Here’s What to Expect From the Next Generation of Cellular Tech",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/6g-is-coming/",
+      "publishedAt": "2026-03-13T10:30:00Z"
+    },
+    {
+      "title": "AI is nearly exclusively designed by men – here's how to fix it",
+      "author": "Catherine de Lange",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2519419-ai-is-nearly-exclusively-designed-by-men-heres-how-to-fix-it/",
+      "publishedAt": "2026-03-16T13:00:20Z"
+    },
+    {
+      "title": "We don’t know if AI-powered toys are safe, but they’re here anyway",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/",
+      "publishedAt": "2026-03-13T00:01:57Z"
+    },
+    {
+      "title": "Google's AI Searches Love to Refer You Back to Google",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-ai-searches-love-to-refer-you-back-to-google/",
+      "publishedAt": "2026-03-13T12:31:55Z"
+    },
+    {
+      "title": "Nvidia’s DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/",
+      "publishedAt": "2026-03-16T19:12:19Z"
+    },
+    {
+      "title": "Alexa+ gets a new 'adults only' personality option that curses but won't get into NSFW content | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/",
+      "publishedAt": "2026-03-12T15:17:08Z"
+    },
+    {
+      "title": "Peacock expands into AI-driven video, mobile-first live sports, and gaming | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/13/peacock-expands-into-ai-driven-video-mobile-first-live-sports-and-gaming/",
+      "publishedAt": "2026-03-13T14:03:34Z"
+    },
+    {
+      "title": "Bumble introduces an AI dating assistant, 'Bee' | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/bumble-introduces-an-ai-dating-assistant-bee/",
+      "publishedAt": "2026-03-13T02:02:57Z"
+    },
+    {
+      "title": "Warren presses Pentagon over decision to grant xAI access to classified networks | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+      "publishedAt": "2026-03-16T21:02:02Z"
+    },
+    {
+      "title": "A very serious guide to buying your own humanoid robot butler",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2517880-a-very-serious-guide-to-buying-your-own-humanoid-robot-butler/",
+      "publishedAt": "2026-03-17T16:00:48Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI is nearly exclusively designed by men – here's how to fix it",
+      "author": "Catherine de Lange",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2519419-ai-is-nearly-exclusively-designed-by-men-heres-how-to-fix-it/"
+    },
+    {
+      "title": "We don’t know if AI-powered toys are safe, but they’re here anyway",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/"
+    },
+    {
+      "title": "A very serious guide to buying your own humanoid robot butler",
+      "author": "Chris Stokel-Walker",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2517880-a-very-serious-guide-to-buying-your-own-humanoid-robot-butler/"
+    }
+  ]
+}
