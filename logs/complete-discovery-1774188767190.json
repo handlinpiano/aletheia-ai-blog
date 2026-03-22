@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-22T14:12:47.190Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
+    "author": "Reece Rogers",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/",
+    "contentLength": 5071
+  },
+  "discoveredArticles": [
+    {
+      "title": "Signal’s Creator Is Helping Encrypt Meta AI",
+      "author": "Lily Hay Newman, Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/",
+      "publishedAt": "2026-03-19T14:09:51Z"
+    },
+    {
+      "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/",
+      "publishedAt": "2026-03-19T16:06:49Z"
+    },
+    {
+      "title": "At Palantir’s Developer Conference, AI Is Built to Win Wars",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/",
+      "publishedAt": "2026-03-20T15:00:00Z"
+    },
+    {
+      "title": "AI is nearly exclusively designed by men – here's how to fix it",
+      "author": "Catherine de Lange",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2519419-ai-is-nearly-exclusively-designed-by-men-heres-how-to-fix-it/",
+      "publishedAt": "2026-03-16T13:00:20Z"
+    },
+    {
+      "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+      "publishedAt": "2026-03-21T00:03:20Z"
+    },
+    {
+      "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal/",
+      "publishedAt": "2026-03-18T18:01:18Z"
+    },
+    {
+      "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+      "publishedAt": "2026-03-19T19:09:02Z"
+    },
+    {
+      "title": "Nvidia’s DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/",
+      "publishedAt": "2026-03-16T19:12:19Z"
+    },
+    {
+      "title": "Amazon working on new smartphone with Alexa at its core, report says | TechCrunch",
+      "author": "Ram Iyer",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/20/amazon-working-on-new-smartphone-with-alexa-at-its-core-report-says/",
+      "publishedAt": "2026-03-20T14:53:40Z"
+    },
+    {
+      "title": "Warren presses Pentagon over decision to grant xAI access to classified networks | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+      "publishedAt": "2026-03-16T21:02:02Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/"
+    },
+    {
+      "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/"
+    },
+    {
+      "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/"
+    }
+  ]
+}
