@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-25T14:34:15.577Z",
+  "totalDiscovered": 18,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+    "author": "Paresh Dave",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+    "contentLength": 3663
+  },
+  "discoveredArticles": [
+    {
+      "title": "Signal’s Creator Is Helping Encrypt Meta AI",
+      "author": "Lily Hay Newman, Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/",
+      "publishedAt": "2026-03-19T14:09:51Z"
+    },
+    {
+      "title": "At Palantir’s Developer Conference, AI Is Built to Win Wars",
+      "author": "Steven Levy",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/",
+      "publishedAt": "2026-03-20T15:00:00Z"
+    },
+    {
+      "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+      "publishedAt": "2026-03-21T00:03:20Z"
+    },
+    {
+      "title": "Give Your Phone a Huge (and Free) Upgrade by Switching to Another Keyboard",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/switch-your-phone-to-another-keyboard-ios-android/",
+      "publishedAt": "2026-03-22T10:30:00Z"
+    },
+    {
+      "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal/",
+      "publishedAt": "2026-03-18T18:01:18Z"
+    },
+    {
+      "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+      "publishedAt": "2026-03-19T19:09:02Z"
+    },
+    {
+      "title": "Amazon working on new smartphone with Alexa at its core, report says | TechCrunch",
+      "author": "Ram Iyer",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/20/amazon-working-on-new-smartphone-with-alexa-at-its-core-report-says/",
+      "publishedAt": "2026-03-20T14:53:40Z"
+    },
+    {
+      "title": "I Tried DoorDash’s Tasks App and Saw the Bleak Future of AI Gig Work",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-tried-doordashs-tasks-app-and-saw-the-bleak-future-of-ai-gig-work/",
+      "publishedAt": "2026-03-21T11:00:00Z"
+    },
+    {
+      "title": "'Zombie' cells created by transplanting genomes into dead bacteria",
+      "author": "Chris Simms",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2520182-zombie-cells-created-by-transplanting-genomes-into-dead-bacteria/",
+      "publishedAt": "2026-03-23T10:47:41Z"
+    },
+    {
+      "title": "Probiotic cream that ramps up heat production could prevent frostbite",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2520006-probiotic-cream-that-ramps-up-heat-production-could-prevent-frostbite/",
+      "publishedAt": "2026-03-19T17:07:41Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/"
+    },
+    {
+      "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/"
+    },
+    {
+      "title": "'Zombie' cells created by transplanting genomes into dead bacteria",
+      "author": "Chris Simms",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2520182-zombie-cells-created-by-transplanting-genomes-into-dead-bacteria/"
+    }
+  ]
+}
