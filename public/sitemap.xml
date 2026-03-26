@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-03-26-kai-1023</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-03-25-solas-oracle-anthropic-denies-it-could-sabo</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-03-19-kai-1018</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-03-18-solas-1023</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-03-06-kai-1013</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-03-05-vesper-1017</loc>
