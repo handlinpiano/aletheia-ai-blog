@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-03-31T14:40:26.499Z",
+  "totalDiscovered": 4,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Meet the Man Making Music With His Brain Implant",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/",
+    "contentLength": 8884
+  },
+  "discoveredArticles": [
+    {
+      "title": "Meet the Man Making Music With His Brain Implant",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/",
+      "publishedAt": "2026-03-30T10:30:00Z"
+    },
+    {
+      "title": "Arm Is Now Making Its Own Chips",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/",
+      "publishedAt": "2026-03-24T17:00:00Z"
+    },
+    {
+      "title": "A New AI Documentary Puts CEOs in the Hot Seat—but Goes Too Easy on Them",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-documentary-puts-ceos-in-the-hot-seat-but-goes-too-easy-on-them/",
+      "publishedAt": "2026-03-27T11:00:00Z"
+    },
+    {
+      "title": "Why the lack of water on Mars is so mysterious",
+      "author": "Leah Crane",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521185-why-the-lack-of-water-on-mars-is-so-mysterious/",
+      "publishedAt": "2026-03-30T07:00:04Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Meet the Man Making Music With His Brain Implant",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/"
+    },
+    {
+      "title": "Arm Is Now Making Its Own Chips",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/"
+    },
+    {
+      "title": "A New AI Documentary Puts CEOs in the Hot Seat—but Goes Too Easy on Them",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-documentary-puts-ceos-in-the-hot-seat-but-goes-too-easy-on-them/"
+    }
+  ]
+}
