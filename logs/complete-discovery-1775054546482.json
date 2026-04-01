@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-01T14:42:26.482Z",
+  "totalDiscovered": 11,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Duolingo’s Luis von Ahn Wants to Delete the Blockchain",
+    "author": "Katie Drummond",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-big-interview-podcast-luis-von-ahn-duolingo/",
+    "contentLength": 36253
+  },
+  "discoveredArticles": [
+    {
+      "title": "Anthropic Supply-Chain Risk Designation Halted By Judge",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-injunction/",
+      "publishedAt": "2026-03-26T23:33:05Z"
+    },
+    {
+      "title": "Duolingo’s Luis von Ahn Wants to Delete the Blockchain",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-luis-von-ahn-duolingo/",
+      "publishedAt": "2026-03-31T10:30:00Z"
+    },
+    {
+      "title": "Food shock is inevitable due to the Iran war – and it could get bad",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521311-food-shock-is-inevitable-due-to-the-iran-war-and-it-could-get-bad/",
+      "publishedAt": "2026-03-30T17:14:53Z"
+    },
+    {
+      "title": "AI Has Flooded All the Weather Apps",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-has-flooded-all-the-weather-apps/",
+      "publishedAt": "2026-03-31T13:00:00Z"
+    },
+    {
+      "title": "Qodo raises $70M for code verification as AI coding scales | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+      "publishedAt": "2026-03-30T12:33:32Z"
+    },
+    {
+      "title": "As more Americans adopt AI tools, fewer say they can trust the results | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "publishedAt": "2026-03-30T20:25:48Z"
+    },
+    {
+      "title": "A New AI Documentary Puts CEOs in the Hot Seat—but Goes Too Easy on Them",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-documentary-puts-ceos-in-the-hot-seat-but-goes-too-easy-on-them/",
+      "publishedAt": "2026-03-27T11:00:00Z"
+    },
+    {
+      "title": "How Anthony Leggett pushed the boundaries of quantum physics",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521212-how-anthony-leggett-pushed-the-boundaries-of-quantum-physics/",
+      "publishedAt": "2026-03-27T12:00:30Z"
+    },
+    {
+      "title": "David Sacks is done as AI czar -- here's what he's doing instead | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+      "publishedAt": "2026-03-27T01:28:00Z"
+    },
+    {
+      "title": "What will power the grid in 2035? The race is wide open | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/28/what-will-power-the-grid-in-2035-the-race-is-wide-open/",
+      "publishedAt": "2026-03-28T13:05:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Anthropic Supply-Chain Risk Designation Halted By Judge",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-injunction/"
+    },
+    {
+      "title": "Duolingo’s Luis von Ahn Wants to Delete the Blockchain",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-luis-von-ahn-duolingo/"
+    },
+    {
+      "title": "Food shock is inevitable due to the Iran war – and it could get bad",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521311-food-shock-is-inevitable-due-to-the-iran-war-and-it-could-get-bad/"
+    }
+  ]
+}
