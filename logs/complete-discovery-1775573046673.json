@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-07T14:44:06.673Z",
+  "totalDiscovered": 20,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A New Implant Aims to Rewire the Brain to Help Stroke Patients",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/a-new-implant-aims-to-rewire-the-brain-to-help-stroke-patients/",
+    "contentLength": 3810
+  },
+  "discoveredArticles": [
+    {
+      "title": "‘Thank You For Generating With Us!’ Hollywood's AI Acolytes Stay on the Hype Train",
+      "author": "John Semley",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/thank-you-for-generating-with-us-hollywoods-ai-acolytes-stay-on-the-hype-train/",
+      "publishedAt": "2026-04-01T18:13:34Z"
+    },
+    {
+      "title": "How many academics does it take to tell a joke? Time for a study...",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521449-how-many-academics-does-it-take-to-tell-a-joke-time-for-a-study/",
+      "publishedAt": "2026-04-01T18:00:04Z"
+    },
+    {
+      "title": "SpaceX files confidentially for IPO in mega listing potentially valued at $1.75 trillion, report says | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/",
+      "publishedAt": "2026-04-01T15:49:12Z"
+    },
+    {
+      "title": "I Asked ChatGPT What WIRED’s Reviewers Recommend—Its Answers Were All Wrong",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/",
+      "publishedAt": "2026-04-01T09:30:00Z"
+    },
+    {
+      "title": "A New Implant Aims to Rewire Stroke Patients’ Brains",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-implant-aims-to-rewire-the-brain-to-help-stroke-patients/",
+      "publishedAt": "2026-04-02T11:30:00Z"
+    },
+    {
+      "title": "Taylor Lorenz’s Screen Time Is Almost 17 Hours a Day",
+      "author": "Alana Hope Levinson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/user-behavior-taylor-lorenz/",
+      "publishedAt": "2026-04-01T10:00:00Z"
+    },
+    {
+      "title": "How to Change Your Gmail Address",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-change-your-gmail-address/",
+      "publishedAt": "2026-03-31T17:51:29Z"
+    },
+    {
+      "title": "Meta was finally held accountable for harming teens. Now what? | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/meta-was-finally-held-accountable-for-harming-teens-now-what/",
+      "publishedAt": "2026-03-31T19:35:36Z"
+    },
+    {
+      "title": "The US Military’s GPS Software Is an $8 Billion Mess",
+      "author": "Stephen Clark, Ars Technica",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-us-militarys-gps-software-is-an-8-billion-mess/",
+      "publishedAt": "2026-03-31T17:34:46Z"
+    },
+    {
+      "title": "The best new popular science books of April 2026",
+      "author": "Liz Else",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521713-the-best-new-popular-science-books-of-april-2026/",
+      "publishedAt": "2026-04-01T14:00:36Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A New Implant Aims to Rewire Stroke Patients’ Brains",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-implant-aims-to-rewire-the-brain-to-help-stroke-patients/"
+    },
+    {
+      "title": "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk",
+      "author": "Maxwell Zeff, Zoë Schiffer, Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/"
+    },
+    {
+      "title": "The first quantum computer to break encryption is now shockingly close",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/"
+    }
+  ]
+}
