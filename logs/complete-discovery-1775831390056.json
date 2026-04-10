@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-10T14:29:50.056Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Meta debuts the Muse Spark model in a ‘ground-up overhaul’ of its AI",
+    "author": "Amanda Silberling",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/",
+    "contentLength": 3614
+  },
+  "discoveredArticles": [
+    {
+      "title": "The US Army Is Building Its Own Chatbot for Combat",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/",
+      "publishedAt": "2026-04-08T18:00:00Z"
+    },
+    {
+      "title": "The invisibility cloak inventor now has better tricks up his sleeve",
+      "author": "Jacklin Kwan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2519999-the-invisibility-cloak-inventor-now-has-better-tricks-up-his-sleeve/",
+      "publishedAt": "2026-04-08T16:00:26Z"
+    },
+    {
+      "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
+      "publishedAt": "2026-04-08T17:00:00Z"
+    },
+    {
+      "title": "Ex-Tesla engineer’s startup taps Pronto to help automate a copper mine",
+      "author": "Sean O'kane",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/09/mariana-minerals-taps-pronto-to-help-automate-a-copper-mine/",
+      "publishedAt": "2026-04-09T12:00:00Z"
+    },
+    {
+      "title": "In Japan, the robot isn't coming for your job; it's filling the one nobody wants | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "publishedAt": "2026-04-05T14:00:00Z"
+    },
+    {
+      "title": "After fighting malware for decades, this cybersecurity veteran is now hacking drones | TechCrunch",
+      "author": "Lorenzo Franceschi-bicchierai",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/04/after-fighting-malware-for-decades-this-cybersecurity-veteran-is-now-hacking-drones/",
+      "publishedAt": "2026-04-04T13:01:44Z"
+    },
+    {
+      "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "publishedAt": "2026-04-07T18:01:06Z"
+    },
+    {
+      "title": "How nuclear batteries could speed the race to fusion power",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/how-nuclear-batteries-could-speed-the-race-to-fusion-power/",
+      "publishedAt": "2026-04-08T11:33:42Z"
+    },
+    {
+      "title": "The DOJ Misled a Judge About How It’s Using Voter Roll Data",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/doj-misled-judge-voter-roll-data/",
+      "publishedAt": "2026-04-06T11:00:00Z"
+    },
+    {
+      "title": "Embattled startup Delve has ‘parted ways’ with Y Combinator | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/",
+      "publishedAt": "2026-04-04T21:07:31Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The US Army Is Building Its Own Chatbot for Combat",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/"
+    },
+    {
+      "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
+    },
+    {
+      "title": "Meta debuts the Muse Spark model in a 'ground-up overhaul' of its AI | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/"
+    }
+  ]
+}
