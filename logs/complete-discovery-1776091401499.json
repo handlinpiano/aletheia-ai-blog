@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-13T14:43:21.499Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+    "contentLength": 6261
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Indie News Queen Who’s Not Done Pissing Off the Powerful",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/",
+      "publishedAt": "2026-04-10T11:00:00Z"
+    },
+    {
+      "title": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/",
+      "publishedAt": "2026-04-10T18:08:37Z"
+    },
+    {
+      "title": "Zuvi ColorBox Review: A Hair Dye Printer That Struggles",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/zuvi-colorbox/",
+      "publishedAt": "2026-04-11T12:11:00Z"
+    },
+    {
+      "title": "How the Internet Broke Everyone’s Bullshit Detectors",
+      "author": "Gia Chaudry",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/",
+      "publishedAt": "2026-04-11T09:30:00Z"
+    },
+    {
+      "title": "How nuclear batteries could speed the race to fusion power",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/how-nuclear-batteries-could-speed-the-race-to-fusion-power/",
+      "publishedAt": "2026-04-08T11:33:42Z"
+    },
+    {
+      "title": "Every fusion startup that has raised over $100M | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/",
+      "publishedAt": "2026-04-10T14:07:38Z"
+    },
+    {
+      "title": "Is this the most niche scientific tourist attraction in the world?",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2522140-is-this-the-most-niche-scientific-tourist-attraction-in-the-world/",
+      "publishedAt": "2026-04-08T18:00:00Z"
+    },
+    {
+      "title": "Flight Path Data Shows How Mosquitoes Target Humans",
+      "author": "Ritsuko Kawai",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/flight-path-data-shows-how-mosquitoes-target-humans/",
+      "publishedAt": "2026-04-11T10:00:00Z"
+    },
+    {
+      "title": "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/iran-linked-hackers-are-sabotaging-us-energy-and-water-infrastructure/",
+      "publishedAt": "2026-04-07T20:13:51Z"
+    },
+    {
+      "title": "Collide Capital raises $95M fund to back fintech, future-of-work startups",
+      "author": "Dominic-Madori Davis",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/",
+      "publishedAt": "2026-04-09T13:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/"
+    },
+    {
+      "title": "How the Internet Broke Everyone’s Bullshit Detectors",
+      "author": "Gia Chaudry",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/"
+    },
+    {
+      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day work week | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
+    }
+  ]
+}
