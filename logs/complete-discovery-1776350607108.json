@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-16T14:43:27.108Z",
+  "totalDiscovered": 10,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
+    "author": "Lily Hay Newman",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/",
+    "contentLength": 7656
+  },
+  "discoveredArticles": [
+    {
+      "title": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/",
+      "publishedAt": "2026-04-10T18:08:37Z"
+    },
+    {
+      "title": "Zuvi ColorBox Review: A Hair Dye Printer That Struggles",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/zuvi-colorbox/",
+      "publishedAt": "2026-04-11T12:11:00Z"
+    },
+    {
+      "title": "How to Use Google Chrome’s New AI-Powered ‘Skills’",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-use-google-chrome-ai-powered-skills/",
+      "publishedAt": "2026-04-14T17:00:00Z"
+    },
+    {
+      "title": "In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model—and Strategy",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/in-the-wake-of-anthropics-mythos-openai-has-a-new-cybersecurity-model-and-strategy/",
+      "publishedAt": "2026-04-14T20:00:17Z"
+    },
+    {
+      "title": "This startup is betting tokenmaxxing will create the next compute giant | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
+      "publishedAt": "2026-04-15T13:03:35Z"
+    },
+    {
+      "title": "From LLMs to hallucinations, here's a simple guide to common AI terms | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-04-12T15:07:45Z"
+    },
+    {
+      "title": "How the Internet Broke Everyone’s Bullshit Detectors",
+      "author": "Gia Chaudry",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/",
+      "publishedAt": "2026-04-11T09:30:00Z"
+    },
+    {
+      "title": "The Deepfake Nudes Crisis in Schools Is Much Worse Than You Thought",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/deepfake-nudify-schools-global-crisis/",
+      "publishedAt": "2026-04-15T10:00:00Z"
+    },
+    {
+      "title": "Every fusion startup that has raised over $100M | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/",
+      "publishedAt": "2026-04-10T14:07:38Z"
+    },
+    {
+      "title": "Inertia moves to commercialize one of the world’s most elaborate science experiments | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/14/inertia-moves-to-commercialize-one-of-the-worlds-most-elaborate-science-experiments/",
+      "publishedAt": "2026-04-14T09:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/"
+    },
+    {
+      "title": "In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model—and Strategy",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/in-the-wake-of-anthropics-mythos-openai-has-a-new-cybersecurity-model-and-strategy/"
+    },
+    {
+      "title": "How the Internet Broke Everyone’s Bullshit Detectors",
+      "author": "Gia Chaudry",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/"
+    }
+  ]
+}
