@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-22T14:40:28.330Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "It’s not just one thing — it’s another thing",
+    "author": "Amanda Silberling",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
+    "contentLength": 4204
+  },
+  "discoveredArticles": [
+    {
+      "title": "This Scammer Used an AI-Generated MAGA Girl to Grift ‘Super Dumb’ Men",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-generated-maga-girls/",
+      "publishedAt": "2026-04-21T11:00:00Z"
+    },
+    {
+      "title": "Factory hits $1.5B valuation to build AI coding for enterprises | TechCrunch",
+      "author": "Marina Temkin",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+      "publishedAt": "2026-04-16T22:55:30Z"
+    },
+    {
+      "title": "It's not just one thing — it's another thing | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
+      "publishedAt": "2026-04-20T19:37:07Z"
+    },
+    {
+      "title": "Luma launches AI-powered production studio with faith-focused Wonder Project | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
+      "publishedAt": "2026-04-16T21:59:07Z"
+    },
+    {
+      "title": "GRAI believes AI can make music more social, not replace artists | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/21/grai-believes-ai-can-make-music-more-social-not-replace-artists/",
+      "publishedAt": "2026-04-21T13:01:37Z"
+    },
+    {
+      "title": "Google is now targeting bad ads over bad actors | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/16/google-blocked-more-ads-but-banned-fewer-advertisers-as-ai-reshapes-enforcement/",
+      "publishedAt": "2026-04-16T15:00:00Z"
+    },
+    {
+      "title": "Netflix co-founder and chair Reed Hastings to leave board | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/16/netflix-co-founder-and-chair-reed-hastings-to-leave-board/",
+      "publishedAt": "2026-04-16T21:22:14Z"
+    },
+    {
+      "title": "OpenAI’s existential questions | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+      "publishedAt": "2026-04-19T21:25:40Z"
+    },
+    {
+      "title": "Where the DOGE Operatives Are Now",
+      "author": "Vittoria Elliott",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/where-the-doge-operatives-are-now/",
+      "publishedAt": "2026-04-16T10:30:00Z"
+    },
+    {
+      "title": "This Beanie Is Designed to Read Your Thoughts",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-beanie-is-designed-to-read-your-thoughts/",
+      "publishedAt": "2026-04-16T11:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "This Scammer Used an AI-Generated MAGA Girl to Grift ‘Super Dumb’ Men",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-generated-maga-girls/"
+    },
+    {
+      "title": "Factory hits $1.5B valuation to build AI coding for enterprises | TechCrunch",
+      "author": "Marina Temkin",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/"
+    },
+    {
+      "title": "It's not just one thing — it's another thing | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/"
+    }
+  ]
+}
