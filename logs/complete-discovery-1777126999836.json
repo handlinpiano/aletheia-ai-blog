@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-04-25T14:23:19.836Z",
+  "totalDiscovered": 25,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "QBox theory may offer glimpse of reality deeper than quantum realm",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2524032-qbox-theory-may-offer-glimpse-of-reality-deeper-than-quantum-realm/",
+    "contentLength": 6516
+  },
+  "discoveredArticles": [
+    {
+      "title": "We need more radioactive drugs. Can we make them from nuclear waste?",
+      "author": "Mark Peplow",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2521854-we-need-more-radioactive-drugs-can-we-make-them-from-nuclear-waste/",
+      "publishedAt": "2026-04-22T16:00:58Z"
+    },
+    {
+      "title": "Cracks are starting to form on fusion energy’s funding boom | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/19/cracks-are-starting-to-form-on-fusion-energys-funding-boom/",
+      "publishedAt": "2026-04-19T12:52:37Z"
+    },
+    {
+      "title": "Fusion power may not be sci-fi. Just ask the people who sunk $5B into it. | TechCrunch",
+      "author": "Theresa Loconsolo",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/fusion-power-may-not-be-sci-fi-just-ask-the-people-who-sunk-5b-into-it/",
+      "publishedAt": "2026-04-22T21:23:56Z"
+    },
+    {
+      "title": "Tim Cook's Legacy Is Turning Apple Into a Subscription",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apple-tim-cook-subscription-business/",
+      "publishedAt": "2026-04-21T17:35:12Z"
+    },
+    {
+      "title": "Titan’s strange plains may be explained by unusual weather",
+      "author": "Leah Crane",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2523722-titans-strange-plains-may-be-explained-by-unusual-weather/",
+      "publishedAt": "2026-04-21T17:00:44Z"
+    },
+    {
+      "title": "QBox theory may offer glimpse of reality deeper than quantum realm",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2524032-qbox-theory-may-offer-glimpse-of-reality-deeper-than-quantum-realm/",
+      "publishedAt": "2026-04-24T10:00:12Z"
+    },
+    {
+      "title": "If a bird flu pandemic starts, we may have an mRNA vaccine ready",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2523838-if-a-bird-flu-pandemic-starts-we-may-have-an-mrna-vaccine-ready/",
+      "publishedAt": "2026-04-22T00:01:21Z"
+    },
+    {
+      "title": "We might finally know how to use quantum computers to boost AI",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2523443-we-might-finally-know-how-to-use-quantum-computers-to-boost-ai/",
+      "publishedAt": "2026-04-20T12:00:52Z"
+    },
+    {
+      "title": "Why the right kind of stress is crucial for your health and happiness",
+      "author": "Helen Thomson",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2522362-why-the-right-kind-of-stress-is-crucial-for-your-health-and-happiness/",
+      "publishedAt": "2026-04-20T14:00:47Z"
+    },
+    {
+      "title": "Apple’s Next Chapter, SpaceX and Cursor Strike a Deal, and Palantir’s Controversial Manifesto",
+      "author": "Brian Barrett, Zoë Schiffer, Leah Feiger",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-apple-next-chapter-spacex-cursor-deal-palantir-manifesto/",
+      "publishedAt": "2026-04-23T19:26:11Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "QBox theory may offer glimpse of reality deeper than quantum realm",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2524032-qbox-theory-may-offer-glimpse-of-reality-deeper-than-quantum-realm/"
+    },
+    {
+      "title": "We might finally know how to use quantum computers to boost AI",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2523443-we-might-finally-know-how-to-use-quantum-computers-to-boost-ai/"
+    },
+    {
+      "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI 'superapp' | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/"
+    }
+  ]
+}
