@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-05-01T14:32:34.711Z",
+  "totalDiscovered": 19,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Colby Adcock’s Scout AI raises $100M to train its models for war: We visited its bootcamp",
+    "author": "Tim Fernholz",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+    "contentLength": 11582
+  },
+  "discoveredArticles": [
+    {
+      "title": "Get Ready for More Brain-Scanning Consumer Gadgets",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/get-ready-for-more-brain-scanning-consumer-gadgets/",
+      "publishedAt": "2026-04-28T13:00:00Z"
+    },
+    {
+      "title": "How Elon Musk Squeezed OpenAI: They 'Are Gonna Want to Kill Me’",
+      "author": "Maxwell Zeff, Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/model-behavior-elon-musk-cross-examined-sam-altman/",
+      "publishedAt": "2026-04-29T23:41:51Z"
+    },
+    {
+      "title": "A Brain Implant for Depression Is About to Be Tested in Humans",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-brain-implant-for-depression-is-about-to-be-tested-in-humans/",
+      "publishedAt": "2026-04-27T17:02:29Z"
+    },
+    {
+      "title": "BCI startup Neurable looks to license its 'mind-reading' tech for consumer wearables | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/",
+      "publishedAt": "2026-04-28T13:21:01Z"
+    },
+    {
+      "title": "Fusion power startup Zap Energy pulls a partial pivot, adding nuclear fission to the mix | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/29/fusion-power-startup-zap-energy-pulls-a-partial-pivot-adding-nuclear-fission-to-the-mix/",
+      "publishedAt": "2026-04-29T20:55:40Z"
+    },
+    {
+      "title": "Reid Hoffman Thinks Doctors Should Ask AI for a Second Opinion",
+      "author": "David Cox",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/reid-hoffman-ai-doctor-second-opinion-wired-health/",
+      "publishedAt": "2026-04-30T09:00:00Z"
+    },
+    {
+      "title": "The Bloomberg Terminal Is Getting an AI Makeover, Like It or Not",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-bloomberg-terminal-is-getting-an-ai-makeover-like-it-or-not/",
+      "publishedAt": "2026-04-28T08:30:00Z"
+    },
+    {
+      "title": "Here’s How Much San Francisco Tech Companies Pay for Police Protection",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/heres-how-much-san-francisco-tech-companies-are-paying-for-police-protection/",
+      "publishedAt": "2026-04-27T10:00:00Z"
+    },
+    {
+      "title": "Amazon launches an AI-powered audio Q&A experience on product pages | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+      "publishedAt": "2026-04-28T18:51:41Z"
+    },
+    {
+      "title": "More Gemini features are coming to Google TV | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
+      "publishedAt": "2026-04-29T16:44:01Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Get Ready for More Brain-Scanning Consumer Gadgets",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/get-ready-for-more-brain-scanning-consumer-gadgets/"
+    },
+    {
+      "title": "A Brain Implant for Depression Is About to Be Tested in Humans",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-brain-implant-for-depression-is-about-to-be-tested-in-humans/"
+    },
+    {
+      "title": "Coby Adcock's Scout AI raises $100 million to train its models for war. We visited its bootcamp. | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/"
+    }
+  ]
+}
