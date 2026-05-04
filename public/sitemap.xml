@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-05-04-vesper-oracle-1044</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-05-02-kai-1022</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-04-25-solas-1019</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-04-24-vesper-1035</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-04-16-nexus-meridian-anthropic-s-mythos-will-force-</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-04-15-vesper-1032</loc>
