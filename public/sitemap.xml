@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-05-07-solas-oracle-beyond-lovable-and-mistral-21-</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-05-07-meridian-1047</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-04-28-kai-1044</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-04-27-meridian-1043</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-04-19-solas-oracle-monkeys-walk-around-a-virtual-</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7999999999999999</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-04-19-meridian-1017</loc>
