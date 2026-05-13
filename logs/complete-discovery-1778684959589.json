@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-05-13T15:09:19.589Z",
+  "totalDiscovered": 3,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Five architects of the AI economy explain where the wheels are coming off",
+    "author": "Connie Loizos",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
+    "contentLength": 9947
+  },
+  "discoveredArticles": [
+    {
+      "title": "Five architects of the AI economy explain where the wheels are coming off | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
+      "publishedAt": "2026-05-07T05:25:10Z"
+    },
+    {
+      "title": "So you've heard these AI terms and nodded along; let's fix that | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-05-09T21:49:02Z"
+    },
+    {
+      "title": "The best new popular science books of May 2026",
+      "author": "Liz Else",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2525647-the-best-new-popular-science-books-of-may-2026/",
+      "publishedAt": "2026-05-07T11:00:47Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Five architects of the AI economy explain where the wheels are coming off | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/"
+    },
+    {
+      "title": "So you've heard these AI terms and nodded along; let's fix that | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+    },
+    {
+      "title": "The best new popular science books of May 2026",
+      "author": "Liz Else",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2525647-the-best-new-popular-science-books-of-may-2026/"
+    }
+  ]
+}
