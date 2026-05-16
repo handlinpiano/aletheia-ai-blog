@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-05-16T14:34:06.423Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Meet the Sad Wives of AI",
+    "author": "Alessandra Ram",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+    "contentLength": 14217
+  },
+  "discoveredArticles": [
+    {
+      "title": "Instagram’s New Instants App Is a Snapchat Clone for Thirst Traps",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/instagrams-new-instants-app-is-a-snapchat-clone-for-thirst-traps/",
+      "publishedAt": "2026-05-13T20:49:17Z"
+    },
+    {
+      "title": "Googlebook Is Google's New AI-Powered Laptop Platform Built on Android",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/googlebook-laptop-platform/",
+      "publishedAt": "2026-05-12T17:00:00Z"
+    },
+    {
+      "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+  | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
+      "publishedAt": "2026-05-13T15:01:30Z"
+    },
+    {
+      "title": "Anthropic courts a new kind of customer: small business owners | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "publishedAt": "2026-05-13T16:02:58Z"
+    },
+    {
+      "title": "Google's 'Create My Widget' feature will let you vibe code your own widgets | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/",
+      "publishedAt": "2026-05-12T17:03:41Z"
+    },
+    {
+      "title": "Uber to open 2 campuses in India to support product development, operations | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/uber-to-open-2-campuses-in-india-to-support-product-development-operations/",
+      "publishedAt": "2026-05-14T13:44:31Z"
+    },
+    {
+      "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway. | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "publishedAt": "2026-05-10T02:03:38Z"
+    },
+    {
+      "title": "So you've heard these AI terms and nodded along; let's fix that | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-05-09T21:49:02Z"
+    },
+    {
+      "title": "The 6 stages at Disrupt 2026 — built for today’s tougher startup market | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/",
+      "publishedAt": "2026-05-13T14:00:00Z"
+    },
+    {
+      "title": "Meet the Sad Wives of AI",
+      "author": "Alessandra Ram",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+      "publishedAt": "2026-05-13T10:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Meet the Sad Wives of AI",
+      "author": "Alessandra Ram",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/"
+    },
+    {
+      "title": "WhatsApp Adds Meta AI Chats That Are Built to Be Fully Private",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/"
+    },
+    {
+      "title": "Notion just turned its workspace into a hub for AI agents | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
+    }
+  ]
+}
