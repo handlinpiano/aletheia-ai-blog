@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-05-19T15:15:07.551Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/",
+    "contentLength": 3914
+  },
+  "discoveredArticles": [
+    {
+      "title": "Googlebook Is Google's New AI-Powered Laptop Platform Built on Android",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/googlebook-laptop-platform/",
+      "publishedAt": "2026-05-12T17:00:00Z"
+    },
+    {
+      "title": "OnlyFans’ First-Gen Creators Are Retiring—and Some Are Begging You to Forget They Exist",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/onlyfans-creators-retiring-right-to-be-forgotten/",
+      "publishedAt": "2026-05-13T11:00:00Z"
+    },
+    {
+      "title": "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shakeup",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
+      "publishedAt": "2026-05-15T17:09:17Z"
+    },
+    {
+      "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/",
+      "publishedAt": "2026-05-13T18:08:33Z"
+    },
+    {
+      "title": "Natural sunscreen found in fish eggs can be made by E. coli factories",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2525693-natural-sunscreen-found-in-fish-eggs-can-be-made-by-e-coli-factories/",
+      "publishedAt": "2026-05-13T16:00:04Z"
+    },
+    {
+      "title": "Himalayan wolf-dog hybrids emerge as a threat to wolves and people",
+      "author": "Adam Popescu",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2526663-himalayan-wolf-dog-hybrids-emerge-as-a-threat-to-wolves-and-people/",
+      "publishedAt": "2026-05-16T08:00:50Z"
+    },
+    {
+      "title": "Submit Your Questions: AI Is Changing Your Job—Now What?",
+      "author": "Reece Rogers, Kate Knibbs, Sandra Upson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/livestream-ai-is-changing-your-job-now-what/",
+      "publishedAt": "2026-05-13T11:00:00Z"
+    },
+    {
+      "title": "The Top New Features in Google’s Android 17—and Gemini Intelligence—Coming This Summer",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/android-17-gemini-top-new-features/",
+      "publishedAt": "2026-05-12T17:00:00Z"
+    },
+    {
+      "title": "Mira Murati Wants Her AI to ‘Keep Humans in the Loop’",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/",
+      "publishedAt": "2026-05-15T09:00:00Z"
+    },
+    {
+      "title": "Anthropic's Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
+      "publishedAt": "2026-05-13T19:28:55Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/"
+    },
+    {
+      "title": "Mira Murati Wants Her AI to ‘Keep Humans in the Loop’",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/"
+    },
+    {
+      "title": "What happens when AI starts building itself? | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/"
+    }
+  ]
+}
