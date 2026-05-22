@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-05-22T15:10:53.057Z",
+  "totalDiscovered": 2,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "The future of robot armies is here – and it’s not what you think",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/2527125-the-future-of-robot-armies-is-here-and-its-not-what-you-think/",
+    "contentLength": 5343
+  },
+  "discoveredArticles": [
+    {
+      "title": "The future of robot armies is here – and it’s not what you think",
+      "author": "Annalee Newitz",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2527125-the-future-of-robot-armies-is-here-and-its-not-what-you-think/",
+      "publishedAt": "2026-05-19T09:00:42Z"
+    },
+    {
+      "title": "How to Make Apps and Websites Remove Your Nonconsensual Nudes",
+      "author": "Maddy Varner",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-remove-nudes-take-it-down-act/",
+      "publishedAt": "2026-05-19T09:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The future of robot armies is here – and it’s not what you think",
+      "author": "Annalee Newitz",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2527125-the-future-of-robot-armies-is-here-and-its-not-what-you-think/"
+    },
+    {
+      "title": "How to Make Apps and Websites Remove Your Nonconsensual Nudes",
+      "author": "Maddy Varner",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-remove-nudes-take-it-down-act/"
+    }
+  ]
+}
