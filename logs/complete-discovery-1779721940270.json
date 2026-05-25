@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-05-25T15:12:20.270Z",
+  "totalDiscovered": 50,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Gulf’s AI Boom Has an Undersea Cable Problem",
+    "author": "Chris Hamill-Stewart",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-gulfs-ai-boom-has-an-undersea-cable-problem/",
+    "contentLength": 4749
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Gulf’s AI Boom Has an Undersea Cable Problem",
+      "author": "Chris Hamill-Stewart",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-gulfs-ai-boom-has-an-undersea-cable-problem/",
+      "publishedAt": "2026-05-22T09:00:00Z"
+    },
+    {
+      "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
+      "publishedAt": "2026-05-19T22:53:04Z"
+    },
+    {
+      "title": "Meta Employees Are Scrambling to Use Up Benefits Ahead of Layoffs",
+      "author": "Paresh Dave, Lauren Goode, Zoë Schiffer",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
+      "publishedAt": "2026-05-19T19:00:46Z"
+    },
+    {
+      "title": "The EU Is Going Through a Trump-Fueled Breakup With Big Tech",
+      "author": "Matt Burgess, Vittoria Elliott",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/",
+      "publishedAt": "2026-05-21T06:00:00Z"
+    },
+    {
+      "title": "Elon Musk Loses Landmark Lawsuit Against OpenAI",
+      "author": "Paresh Dave, Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/musk-v-altman-jury-verdict/",
+      "publishedAt": "2026-05-18T17:40:30Z"
+    },
+    {
+      "title": "Why the 2026 Hurricane Season Might Not Be That Bad",
+      "author": "Brian Kahn",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/why-the-2026-hurricane-season-might-not-be-that-bad/",
+      "publishedAt": "2026-05-21T15:58:27Z"
+    },
+    {
+      "title": "Mathematicians stunned by AI's biggest breakthrough in mathematics yet",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2527564-mathematicians-stunned-by-ais-biggest-breakthrough-in-mathematics-yet/",
+      "publishedAt": "2026-05-21T16:13:12Z"
+    },
+    {
+      "title": "Google’s Response to OpenClaw’s 24/7 AI Agent",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/googles-response-to-openclaws-24-7-ai-agent/",
+      "publishedAt": "2026-05-19T17:45:00Z"
+    },
+    {
+      "title": "Google Makes It Easy to Deepfake Yourself",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-makes-it-easy-to-make-a-deepfake-of-yourself/",
+      "publishedAt": "2026-05-19T17:45:00Z"
+    },
+    {
+      "title": "Google Search Goes Agentic—and Doesn’t Need You Anymore",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-search-goes-agentic-and-doesnt-need-you-anymore/",
+      "publishedAt": "2026-05-19T17:45:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The Gulf’s AI Boom Has an Undersea Cable Problem",
+      "author": "Chris Hamill-Stewart",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-gulfs-ai-boom-has-an-undersea-cable-problem/"
+    },
+    {
+      "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/"
+    },
+    {
+      "title": "Meta Employees Are Scrambling to Use Up Benefits Ahead of Layoffs",
+      "author": "Paresh Dave, Lauren Goode, Zoë Schiffer",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/"
+    }
+  ]
+}
