@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-01T16:07:02.618Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "To Land a Job in AI, Try Reading Kant",
+    "author": "Joel Khalili",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/to-land-a-job-in-ai-try-reading-kant/",
+    "contentLength": 10029
+  },
+  "discoveredArticles": [
+    {
+      "title": "Do You Actually Need to Pay for Transcription Software?",
+      "author": "Justin Pot",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
+      "publishedAt": "2026-05-30T09:30:00Z"
+    },
+    {
+      "title": "So you've heard these AI terms and nodded along; let's fix that | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-05-29T18:51:14Z"
+    },
+    {
+      "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-of-truth-ai-interview/",
+      "publishedAt": "2026-05-29T16:30:00Z"
+    },
+    {
+      "title": "'The book is in the future, but everything is seeded from our present'",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528120-the-book-is-in-the-future-but-everything-is-seeded-from-our-present/",
+      "publishedAt": "2026-05-28T10:00:16Z"
+    },
+    {
+      "title": "Our verdict on Luminous by Silvia Park: a fascinating take on robots",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2527824-our-verdict-on-luminous-by-silvia-park-a-fascinating-take-on-robots/",
+      "publishedAt": "2026-05-27T18:00:03Z"
+    },
+    {
+      "title": "Start-ups are racing to revolutionise mathematics with AI",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528160-start-ups-are-racing-to-revolutionise-mathematics-with-ai/",
+      "publishedAt": "2026-05-28T13:00:09Z"
+    },
+    {
+      "title": "Why Paris may be the most important AI city outside Silicon Valley | TechCrunch",
+      "author": "Chris Pullam",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/why-paris-may-be-the-most-important-ai-city-outside-silicon-valley/",
+      "publishedAt": "2026-05-28T17:39:00Z"
+    },
+    {
+      "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "author": "Daniele Polidoro",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical/",
+      "publishedAt": "2026-05-26T20:46:03Z"
+    },
+    {
+      "title": "Horror video game gets its creepiness from a quantum computer",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528415-horror-video-game-gets-its-creepiness-from-a-quantum-computer/",
+      "publishedAt": "2026-05-29T13:00:58Z"
+    },
+    {
+      "title": "Huawei's ‘Chip Queen’ Throws Down the Gauntlet",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/huawei-chip-queen-moores-law-tau/",
+      "publishedAt": "2026-05-27T18:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Start-ups are racing to revolutionise mathematics with AI",
+      "author": "Alex Wilkins",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528160-start-ups-are-racing-to-revolutionise-mathematics-with-ai/"
+    },
+    {
+      "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
+      "author": "Daniele Polidoro",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical/"
+    },
+    {
+      "title": "To Land a Job in AI, Try Reading Kant",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/to-land-a-job-in-ai-try-reading-kant/"
+    }
+  ]
+}
