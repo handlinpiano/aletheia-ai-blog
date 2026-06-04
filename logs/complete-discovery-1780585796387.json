@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-04T15:09:56.387Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
+    "author": "Kate Knibbs",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/future-of-truth-ai-interview/",
+    "contentLength": 3763
+  },
+  "discoveredArticles": [
+    {
+      "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-of-truth-ai-interview/",
+      "publishedAt": "2026-05-29T16:30:00Z"
+    },
+    {
+      "title": "How human error became a weapon against large language models",
+      "author": "Max Moser",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528529-how-human-error-became-a-weapon-against-large-language-models/",
+      "publishedAt": "2026-06-01T16:00:31Z"
+    },
+    {
+      "title": "Anthropic Confidentially Files for What Could Be the Largest IPO Ever",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
+      "publishedAt": "2026-06-01T17:17:58Z"
+    },
+    {
+      "title": "Why Paris may be the most important AI city outside Silicon Valley | TechCrunch",
+      "author": "Chris Pullam",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/why-paris-may-be-the-most-important-ai-city-outside-silicon-valley/",
+      "publishedAt": "2026-05-28T17:39:00Z"
+    },
+    {
+      "title": "Anthropic files to go public | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "publishedAt": "2026-06-01T16:36:55Z"
+    },
+    {
+      "title": "How Europe’s AI strategy diverges from Silicon Valley’s | TechCrunch",
+      "author": "Chris Pullam",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/how-europes-ai-strategy-diverges-from-silicon-valleys/",
+      "publishedAt": "2026-06-02T15:05:00Z"
+    },
+    {
+      "title": "So you've heard these AI terms and nodded along; let's fix that | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-05-29T18:51:14Z"
+    },
+    {
+      "title": "Amazon Is Making an AI-Animated ‘Good Advice Cupcake’ TV Show. Its Original Creator Is Furious",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/",
+      "publishedAt": "2026-05-29T20:56:59Z"
+    },
+    {
+      "title": "Atom-based quantum computers are catching up in the race to usefulness",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528922-atom-based-quantum-computers-are-catching-up-in-the-race-to-usefulness/",
+      "publishedAt": "2026-06-03T15:00:00Z"
+    },
+    {
+      "title": "Horror video game gets its creepiness from a quantum computer",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528415-horror-video-game-gets-its-creepiness-from-a-quantum-computer/",
+      "publishedAt": "2026-05-29T13:00:58Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "We Asked the ‘Future of Truth’ Author to Explain How He Used AI. It Didn’t Go Well",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/future-of-truth-ai-interview/"
+    },
+    {
+      "title": "How human error became a weapon against large language models",
+      "author": "Max Moser",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528529-how-human-error-became-a-weapon-against-large-language-models/"
+    },
+    {
+      "title": "Atom-based quantum computers are catching up in the race to usefulness",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2528922-atom-based-quantum-computers-are-catching-up-in-the-race-to-usefulness/"
+    }
+  ]
+}
