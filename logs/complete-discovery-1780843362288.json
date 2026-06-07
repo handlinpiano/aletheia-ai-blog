@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-06-07T14:42:42.288Z",
+  "totalDiscovered": 6,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
+    "contentLength": 4581
+  },
+  "discoveredArticles": [
+    {
+      "title": "Focused Energy raises whopping $240M Series A for laser-powered fusion tech | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/focused-energy-raises-whopping-240m-series-a-for-laser-powered-fusion-tech/",
+      "publishedAt": "2026-06-02T17:03:05Z"
+    },
+    {
+      "title": "Pacific Fusion's latest prototype packs 440 gigawatts into an 80-nanosecond burst",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/pacific-fusions-latest-prototype-packs-440-gigawatts-into-an-80-nanosecond-burst/",
+      "publishedAt": "2026-06-02T11:02:42Z"
+    },
+    {
+      "title": "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
+      "publishedAt": "2026-06-04T18:55:33Z"
+    },
+    {
+      "title": "The world’s largest privately owned laser just turned on | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/the-worlds-largest-privately-owned-laser-just-turned-on/",
+      "publishedAt": "2026-06-03T10:04:04Z"
+    },
+    {
+      "title": "Zigging when most are zagging, ex-Meta CTO raises $250M climate fund | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/01/zigging-when-most-are-zagging-ex-meta-cto-raises-250m-climate-fund/",
+      "publishedAt": "2026-06-01T16:43:54Z"
+    },
+    {
+      "title": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
+      "publishedAt": "2026-06-04T01:01:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/"
+    },
+    {
+      "title": "Zigging when most are zagging, ex-Meta CTO raises $250M climate fund | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/01/zigging-when-most-are-zagging-ex-meta-cto-raises-250m-climate-fund/"
+    },
+    {
+      "title": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/"
+    }
+  ]
+}
