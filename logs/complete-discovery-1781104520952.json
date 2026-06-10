@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-10T15:15:20.952Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Humanoid Robot of the Future Is a 6-Foot-Tall Beefcake With a Chinese Body and an American Brain",
+    "author": "Will Knight",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/",
+    "contentLength": 4652
+  },
+  "discoveredArticles": [
+    {
+      "title": "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
+      "publishedAt": "2026-06-04T18:55:33Z"
+    },
+    {
+      "title": "The Humanoid Robot of the Future Is a 6-Foot-Tall Beefcake With a Chinese Body and an American Brain",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/",
+      "publishedAt": "2026-06-03T18:00:00Z"
+    },
+    {
+      "title": "Is Silicon Valley ready to put robots in people's homes? Hello Robot is. | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "publishedAt": "2026-06-04T15:07:36Z"
+    },
+    {
+      "title": "Apple’s iPhone Camera App Is Getting an AI Upgrade in iOS 27",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apples-iphone-camera-app-is-getting-an-ai-upgrade-in-ios-27/",
+      "publishedAt": "2026-06-08T18:40:32Z"
+    },
+    {
+      "title": "Amazon Employees Show Up to City Council Meeting to Demand Limits on Data Centers",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-employees-publicly-demand-regulations-on-data-centers/",
+      "publishedAt": "2026-06-03T18:07:11Z"
+    },
+    {
+      "title": "Apple’s Photos app is getting new AI editing features",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+      "publishedAt": "2026-06-08T18:36:04Z"
+    },
+    {
+      "title": "Apple’s New Siri AI Is Ready to Get Personal",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
+      "publishedAt": "2026-06-08T18:17:44Z"
+    },
+    {
+      "title": "Momfluencers Are Pitching AI as a Better ‘Coparent’ Than Men",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/",
+      "publishedAt": "2026-06-08T10:30:00Z"
+    },
+    {
+      "title": "Apple plays catch-up at WWDC | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "publishedAt": "2026-06-08T21:15:42Z"
+    },
+    {
+      "title": "AI Has Come for Serif Fonts",
+      "author": "John Semley",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-has-come-for-serif-fonts/",
+      "publishedAt": "2026-06-05T09:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/"
+    },
+    {
+      "title": "The Humanoid Robot of the Future Is a 6-Foot-Tall Beefcake With a Chinese Body and an American Brain",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/"
+    },
+    {
+      "title": "Is Silicon Valley ready to put robots in people's homes? Hello Robot is. | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/"
+    }
+  ]
+}
