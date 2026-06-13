@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-13T14:50:12.029Z",
+  "totalDiscovered": 15,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Momfluencers Are Pitching AI as a Better ‘Coparent’ Than Men",
+    "author": "Ej Dickson",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/",
+    "contentLength": 8406
+  },
+  "discoveredArticles": [
+    {
+      "title": "Apple’s iPhone Camera App Is Getting an AI Upgrade in iOS 27",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apples-iphone-camera-app-is-getting-an-ai-upgrade-in-ios-27/",
+      "publishedAt": "2026-06-08T18:40:32Z"
+    },
+    {
+      "title": "Apple’s Photos app is getting new AI editing features",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+      "publishedAt": "2026-06-08T18:36:04Z"
+    },
+    {
+      "title": "Apple’s Camera Chief Thinks AI Can Give You Superpowers",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/",
+      "publishedAt": "2026-06-12T01:00:00Z"
+    },
+    {
+      "title": "Apple’s New Siri AI Is Ready to Get Personal",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
+      "publishedAt": "2026-06-08T18:17:44Z"
+    },
+    {
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "author": "Morgan Little, Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "publishedAt": "2026-06-09T18:04:24Z"
+    },
+    {
+      "title": "Momfluencers Are Pitching AI as a Better ‘Coparent’ Than Men",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/",
+      "publishedAt": "2026-06-08T10:30:00Z"
+    },
+    {
+      "title": "Grok Is Still Hosting Sexualized Deepfakes of Famous Women",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/grok-is-still-hosting-sexualized-deepfakes-of-famous-women/",
+      "publishedAt": "2026-06-11T19:41:01Z"
+    },
+    {
+      "title": "Why enterprise AI will be a major focus at VivaTech 2026 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/why-enterprise-ai-will-be-a-major-focus-at-vivatech-2026/",
+      "publishedAt": "2026-06-10T15:17:40Z"
+    },
+    {
+      "title": "Apple plays catch-up at WWDC | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "publishedAt": "2026-06-08T21:15:42Z"
+    },
+    {
+      "title": "SpaceX officially prices shares at $135 in the largest IPO ever | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
+      "publishedAt": "2026-06-11T20:35:04Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Apple’s Camera Chief Thinks AI Can Give You Superpowers",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/"
+    },
+    {
+      "title": "Apple’s New Siri AI Is Ready to Get Personal",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/"
+    },
+    {
+      "title": "Momfluencers Are Pitching AI as a Better ‘Coparent’ Than Men",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/"
+    }
+  ]
+}
