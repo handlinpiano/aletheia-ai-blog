@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-16T15:46:52.060Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "As AI agents become employees, NewCore emerges with $66M to give them identities",
+    "author": "Jagmeet Singh",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+    "contentLength": 4822
+  },
+  "discoveredArticles": [
+    {
+      "title": "Avalanche's desktop fusion reactor delivers blistering-hot plasma | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/avalanches-desktop-fusion-reactor-delivers-blistering-hot-plasma/",
+      "publishedAt": "2026-06-10T12:17:38Z"
+    },
+    {
+      "title": "Endurance Energy raises $54M to harness a massive untapped energy source | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/endurance-energy-raises-54m-to-harness-a-massive-untapped-energy-source/",
+      "publishedAt": "2026-06-11T14:03:47Z"
+    },
+    {
+      "title": "Robots are about to overtake armed soldiers as the deciders of war",
+      "author": "David Hambling",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2529267-robots-are-about-to-overtake-armed-soldiers-as-the-deciders-of-war/",
+      "publishedAt": "2026-06-10T06:00:55Z"
+    },
+    {
+      "title": "Theker just raised $85M to build the factory robot that doesn't specialize in anything | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+      "publishedAt": "2026-06-12T01:49:41Z"
+    },
+    {
+      "title": "Quantum computer quickly mines cryptocurrency while using less energy",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2529973-quantum-computer-quickly-mines-cryptocurrency-while-using-less-energy/",
+      "publishedAt": "2026-06-12T12:00:40Z"
+    },
+    {
+      "title": "The relationship recession is even bigger for Gen Z than we thought",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/",
+      "publishedAt": "2026-06-12T17:00:59Z"
+    },
+    {
+      "title": "A Waymo nearly hit me, but I'm still optimistic about driverless cars",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2529338-a-waymo-nearly-hit-me-but-im-still-optimistic-about-driverless-cars/",
+      "publishedAt": "2026-06-10T10:37:43Z"
+    },
+    {
+      "title": "Welcome to the Waymo World Cup",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/welcome-to-the-waymo-world-cup/",
+      "publishedAt": "2026-06-11T10:30:00Z"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "publishedAt": "2026-06-14T03:00:00Z"
+    },
+    {
+      "title": "Warner Music acquires AI attribution startup Sureel AI | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+      "publishedAt": "2026-06-10T14:32:46Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Robots are about to overtake armed soldiers as the deciders of war",
+      "author": "David Hambling",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2529267-robots-are-about-to-overtake-armed-soldiers-as-the-deciders-of-war/"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/"
+    },
+    {
+      "title": "As AI agents become employees, NewCore emerges with $66M to give them identities | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/"
+    }
+  ]
+}
