@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-19T15:09:33.595Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "As Anthropic suspends access to new models, India debates its AI future",
+    "author": "Jagmeet Singh",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+    "contentLength": 8562
+  },
+  "discoveredArticles": [
+    {
+      "title": "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/spacex-alum-nabs-22m-to-turn-rocket-engines-into-geothermal-power-plants/",
+      "publishedAt": "2026-06-17T13:33:43Z"
+    },
+    {
+      "title": "Leak Exposes Members of Peter Thiel’s Secretive ‘Dialog’ Society",
+      "author": "Dell Cameron, Yulia Almazova",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/leak-exposes-members-of-peter-thiels-secretive-dialog-society/",
+      "publishedAt": "2026-06-16T20:21:57Z"
+    },
+    {
+      "title": "New Scientist recommends an excellent look at the future of work",
+      "author": "Tom Knowles",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036000-200-new-scientist-recommends-an-excellent-look-at-the-future-of-work/",
+      "publishedAt": "2026-06-17T18:00:00Z"
+    },
+    {
+      "title": "The relationship recession is even bigger for Gen Z than we thought",
+      "author": "Carissa Wong",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/",
+      "publishedAt": "2026-06-12T17:00:59Z"
+    },
+    {
+      "title": "Silicon Valley’s Elite Financial Advisers Say This Era of Wealth Is Different",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/silicon-valleys-elite-financial-advisers-say-this-era-of-wealth-is-different/",
+      "publishedAt": "2026-06-18T15:00:00Z"
+    },
+    {
+      "title": "15 Best Office Chairs of 2026— We Tested 70 to Pick Them",
+      "author": "Julian Chokkattu, Matthew Korfhage",
+      "source": "Wired",
+      "url": "https://www.wired.com/gallery/best-office-chairs-no-button-2/",
+      "publishedAt": "2026-06-16T11:03:00Z"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "publishedAt": "2026-06-14T03:00:00Z"
+    },
+    {
+      "title": "Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+      "publishedAt": "2026-06-17T15:03:43Z"
+    },
+    {
+      "title": "Only 16 percent of Americans think AI will have a positive impact on society, a new study shows | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "publishedAt": "2026-06-17T17:01:27Z"
+    },
+    {
+      "title": "Pinterest launches an experimental AI shopping app called 'Ask Pinterest' | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "publishedAt": "2026-06-17T11:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "New Scientist recommends an excellent look at the future of work",
+      "author": "Tom Knowles",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036000-200-new-scientist-recommends-an-excellent-look-at-the-future-of-work/"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/"
+    },
+    {
+      "title": "As AI agents become employees, NewCore emerges with $66M to give them identities | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/"
+    }
+  ]
+}
