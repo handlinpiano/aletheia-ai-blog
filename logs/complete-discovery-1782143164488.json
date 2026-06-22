@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-22T15:46:04.488Z",
+  "totalDiscovered": 51,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible",
+    "author": "Hugo Lowell",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/",
+    "contentLength": 3788
+  },
+  "discoveredArticles": [
+    {
+      "title": "The White House Is Making Up Its Rules for AI in Real Time",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/",
+      "publishedAt": "2026-06-18T21:03:43Z"
+    },
+    {
+      "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
+      "author": "Louise Matsakis, Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+      "publishedAt": "2026-06-17T22:52:00Z"
+    },
+    {
+      "title": "Leak Exposes Members of Peter Thiel’s Secretive ‘Dialog’ Society",
+      "author": "Dell Cameron, Yulia Almazova",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/leak-exposes-members-of-peter-thiels-secretive-dialog-society/",
+      "publishedAt": "2026-06-16T20:21:57Z"
+    },
+    {
+      "title": "Anthropic Is Still at Odds With the White House Over Claude Fable 5",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/",
+      "publishedAt": "2026-06-16T00:53:46Z"
+    },
+    {
+      "title": "The Best Art TVs",
+      "author": "John Brandon",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-art-tvs/",
+      "publishedAt": "2026-06-19T11:00:00Z"
+    },
+    {
+      "title": "You Can Finally Buy Snap’s New AR Specs—for $2,150",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/snaps-new-ar-specs-cost-2150/",
+      "publishedAt": "2026-06-16T16:50:00Z"
+    },
+    {
+      "title": "The Best Fitness Trackers of 2026: Garmin, Google Fitbit, and More",
+      "author": "Boutayna Chokrane",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-fitness-trackers/",
+      "publishedAt": "2026-06-19T10:01:00Z"
+    },
+    {
+      "title": "Verizon Simplicity, Verizon Shine, and Verizon Dollars: What You Need to Know",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/verizon-simplicity-plan/",
+      "publishedAt": "2026-06-16T15:06:22Z"
+    },
+    {
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "publishedAt": "2026-06-21T14:40:28Z"
+    },
+    {
+      "title": "New Scientist recommends an excellent look at the future of work",
+      "author": "Tom Knowles",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036000-200-new-scientist-recommends-an-excellent-look-at-the-future-of-work/",
+      "publishedAt": "2026-06-17T18:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "New Scientist recommends an excellent look at the future of work",
+      "author": "Tom Knowles",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036000-200-new-scientist-recommends-an-excellent-look-at-the-future-of-work/"
+    },
+    {
+      "title": "The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible",
+      "author": "Hugo Lowell",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/"
+    },
+    {
+      "title": "Prediction Market Philosophers Got What They Wanted. They’re Not Happy About It",
+      "author": "Brian Kahn",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/prediction-market-philosophers-got-what-they-wanted/"
+    }
+  ]
+}
