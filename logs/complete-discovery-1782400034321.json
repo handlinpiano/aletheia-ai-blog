@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-25T15:07:14.321Z",
+  "totalDiscovered": 47,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The White House Is Making Up Its Rules for AI in Real Time",
+    "author": "Maxwell Zeff",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/",
+    "contentLength": 6489
+  },
+  "discoveredArticles": [
+    {
+      "title": "The White House Is Making Up Its Rules for AI in Real Time",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/",
+      "publishedAt": "2026-06-18T21:03:43Z"
+    },
+    {
+      "title": "The Samsung 990 Pro SSD Is on Sale for the Lowest Price You’re Likely to See This Year.",
+      "author": "Scott Gilbertson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-best-prime-day-deal-on-memory-2026/",
+      "publishedAt": "2026-06-24T14:07:04Z"
+    },
+    {
+      "title": "Prime Day Means Apple Deals on iPad, iPhone Cases, MagSafe Accessories, and More",
+      "author": "Louryn Strampe",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-prime-day-apple-deals-2026/",
+      "publishedAt": "2026-06-23T08:57:27Z"
+    },
+    {
+      "title": "The Best Art TVs",
+      "author": "John Brandon",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-art-tvs/",
+      "publishedAt": "2026-06-19T11:00:00Z"
+    },
+    {
+      "title": "The Best Fitness Trackers of 2026: Garmin, Google Fitbit, and More",
+      "author": "Boutayna Chokrane",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-fitness-trackers/",
+      "publishedAt": "2026-06-19T10:01:00Z"
+    },
+    {
+      "title": "Best Prime Day Fitness Tech Deals (2026)",
+      "author": "Boutayna Chokrane",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-prime-day-fitness-deals-2026/",
+      "publishedAt": "2026-06-23T09:32:14Z"
+    },
+    {
+      "title": "People training new AI models admit they just get chatbots to do it",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/",
+      "publishedAt": "2026-06-22T10:57:59Z"
+    },
+    {
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "publishedAt": "2026-06-21T14:40:28Z"
+    },
+    {
+      "title": "Every new iOS 27 feature that’s worth knowing about",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/",
+      "publishedAt": "2026-06-20T15:00:00Z"
+    },
+    {
+      "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/",
+      "publishedAt": "2026-06-24T12:36:07Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The White House Is Making Up Its Rules for AI in Real Time",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/"
+    },
+    {
+      "title": "People training new AI models admit they just get chatbots to do it",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/"
+    },
+    {
+      "title": "OpenAI Launches Full-Scale Effort to Patch Open Source Bugs as It Takes on Anthropic’s Mythos",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/"
+    }
+  ]
+}
