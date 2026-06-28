@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-28T14:42:44.507Z",
+  "totalDiscovered": 33,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "3 People Have Gotten Cancer-Detecting Implants in Their Brains",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/three-people-have-gotten-cancer-detecting-brain-implants/",
+    "contentLength": 4173
+  },
+  "discoveredArticles": [
+    {
+      "title": "Hold the onions – and see if they make you cry",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036012-700-hold-the-onions-and-see-if-they-make-you-cry/",
+      "publishedAt": "2026-06-24T18:00:00Z"
+    },
+    {
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the U.S. | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "publishedAt": "2026-06-26T18:20:40Z"
+    },
+    {
+      "title": "How to invest when everything is moving too fast | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/23/how-to-invest-when-everything-is-moving-too-fast/",
+      "publishedAt": "2026-06-24T06:26:11Z"
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "publishedAt": "2026-06-27T12:00:00Z"
+    },
+    {
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "publishedAt": "2026-06-25T23:34:39Z"
+    },
+    {
+      "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "publishedAt": "2026-06-23T13:00:00Z"
+    },
+    {
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "publishedAt": "2026-06-23T01:28:50Z"
+    },
+    {
+      "title": "TechCrunch Mobility: A new robotaxi scorecard shows China's dominance | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance/",
+      "publishedAt": "2026-06-21T16:06:15Z"
+    },
+    {
+      "title": "A24 Knows You’re Mad About the Google AI Collab",
+      "author": "John Semley",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/",
+      "publishedAt": "2026-06-24T21:05:51Z"
+    },
+    {
+      "title": "3 People Have Gotten Cancer-Detecting Implants in Their Brains",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/three-people-have-gotten-cancer-detecting-brain-implants/",
+      "publishedAt": "2026-06-23T09:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "3 People Have Gotten Cancer-Detecting Implants in Their Brains",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/three-people-have-gotten-cancer-detecting-brain-implants/"
+    },
+    {
+      "title": "People training new AI models admit they just get chatbots to do it",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2531050-people-training-new-ai-models-admit-they-just-get-chatbots-to-do-it/"
+    },
+    {
+      "title": "‘Fusogenic’ neurosurgery let paralysed pigs walk again – are we next?",
+      "author": null,
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2531428-fusogenic-neurosurgery-let-paralysed-pigs-walk-again-are-we-next/"
+    }
+  ]
+}
