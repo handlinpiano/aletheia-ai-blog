@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-01T15:11:47.133Z",
+  "totalDiscovered": 12,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Hold the onions – and see if they make you cry",
+    "author": "By",
+    "publication": "Newscientist",
+    "url": "https://www.newscientist.com/article/mg27036012-700-hold-the-onions-and-see-if-they-make-you-cry/",
+    "contentLength": 5784
+  },
+  "discoveredArticles": [
+    {
+      "title": "Hold the onions – and see if they make you cry",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036012-700-hold-the-onions-and-see-if-they-make-you-cry/",
+      "publishedAt": "2026-06-24T18:00:00Z"
+    },
+    {
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the U.S. | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "publishedAt": "2026-06-26T18:20:40Z"
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "publishedAt": "2026-06-27T12:00:00Z"
+    },
+    {
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "publishedAt": "2026-06-25T23:34:39Z"
+    },
+    {
+      "title": "A24 Knows You’re Mad About the Google AI Collab",
+      "author": "John Semley",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/",
+      "publishedAt": "2026-06-24T21:05:51Z"
+    },
+    {
+      "title": "US government wants to have a useful quantum computer by 2028",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532173-us-government-wants-to-have-a-useful-quantum-computer-by-2028/",
+      "publishedAt": "2026-06-29T18:00:11Z"
+    },
+    {
+      "title": "Can video games help us better understand quantum mechanics?",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532015-can-video-games-help-us-better-understand-quantum-mechanics/",
+      "publishedAt": "2026-06-26T09:00:02Z"
+    },
+    {
+      "title": "Remote-controlled cockroach swarm can now breathe underwater",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2531894-remote-controlled-cockroach-swarm-can-now-breathe-underwater/",
+      "publishedAt": "2026-06-29T10:00:23Z"
+    },
+    {
+      "title": "General Intuition's $2.3B bet that video games can train AI agents for the real world | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "publishedAt": "2026-06-25T16:55:50Z"
+    },
+    {
+      "title": "From Fortnite to robots: General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "publishedAt": "2026-06-25T16:01:33Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Hold the onions – and see if they make you cry",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/mg27036012-700-hold-the-onions-and-see-if-they-make-you-cry/"
+    },
+    {
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the U.S. | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/"
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on | TechCrunch",
+      "author": "Kate Park",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
+    }
+  ]
+}
