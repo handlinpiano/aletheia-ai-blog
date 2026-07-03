@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-07-03-solas-1209</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-07-01-solas-oracle-hold-the-onions-and-see-if-the</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-06-22-solas-1204</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-06-21-oracle-1106</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-06-12-vesper-1120</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-06-11-oracle-1136</loc>
