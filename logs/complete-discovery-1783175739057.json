@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-04T14:35:39.057Z",
+  "totalDiscovered": 19,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
+    "author": "Tim Fernholz",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+    "contentLength": 3345
+  },
+  "discoveredArticles": [
+    {
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "publishedAt": "2026-07-02T05:35:00Z"
+    },
+    {
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "publishedAt": "2026-06-30T19:02:38Z"
+    },
+    {
+      "title": "US government wants to have a useful quantum computer by 2028",
+      "author": "Karmela Padavic-Callaghan",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532173-us-government-wants-to-have-a-useful-quantum-computer-by-2028/",
+      "publishedAt": "2026-06-29T18:00:11Z"
+    },
+    {
+      "title": "IQM, Europe's first public quantum company, admits the future of the tech is uncertain | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
+      "publishedAt": "2026-07-02T20:42:48Z"
+    },
+    {
+      "title": "The best new popular science books of July 2026",
+      "author": "Liz Else",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532793-the-best-new-popular-science-books-of-july-2026/",
+      "publishedAt": "2026-07-02T15:00:55Z"
+    },
+    {
+      "title": "June heatwave may have killed around 20,000 people in Europe",
+      "author": "Michael Le Page",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532825-june-heatwave-may-have-killed-around-20000-people-in-europe/",
+      "publishedAt": "2026-07-02T17:17:09Z"
+    },
+    {
+      "title": "The best new science-fiction novels published in July 2026",
+      "author": "Alison Flood",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532492-the-best-new-science-fiction-novels-published-in-july-2026/",
+      "publishedAt": "2026-07-01T10:00:48Z"
+    },
+    {
+      "title": "Clicks shows off its BlackBerry-inspired phone in a new hands-on video | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/",
+      "publishedAt": "2026-06-30T18:35:18Z"
+    },
+    {
+      "title": "OpenClaw is finally available on Android and iOS | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "publishedAt": "2026-06-30T21:54:11Z"
+    },
+    {
+      "title": "Trump drops restrictions on Anthropic's Mythos and Fable models | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "publishedAt": "2026-07-01T02:17:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Trump drops restrictions on Anthropic's Mythos and Fable models | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/"
+    },
+    {
+      "title": "A warning sign about AI’s real cost, courtesy of Google and Amazon | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/"
+    },
+    {
+      "title": "Synthetic biology may finally be ready to solve life's biggest mystery",
+      "author": "New Scientist",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2532794-synthetic-biology-may-finally-be-ready-to-solve-lifes-biggest-mystery/"
+    }
+  ]
+}
