@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-07T16:36:11.061Z",
+  "totalDiscovered": 25,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+    "author": "Anthony Ha",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+    "contentLength": 2889
+  },
+  "discoveredArticles": [
+    {
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "publishedAt": "2026-07-02T05:35:00Z"
+    },
+    {
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "publishedAt": "2026-06-30T19:02:38Z"
+    },
+    {
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "publishedAt": "2026-07-04T18:00:05Z"
+    },
+    {
+      "title": "The browser wars aren't about search anymore — here are the best alternatives to Chrome and Safari | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "publishedAt": "2026-07-03T18:43:38Z"
+    },
+    {
+      "title": "The only AI glossary you'll need this year | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-07-03T21:21:01Z"
+    },
+    {
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "publishedAt": "2026-07-06T15:08:46Z"
+    },
+    {
+      "title": "Almost 90 new unicorns have been minted so far this year — here they are | TechCrunch",
+      "author": "Dominic-madori Davis",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "publishedAt": "2026-07-05T12:48:45Z"
+    },
+    {
+      "title": "Realta Fusion generates electricity directly from a fusion reaction, an apparent first | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
+      "publishedAt": "2026-06-30T19:13:59Z"
+    },
+    {
+      "title": "WhatsApp usernames are already raising impersonation red flags | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/whatsapp-usernames-are-already-raising-impersonation-red-flags/",
+      "publishedAt": "2026-07-01T22:03:43Z"
+    },
+    {
+      "title": "Submit Your Questions: Inside The World of Online Romance Scams",
+      "author": "Kate Knibbs, Carlos Barragán",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
+      "publishedAt": "2026-07-04T15:26:55Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/"
+    },
+    {
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/"
+    },
+    {
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+    }
+  ]
+}
