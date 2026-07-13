@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-13T16:40:00.267Z",
+  "totalDiscovered": 18,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
+    "author": "Miles Klee",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
+    "contentLength": 8575
+  },
+  "discoveredArticles": [
+    {
+      "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
+      "publishedAt": "2026-07-10T10:30:00Z"
+    },
+    {
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "publishedAt": "2026-07-11T14:14:07Z"
+    },
+    {
+      "title": "Google Photos adds a new AI 'Video Remix' tool | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "publishedAt": "2026-07-08T18:34:04Z"
+    },
+    {
+      "title": "Google will now disclose which ads are made with AI | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "publishedAt": "2026-07-09T18:40:51Z"
+    },
+    {
+      "title": "How to stop Meta’s AI image generator from using your Instagram photos | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "publishedAt": "2026-07-09T17:58:00Z"
+    },
+    {
+      "title": "You can now customize Siri's pace and expressivity in the latest iOS 27 beta | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "publishedAt": "2026-07-06T19:02:55Z"
+    },
+    {
+      "title": "Savi's app aims to protect consumers from realistic AI scams like kidnappers demanding ransom | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+      "publishedAt": "2026-07-07T12:02:21Z"
+    },
+    {
+      "title": "If you use Google, you're training its AI. Here's how to opt out. | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "publishedAt": "2026-07-06T17:06:15Z"
+    },
+    {
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "publishedAt": "2026-07-09T19:05:58Z"
+    },
+    {
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "publishedAt": "2026-07-06T18:35:04Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/"
+    },
+    {
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
+    },
+    {
+      "title": "Google Photos adds a new AI 'Video Remix' tool | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/"
+    }
+  ]
+}
