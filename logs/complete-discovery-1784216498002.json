@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-16T15:41:38.002Z",
+  "totalDiscovered": 16,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT",
+    "author": "Sarah Ciston",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/",
+    "contentLength": 14787
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT",
+      "author": "Sarah Ciston, David M. Berry, Anthony C. Hay, Mark C. Marino, Peter Millican, Jeff Shrager, Arthur I. Schwarz, Peggy Weil",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/",
+      "publishedAt": "2026-07-14T10:00:00Z"
+    },
+    {
+      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "publishedAt": "2026-07-15T15:29:33Z"
+    },
+    {
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "publishedAt": "2026-07-11T14:14:07Z"
+    },
+    {
+      "title": "Google will now disclose which ads are made with AI | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "publishedAt": "2026-07-09T18:40:51Z"
+    },
+    {
+      "title": "How to stop Meta’s AI image generator from using your Instagram photos | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "publishedAt": "2026-07-09T17:58:00Z"
+    },
+    {
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "publishedAt": "2026-07-09T19:05:58Z"
+    },
+    {
+      "title": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+      "publishedAt": "2026-07-12T10:00:00Z"
+    },
+    {
+      "title": "Here’s How Apple Is Updating Its Child Safety Features in iOS 27",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apple-child-safety-ios-27/",
+      "publishedAt": "2026-07-12T10:30:00Z"
+    },
+    {
+      "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+      "publishedAt": "2026-07-15T12:00:00Z"
+    },
+    {
+      "title": "Mathematicians put AI to work on Fermat's last theorem",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2533518-mathematicians-put-ai-to-work-on-fermats-last-theorem/",
+      "publishedAt": "2026-07-10T12:00:18Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT",
+      "author": "Sarah Ciston, David M. Berry, Anthony C. Hay, Mark C. Marino, Peter Millican, Jeff Shrager, Arthur I. Schwarz, Peggy Weil",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/"
+    },
+    {
+      "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/"
+    },
+    {
+      "title": "Mathematicians put AI to work on Fermat's last theorem",
+      "author": "Matthew Sparkes",
+      "source": "New Scientist",
+      "url": "https://www.newscientist.com/article/2533518-mathematicians-put-ai-to-work-on-fermats-last-theorem/"
+    }
+  ]
+}
