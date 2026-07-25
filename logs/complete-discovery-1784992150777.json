@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-25T15:09:10.777Z",
+  "totalDiscovered": 47,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Army Is Burning Through Its AI Tokens",
+    "author": "Vittoria Elliott",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/",
+    "contentLength": 4042
+  },
+  "discoveredArticles": [
+    {
+      "title": "Silicon Valley Is Completely Divided Over Chinese AI",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
+      "publishedAt": "2026-07-24T15:00:00Z"
+    },
+    {
+      "title": "The Army Is Burning Through Its AI Tokens",
+      "author": "Vittoria Elliott",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/",
+      "publishedAt": "2026-07-21T09:30:00Z"
+    },
+    {
+      "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/",
+      "publishedAt": "2026-07-21T09:00:00Z"
+    },
+    {
+      "title": "Meta’s New Feel-Good AI Ad Uses a Song About the World Ending",
+      "author": "Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually/",
+      "publishedAt": "2026-07-23T18:45:52Z"
+    },
+    {
+      "title": "Remember Jibo? Its Successor Is a Wearable That Turns Your Life Into AI Slop",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-beloved-jibo-robot-is-being-resurrected-as-an-ai-wearable/",
+      "publishedAt": "2026-07-23T09:15:00Z"
+    },
+    {
+      "title": "Apple teams up with Klarna to launch a lease-to-own program for iPhones, iPads, and Macs",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/21/apple-teams-up-with-klarna-to-launch-a-lease-to-own-program-for-iphones-ipads-and-macs/",
+      "publishedAt": "2026-07-21T18:18:43Z"
+    },
+    {
+      "title": "China’s Open AI Models Are Challenging Silicon Valley’s Playbook",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/",
+      "publishedAt": "2026-07-22T19:01:38Z"
+    },
+    {
+      "title": "The White House Is Trying to Figure Out What to Do About Chinese AI",
+      "author": "Hugo Lowell",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-white-house-is-trying-to-figure-out-what-to-do-about-chinese-ai/",
+      "publishedAt": "2026-07-22T21:00:00Z"
+    },
+    {
+      "title": "The ACLU Is Arming Lawyers to Expose State Surveillance Secrets",
+      "author": "Dell Cameron",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-aclu-is-arming-lawyers-to-expose-state-surveillance-secrets/",
+      "publishedAt": "2026-07-20T10:00:00Z"
+    },
+    {
+      "title": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
+      "publishedAt": "2026-07-21T19:05:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Silicon Valley Is Completely Divided Over Chinese AI",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/"
+    },
+    {
+      "title": "The Army Is Burning Through Its AI Tokens",
+      "author": "Vittoria Elliott",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/"
+    },
+    {
+      "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/"
+    }
+  ]
+}
