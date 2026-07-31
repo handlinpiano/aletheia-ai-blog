@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-07-31T16:05:05.150Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+    "contentLength": 3750
+  },
+  "discoveredArticles": [
+    {
+      "title": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume | TechCrunch",
+      "author": "Marina Temkin",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "publishedAt": "2026-07-27T13:01:18Z"
+    },
+    {
+      "title": "Fusion power darling Commonwealth Fusion Systems raises another $1B | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/",
+      "publishedAt": "2026-07-30T15:19:10Z"
+    },
+    {
+      "title": "Thea Energy lands $20M federal grant to build its magnets for fusion reactors | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/",
+      "publishedAt": "2026-07-27T20:42:01Z"
+    },
+    {
+      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026  | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-07-27T15:30:00Z"
+    },
+    {
+      "title": "When will fusion power startup Commonwealth Fusion Systems go public? | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/",
+      "publishedAt": "2026-07-30T15:45:36Z"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come  | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "publishedAt": "2026-07-30T14:02:05Z"
+    },
+    {
+      "title": "I Got a Free Meal From a Private Chef—Who Filmed It All to Train Robots",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+      "publishedAt": "2026-07-30T09:00:00Z"
+    },
+    {
+      "title": "Measles Is Becoming So Common That Treatments May Soon Be Needed",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/measles-treatments-soon-needed/",
+      "publishedAt": "2026-07-27T09:30:00Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Uber bets on its former CEO | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/26/techcrunch-mobility-uber-bets-on-its-former-ceo/",
+      "publishedAt": "2026-07-26T16:04:02Z"
+    },
+    {
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "publishedAt": "2026-07-27T15:01:50Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "I Got a Free Meal From a Private Chef—Who Filmed It All to Train Robots",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/"
+    },
+    {
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+    },
+    {
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+    }
+  ]
+}
