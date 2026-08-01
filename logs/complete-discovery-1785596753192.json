@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-08-01T15:05:53.192Z",
+  "totalDiscovered": 24,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AI Scammers Are Better at Building Trust Than Humans",
+    "author": "Andy Greenberg",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+    "contentLength": 12074
+  },
+  "discoveredArticles": [
+    {
+      "title": "OpenAI’s Hacking Debacle Was a Human Mistake",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/",
+      "publishedAt": "2026-07-30T10:30:00Z"
+    },
+    {
+      "title": "Apple stockpiles inventory as it braces for ‘significant supply constraints’",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/",
+      "publishedAt": "2026-07-30T23:28:05Z"
+    },
+    {
+      "title": "LinkedIn Won’t Be Expanding Its Data Centers in the Next Year",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat/",
+      "publishedAt": "2026-07-30T10:15:00Z"
+    },
+    {
+      "title": "Google's AI search is rapidly becoming the default, new data shows | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+      "publishedAt": "2026-07-27T15:57:35Z"
+    },
+    {
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "publishedAt": "2026-07-27T15:01:50Z"
+    },
+    {
+      "title": "Are brain waves the next unlock for physical AI? | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+      "publishedAt": "2026-07-27T00:19:14Z"
+    },
+    {
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "publishedAt": "2026-07-26T01:32:06Z"
+    },
+    {
+      "title": "Hugging Face Has a Deepfake Nudes Problem",
+      "author": "Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
+      "publishedAt": "2026-07-28T05:30:00Z"
+    },
+    {
+      "title": "Private Claude Chats Exposed in Google and Bing Search Results",
+      "author": "Maddy Varner",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
+      "publishedAt": "2026-07-27T20:08:00Z"
+    },
+    {
+      "title": "AI Scammers Are Better at Building Trust Than Humans",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+      "publishedAt": "2026-07-30T09:30:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+    },
+    {
+      "title": "Are brain waves the next unlock for physical AI? | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/"
+    },
+    {
+      "title": "AI Scammers Are Better at Building Trust Than Humans",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/"
+    }
+  ]
+}
