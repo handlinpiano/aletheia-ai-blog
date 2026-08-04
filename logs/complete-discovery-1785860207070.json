@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-08-04T16:16:47.069Z",
+  "totalDiscovered": 8,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "I Got a Free Meal From a Private Chef—Who Filmed It All to Train Robots",
+    "author": "Reece Rogers",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+    "contentLength": 6168
+  },
+  "discoveredArticles": [
+    {
+      "title": "A Leaked Memo Ties Cyberattacks on Minnesota Water Utilities to Iran",
+      "author": "Andy Greenberg",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-leaked-memo-ties-cyberattacks-on-minnesota-water-utilities-to-iran/",
+      "publishedAt": "2026-07-30T21:20:00Z"
+    },
+    {
+      "title": "Fusion power darling Commonwealth Fusion Systems raises another $1B | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/",
+      "publishedAt": "2026-07-30T15:19:10Z"
+    },
+    {
+      "title": "When will fusion power startup Commonwealth Fusion Systems go public? | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/",
+      "publishedAt": "2026-07-30T15:45:36Z"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come  | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "publishedAt": "2026-07-30T14:02:05Z"
+    },
+    {
+      "title": "I Got a Free Meal From a Private Chef—Who Filmed It All to Train Robots",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+      "publishedAt": "2026-07-30T09:00:00Z"
+    },
+    {
+      "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+      "publishedAt": "2026-07-29T21:07:48Z"
+    },
+    {
+      "title": "Zuckerberg says Meta's enterprise AI opportunity extends beyond agents | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+      "publishedAt": "2026-07-29T22:23:49Z"
+    },
+    {
+      "title": "Uber is building an autonomous vehicle empire, and here's every company it's using to do it | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
+      "publishedAt": "2026-08-01T15:08:32Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "I Got a Free Meal From a Private Chef—Who Filmed It All to Train Robots",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/"
+    },
+    {
+      "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/"
+    },
+    {
+      "title": "Uber is building an autonomous vehicle empire, and here's every company it's using to do it | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/"
+    }
+  ]
+}
