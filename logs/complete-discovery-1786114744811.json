@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-08-07T14:59:04.811Z",
+  "totalDiscovered": 17,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+    "author": "Lily Hay Newman",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+    "contentLength": 7032
+  },
+  "discoveredArticles": [
+    {
+      "title": "AI Influencers Are Heading Into Uncharted Territory",
+      "author": "Megan Carnegie",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/",
+      "publishedAt": "2026-08-05T00:00:00Z"
+    },
+    {
+      "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
+      "author": "Dexter Thomas",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer/",
+      "publishedAt": "2026-08-03T22:27:46Z"
+    },
+    {
+      "title": "The AI Notetaker Has Been Invited to All the Meetings",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+      "publishedAt": "2026-08-05T07:00:00Z"
+    },
+    {
+      "title": "India is starting to pay for apps, not just download them | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "publishedAt": "2026-07-31T21:07:45Z"
+    },
+    {
+      "title": "Omilia raises $67M to scale its customer support platform | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+      "publishedAt": "2026-08-06T12:00:00Z"
+    },
+    {
+      "title": "Spotify adds Merlin to its AI music remix and covers effort | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+      "publishedAt": "2026-08-04T15:51:11Z"
+    },
+    {
+      "title": "‘Everyone Is Doing It’: The Truth About AI in Hollywood",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-matthew-belloni-puck/",
+      "publishedAt": "2026-08-04T10:30:00Z"
+    },
+    {
+      "title": "Uber is building an autonomous vehicle empire, and here's every company it's using to do it | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
+      "publishedAt": "2026-08-01T15:08:32Z"
+    },
+    {
+      "title": "Is This Poker Player Bluffing? The AI Thinks So",
+      "author": "Ben Dowsett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/",
+      "publishedAt": "2026-08-04T11:00:00Z"
+    },
+    {
+      "title": "OK, Well, There Are Even More AI Agent Hacking Incidents",
+      "author": "Paresh Dave, Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/",
+      "publishedAt": "2026-08-04T23:11:31Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Is This Poker Player Bluffing? The AI Thinks So",
+      "author": "Ben Dowsett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/"
+    },
+    {
+      "title": "OK, Well, There Are Even More AI Agent Hacking Incidents",
+      "author": "Paresh Dave, Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/"
+    },
+    {
+      "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/"
+    }
+  ]
+}
