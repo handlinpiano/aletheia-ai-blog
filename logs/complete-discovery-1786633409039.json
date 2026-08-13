@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-08-13T15:03:29.039Z",
+  "totalDiscovered": 13,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AI Is Dead. Organoids Are Alive",
+    "author": "Claire L. Evans",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
+    "contentLength": 25953
+  },
+  "discoveredArticles": [
+    {
+      "title": "McDonald’s Built a 515-Page Dossier on Me. It Says I’ll Never Stop Eating There",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
+      "publishedAt": "2026-08-12T10:15:00Z"
+    },
+    {
+      "title": "The AI Slop Backlash Is Actually Having an Impact",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
+      "publishedAt": "2026-08-10T11:30:00Z"
+    },
+    {
+      "title": "Why Normal People Aren’t Using AI Agents",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
+      "publishedAt": "2026-08-06T19:55:45Z"
+    },
+    {
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "publishedAt": "2026-08-10T12:02:11Z"
+    },
+    {
+      "title": "What comes after the smartphone? Amazon's Panos Panay will make his case at TechCrunch Disrupt 2026  | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/11/what-comes-after-the-smartphone-amazons-panos-panay-will-make-his-case-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-08-11T12:31:23Z"
+    },
+    {
+      "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+      "publishedAt": "2026-08-12T10:30:00Z"
+    },
+    {
+      "title": "Big Tech Wants to Harvest Your Thoughts",
+      "author": "James Crawford",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/book-excerpt-the-vanishing-earth-james-crawford-brain-mining/",
+      "publishedAt": "2026-08-12T10:00:00Z"
+    },
+    {
+      "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+      "publishedAt": "2026-08-11T12:37:12Z"
+    },
+    {
+      "title": "The AI safety test is becoming a safety risk | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "publishedAt": "2026-08-09T14:30:00Z"
+    },
+    {
+      "title": "The founder's guide to TechCrunch Disrupt 2026: Everything you need to know | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "publishedAt": "2026-08-07T12:34:47Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Big Tech Wants to Harvest Your Thoughts",
+      "author": "James Crawford",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/book-excerpt-the-vanishing-earth-james-crawford-brain-mining/"
+    },
+    {
+      "title": "The AI safety test is becoming a safety risk | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
+    },
+    {
+      "title": "AI Is Dead. Organoids Are Alive",
+      "author": "Claire L. Evans",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/"
+    }
+  ]
+}
