@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-08-16T14:28:35.364Z",
+  "totalDiscovered": 15,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+    "contentLength": 8490
+  },
+  "discoveredArticles": [
+    {
+      "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+      "publishedAt": "2026-08-15T09:00:00Z"
+    },
+    {
+      "title": "McDonald’s Built a 515-Page Dossier on Me. It Says I’ll Never Stop Eating There",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
+      "publishedAt": "2026-08-12T10:15:00Z"
+    },
+    {
+      "title": "The AI Slop Backlash Is Actually Having an Impact",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
+      "publishedAt": "2026-08-10T11:30:00Z"
+    },
+    {
+      "title": "Amazon will train on Twitch streamers' content by default, unless they opt out | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "publishedAt": "2026-08-12T20:10:40Z"
+    },
+    {
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "publishedAt": "2026-08-10T12:02:11Z"
+    },
+    {
+      "title": "What comes after the smartphone? Amazon's Panos Panay will make his case at TechCrunch Disrupt 2026  | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/11/what-comes-after-the-smartphone-amazons-panos-panay-will-make-his-case-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-08-11T12:31:23Z"
+    },
+    {
+      "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+      "publishedAt": "2026-08-12T10:30:00Z"
+    },
+    {
+      "title": "Kyoto Fusioneering starts work on key fusion power plant device",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/11/kyoto-fusioneering-starts-work-on-key-fusion-power-plant-device/",
+      "publishedAt": "2026-08-11T15:00:00Z"
+    },
+    {
+      "title": "Every fusion startup that has raised over $100M | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+      "publishedAt": "2026-08-15T13:17:04Z"
+    },
+    {
+      "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
+      "author": "Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+      "publishedAt": "2026-08-11T12:37:12Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
+      "author": "Kate Knibbs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
+    },
+    {
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war. | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+    },
+    {
+      "title": "The AI safety test is becoming a safety risk | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
+    }
+  ]
+}
