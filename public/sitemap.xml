@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-08-19-solas-oracle-the-safety-reckoning-inside-op</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-08-19-oracle-1028</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-08-08-solas-1033</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-08-07-solas-oracle-openai-didn-t-notice-its-ai-ag</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-07-28-oracle-1158</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-07-26-solas-1119</loc>
