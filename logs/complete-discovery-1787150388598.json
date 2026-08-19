@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-08-19T14:39:48.598Z",
+  "totalDiscovered": 14,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Safety Reckoning Inside OpenAI",
+    "author": "Maxwell Zeff",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+    "contentLength": 4209
+  },
+  "discoveredArticles": [
+    {
+      "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+      "publishedAt": "2026-08-15T09:00:00Z"
+    },
+    {
+      "title": "Amazon will train on Twitch streamers' content by default, unless they opt out | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "publishedAt": "2026-08-12T20:10:40Z"
+    },
+    {
+      "title": "Perplexity’s free AI offer left it with millions more users in India | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+      "publishedAt": "2026-08-18T13:49:48Z"
+    },
+    {
+      "title": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
+      "publishedAt": "2026-08-14T20:59:03Z"
+    },
+    {
+      "title": "New York City Lawmakers Push to ‘Ban the Scan’ at MSG",
+      "author": "Kate Taylor",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg/",
+      "publishedAt": "2026-08-14T21:43:17Z"
+    },
+    {
+      "title": "The Safety Reckoning Inside OpenAI",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+      "publishedAt": "2026-08-13T22:37:19Z"
+    },
+    {
+      "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/",
+      "publishedAt": "2026-08-17T20:18:17Z"
+    },
+    {
+      "title": "Northrop's robot space mechanic is a new way to keep satellites at work longer | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
+      "publishedAt": "2026-08-12T20:53:41Z"
+    },
+    {
+      "title": "Kog is going deeper to squeeze more inference out of GPUs | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "publishedAt": "2026-08-14T14:52:26Z"
+    },
+    {
+      "title": "Nvidia's new $500B plan is risky but brilliant, especially for aging GPUs | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "publishedAt": "2026-08-13T15:08:21Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+      "author": "Fernanda González",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
+    },
+    {
+      "title": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
+      "author": "Zeyi Yang",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/"
+    },
+    {
+      "title": "The Safety Reckoning Inside OpenAI",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/"
+    }
+  ]
+}
