@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-08-22T14:27:17.809Z",
+  "totalDiscovered": 2,
+  "totalSelected": 2,
+  "finalArticle": {
+    "title": "Astronomers Discover the Existence of a Black Hole Star",
+    "author": "Jorge Garay",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
+    "contentLength": 2838
+  },
+  "discoveredArticles": [
+    {
+      "title": "Astronomers Discover the Existence of a Black Hole Star",
+      "author": "Jorge Garay",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
+      "publishedAt": "2026-08-16T11:00:00Z"
+    },
+    {
+      "title": "AI automation startup Relay shuts down, staff joins Google's Chrome team | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "publishedAt": "2026-08-17T21:27:05Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Astronomers Discover the Existence of a Black Hole Star",
+      "author": "Jorge Garay",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/"
+    },
+    {
+      "title": "AI automation startup Relay shuts down, staff joins Google's Chrome team | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+    }
+  ]
+}
