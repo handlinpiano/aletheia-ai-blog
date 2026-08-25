@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-08-25T14:52:37.357Z",
+  "totalDiscovered": 3,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Michael Polansky is training an AI model on skin that’s still alive",
+    "author": "Connie Loizos",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+    "contentLength": 14137
+  },
+  "discoveredArticles": [
+    {
+      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+      "publishedAt": "2026-08-20T16:04:30Z"
+    },
+    {
+      "title": "AI isn't close to curing cancer. This startup says it knows what it will take. | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+      "publishedAt": "2026-08-19T12:03:52Z"
+    },
+    {
+      "title": "Michael Polansky is training an AI model on skin that’s still alive | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+      "publishedAt": "2026-08-22T01:31:04Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/"
+    },
+    {
+      "title": "AI isn't close to curing cancer. This startup says it knows what it will take. | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/"
+    },
+    {
+      "title": "Michael Polansky is training an AI model on skin that’s still alive | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/"
+    }
+  ]
+}
