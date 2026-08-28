@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-08-28T23:30:57.316Z",
+  "totalDiscovered": 46,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "contentLength": 10576
+  },
+  "discoveredArticles": [
+    {
+      "title": "OpenAI’s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+      "author": "Maxwell Zeff, Lily Hay Newman",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+      "publishedAt": "2026-08-26T19:16:42Z"
+    },
+    {
+      "title": "AI Slop Is Ruining Cute Animals on the Internet",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/",
+      "publishedAt": "2026-08-26T11:00:00Z"
+    },
+    {
+      "title": "The UK Power Grid Has a Phantom Data Center Problem",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
+      "publishedAt": "2026-08-27T06:00:00Z"
+    },
+    {
+      "title": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
+      "publishedAt": "2026-08-26T18:15:00Z"
+    },
+    {
+      "title": "Democrats Just Might Win the Senate",
+      "author": "Hugo Lowell",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/democrats-just-might-win-the-senate/",
+      "publishedAt": "2026-08-26T21:00:00Z"
+    },
+    {
+      "title": "‘Darth Vader’ Wants You to Know He Definitely Supports Flock Surveillance",
+      "author": "Vittoria Elliott",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/darth-vader-wants-you-to-know-he-definitely-supports-flock-surveillance/",
+      "publishedAt": "2026-08-25T21:51:32Z"
+    },
+    {
+      "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "publishedAt": "2026-08-25T14:10:36Z"
+    },
+    {
+      "title": "Apple’s latest Mac Mini runs on a new M6 chip, and starts at $899",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
+      "publishedAt": "2026-08-25T13:55:06Z"
+    },
+    {
+      "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
+      "publishedAt": "2026-08-27T16:52:42Z"
+    },
+    {
+      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
+      "publishedAt": "2026-08-27T18:06:52Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
+      "author": "Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/"
+    },
+    {
+      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/"
+    },
+    {
+      "title": "Frontier AI labs still won't say how they'd contain a rogue model | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/"
+    }
+  ]
+}
