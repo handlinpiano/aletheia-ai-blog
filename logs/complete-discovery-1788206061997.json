@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-08-31T19:54:21.997Z",
+  "totalDiscovered": 3,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "How to Run a Chatbot on Your Own Computer",
+    "author": "David Nield",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/how-to-run-your-own-local-llm/",
+    "contentLength": 5856
+  },
+  "discoveredArticles": [
+    {
+      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+      "publishedAt": "2026-08-26T11:02:55Z"
+    },
+    {
+      "title": "\"We're not doing 30 bets a year\": Vijay Pande on betting small after running $4 billion at a16z | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "publishedAt": "2026-08-29T17:39:39Z"
+    },
+    {
+      "title": "How to Run a Chatbot on Your Own Computer",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-run-your-own-local-llm/",
+      "publishedAt": "2026-08-29T10:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/"
+    },
+    {
+      "title": "\"We're not doing 30 bets a year\": Vijay Pande on betting small after running $4 billion at a16z | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
+    },
+    {
+      "title": "How to Run a Chatbot on Your Own Computer",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-to-run-your-own-local-llm/"
+    }
+  ]
+}
