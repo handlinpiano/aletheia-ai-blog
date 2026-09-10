@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-09-10T17:38:02.956Z",
+  "totalDiscovered": 11,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Gen AI Tools Are Now Being Used to Push ‘Slop Jihad’",
+    "author": "David Gilbert",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/",
+    "contentLength": 6027
+  },
+  "discoveredArticles": [
+    {
+      "title": "Gen AI Tools Are Now Being Used to Push ‘Slop Jihad’",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/",
+      "publishedAt": "2026-09-08T10:00:00Z"
+    },
+    {
+      "title": "My Brief Summer Fling With Siri AI",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+      "publishedAt": "2026-09-06T10:30:00Z"
+    },
+    {
+      "title": "The sameness problem behind those unappetizing AI-generated menus | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "publishedAt": "2026-09-04T04:21:03Z"
+    },
+    {
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "publishedAt": "2026-09-05T22:51:53Z"
+    },
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know | TechCrunch",
+      "author": "Natasha Lomas",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-09-07T19:24:00Z"
+    },
+    {
+      "title": "The Exploration Company nabs $450 million to challenge SpaceX | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/",
+      "publishedAt": "2026-09-08T20:48:50Z"
+    },
+    {
+      "title": "Japan Is Launching a Probe to Collect the First-Ever Samples From a Martian Moon",
+      "author": "Ritsuko Kawai",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/",
+      "publishedAt": "2026-09-04T12:00:00Z"
+    },
+    {
+      "title": "What we expect from the upcoming Apple launch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+      "publishedAt": "2026-09-07T15:58:00Z"
+    },
+    {
+      "title": "Meta Releases Muse, a Personal AI Agent With Privacy ‘Built Into It’",
+      "author": "Lily Hay Newman, Maxwell Zeff",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+      "publishedAt": "2026-09-08T20:12:51Z"
+    },
+    {
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it? | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "publishedAt": "2026-09-08T19:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Gen AI Tools Are Now Being Used to Push ‘Slop Jihad’",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/"
+    },
+    {
+      "title": "My Brief Summer Fling With Siri AI",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/"
+    },
+    {
+      "title": "The sameness problem behind those unappetizing AI-generated menus | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/"
+    }
+  ]
+}
