@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-09-16T18:02:42.794Z",
+  "totalDiscovered": 15,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
+    "author": "Miles Klee",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/",
+    "contentLength": 8121
+  },
+  "discoveredArticles": [
+    {
+      "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/",
+      "publishedAt": "2026-09-15T18:00:09Z"
+    },
+    {
+      "title": "Everything New You Can Do With Siri AI",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
+      "publishedAt": "2026-09-10T10:30:00Z"
+    },
+    {
+      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round | TechCrunch",
+      "author": "Dominic-madori Davis",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+      "publishedAt": "2026-09-15T15:37:09Z"
+    },
+    {
+      "title": "A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/",
+      "publishedAt": "2026-09-14T13:55:00Z"
+    },
+    {
+      "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
+      "publishedAt": "2026-09-15T14:42:37Z"
+    },
+    {
+      "title": "Salesforce and Nvidia's new reasoning model is everything the AI labs should fear | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+      "publishedAt": "2026-09-15T12:55:03Z"
+    },
+    {
+      "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+      "publishedAt": "2026-09-14T18:09:10Z"
+    },
+    {
+      "title": "India's Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+      "publishedAt": "2026-09-10T18:28:53Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Lyft has entered the robotaxi chat | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/13/techcrunch-mobility-lyft-has-entered-the-robotaxi-chat/",
+      "publishedAt": "2026-09-13T16:05:45Z"
+    },
+    {
+      "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+      "author": "Dhruv Mehrotra",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+      "publishedAt": "2026-09-11T18:59:25Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/"
+    },
+    {
+      "title": "Everything New You Can Do With Siri AI",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/"
+    },
+    {
+      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round | TechCrunch",
+      "author": "Dominic-madori Davis",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+    }
+  ]
+}
