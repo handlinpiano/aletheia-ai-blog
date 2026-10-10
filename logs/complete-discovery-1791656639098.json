@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-10-10T18:23:59.098Z",
+  "totalDiscovered": 10,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "A New Neurotech Startup Launches to Rival Sam Altman’s Merge Labs",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/",
+    "contentLength": 5214
+  },
+  "discoveredArticles": [
+    {
+      "title": "A New Neurotech Startup Launches to Rival Sam Altman’s Merge Labs",
+      "author": "WIRED",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/",
+      "publishedAt": "2026-10-06T15:00:00Z"
+    },
+    {
+      "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+      "publishedAt": "2026-10-06T10:30:00Z"
+    },
+    {
+      "title": "LibreOffice says 'no AI' is now a software feature | TechCrunch",
+      "author": "Zack Whittaker",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "publishedAt": "2026-10-06T16:03:55Z"
+    },
+    {
+      "title": "Type One Energy raised $200M to build a fusion power plant by 2034 | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/",
+      "publishedAt": "2026-10-06T12:01:37Z"
+    },
+    {
+      "title": "SpaceX alumni nab $100M to rethink shipping with autonomous freight trains | TechCrunch",
+      "author": "Tim De Chant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
+      "publishedAt": "2026-10-07T15:00:00Z"
+    },
+    {
+      "title": "TechCrunch Mobility: Reining in robotaxis | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+      "publishedAt": "2026-10-04T16:08:49Z"
+    },
+    {
+      "title": "The full lineup of interactive roundtables at Disrupt 2026 | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-10-07T14:15:34Z"
+    },
+    {
+      "title": "Xona's commercial GPS alternative is about to go live | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
+      "publishedAt": "2026-10-09T12:03:55Z"
+    },
+    {
+      "title": "The full Disrupt 2026 breakout session agenda revealed | TechCrunch",
+      "author": "Techcrunch Events",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+      "publishedAt": "2026-10-06T14:04:47Z"
+    },
+    {
+      "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can't Miss | TechCrunch",
+      "author": "Jean Bradley",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
+      "publishedAt": "2026-10-09T14:43:43Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A New Neurotech Startup Launches to Rival Sam Altman’s Merge Labs",
+      "author": "WIRED",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/"
+    },
+    {
+      "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/"
+    },
+    {
+      "title": "LibreOffice says 'no AI' is now a software feature | TechCrunch",
+      "author": "Zack Whittaker",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/"
+    }
+  ]
+}
