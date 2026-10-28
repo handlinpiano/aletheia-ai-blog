@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-10-28T19:24:55.708Z",
+  "totalDiscovered": 6,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+    "author": "Brian Barrett",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+    "contentLength": 4592
+  },
+  "discoveredArticles": [
+    {
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "publishedAt": "2026-10-27T15:10:26Z"
+    },
+    {
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "author": "Kate Taylor",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "publishedAt": "2026-10-27T11:00:00Z"
+    },
+    {
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "author": "Molly Taft",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "publishedAt": "2026-10-25T10:00:00Z"
+    },
+    {
+      "title": "The Anthropic IPO Is Also a Doomsday Primer",
+      "author": "Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "publishedAt": "2026-10-26T16:01:55Z"
+    },
+    {
+      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+      "publishedAt": "2026-10-27T09:30:00Z"
+    },
+    {
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "author": "Lily Hay Newman, Matt Burgess",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "publishedAt": "2026-10-24T12:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/"
+    },
+    {
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "author": "Kate Taylor",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/"
+    },
+    {
+      "title": "The Anthropic IPO Is Also a Doomsday Primer",
+      "author": "Brian Barrett",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/"
+    }
+  ]
+}
