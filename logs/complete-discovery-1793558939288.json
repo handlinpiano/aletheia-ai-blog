@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-11-01T18:48:59.288Z",
+  "totalDiscovered": 5,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Please Let the Internet Die",
+    "author": "Miles Klee",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/let-the-internet-die/",
+    "contentLength": 10576
+  },
+  "discoveredArticles": [
+    {
+      "title": "Please Let the Internet Die",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/let-the-internet-die/",
+      "publishedAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "publishedAt": "2026-10-27T15:10:26Z"
+    },
+    {
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "author": "Kate Taylor",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "publishedAt": "2026-10-27T11:00:00Z"
+    },
+    {
+      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
+      "author": "Luke Larsen",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
+      "publishedAt": "2026-10-28T22:54:16Z"
+    },
+    {
+      "title": "Pornhub Stars Want to Teach You How to Make Dinner",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+      "publishedAt": "2026-10-28T10:45:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Please Let the Internet Die",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/let-the-internet-die/"
+    },
+    {
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/"
+    },
+    {
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "author": "Kate Taylor",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/"
+    }
+  ]
+}
