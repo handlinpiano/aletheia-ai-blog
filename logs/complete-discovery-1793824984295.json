@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-11-04T20:43:04.295Z",
+  "totalDiscovered": 10,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+    "author": "Amanda Silberling",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+    "contentLength": 4853
+  },
+  "discoveredArticles": [
+    {
+      "title": "Here's Why You Shouldn't Use AI to Vote",
+      "author": "David Gilbert",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "publishedAt": "2026-11-03T14:45:08Z"
+    },
+    {
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "author": "Christine Peterson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "publishedAt": "2026-11-01T10:30:00Z"
+    },
+    {
+      "title": "Best Dyson Vacuum Deals (2026): Dyson Spot+Scrub Ai, Dyson V16 Piston Animal",
+      "author": "Nena Farrell",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/dyson-vacuum-deals-nov-2026/",
+      "publishedAt": "2026-11-02T21:00:00Z"
+    },
+    {
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "publishedAt": "2026-11-01T22:10:45Z"
+    },
+    {
+      "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "publishedAt": "2026-10-29T14:00:00Z"
+    },
+    {
+      "title": "The Platform Behind the Next AI Breakthrough",
+      "author": "The Microsoft Azure Team",
+      "source": "Wired",
+      "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
+      "publishedAt": "2026-11-02T20:52:22Z"
+    },
+    {
+      "title": "Apple’s inventory surges 154% as memory chip costs climb",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
+      "publishedAt": "2026-11-02T23:04:57Z"
+    },
+    {
+      "title": "You don't need to believe in a god to get a religious exemption from using AI at work | TechCrunch",
+      "author": "leebryant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "publishedAt": "2026-11-03T05:47:01Z"
+    },
+    {
+      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
+      "author": "Luke Larsen",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
+      "publishedAt": "2026-10-28T22:54:16Z"
+    },
+    {
+      "title": "Y Combinator's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "publishedAt": "2026-11-03T00:42:10Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "You don't need to believe in a god to get a religious exemption from using AI at work | TechCrunch",
+      "author": "leebryant",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
+    },
+    {
+      "title": "Y Combinator's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens | TechCrunch",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
+    },
+    {
+      "title": "The Platform Behind the Next AI Breakthrough",
+      "author": "The Microsoft Azure Team",
+      "source": "Wired",
+      "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/"
+    }
+  ]
+}
