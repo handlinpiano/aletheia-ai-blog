@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-11-07T18:35:14.087Z",
+  "totalDiscovered": 9,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Physicl raises $10M to make the digital world real enough for robots",
+    "author": "Tim Fernholz",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+    "contentLength": 4754
+  },
+  "discoveredArticles": [
+    {
+      "title": "The Hollywood Color Nerd Who Shot ‘Knives Out’ Explains His Viral iPhone Camera App",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app/",
+      "publishedAt": "2026-11-01T12:00:00Z"
+    },
+    {
+      "title": "Want to Sign With a Hollywood Agent? Start Making Fun of AI",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/comedians-making-fun-of-ai/",
+      "publishedAt": "2026-11-02T11:30:00Z"
+    },
+    {
+      "title": "Motorola Wants to Sell You a $1,600 Phone That Doesn’t Fold",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/motorola-wants-to-sell-you-a-1600-phone-that-doesnt-fold/",
+      "publishedAt": "2026-11-05T13:00:00Z"
+    },
+    {
+      "title": "Physicl raises $10M to make the digital world real enough for robots | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "publishedAt": "2026-11-06T13:02:33Z"
+    },
+    {
+      "title": "Airbnb says it's launching an AI travel agent in the first half of 2027 | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "publishedAt": "2026-11-05T22:41:25Z"
+    },
+    {
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "publishedAt": "2026-11-05T14:03:34Z"
+    },
+    {
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying? | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "publishedAt": "2026-11-05T12:02:09Z"
+    },
+    {
+      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
+      "author": "David Nield",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+      "publishedAt": "2026-11-02T12:00:00Z"
+    },
+    {
+      "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
+      "publishedAt": "2026-11-05T16:26:57Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Physicl raises $10M to make the digital world real enough for robots | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
+    },
+    {
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/"
+    },
+    {
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying? | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+    }
+  ]
+}
