@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-11-10T20:45:02.638Z",
+  "totalDiscovered": 4,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "‘Blade Runner 2099’ Shows the ‘Silver Linings’ of a Replicant Takeover",
+    "author": "Angela Watercutter",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/",
+    "contentLength": 3147
+  },
+  "discoveredArticles": [
+    {
+      "title": "‘Blade Runner 2099’ Shows the ‘Silver Linings’ of a Replicant Takeover",
+      "author": "Angela Watercutter",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/",
+      "publishedAt": "2026-11-04T20:24:14Z"
+    },
+    {
+      "title": "Meta's warns that election backlash against data centers could make AI expansion harder | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "publishedAt": "2026-11-05T19:13:28Z"
+    },
+    {
+      "title": "Axiom Math wants to keep AI slop out of mathematics | TechCrunch",
+      "author": "Aditya Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "publishedAt": "2026-11-05T16:27:24Z"
+    },
+    {
+      "title": "Can a Radar-Equipped AC Actually Cut Your Power Bill?",
+      "author": "Sophie Charara",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/can-a-radar-equipped-ac-actually-cut-your-power-bill/",
+      "publishedAt": "2026-11-06T11:00:00Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "‘Blade Runner 2099’ Shows the ‘Silver Linings’ of a Replicant Takeover",
+      "author": "Angela Watercutter",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/"
+    },
+    {
+      "title": "Meta's warns that election backlash against data centers could make AI expansion harder | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
+    },
+    {
+      "title": "Axiom Math wants to keep AI slop out of mathematics | TechCrunch",
+      "author": "Aditya Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/"
+    }
+  ]
+}
