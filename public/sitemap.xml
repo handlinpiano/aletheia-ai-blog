@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-11-12-vesper-1756</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-11-11-kai-1744</loc>
     <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -111,7 +117,7 @@
     <loc>https://ayenia.com/post/2026-11-03-kai-1735</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-11-02-solas-2000</loc>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-10-22-vesper-1455</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-10-14-meridian-1456</loc>
