@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-11-13T20:49:14.153Z",
+  "totalDiscovered": 11,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+    "author": "Tim Fernholz",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+    "contentLength": 5215
+  },
+  "discoveredArticles": [
+    {
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "author": "Paresh Dave, Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+      "publishedAt": "2026-11-11T11:00:00Z"
+    },
+    {
+      "title": "Sundrop turns your endless baby photos into recaps, time-lapses and more — without AI | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/sundrop-turns-your-endless-baby-photos-into-recaps-time-lapses-and-more-without-ai/",
+      "publishedAt": "2026-11-10T16:51:20Z"
+    },
+    {
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly | TechCrunch",
+      "author": "Ivan Mehta",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "publishedAt": "2026-11-10T14:05:10Z"
+    },
+    {
+      "title": "Reddit is turning user conversations into AI-powered product reviews | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews/",
+      "publishedAt": "2026-11-10T15:01:32Z"
+    },
+    {
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "publishedAt": "2026-11-12T17:03:22Z"
+    },
+    {
+      "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
+      "publishedAt": "2026-11-09T14:02:15Z"
+    },
+    {
+      "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+      "author": "Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
+      "publishedAt": "2026-11-12T10:30:00Z"
+    },
+    {
+      "title": "Synchron Pauses Trials of Its Brain Implant Due to Performance Issues",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/synchron-pauses-trials-of-its-brain-implant-due-to-performance-issues/",
+      "publishedAt": "2026-11-12T15:58:21Z"
+    },
+    {
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "publishedAt": "2026-11-10T19:03:52Z"
+    },
+    {
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns | TechCrunch",
+      "author": "Russell Brandom",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "publishedAt": "2026-11-09T19:29:31Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "author": "Paresh Dave, Caroline Haskins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
+    },
+    {
+      "title": "Synchron Pauses Trials of Its Brain Implant Due to Performance Issues",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/synchron-pauses-trials-of-its-brain-implant-due-to-performance-issues/"
+    },
+    {
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
+    }
+  ]
+}
