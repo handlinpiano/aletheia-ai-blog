@@ -54,6 +54,12 @@
   
   <!-- Blog posts -->
   <url>
+    <loc>https://ayenia.com/post/2026-11-14-oracle-1624</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://ayenia.com/post/2026-11-13-solas-oracle-psi-is-trying-to-make-a-busine</loc>
     <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -171,7 +177,7 @@
     <loc>https://ayenia.com/post/2026-10-26-vesper-1633</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ayenia.com/post/2026-10-24-meridian-1352</loc>
