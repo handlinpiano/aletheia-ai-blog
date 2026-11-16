@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-11-16T23:16:42.199Z",
+  "totalDiscovered": 12,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+    "author": "Lauren Goode",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+    "contentLength": 25803
+  },
+  "discoveredArticles": [
+    {
+      "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+      "publishedAt": "2026-11-12T18:05:41Z"
+    },
+    {
+      "title": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
+      "author": "Angela Watercutter",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/",
+      "publishedAt": "2026-11-13T11:00:00Z"
+    },
+    {
+      "title": "Here’s How Google Says It’s Making Its Smart Glasses More Private",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-google-is-making-its-smart-glasses-more-private/",
+      "publishedAt": "2026-11-12T14:00:00Z"
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn't make it | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "publishedAt": "2026-11-14T17:32:52Z"
+    },
+    {
+      "title": "The Grindr 1 Percent Is Getting Its Own Gated Community",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-grindr-1-percent-is-getting-its-own-gated-community/",
+      "publishedAt": "2026-11-10T12:00:00Z"
+    },
+    {
+      "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+      "author": "Will Knight",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+      "publishedAt": "2026-11-11T19:55:54Z"
+    },
+    {
+      "title": "With $720M round, Britain's Fractile gets a leg up in the race for AI chips | TechCrunch",
+      "author": "Anna Heim",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "publishedAt": "2026-11-11T19:39:26Z"
+    },
+    {
+      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement? | TechCrunch",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "publishedAt": "2026-11-12T15:39:25Z"
+    },
+    {
+      "title": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+      "publishedAt": "2026-11-15T18:29:14Z"
+    },
+    {
+      "title": "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO | TechCrunch",
+      "author": "Ram Iyer",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "publishedAt": "2026-11-12T14:10:34Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
+      "author": "Angela Watercutter",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/"
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn't make it | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
+    {
+      "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+      "author": "Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/"
+    }
+  ]
+}
