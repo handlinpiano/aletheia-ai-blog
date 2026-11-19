@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-11-19T22:02:51.397Z",
+  "totalDiscovered": 16,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "OpenAI will embed safety researchers to investigate AI subversion",
+    "author": "Rebecca Bellan",
+    "publication": "Techcrunch",
+    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "contentLength": 8549
+  },
+  "discoveredArticles": [
+    {
+      "title": "Tesla’s Cybercab Is the Subscription Hell They Told You Not to Worry About",
+      "author": "Aarian Marshall",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/tesla-cybercab-is-the-subscription-hell-they-told-you-not-to-worry-about/",
+      "publishedAt": "2026-11-17T10:15:00Z"
+    },
+    {
+      "title": "Congratulations to WIRED’s Class of 2026",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wired-yearbook-2026/",
+      "publishedAt": "2026-11-17T11:00:00Z"
+    },
+    {
+      "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+      "publishedAt": "2026-11-17T11:00:00Z"
+    },
+    {
+      "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
+      "publishedAt": "2026-11-16T19:26:55Z"
+    },
+    {
+      "title": "Exclusive: Germ DM Is a Signal Alternative That’s Now on Android",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/germ-dm-is-now-available-on-android/",
+      "publishedAt": "2026-11-18T11:00:00Z"
+    },
+    {
+      "title": "VSCO Is Gunning for Adobe Lightroom With Its New Desktop App",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/vsco-is-gunning-for-adobe-lightroom-with-its-new-desktop-app/",
+      "publishedAt": "2026-11-17T17:00:00Z"
+    },
+    {
+      "title": "AO3 Is Back. This Is Not a Drill",
+      "author": "Ej Dickson",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ao3-is-back-this-is-not-a-drill/",
+      "publishedAt": "2026-11-16T16:40:33Z"
+    },
+    {
+      "title": "Sam Altman warns against a future where AI, not humans, calls the shots | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+      "publishedAt": "2026-11-18T17:00:16Z"
+    },
+    {
+      "title": "OpenAI will embed Apollo researchers to investigate AI subversion | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "publishedAt": "2026-11-16T17:03:28Z"
+    },
+    {
+      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the 'Wolf of Wall Street' | TechCrunch",
+      "author": "Connie Loizos",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+      "publishedAt": "2026-11-16T17:15:32Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Sam Altman warns against a future where AI, not humans, calls the shots | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+    },
+    {
+      "title": "OpenAI will embed Apollo researchers to investigate AI subversion | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+    },
+    {
+      "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/"
+    }
+  ]
+}
