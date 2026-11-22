@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-11-22T20:38:28.431Z",
+  "totalDiscovered": 32,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+    "author": "Joel Khalili",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+    "contentLength": 9034
+  },
+  "discoveredArticles": [
+    {
+      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "publishedAt": "2026-11-19T12:00:00Z"
+    },
+    {
+      "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
+      "author": "Isabella Ward",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+      "publishedAt": "2026-11-17T10:47:45Z"
+    },
+    {
+      "title": "How a Bunch of YouTube Auteurs Are Reinventing Hollywood",
+      "author": "Miles Klee",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/wired-yearbook-2026-youtube-directors/",
+      "publishedAt": "2026-11-17T11:00:00Z"
+    },
+    {
+      "title": "VSCO Is Gunning for Adobe Lightroom With Its New Desktop App",
+      "author": "Julian Chokkattu",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/vsco-is-gunning-for-adobe-lightroom-with-its-new-desktop-app/",
+      "publishedAt": "2026-11-17T17:00:00Z"
+    },
+    {
+      "title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
+      "author": "Paresh Dave, Lauren Goode",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+      "publishedAt": "2026-11-18T17:33:07Z"
+    },
+    {
+      "title": "‘Grand Theft Auto 6’ Is a Perfect Game. Rushing Through It Would Be a Mistake",
+      "author": "Boone Ashworth",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gta-vi-is-finally-out-dont-rush-it/",
+      "publishedAt": "2026-11-20T10:15:00Z"
+    },
+    {
+      "title": "Instagram's new tool for creators targets unauthorized reposts and AI-modified videos | TechCrunch",
+      "author": "Aisha Malik",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
+      "publishedAt": "2026-11-17T15:00:00Z"
+    },
+    {
+      "title": "Google to keep Gemini chats for two months, up from 72 hours, even with history off | TechCrunch",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "publishedAt": "2026-11-17T18:49:27Z"
+    },
+    {
+      "title": "Genesis AI raises $500 million to deploy glove-wearing robots | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+      "publishedAt": "2026-11-17T14:04:45Z"
+    },
+    {
+      "title": "Anthropic's IPO puts AI's circular financing boom to the test | TechCrunch",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "publishedAt": "2026-11-19T14:54:39Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+      "author": "Paresh Dave",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/"
+    },
+    {
+      "title": "Genesis AI raises $500 million to deploy glove-wearing robots | TechCrunch",
+      "author": "Tim Fernholz",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
+    },
+    {
+      "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+      "author": "Joel Khalili",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/"
+    }
+  ]
+}
