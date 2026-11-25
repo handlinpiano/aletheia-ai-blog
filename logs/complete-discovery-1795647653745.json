@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-11-25T23:00:53.745Z",
+  "totalDiscovered": 24,
+  "totalSelected": 3,
+  "finalArticle": {
+    "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+    "author": "Emily Mullin",
+    "publication": "Wired",
+    "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+    "contentLength": 4350
+  },
+  "discoveredArticles": [
+    {
+      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "publishedAt": "2026-11-23T13:11:48Z"
+    },
+    {
+      "title": "Gig Work Is Invading Nursing Homes. The Risks Can Be Deadly",
+      "author": "Varsha Bansal, Maddy Varner",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/shiftkey-gig-nursing/",
+      "publishedAt": "2026-11-19T10:00:00Z"
+    },
+    {
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "author": "Reece Rogers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "publishedAt": "2026-11-22T11:00:00Z"
+    },
+    {
+      "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
+      "author": "Molly Higgins",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
+      "publishedAt": "2026-11-20T13:00:00Z"
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "publishedAt": "2026-11-23T22:02:05Z"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood? | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "publishedAt": "2026-11-21T16:02:18Z"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages  | TechCrunch",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "publishedAt": "2026-11-21T17:01:29Z"
+    },
+    {
+      "title": "TechCrunch Mobility: A/B testing robots vs. humans | TechCrunch",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+      "publishedAt": "2026-11-22T17:06:00Z"
+    },
+    {
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "publishedAt": "2026-11-19T16:20:36Z"
+    },
+    {
+      "title": "Why data centers are at the center of the Big Tech backlash | TechCrunch",
+      "author": "Anthony Ha",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "publishedAt": "2026-11-22T18:09:31Z"
+    }
+  ],
+  "selectedArticles": [
+    {
+      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "author": "Emily Mullin",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood? | TechCrunch",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+    },
+    {
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development | TechCrunch",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/"
+    }
+  ]
+}
